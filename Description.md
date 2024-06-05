@@ -1,0 +1,21 @@
+This file is just for documentation and provides additional background information for every single map in this project.  
+It is meant to help mapmakers connect their maps to these in the future. Also, please see this as a suggestion rather than a fixed plan. This is just what I've got in mind.  
+  
+DM me anywhere if i missed any placeholder ??? once the project releases.  
+  
+> moesforest_xx:  
+00:  
+This map contains a small human-made cave, that was used in an attempt to break into Guynmart Castle. The path leading to the north connects the Guynmart area to a village, called ???.  
+Up the stairs and to the east, this map leads to Moeston.  
+This map is supposed to be connected as follows:  
+- A few more maps with brown cavemaps to the left and green walls to the right, but narrowest point is directly above this map. Opens up further north. About 3 Maps up to the village.  
+  
+> moescave_xx:  
+01:  
+  
+> moesplateau_xx:  
+01:  
+This map is meant to connect the Moeston-Project to omicronrg9's Erumentemple-Project. There is a bridge and a broken rope ladder.  
+This map is supposed to be connected as follows:  
+- The player cannot climb up unless the rope is let down from above. So he cannot reach the new maps from this point on.  
+  
