@@ -1,0 +1,412 @@
+{
+    "maps": [
+        {
+            "fileName": "created/maps/moesforest_00.tmx",
+            "height": 896,
+            "width": 800,
+            "x": 224,
+            "y": -800
+        },
+        {
+            "fileName": "created/maps/moesforest_01.tmx",
+            "height": 544,
+            "width": 960,
+            "x": 1056,
+            "y": 2048
+        },
+        {
+            "fileName": "created/maps/moesforest_02.tmx",
+            "height": 832,
+            "width": 960,
+            "x": 1056,
+            "y": 1184
+        },
+        {
+            "fileName": "created/maps/moesforest_03.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1056,
+            "y": 192
+        },
+        {
+            "fileName": "created/maps/moesforest_04.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1056,
+            "y": -800
+        },
+        {
+            "fileName": "created/maps/moesforest_05.tmx",
+            "height": 864,
+            "width": 960,
+            "x": 2048,
+            "y": 1792
+        },
+        {
+            "fileName": "created/maps/moesforest_06.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 2048,
+            "y": 1184
+        },
+        {
+            "fileName": "created/maps/moesforest_07.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2048,
+            "y": 192
+        },
+        {
+            "fileName": "created/maps/moesforest_08.tmx",
+            "height": 288,
+            "width": 864,
+            "x": 3040,
+            "y": 2496
+        },
+        {
+            "fileName": "created/maps/moesforest_09.tmx",
+            "height": 672,
+            "width": 960,
+            "x": 3040,
+            "y": 1792
+        },
+        {
+            "fileName": "created/maps/moesforest_10.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 3040,
+            "y": 1120
+        },
+        {
+            "fileName": "created/maps/moesforest_11.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 3040,
+            "y": 128
+        },
+        {
+            "fileName": "created/maps/moesforest_12.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 3040,
+            "y": -384
+        },
+        {
+            "fileName": "created/maps/moesforest_13.tmx",
+            "height": 800,
+            "width": 960,
+            "x": 2048,
+            "y": -640
+        },
+        {
+            "fileName": "created/maps/moesforest_14.tmx",
+            "height": 800,
+            "width": 544,
+            "x": 4032,
+            "y": 1664
+        },
+        {
+            "fileName": "created/maps/moesforest_15.tmx",
+            "height": 672,
+            "width": 608,
+            "x": 4608,
+            "y": 1664
+        },
+        {
+            "fileName": "created/maps/moesforest_16.tmx",
+            "height": 512,
+            "width": 800,
+            "x": 4032,
+            "y": 1120
+        },
+        {
+            "fileName": "created/maps/moesforest_17.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3872,
+            "y": 128
+        },
+        {
+            "fileName": "created/maps/moesforest_18.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4864,
+            "y": 672
+        },
+        {
+            "fileName": "created/maps/moesforest_19.tmx",
+            "height": 640,
+            "width": 352,
+            "x": 5856,
+            "y": 992
+        },
+        {
+            "fileName": "created/maps/moesplateau_01.tmx",
+            "height": 640,
+            "width": 352,
+            "x": 5856,
+            "y": 320
+        },
+        {
+            "fileName": "altered/maps/guynmart_wood_7.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 64,
+            "y": 128
+        },
+        {
+            "fileName": "altered/maps/waterway1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 6240,
+            "y": 992
+        },
+        {
+            "fileName": "created/maps/moesforest_castle_bt0.tmx",
+            "height": 448,
+            "width": 640,
+            "x": 512,
+            "y": 4320
+        },
+        {
+            "fileName": "created/maps/moesforest_castle_bt1.tmx",
+            "height": 384,
+            "width": 576,
+            "x": 1184,
+            "y": 4064
+        },
+        {
+            "fileName": "created/maps/moesforest_castle_bt2.tmx",
+            "height": 384,
+            "width": 320,
+            "x": 1792,
+            "y": 4064
+        },
+        {
+            "fileName": "created/maps/moesforest_castle_easteregg.tmx",
+            "height": 384,
+            "width": 512,
+            "x": 512,
+            "y": 3648
+        },
+        {
+            "fileName": "created/maps/moesforest_castle_st1.tmx",
+            "height": 256,
+            "width": 192,
+            "x": 1376,
+            "y": 3552
+        },
+        {
+            "fileName": "created/maps/moesforest_castle_st2.tmx",
+            "height": 256,
+            "width": 192,
+            "x": 1376,
+            "y": 3264
+        },
+        {
+            "fileName": "created/maps/moesforest_town_church.tmx",
+            "height": 320,
+            "width": 576,
+            "x": 2560,
+            "y": 3008
+        },
+        {
+            "fileName": "created/maps/moesforest_town_church_basement.tmx",
+            "height": 256,
+            "width": 576,
+            "x": 2560,
+            "y": 3360
+        },
+        {
+            "fileName": "created/maps/moesforest_town_fisherhut.tmx",
+            "height": 256,
+            "width": 416,
+            "x": 3744,
+            "y": 4576
+        },
+        {
+            "fileName": "created/maps/moesforest_town_hall.tmx",
+            "height": 384,
+            "width": 832,
+            "x": 3296,
+            "y": 3552
+        },
+        {
+            "fileName": "created/maps/moesforest_town_hall_basement.tmx",
+            "height": 448,
+            "width": 832,
+            "x": 3296,
+            "y": 3968
+        },
+        {
+            "fileName": "created/maps/moesforest_town_house.tmx",
+            "height": 256,
+            "width": 320,
+            "x": 4320,
+            "y": 3616
+        },
+        {
+            "fileName": "created/maps/moesforest_town_inn.tmx",
+            "height": 512,
+            "width": 384,
+            "x": 2784,
+            "y": 4192
+        },
+        {
+            "fileName": "created/maps/moesforest_town_prison.tmx",
+            "height": 256,
+            "width": 384,
+            "x": 4320,
+            "y": 4032
+        },
+        {
+            "fileName": "created/maps/moesforest_town_prison_basement1.tmx",
+            "height": 512,
+            "width": 384,
+            "x": 4320,
+            "y": 4320
+        },
+        {
+            "fileName": "created/maps/moesforest_town_prison_basement2.tmx",
+            "height": 384,
+            "width": 384,
+            "x": 4736,
+            "y": 4096
+        },
+        {
+            "fileName": "created/maps/moesforest_town_smallhouse.tmx",
+            "height": 256,
+            "width": 256,
+            "x": 2592,
+            "y": 5184
+        },
+        {
+            "fileName": "created/maps/moesforest_town_smallhouse_basement.tmx",
+            "height": 256,
+            "width": 384,
+            "x": 2304,
+            "y": 5472
+        },
+        {
+            "fileName": "created/maps/moesforest_town_smallhouse_tunnle1.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 1920,
+            "y": 4480
+        },
+        {
+            "fileName": "created/maps/moesforest_town_smallhouse_tunnle2.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 1248,
+            "y": 4480
+        },
+        {
+            "fileName": "created/maps/moesforest_town_smallhouse_tunnle3.tmx",
+            "height": 640,
+            "width": 704,
+            "x": 512,
+            "y": 4800
+        },
+        {
+            "fileName": "created/maps/moesforest_town_smith.tmx",
+            "height": 256,
+            "width": 576,
+            "x": 3360,
+            "y": 3104
+        },
+        {
+            "fileName": "created/maps/moesforest_town_tailor.tmx",
+            "height": 256,
+            "width": 576,
+            "x": 2560,
+            "y": 3776
+        },
+        {
+            "fileName": "created/maps/moescave_01.tmx",
+            "height": 960,
+            "width": 480,
+            "x": -1728,
+            "y": 3968
+        },
+        {
+            "fileName": "created/maps/moescave_02.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -2432,
+            "y": 2976
+        },
+        {
+            "fileName": "created/maps/moescave_03.tmx",
+            "height": 960,
+            "width": 640,
+            "x": -1440,
+            "y": 2976
+        },
+        {
+            "fileName": "created/maps/moescave_03a.tmx",
+            "height": 640,
+            "width": 576,
+            "x": -768,
+            "y": 2752
+        },
+        {
+            "fileName": "created/maps/moescave_03b.tmx",
+            "height": 800,
+            "width": 640,
+            "x": -1440,
+            "y": 2144
+        },
+        {
+            "fileName": "created/maps/moescave_04.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -2432,
+            "y": 1984
+        },
+        {
+            "fileName": "created/maps/moescave_05.tmx",
+            "height": 960,
+            "width": 640,
+            "x": -3104,
+            "y": 2144
+        },
+        {
+            "fileName": "created/maps/moescave_06.tmx",
+            "height": 640,
+            "width": 960,
+            "x": -3424,
+            "y": 1472
+        },
+        {
+            "fileName": "created/maps/moescave_07.tmx",
+            "height": 480,
+            "width": 832,
+            "x": -3968,
+            "y": 2144
+        },
+        {
+            "fileName": "created/maps/moescave_07a.tmx",
+            "height": 480,
+            "width": 320,
+            "x": -4320,
+            "y": 2144
+        },
+        {
+            "fileName": "created/maps/moescave_08.tmx",
+            "height": 960,
+            "width": 640,
+            "x": -3776,
+            "y": 2656
+        },
+        {
+            "fileName": "created/maps/moescave_08a.tmx",
+            "height": 704,
+            "width": 512,
+            "x": -4320,
+            "y": 2656
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
