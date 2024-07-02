@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="17" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="17" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -190,14 +190,19 @@
    eJx9VEtPAkEMnrNGk+5hYdSbntSr/iL8i1wIByXBLEZISOQVgomJyCJyVsPBlm0znbLYpJnpbB9fv+nsyjv3hfoIbisDXld8Xqs4d1NxpXKehH2GvnUI9gT3K2Xf7skhQvXWvth3cc1h91vN5LhIYvsJAu6p6aPhw5766ZtYkRy/L30ce1J17hT1DPUlKfoiLHf/cCOxQ8axQb8M9wcq1wjtDpRzIxhavBKGw2rB6y/6X+H+GnXK38tyCAYRwpBzPMVqv7W66zfDjebkshpqa+mn8cxobuR8A8WcWKHYGfs8Gx/JJTyMYDd+eydqfmz/C54L6mEMhS09zXglXls+5BE8DZWzrubrCGseq7qSr8f4JJ5kDgG7vIlc1dX+ur5+DxnPighxRPNO8/We7N71zPQxVO9Bzm2P8g/o7sFB0vQxXrkzLWMIvpbPtupX8goX+g4z9vsw7xiS4m1bfMJxpt458WXnZWxszdPSxzw2Vd9Us6vsAYRauj8R6em1ZB5I2ntwkLRKeBdcuqY+1+s8jW3yvUd94BiahR7EOYlniluwfqYx/3Y+t7WhmF8bN0H9ZtX8ShzVlnwjjrdxP2no/Q8lu/+T
   </data>
  </layer>
+ <layer id="9" name="Objects_1" width="17" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh8oI+fgWECP2VmzAPqX0ChGaNgFIyCUTAKBhYAAF8hApk=
+  </data>
+ </layer>
  <layer id="3" name="Above" width="17" height="25">
   <data encoding="base64" compression="zlib">
    eJylVMENwjAMzAp8Knn/CaASUj79sAG8QO0I7EAsanE6HLdNTqqiNr6zfYmbUkpZUhfmwl9WjUnqe3uAsczd0nmW/Ze05UX0cBVWw9ihsVXD9fRdH0Mch54wlKu4raung3XwPVG+cqMYReSD8aO8M/VgPVnMffjlWKTuHX+3vJFHHrx4zIv98Dwo2COvf9TFONOv9ThJrNcKzzcFn8UeIB855kvL7G3VwOeQA5/4fI/0Njp1WJ4s//ea74v3fi7Pxcmve968vSuxR/9rXn2o14KaXoQPCa5woQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="17" height="25">
+ <layer id="4" name="Walkable" width="17" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoGJwAABqQAAQ==
+   eJzbKMbAsBGI0cFGMdIxPkCKGehmkeMWZLNGMX0xrnAnJj7wxT8xaQKXPkrSBSVpkVBeIMY/2MzBpR+XeeSEGyX6yTWHUJgRox+fWaTGJz5AihsImUdquiInHQ9VDABj6AOy
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>
