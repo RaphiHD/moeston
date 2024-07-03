@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:constantSize="true">
+    
+    <item
+        android:drawable="@drawable/ui_green_textbutton_enabled_unpressed"
+        android:state_pressed="false"
+        android:state_enabled="true"
+        />
+
+    <item
+        android:drawable="@drawable/ui_green_textbutton_enabled_pressed"
+        android:state_pressed="true"
+        android:state_enabled="true"
+        />
+    
+    <item
+        android:drawable="@drawable/ui_green_textbutton_disabled_unpressed"
+        android:state_pressed="false"
+        android:state_enabled="false"
+        />
+    
+    <item
+        android:drawable="@drawable/ui_green_textbutton_disabled_pressed"
+        android:state_pressed="true"
+        android:state_enabled="false"
+        />
+    
+    
+    
+</selector>

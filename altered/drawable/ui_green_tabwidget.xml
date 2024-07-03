@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:constantSize="true">
+    
+     <item
+        android:drawable="@drawable/ui_green_tabwidget_enabled_selected"
+        android:state_pressed="true"
+        android:state_enabled="true"
+        />
+    
+    <item
+        android:drawable="@drawable/ui_green_tabwidget_enabled_unselected"
+        android:state_selected="false"
+        android:state_enabled="true"
+        />
+
+    <item
+        android:drawable="@drawable/ui_green_tabwidget_enabled_selected"
+        android:state_selected="true"
+        android:state_enabled="true"
+        />
+    
+    <item
+        android:drawable="@drawable/ui_green_tabwidget_disabled_unselected"
+        android:state_selected="false"
+        android:state_enabled="false"
+        />
+    
+    <item
+        android:drawable="@drawable/ui_green_tabwidget_disabled_selected"
+        android:state_selected="true"
+        android:state_enabled="false"
+        />
+</selector>

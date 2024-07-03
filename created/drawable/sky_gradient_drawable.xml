@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:tileMode="repeat"
+    android:src="@drawable/ts_sky_gradient_x6"
+    android:antialias="false"
+    android:dither="false"
+    />
