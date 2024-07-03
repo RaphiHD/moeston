@@ -211,8 +211,18 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="east1" type="mapchange" x="768" y="352" width="32" height="64"/>
-  <object name="east2" type="mapchange" x="768" y="448" width="32" height="160"/>
+  <object name="east1" type="mapchange" x="768" y="352" width="32" height="64">
+   <properties>
+    <property name="map" value="moesforest_04"/>
+    <property name="place" value="west1"/>
+   </properties>
+  </object>
+  <object name="east2" type="mapchange" x="768" y="448" width="32" height="160">
+   <properties>
+    <property name="map" value="moesforest_04"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
   <object name="cave" type="mapchange" x="160" y="544" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn"/>
