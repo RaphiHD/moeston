@@ -1,0 +1,53 @@
+[
+    {
+        "id":"ronald_the_researcher",
+        "name":"Ronald",
+        "iconID":"monsters_ld1:21",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ronald_the_researcher"
+    },
+    {
+        "id":"ronald_the_researcher_following",
+        "name":"Ronald",
+        "iconID":"monsters_ld1:21",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ronald_following"
+    },
+    {
+        "id":"ronald_the_researcher_final",
+        "name":"Ronald",
+        "iconID":"monsters_ld1:20",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ronald_final"
+    },
+    {
+        "id":"moeston_boy",
+        "name":"Boy",
+        "iconID":"monsters_tometik2:38"
+    },
+    {
+        "id":"officer_olec",
+        "name":"Olec",
+        "iconID":"monsters_phoenix01:12"
+    },
+    {
+        "id":"moeston_soldier",
+        "name":"Feygard Soldier",
+        "iconID":"monsters_ld1:40"
+    },
+    {
+        "id":"moeston_soldier_drunk",
+        "name":"Drunk Feygard Soldier",
+        "iconID":"monsters_ld1:1"
+    },
+    {
+        "id":"sneaky_sam",
+        "name":"Sneaky Sam",
+        "iconID":"monsters_rogue1:0"
+    },
+    {
+        "id":"officer_olec_dog",
+        "name":"Watchdog",
+        "iconID":"monsters_rltiles2:109"
+    }
+]
