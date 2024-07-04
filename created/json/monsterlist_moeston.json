@@ -73,5 +73,98 @@
         "name":"Group of Fish",
         "iconID":"monsters_ld2:139",
         "spawnGroup":"group_of_fish"
+    },
+    {
+        "id":"platonic_snake_1",
+        "name":"Platonic Snake",
+        "iconID":"monsters_newb_1:400",
+        "monsterClass":"reptile",
+        "movementAggressionType":"none"
+    },
+    {
+        "id":"platonic_snake_2",
+        "name":"Platonic Snake",
+        "iconID":"monsters_newb_1:400",
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers"
+    },
+    {
+        "id":"platonic_snake_3",
+        "name":"Strong Platonic Snake",
+        "iconID":"monsters_newb_1:400",
+        "monsterClass":"reptile",
+        "movementAggressionType":"none"
+    },
+    {
+        "id":"platonic_snake_4",
+        "name":"Agile Platonic Snake",
+        "iconID":"monsters_newb_1:400",
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"platonic_snake_5",
+        "name":"Twisty Platonic Snake",
+        "iconID":"monsters_newb_1:401",
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"platonic_snake_6",
+        "name":"Poisonous Platonic Snake",
+        "iconID":"monsters_newb_1:401",
+        "monsterClass":"reptile",
+        "movementAggressionType":"none"
+    },
+    {
+        "id":"platonic_snake_7",
+        "name":"Quick Platonic Snake",
+        "iconID":"monsters_newb_1:401",
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"platonic_snake_8",
+        "name":"Shimmering Platonic Snake",
+        "iconID":"monsters_newb_1:402",
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers"
+    },
+    {
+        "id":"platonic_snake_9",
+        "name":"Furious Platonic Snake",
+        "iconID":"monsters_newb_1:402",
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"moeston_lizard_1",
+        "name":"Moeston Lizard",
+        "iconID":"monsters_tometik2:16",
+        "monsterClass":"reptile"
+    },
+    {
+        "id":"moeston_lizard_2",
+        "name":"Moeston Lizard",
+        "iconID":"monsters_tometik2:16",
+        "monsterClass":"reptile"
+    },
+    {
+        "id":"moeston_wasp_1",
+        "name":"Mammoth Wasp",
+        "iconID":"monsters_rltiles2:113",
+        "monsterClass":"insect"
+    },
+    {
+        "id":"moeston_wasp_2",
+        "name":"Stinging Mammoth Wasp",
+        "iconID":"monsters_rltiles2:113",
+        "monsterClass":"insect"
+    },
+    {
+        "id":"moeston_wasp_3",
+        "name":"Rowdy Mammoth Wasp",
+        "iconID":"monsters_rltiles2:113",
+        "monsterClass":"insect"
     }
 ]
