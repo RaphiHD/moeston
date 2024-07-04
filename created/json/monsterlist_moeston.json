@@ -49,5 +49,29 @@
         "id":"officer_olec_dog",
         "name":"Watchdog",
         "iconID":"monsters_rltiles2:109"
+    },
+    {
+        "id":"group_of_fish_1",
+        "name":"Group of Fish",
+        "iconID":"monsters_ld2:136",
+        "spawnGroup":"group_of_fish"
+    },
+    {
+        "id":"group_of_fish_2",
+        "name":"Group of Fish",
+        "iconID":"monsters_ld2:137",
+        "spawnGroup":"group_of_fish"
+    },
+    {
+        "id":"group_of_fish_3",
+        "name":"Group of Fish",
+        "iconID":"monsters_ld2:138",
+        "spawnGroup":"group_of_fish"
+    },
+    {
+        "id":"group_of_fish_4",
+        "name":"Group of Fish",
+        "iconID":"monsters_ld2:139",
+        "spawnGroup":"group_of_fish"
     }
 ]
