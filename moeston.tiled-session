@@ -1,6 +1,9 @@
 {
-    "activeFile": "",
+    "activeFile": "created/maps/moescave_04.tmx",
     "expandedProjectPaths": [
+        "created/maps",
+        ".",
+        "created"
     ],
     "fileStates": {
         "altered/maps/guynmart_wood_7.tmx": {
@@ -571,8 +574,8 @@
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 376.66666666666663,
-                "y": 148.66666666666669
+                "x": 375.66666666666663,
+                "y": 148.33333333333334
             }
         },
         "created/maps/guynmart_wood_15.tmx#map_bed_1": {
@@ -947,11 +950,11 @@
             "scaleInDock": 1
         },
         "created/maps/moescave_02.tmx": {
-            "scale": 0.33,
-            "selectedLayer": 0,
+            "scale": 0.5,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 1309.0909090909092,
-                "y": 1806.0606060606062
+                "x": -247,
+                "y": -69
             }
         },
         "created/maps/moescave_02.tmx#map_bed_1": {
@@ -1711,11 +1714,11 @@
             "scaleInDock": 1
         },
         "created/maps/moescave_04.tmx": {
-            "scale": 0.33,
-            "selectedLayer": 0,
+            "scale": 1,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 1439.393939393939,
-                "y": 1139.393939393939
+                "x": 553.5,
+                "y": 1517.5
             }
         },
         "created/maps/moescave_04.tmx#map_bed_1": {
@@ -3236,15 +3239,15 @@
             "scaleInDock": 1
         },
         "created/maps/moesforest_01.tmx": {
-            "scale": 0.75,
+            "scale": 0.33,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 290.66666666666663,
-                "y": -218.66666666666663
+                "x": 1995.4545454545455,
+                "y": -698.4848484848485
             }
         },
         "created/maps/moesforest_01.tmx#map_bed_1": {
-            "scaleInDock": 1
+            "scaleInDock": 0.8
         },
         "created/maps/moesforest_01.tmx#map_border_1": {
             "scaleInDock": 1
@@ -3427,8 +3430,8 @@
             "scale": 0.25,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1076,
-                "y": 2372
+                "x": 1074,
+                "y": 1358
             }
         },
         "created/maps/moesforest_02.tmx#map_bed_1": {
@@ -4740,11 +4743,14 @@
             "scaleInDock": 1
         },
         "created/maps/moesforest_09.tmx": {
-            "scale": 0.5,
-            "selectedLayer": 0,
+            "expandedObjectLayers": [
+                5
+            ],
+            "scale": 0.125,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 412,
-                "y": 462
+                "x": -3812,
+                "y": 1180
             }
         },
         "created/maps/moesforest_09.tmx#map_bed_1": {
@@ -11513,20 +11519,24 @@
         "C:/Users/Björn/Documents/GitHub/moeston/moeston.world"
     ],
     "openFiles": [
+        "created/maps/moesforest_01.tmx",
+        "created/maps/moesforest_09.tmx",
+        "created/maps/moescave_02.tmx",
+        "created/maps/moescave_04.tmx"
     ],
     "project": "moeston.tiled-project",
     "recentFiles": [
+        "created/maps/moesforest_01.tmx",
+        "created/maps/moesforest_09.tmx",
+        "created/maps/moescave_02.tmx",
+        "created/maps/moescave_04.tmx",
+        "created/maps/moesforest_02.tmx",
+        "created/maps/guynmart_wood_15.tmx",
         "created/maps/moescave_08a.tmx",
         "created/maps/moescave_08.tmx",
         "created/maps/moescave_07a.tmx",
         "created/maps/moescave_07.tmx",
         "created/maps/moescave_06.tmx",
-        "created/maps/moescave_05.tmx",
-        "created/maps/moescave_04.tmx",
-        "created/maps/moescave_03b.tmx",
-        "created/maps/moescave_03a.tmx",
-        "created/maps/moescave_03.tmx",
-        "created/maps/moescave_02.tmx",
-        "created/maps/moescave_01.tmx"
+        "created/maps/moescave_05.tmx"
     ]
 }
