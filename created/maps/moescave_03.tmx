@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="61">
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="61">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -193,12 +193,12 @@
  </layer>
  <layer id="1" name="Ground" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9ldENwjAMRCOGwMwAAyQbhE5QOgFlRIZBHQQ+iEUshSoljXP0SVa/ejnbsWPMtky7jQ+sxNHna6ldi3O9Bp0xxC3EozH3IePpeDDmqdBmb13U6+lb+6XM3S/8p/HoCh7EI9fXJdo+5pKeJX34BXs8RZ/SM/GQ1ulC+T6UfKJgnyh6oLeByjWuoQPXzVf2ba0mAr6f9z1GS7DxDmuYz56N+0tDbvZqtOY79F/IvkC+T5p9saTBca7UQb+1rbmkTMm+RoGeIQRvbDssZg==
+   eJxjYKAvuM9EZwtJBBbiENpcnHKzQH5NB5qTAcSZQHyXQr9HYnGTlgQDw28yzAa5zRNqXrg4qtl/yPS7Ow595LjRgoAbYG4Eha8FktnuUL8g2wWLB3wA5EZtqDthcQZzA3I4RYhjjwdC7qQWALmTFLBTDLdcOBXdFilOOIxJAZ5UDjd3EuONWDOpAUDpEz2emgUoM9McmobJAeh5zxxafpEDsOU9UsxCL0NpBWDlBTXrJ3LKC1xmgLAHieZQu66l1C/I4D5SeU0tgK+so0QtJQAAXtgulw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUAscFhtoFxAGQ8GNo2DgwF2mgXbBKBjuYKSUQQBp1wNr
+   eJxjYCAdPBSC0NcF8au7QUAeH3gN1XuNRDOwqd9IwIy/SPILWVHltPlJs58YIM6EXRwWXpSEmyQOs2EAFnfI4BkB+9SEyXcPNr985sOu1oeA27GBV0DzmaFxlIimP4YI8xazElYDAicIhNE5qPxhMeLMQwfExPkxCtIFMiDGjej56D4Ou1/gcRMp6RhbuiRGDr0MEsQR5xdxmHEBjxvfoMmRmi9f4XH3YAR50LC7iyffYCsr0MOFF6q/Dkr/wZHfyQU3iYyHczjUPSdCv8EAx90TPGH2FM1thNJlMZF+OUil8oUYgK8MoqT+gwFy8h5yWUKo3fGKSDcCABOIMvw=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="30">
