@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="26" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="26" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="1">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -185,7 +185,7 @@
    eJytk8EJwCAMRb3qAB6yfWcoeuldkE7gCN2iiBVCSEyEHh5Y7f8vQpu8c2nBGdesspQLeKweKY97OjfwWOeU8rSnCmhzTqT8RPNoc064bNvw7HKEgXaf9qOT82Aft6d1WD0ZBhWtM9juavX0vvLR9wp67mePX5MN31tG/ZQQx5n2n0p5TDHMq3no+1XoeQFvc/9R
   </data>
  </layer>
- <layer id="2" name="Objects" width="26" height="12" visible="0">
+ <layer id="2" name="Objects" width="26" height="12">
   <data encoding="base64" compression="zlib">
    eJxjYKAdkGTCFPsvA8R8CDY/P+nmgvQhs61YUOWPAPn8sgwMx1hQ2cQCZg4IDdIHAyC2F5oZV4B8PyC+xoLKRnfnbqB/9/ChiiHbgw6i0Ox5AuTHAfEzFlQ2sttA4DTQjjN8mG4XBtojgmTXU3YGhm/s2O3GBdJYMcVE0eJOGWiHCpI9ahwQu8WhGAamA82agWbeEz5U/lIW7DQ2YMkCsVsdiokFIDPdWbDTMGBOQrrBBdxZ8NMgO0rEEOoLgewiIC4GYjsk+7cDw6iciPzijCXfweyZIobw00QgexIQTxaDpCkQyAHqPQ60p52MfIluFwzkANm5QJwHFcvD4T4QkMEjhww4iVQHAANBMdk=
   </data>
@@ -195,12 +195,12 @@
    eJxjYKAdkGTCFPsvA8R8CDY/P+nmgvQhs61YUOWPAPn8sgwMx1hQ2cQCZg4IDdIHAyC2F5oZV4B8PyC+xoLKRnabDRsDw26gf/fwQdjIbofZgw6i0Ox5AuTHAfEzFlQ2stt8gGafBtpxhg/CRna7MNAeESS7nrIzMHxjx7R3Gium2B60+GnHE1/KQDtUkOxR44DYLQ7FMLAMiz2UAEsWiN3qUEwsWMqCG8OAOQnpBhdwZ8GNYXaUiCHUFwLZRUBcDMR2SPZv5yPOPmcs+Q5mzxQxhJ8mAtmTgHiyGCRNgUAOUO9xIu3BB5DDLQfIzgXiPKhYHg73gYAMHjlkwEmkOgDxOjHS
   </data>
  </layer>
- <layer id="11" name="Objects_2" width="26" height="12">
+ <layer id="11" name="Objects_2" width="26" height="12" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAdkGTCFPsvA8R8CDY/P+nmgvQhs61YUOWPAPn8sgwMx1hQ2cQCZg4GhnJ+iD4YALG90My4AuT7AfE1FlQ2ujt3A/27hw9VDGZPOxb/R6HZ8wTIjwPiZyyobGS3gcBpoB1n+FDFQEAYaI8IB4L/lJ2B4Rs7bv+TC5SBdqgg2aPGAbFbHIpJAUtZsNPYgCULxG51KCbFDncW7DQMmJOQbnABdxb8NMiOEjGE+kIguwiIi4HYDsn+7XzE2eeMJd/B7JkihvDTRCB7EhBPFoOkKRDIAeo9TqQ9+AByuOUA2blAnAcVy8PhPhCQwSOHDDiJVAcANxEvHw==
   </data>
  </layer>
- <layer id="3" name="Above" width="26" height="12" visible="0">
+ <layer id="3" name="Above" width="26" height="12">
   <data encoding="base64" compression="zlib">
    eJxjYKAfOCxGPf1v+RgY3vHhVmfHguAjs0m1h5C6HfwI/jl+3GrRgRo/afZQAi7RyR5iATH2RKCFZSYJYUsqiORHtTODRLtg/rmMxV/YxMhRg2wPtvgkJkyJjV9i0wut9FMTAABrAxfa
   </data>
@@ -210,14 +210,24 @@
    eJxjYKAfOCxGPf1v+RgY3vHhVmfHguAjs0m1h5C6w/wI/gl+3GrRgRo/afYQAuV47L5ERXuoAUD2TGOlj134wBZomB0D0l+A+Cg/RCyShHgEAVi4XcYSftjEyFGDbA+2+CQm7oiNX2LTC630UxMAAMKhG3U=
   </data>
  </layer>
- <layer id="12" name="Above_2" width="26" height="12">
+ <layer id="12" name="Above_2" width="26" height="12" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAfOCxGPf1v+RgY3vHhVmfHguAjs0m1h5C6HfykmQ0Davyk2UMJuEQne4gFxNgTgRaumWSGMzEgEs3sDBLtgvnnMhZ/YRMjRw2yPdjik5gwJTZ+iU0vtNJPTQAAl9UWlg==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="26" height="12">
+ <layer id="14" name="Walkable" width="26" height="12" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjILhCQAE4AAB
+   eJzbKMbAsHEUk4VBAEYjs8kxBxuglT3odhJyBzY9hNxLjPuIsQ+b/3HZSyiecMUdNpoU/xKyhxR/optBrD3kpldS3E5peibVHHL8ho4B2HmosA==
+  </data>
+ </layer>
+ <layer id="4" name="Walkable_1" width="26" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsHEUk4VBAEYjs8kxBxuglT3odhJyB7paYtxLyH3UBMTGEyExUt1IrD2EzECm0c0g1+3EpldcZhLjX2qFGzUwLnMBZWinIg==
+  </data>
+ </layer>
+ <layer id="13" name="Walkable_2" width="26" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsHEUk4VBAEYjs8kxBxuglT3odhJyB7EAmz2k+BfdLGw0PnsJxROuuMNGE+NOYu0hxZ/oZhBrD7npFZeZxPiX3Pildj7EFyYAXyullA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>
