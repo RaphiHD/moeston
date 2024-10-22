@@ -13,17 +13,25 @@ moesforest_xx:
 > +A few more maps with brown cavemaps to the left and green walls to the right, but narrowest point is directly above this map. Opens up further north. About 3 Maps up to the village.  
 
 > 01:
-> This is just a filler map and
+> This is just a filler map containing a few different animal-like monsters as boars and wolves.
+
+> 02:
+> This map contains a small, old castle, formerly used by Guynmart as an outpost. Nowadays, this is being used by Feygard Officials to control boat traffic on the big river.
+> A mapchange needs to occur in order to make the "bridge" walkable.
+
+> 03:
+> There is a fisherman standing next to the crate and barrel, catching some fish with his rod. The road sign says "Moeston" towards south-west and "Guynmart" towards north-east.
+> The cross says "Here lies Moe. His creative mind inspired many."
 
 > 04:
 > This one resembles "dark_forrest04" by Moe. It has several levels of grass connected with stairs. There is one big red flower that could be used for an item drop or a quest in the future.
-> This map can connect to the north, where there is a fence for now. This fence should stay, but can open up an area that leads further up the mountain, maybe towards the spring of the river.
+> This map can connect to the north, where there is a fence for now. This fence should stay, but can open up an area that leads further up the mountain, maybe towards the river spring.
 
 > 05:
-> 
+> South-west part of Moeston. There is a large field, a tailor and the towns inn. On the river, there is a jetty. Mapchange includes boat next to the jetty.
   
 > 06:
-> 
+> North-west part of Moeston. There is a little hut, the church with cemetery, half of the smiths home as well as half the town hall. A little flower garden is located behind the town hall.
   
 > 07:
 > 
