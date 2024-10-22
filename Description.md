@@ -3,6 +3,8 @@ It is meant to help mapmakers connect their maps to these in the future. Also, p
   
 DM me anywhere if i missed any placeholder ??? once the project releases.  
   
+**Outdoor:**
+  
 moesforest_xx:  
 > 00:  
 > This map contains a small human-made cave, that was used in an attempt to break into Guynmart Castle. The path leading to the north connects the Guynmart area to a village, called ???.  
@@ -20,11 +22,163 @@ moesforest_xx:
 > 05:
 > 
   
+> 06:
+> 
+  
+> 07:
+> 
+  
+> 08:
+> 
+  
+> 09:
+> 
+  
+> 10:
+> 
+  
+> 11:
+> 
+  
+> 12:
+> 
+  
+> 13:
+> 
+  
+> 14:
+> 
+  
+> 15:
+> 
+  
+> 16:
+> 
+  
+> 17:
+> 
+  
+> 18:
+> 
+  
+> 19:
+> 
+  
 moescave_xx:  
 > 01:  
+  
+> 02:
+> 
+  
+> 03:
+> 
+  
+> 03a:
+> 
+  
+> 03b:
+> 
+  
+> 04:
+> 
+  
+> 05:
+> 
+  
+> 06:
+> 
+  
+> 07:
+> 
+  
+> 07a:
+> 
+  
+> 08:
+> 
+  
+> 08a:
+> 
+  
+> 09:
+> 
   
 moesplateau_xx:  
 > 01:  
 > This map is meant to connect the Moeston-Project to omicronrg9's Erumentemple-Project. There is a bridge and a broken rope ladder.  
 > This map is supposed to be connected as follows:  
-> +The player cannot climb up unless the rope is let down from above. So he cannot reach the new maps from this point on.  
+> +The player cannot climb up unless the rope is let down from above. So he cannot reach the new maps from this point on.
+  
+**Indoor:**
+  
+moesforest_castle:
+> st1:
+> 
+  
+> st2:
+> 
+  
+> bt0:
+> 
+  
+> bt1:
+> 
+  
+> bt2:
+> 
+  
+> easteregg:
+> 
+  
+moesforest_town:
+> church:
+> 
+  
+> church_basement:
+> 
+  
+> smith:
+> 
+  
+> tailor:
+> 
+  
+> hall:
+> 
+  
+> hall_basement:
+> 
+  
+> house:
+> 
+  
+> inn:
+> 
+  
+> fisherhut:
+> 
+  
+> prison:
+> 
+  
+> prison_basement1:
+> 
+  
+> prison_basement2:
+> 
+  
+> smallhouse:
+> 
+  
+> smallhouse_basement:
+> 
+  
+> smallhouse_tunnel1:
+> 
+  
+> smallhouse_tunnel2:
+> 
+  
+> smallhouse_tunnel3:
+> 
+  
