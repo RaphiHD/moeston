@@ -1,0 +1,695 @@
+[
+    {
+        "id":"boring_paperwork",
+        "name":"Boring Paperwork",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"While I was poking around in the small castle near Guynmart, I found some interesting looking pieces of paper on a table. The guard stopped me before I could read any of it, but he told me that they could use someone to help and I should go and ask the Officer about it."
+            },
+            {
+                "progress":3,
+                "logText":"Officer Olec told me that they have a running inspection, but he just hates doing the paperwork. I should take a look at the documents and then return to him for further instructions."
+            },
+            {
+                "progress":5,
+                "logText":"While roaming around in the small castle near Guynmart, the Officer asked me if I could help him with a task."
+            },
+            {
+                "progress":10,
+                "logText":"I agreed and should take a look at some documents in the small tower of the castle and then return to him for further instructions."
+            },
+            {
+                "progress":15,
+                "logText":"While browsing the paper, I quickly stumbled upon the name of my brother, Andor. This seems very interesting.",
+                "rewardExperience":500
+            },
+            {
+                "progress":20,
+                "logText":"After reading a bit further, I found out that Andor was stopped here and fled before they could arrest him. What does that mean?"
+            },
+            {
+                "progress":25,
+                "logText":"I asked Officer Olec for more details and he revealed to me that Andor was stopped here on a boat for a regular check on the river traffic. I didn't even know there were that many boats travelling on this river."
+            },
+            {
+                "progress":30,
+                "logText":"Olec told me that Andor carried a substantial amount of forbidden bonemeal. The guards have seized the bonemeal, but Andor could escape before they could take him into custody."
+            },
+            {
+                "progress":35,
+                "logText":"My task is to find out why Andor was carrying all of this bonemeal and also where he went. Well, the last part is not a new task to me, I guess."
+            },
+            {
+                "progress":40,
+                "logText":"Olec also said that Andor was travelling to the east, but he doesn't know in which direction he fled."
+            },
+            {
+                "progress":45,
+                "logText":"I do have to make a decision now: Should I try and find out everything about that case and tell Olec, or should I keep quiet to protect my brother? Either way, I think it is best to start searching for any evidence.",
+                "rewardExperience":2500
+            },
+            {
+                "progress":50,
+                "logText":"I headed east to the town called Moeston. A villager told me that they do not care a lot about Feygard laws. So maybe they also still use bonemeal here. I should definetely find out more than that."
+            },
+            {
+                "progress":55,
+                "logText":"I overheard two villagers talking about the effects of bonemeal on crops. This is definetely going in an interesting direction."
+            },
+            {
+                "progress":60,
+                "logText":"I went and asked Mayor Natula about bonemeal. He agreed to tell me the truth if I keep quiet about it."
+            },
+            {
+                "progress":65,
+                "logText":"Natula stated that this town used to be very much related to nature and therefore, they also used to crush bones for bonemeal. When the law of Lord Geomyr was passed, the citizens of Moeston got together and agreed to continue using bonemeal in secret."
+            },
+            {
+                "progress":70,
+                "logText":"When I asked Natula if he knew Andor, he seemed to be a bit shocked by the question. He told me, that Andor made a deal to supply the town with a load of bonemeal in return for a good amount of money.",
+                "rewardExperience":1500
+            },
+            {
+                "progress":75,
+                "logText":"I think I should go back now and write the report."
+            },
+            {
+                "progress":80,
+                "logText":"I decided to write down the truth and tell the guards, that Andor was on his way to supply Moeston with bonemeal.",
+                "rewardExperience":5000
+            },
+            {
+                "progress":90,
+                "logText":"I decided to keep quiet about the truth and came up with a story, that Andor was actually disposing collected bone meal by order of another feygard soldier.",
+                "rewardExperience":5000
+            },
+            {
+                "progress":95,
+                "logText":"Olec was happy to hear what I found out and gave me some money as a reward. However, I should still find out where Andor went after his escape."
+            },
+            {
+                "progress":100,
+                "logText":"I could not find any tracks left by Andor, so I went back to the town and asked Natula. He just said that Andor should deliver some bonemeal soon. If he knew what happened...",
+                "rewardExperience":500
+            },
+            {
+                "progress":105,
+                "logText":"While walking around the town, I suddenly noticed a boat stranded on the shore. Let's take a closer look."
+            },
+            {
+                "progress":110,
+                "logText":"Inside the boat, I found a few remains of a white substance, smelling a bit like the bonemeal potions Tharal once made."
+            },
+            {
+                "progress":111,
+                "logText":"Inside the boat, I found a few remains of a white substance, smelling a bit like the bonemeal potions I carry around."
+            },
+            {
+                "progress":112,
+                "logText":"Inside the boat, I found a few remains of a white substance, smelling a little funny. Could this be bonemeal maybe?"
+            },
+            {
+                "progress":120,
+                "logText":"This can only be Andor's boat. Wait, that means that he must have been here lately! This boat was not there when I last entered the town.",
+                "rewardExperience":5000
+            },
+            {
+                "progress":125,
+                "logText":"I went back to the castle and told Olec that Andor must be in close proximity still."
+            },
+            {
+                "progress":126,
+                "logText":"I went back to the castle and told Olec that I had found tracks of Andor leading towards the mountains in the distance. Olec commanded his soldiers to go and search for Andor in the mountains."
+            },
+            {
+                "progress":130,
+                "logText":"Olec was more than happy to hear that and commanded his soldiers to spread out in the area to find Andor."
+            },
+            {
+                "progress":131,
+                "logText":"Olec told me that his soldiers found out the real reason why Andor had carried arount so much bonemeal. After a small argue, he decided to let me go."
+            },
+            {
+                "progress":140,
+                "logText":"Olec thanked me a lot for helping him and rewarded me with plenty of gold.",
+                "rewardExperience":5000
+            },
+            {
+                "progress":141,
+                "logText":"Olec thanked me for helping and rewarded me with some gold.",
+                "rewardExperience":3000
+            },
+            {
+                "progress":142,
+                "logText":"Olec told me that I had to leave the castle now and should better not come back.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":143,
+                "logText":"The officer told me to take a look into the basement of the castle. There could be something interesting for an adventurer like me, he said."
+            },
+            {
+                "progress":150,
+                "logText":"I found a strange key in the basement."
+            },
+            {
+                "progress":170,
+                "logText":"When I came back to Moeston, I heard that Mayor Natula wanted to have a word with me."
+            },
+            {
+                "progress":180,
+                "logText":"Mayor Natula told me he found out why I asked him about the bonemeal and thanked me a lot for not telling the guards.",
+                "rewardExperience":10000
+            },
+            {
+                "progress":181,
+                "logText":"He also told me that I could use the small empty house in the village as a shelter while adventuring out here.",
+                "finishesQuest":1
+            },
+            {
+                "progress":185,
+                "logText":"Mayor Natula thanked me for taking the risk of not telling the whole truth. He told me that they now need to search for an alternative for bonemeal.",
+                "rewardExperience":5000,
+                "finishesQuest":1
+            },
+            {
+                "progress":190,
+                "logText":"Mayor Natula was unhappy to see me and told me that they can no longer use bonemeal.",
+                "rewardExperience":100,
+                "finishesQuest":1
+            },
+            {
+                "progress":200,
+                "logText":"I felt sorry for him and donated 10.000 gold for them to research an alternative for bonemeal.",
+                "rewardExperience":1000
+            }
+        ]
+    },
+    {
+        "id":"caught_in_the_net",
+        "name":"Caught in the Net",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Somewhere behind Guynmart, a fisherman called ??? was complaining about not having enough bait."
+            },
+            {
+                "progress":10,
+                "logText":"He told me that a rare type of fish is living in the small river here, and they cannot be caught with regular bait. Apparently, they love eating spider larvae."
+            },
+            {
+                "progress":15,
+                "logText":"??? told me that another adventurer had given him his previous stach of bait, and he went east afterwards, I should look for him there."
+            },
+            {
+                "progress":20,
+                "logText":"I offered my help, since spiders is nothing I fear about. ??? Gave me a bag where I shoud put them."
+            },
+            {
+                "progress":25,
+                "logText":"I found ???, the said adventurer. He told me to stop going any further. It seems like he just came out of a spider-filled cave, exactly what I need.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":30,
+                "logText":"I didn't care about him and decided to go in anyways."
+            },
+            {
+                "progress":35,
+                "logText":"Inside, I saw why he told me not to go further. I immediately stepped into sticky cobweb and had nothing else to look at than a wall of net."
+            },
+            {
+                "progress":40,
+                "logText":"With no other option left, I went back outside to the adventurer. I admitted, that there is no way further."
+            },
+            {
+                "progress":45,
+                "logText":"??? once heard about a special spider potion that could really be of much use here. He however forgot the name of the alchemist who could make it. He just said, that he was very popular for his potions."
+            },
+            {
+                "progress":50,
+                "logText":"I decided to visit Lodar, since he is a popular alchemist.",
+                "rewardExperience":2500
+            },
+            {
+                "progress":55,
+                "logText":"He told me he would need a big empty bottle, two dead spiders, five vials of poison and an irdegh poison gland."
+            },
+            {
+                "progress":60,
+                "logText":"I brough him the required ingrediends. Lodar mixed an interesting looking poison out of it. I should go back to the cave and splash the flask on the ground. I should also be careful not to breathe in the fume.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":65,
+                "logText":"I went back to the cave and threw the bottle down. Immediately, the wall of cobwebs broke and fell down on the ground. Oh no, the spiders seem angry now."
+            },
+            {
+                "progress":70,
+                "logText":"I fought my way in and found a nest with a bunch of spider eggs and many small spiders. I took the bundle ??? gave me and scooped up a bunch.",
+                "rewardExperience":500
+            },
+            {
+                "progress":75,
+                "logText":"Suddenly, a hoard of spiders came crawling out of the walls and ran toward me. I had no other choice than to leave as fast as I could."
+            },
+            {
+                "progress":80,
+                "logText":"When running through the cave, I smelled something really disgusting. I could barely catch a ray of sunshine when my eyes turned dark."
+            },
+            {
+                "progress":85,
+                "logText":"I fell down on the ground, but to my surprise no spiders were following me. A voice was shouting something, but I couldn't understand it."
+            },
+            {
+                "progress":90,
+                "logText":"After a while, I woke up next to ???. My head was hurting and I could barely speak. He gave me a potion I shoud drink."
+            },
+            {
+                "progress":95,
+                "logText":"Quick death was definetely the wrong potion. But I still woke up next to the adventurer and reported that I was still alive and feeling better now. I should now deliver the bait.",
+                "rewardExperience":2500
+            },
+            {
+                "progress":96,
+                "logText":"I drank the potion and my headache started to fade. After a while, I felt ready to go back to deliver the bait.",
+                "rewardExperience":2000
+            },
+            {
+                "progress":100,
+                "logText":"I came back to ??? to deliver the spiders. He thanked me a lot, but something seems odd about it."
+            },
+            {
+                "progress":105,
+                "logText":"??? told me that he was getting boring of fishing with a fishing rod. He decided to travel towards Remgard and fish on the lake by boat and net. So my effort was all for nothing!"
+            },
+            {
+                "progress":110,
+                "logText":"However, ??? gave me his rod as a reward and the bait that I gave him before. He told me I could fish here if I wanted.",
+                "rewardExperience":5000,
+                "finishesQuest":1
+            },
+            {
+                "progress":115,
+                "logText":"After ??? left, I went and tried fishing the first time."
+            },
+            {
+                "progress":120,
+                "logText":"It took a few attempts, but I think I figured it out now.",
+                "rewardExperience":2500
+            }
+        ]
+    },
+    {
+        "id":"connected_to_nature",
+        "name":"Connected to Nature",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Somewhere in the woods east of Guynmart, a boy came running towards me. He seemed to be in a hurry or something. In his rush, he dropped his hat and despite me yelling after him, he did not look back. Maybe I should keep this hat for now?"
+            },
+            {
+                "progress":20,
+                "logText":"In a small hole in the ground, I found some weird stinky boots. Somehow, they look quite similar to the hat this running boy dropped. Are those his as well?"
+            },
+            {
+                "progress":30,
+                "logText":"When I defeated the big ??? that was protecting Ronald's diary, he dropped a shield that appears to be made entirely out of leaves. Will this acutally protect me when I wear it?"
+            },
+            {
+                "progress":40,
+                "logText":"Ronald, the researcher, gifted me his trousers as a reward for rescuing him. They still look quite good, but isn't that an odd gift for saving someones life?"
+            },
+            {
+                "progress":50,
+                "logText":"The tailor in Moeston offered me to craft a special type of shirt if I bring her 50 Betula leaves and 10 small piles of Pine needles. Why would she need such things to make a piece of clothing?"
+            },
+            {
+                "progress":51,
+                "logText":"I brought the leaves and needles to the tailor. What will she do with that now?"
+            },
+            {
+                "progress":52,
+                "logText":"After a bit of work, the tailor gave me an interesting looking green shirt. She said that it has many pockets, which is useful when you are out in the woods collecting berries. I don't know what that means, should I now go and collect berries?"
+            },
+            {
+                "progress":60,
+                "logText":"Moeston's smith crafted me a beautiful staff out of the gem I got him from Nocmar. He says it would have the power to let plants grow faster. Maybe this could be a gift for my father?"
+            },
+            {
+                "progress":70,
+                "logText":"Ronald told me, that he read an interesting fact about the animals around this town. They are supposed to rarely carry a special ring or necklace. He would like to know more about that and asked me if I could get him one each. This will be quite some work, eh?"
+            },
+            {
+                "progress":71,
+                "logText":"I brought him the ring he asked for. This doesn't look that special, why would he want that?"
+            },
+            {
+                "progress":72,
+                "logText":"I brought him the necklace he asked for. Seems not very interesting to me, why is this considered so special?"
+            },
+            {
+                "progress":73,
+                "logText":"I brought him both the ring and the necklace. Why would he want this, it doesn't look that interesting?"
+            },
+            {
+                "progress":75,
+                "logText":"Ronald was really interested in these items and took a close look at them. He told me that these pieces of jewelry were probably made by people who lived here hundrets of years ago. Maybe the other pieces of equipment I found around here were also made by those people?"
+            },
+            {
+                "progress":76,
+                "logText":"After taking some notes and drawing a rough sketch of both the ring and the necklace, he gave back both items."
+            },
+            {
+                "progress":100,
+                "logText":"Ronald noticed that I now have every single piece of equipment from those ancestors that is known and told me to go into the forest with everything equipped."
+            },
+            {
+                "progress":110,
+                "logText":"When walking into the forest, I suddenly felt very connected to the nature around me. I felt the soft moss beneath my feet, and with the shield that blends in perfectly to the rest of the forest, I felt pretty safe walking around here. I feel like all of my questions are now answered.",
+                "rewardExperience":20000,
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"wyrm_lamb_letter",
+        "name":"Of Wyrm, Lamb and a Letter",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Mara told me that somebody wanted to talk to me during my absence. I should talk to Leonid about it."
+            },
+            {
+                "progress":5,
+                "logText":"Tunlon told me that he had given a letter to Leonid during a recent visit to Crossglen. I should go talk to him."
+            },
+            {
+                "progress":10,
+                "logText":"Leonid told me that Tunlon recently visited Crossglen and gave him a letter. He asked me if I could deliver it, since everybody in Crossglenn seems to be too busy to do it."
+            },
+            {
+                "progress":15,
+                "logText":"The letter is adressed to my new friend, Ronald, the researcher!"
+            },
+            {
+                "progress":20,
+                "logText":"When I brought Ronald the letter, he started to tell me a story on how he and Tunlon got to know each other."
+            },
+            {
+                "progress":25,
+                "logText":"He also remembered that Tunlon's roast lamb was really delicious and asked me if I could get him some."
+            },
+            {
+                "progress":30,
+                "logText":"Tunlon gave me a deliciously smelling piece of roast lamb for Ronald."
+            },
+            {
+                "progress":35,
+                "logText":"Ronald was delighted when I came in with the wonderful scent of the roast lamb.",
+                "rewardExperience":2500
+            },
+            {
+                "progress":40,
+                "logText":"While he proceeded to tell me his tiring story about his trip to Blackwater, my thoughs slowly started to drift off..."
+            },
+            {
+                "progress":50,
+                "logText":"Finally, Ronald was done telling the story. He also asked if I could say hello to Laede in Blackwater the next time I saw her.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"rescue_of_a_researcher",
+        "name":"Rescue of a Researcher",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"In a deep overgrown cave, I found a man sitting on a rock next to a small stream of water. When I approached him, he said that he got lost while exploring this cave and had been here for months."
+            },
+            {
+                "progress":10,
+                "logText":"He could not get out because he is weakened and needs something to eat, since he was feeding himself only what the cave had to offer, which was mostly small berries and beetles. He asked me if I could go and get a piece of cherry cake, since this apparently always gave him strength in the past."
+            },
+            {
+                "progress":20,
+                "logText":"I got to the nearest town, Moeston, and asked for some cherry cake. When I told the waitress in the inn about the man I had found, she was very excited and asked me, if this man would be called Ronald."
+            },
+            {
+                "progress":30,
+                "logText":"I unfortunately didn't ask for his name, so I could not answer that question. Anyway, I got this delicious looking piece of cake now."
+            },
+            {
+                "progress":31,
+                "logText":"I told her that the man I found is Ronald. The waitress suddenly ran out of the Inn. Strange people around here... At least I got this delicious looking piece of cake now."
+            },
+            {
+                "progress":40,
+                "logText":"When I got back into the deep cave, Ronald was happy to see the cake I brought him."
+            },
+            {
+                "progress":41,
+                "logText":"While he was eating the cake, he told me who he was. He also told me about a mission he once was on, somewhere in a \"green maze\". He remembered a potion he called \"liquid courage\" and asked me if I could somehow get him one of those. Then he would be ready to exit the cave with me."
+            },
+            {
+                "progress":45,
+                "logText":"When I got back into the deep cave, I had to tell Ronald that I didn't have the cake on me anymore. However, Ronald told me he found some delicious berries while I was gone."
+            },
+            {
+                "progress":46,
+                "logText":"He did not feel well enough to exit the cave though, and asked me if I could somehow get him five \"liquid courage\" potions, that he once found while on a mission in a \"green maze\"."
+            },
+            {
+                "progress":50,
+                "logText":"I gave him the \"liquid courage\" he asked for."
+            },
+            {
+                "progress":51,
+                "logText":"I gave him four of the five \"liquid courage\" he asked for."
+            },
+            {
+                "progress":52,
+                "logText":"I gave him the five \"liquid courage\" he asked for."
+            },
+            {
+                "progress":55,
+                "logText":"With his strength regained, Ronald felt confident enough to follow me through the cave."
+            },
+            {
+                "progress":60,
+                "logText":"As soon as we could see the daylight peeking into the cave, Ronald suddenly began to ran and I could only see him scurry through the trees towards the town."
+            },
+            {
+                "progress":65,
+                "logText":"When I finally reached the town, a strange feeling overcame me. And suddenly I realized, that the town was empty. Not a single person was walking on the streets!"
+            },
+            {
+                "progress":70,
+                "logText":"I took a closer look and saw, that everybody had gathered in the town hall. Let's see what's going on here..."
+            },
+            {
+                "progress":75,
+                "logText":"When I entered, I saw that everybody celebrated the return of Ronald. Maybe the people around here aren't that strange after all... Oh, and the free food and drinks are very welcome to me."
+            },
+            {
+                "progress":80,
+                "logText":"This town hall is a little too small for all those people. Seems like I can't get out of this place until the party is over. Mabye I will just stay here for the night."
+            },
+            {
+                "progress":85,
+                "logText":"When I woke up the next morning, everything seemed to be normal again."
+            },
+            {
+                "progress":90,
+                "logText":"I spoke with Ronald and he told me that he lost his diary somewhere in the cave. It is very important, because it contains scientific reports. I should go and search for it."
+            },
+            {
+                "progress":95,
+                "logText":"In a small branch of the cave, near of Ronald's makeshift camp, I found the book, protected by a big ???. It is time to return the book."
+            },
+            {
+                "progress":100,
+                "logText":"Ronald was very grateful that I found the book and rewarded me with an odd gift - his trousers. Well, maybe the people here are still a little strange after all.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"wildlife_doctor",
+        "name":"Wildlife Doctor",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"While exploring the forest north of the river, I found a small shelter that appears to be some sort of animal rescue station. A friendly woman asked me about my favourite forest animal."
+            },
+            {
+                "progress":10,
+                "logText":"I told her that I like squirrels."
+            },
+            {
+                "progress":11,
+                "logText":"I told her that I like deer."
+            },
+            {
+                "progress":12,
+                "logText":"I told her that I like bats."
+            },
+            {
+                "progress":13,
+                "logText":"I told her that I like rabbits."
+            },
+            {
+                "progress":14,
+                "logText":"I told her that I like frogs."
+            },
+            {
+                "progress":15,
+                "logText":"I told her that I like anklebiters, but she didn't believe me."
+            },
+            {
+                "progress":20,
+                "logText":"She told me that I can come back at any time, they can often use some help with animals."
+            },
+            {
+                "progress":25,
+                "logText":"When I came back, the staff told me that an injured animal was seen at the pond below the hut."
+            },
+            {
+                "progress":30,
+                "logText":"She told me that it would be a squirrel! My favourite forest animal!"
+            },
+            {
+                "progress":31,
+                "logText":"She told me that it would be a deer! My favourite forest animal!"
+            },
+            {
+                "progress":32,
+                "logText":"She told me that it would be a bat! My favourite forest animal!"
+            },
+            {
+                "progress":33,
+                "logText":"She told me that it would be a rabbit! My favourite forest animal!"
+            },
+            {
+                "progress":34,
+                "logText":"She told me that it would be a frog! My favourite forest animal!"
+            },
+            {
+                "progress":35,
+                "logText":"She told me that it would be an anklebiter! Well, maybe it's not exactly my favourite animal..."
+            },
+            {
+                "progress":40,
+                "logText":"I told her that I would be willing to search this animal and catch it."
+            },
+            {
+                "progress":45,
+                "logText":"I was given a cage and should place it near the pond."
+            },
+            {
+                "progress":50,
+                "logText":"I have placed the cage on a neat spot behind some bushes and laid out treats. Hopefully the animal will go in there soon."
+            },
+            {
+                "progress":60,
+                "logText":"When I came back, I found the squirrel in there."
+            },
+            {
+                "progress":61,
+                "logText":"When I came back, I found the deer in there."
+            },
+            {
+                "progress":62,
+                "logText":"When I came back, I found the bat in there."
+            },
+            {
+                "progress":63,
+                "logText":"When I came back, I found the rabbit in there."
+            },
+            {
+                "progress":64,
+                "logText":"When I came back, I found the frog in there."
+            },
+            {
+                "progress":65,
+                "logText":"When I came back, I found the cage empty. But I hear a noise..."
+            },
+            {
+                "progress":70,
+                "logText":"The anklebiter was attacking me from behind and I had no choice but to defend myself and kill it. I hope the staff doesn't kill me too!"
+            },
+            {
+                "progress":75,
+                "logText":"I brought the cage back to the rescue station and the staff was very happy about it."
+            },
+            {
+                "progress":80,
+                "logText":"The squirrel can now explore his enclosure and will hopefully be well soon."
+            },
+            {
+                "progress":81,
+                "logText":"The deer can now explore his enclosure and will hopefully be well soon."
+            },
+            {
+                "progress":82,
+                "logText":"The bat can now explore his enclosure and will hopefully be well soon."
+            },
+            {
+                "progress":83,
+                "logText":"The rabbit can now explore his enclosure and will hopefully be well soon."
+            },
+            {
+                "progress":84,
+                "logText":"The frog can now explore his enclosure and will hopefully be well soon."
+            },
+            {
+                "progress":85,
+                "logText":"Killing the anklebiter was for the better, the staff said. It was an intruder in the area and would only have attacked other smaller animals."
+            },
+            {
+                "progress":90,
+                "logText":"I was given a small reward for my help, but I decided that the rescue station should keep it to help more animals. The staff then gave me an interesting amulet instead. They also told me that I can visit my little friend whenever I'd like.",
+                "finishesQuest":1
+            },
+            {
+                "progress":91,
+                "logText":"I was given a small reward for my help. They also told me that I can visit my little friend whenever I'd like.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_nondisplay",
+        "name":"moeston_nondisplay",
+        "stages":[
+            {
+                "progress":100,
+                "logText":"[Rescue of a Researcher] Ronald told me his name. Needed for Quest Stage 30/31"
+            },
+            {
+                "progress":200,
+                "logText":"wip"
+            },
+            {
+                "progress":900,
+                "logText":"[Berry collector] I have started collecting"
+            },
+            {
+                "progress":901,
+                "logText":"[Berry collector] I have finished collecting"
+            },
+            {
+                "progress":901,
+                "logText":"[Berry collector] wip"
+            }
+        ]
+    }
+]
