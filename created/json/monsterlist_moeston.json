@@ -371,5 +371,110 @@
         "id":"mairie_staff",
         "name":"Staff",
         "iconID":"monsters_ld1:186"
+    },
+    {
+        "id":"moe_ghost",
+        "name":"Moe's Ghost",
+        "iconID":"monsters_rltiles2:142"
+    },
+    {
+        "id":"casual_cave_cross_spider",
+        "name":"Cave Cross Spider",
+        "iconID":"monsters_tometik1:27"
+    },
+    {
+        "id":"swarming_cave_cross_spider",
+        "name":"Cave Cross Spider",
+        "iconID":"monsters_tometik1:27"
+    },
+    {
+        "id":"moeston_chicken",
+        "name":"Group of Chicken",
+        "iconID":"monsters_newb_1:1321"
+    },
+    {
+        "id":"moeston_chicken1",
+        "name":"Chicken",
+        "iconID":"monsters_newb_1:1328"
+    },
+    {
+        "id":"moeston_chicken2",
+        "name":"Chicken",
+        "iconID":"monsters_newb_1:1329"
+    },
+    {
+        "id":"wildlife_doctor_deer_injured",
+        "name":"Injured Deer",
+        "iconID":"monsters_newb_1:262"
+    },
+    {
+        "id":"wildlife_doctor_deer",
+        "name":"Deer",
+        "iconID":"monsters_newb_1:262"
+    },
+    {
+        "id":"wildlife_doctor_bat_injured",
+        "name":"Injured Bat",
+        "iconID":"monsters_ld2:226"
+    },
+    {
+        "id":"wildlife_doctor_bat",
+        "name":"Bat",
+        "iconID":"monsters_ld2:227"
+    },
+    {
+        "id":"wildlife_doctor_rabbit_injured",
+        "name":"Injured Rabbit",
+        "iconID":"monsters_ld2:142"
+    },
+    {
+        "id":"wildlife_doctor_rabbit",
+        "name":"Rabbit",
+        "iconID":"monsters_ld2:143"
+    },
+    {
+        "id":"wildlife_doctor_squirrel_injured",
+        "name":"Injured Squirrel",
+        "iconID":"monsters_rltiles2:147"
+    },
+    {
+        "id":"wildlife_doctor_squirrel",
+        "name":"Squirrel",
+        "iconID":"monsters_rltiles2:147"
+    },
+    {
+        "id":"wildlife_doctor_frog_injured",
+        "name":"Injured Frog",
+        "iconID":"monsters_rltiles1:131"
+    },
+    {
+        "id":"wildlife_doctor_frog",
+        "name":"Frog",
+        "iconID":"monsters_rltiles1:131"
+    },
+    {
+        "id":"wildlife_doctor_lizard_injured",
+        "name":"Injured Lizard",
+        "iconID":"monsters_newb_1:372"
+    },
+    {
+        "id":"wildlife_doctor_lizard",
+        "name":"Lizard",
+        "iconID":"monsters_newb_1:371"
+    },
+    {
+        "id":"wildlife_doctor_butterfly_injured",
+        "name":"Injured Butterfly",
+        "iconID":"monsters_rltiles2:70"
+    },
+    {
+        "id":"wildlife_doctor_butterfly",
+        "name":"Butterfly",
+        "iconID":"monsters_rltiles2:66"
+    },
+    {
+        "id":"wildlife_doctor_injured_anklebiter",
+        "name":"Injured Anklebiter",
+        "iconID":"monsters_newb_1:244"
     }
 ]

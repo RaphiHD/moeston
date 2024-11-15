@@ -552,6 +552,14 @@
             },
             {
                 "progress":15,
+                "logText":"I told her that I like lizards."
+            },
+            {
+                "progress":16,
+                "logText":"I told her that I like butterflys."
+            },
+            {
+                "progress":19,
                 "logText":"I told her that I like anklebiters, but she didn't believe me."
             },
             {
@@ -584,6 +592,14 @@
             },
             {
                 "progress":35,
+                "logText":"She told me that it would be a lizard! My favourite forest animal!"
+            },
+            {
+                "progress":36,
+                "logText":"She told me that it would be a butterfly! My favourite forest animal!"
+            },
+            {
+                "progress":39,
                 "logText":"She told me that it would be an anklebiter! Well, maybe it's not exactly my favourite animal..."
             },
             {
@@ -620,6 +636,14 @@
             },
             {
                 "progress":65,
+                "logText":"When I came back, I found the lizard in there."
+            },
+            {
+                "progress":66,
+                "logText":"When I came back, I found the butterfly in there."
+            },
+            {
+                "progress":69,
                 "logText":"When I came back, I found the cage empty. But I hear a noise..."
             },
             {
@@ -652,6 +676,14 @@
             },
             {
                 "progress":85,
+                "logText":"The lizard can now explore his enclosure and will hopefully be well soon."
+            },
+            {
+                "progress":86,
+                "logText":"The butterfly can now explore his enclosure and will hopefully be well soon."
+            },
+            {
+                "progress":89,
                 "logText":"Killing the anklebiter was for the better, the staff said. It was an intruder in the area and would only have attacked other smaller animals."
             },
             {
@@ -676,7 +708,7 @@
             },
             {
                 "progress":200,
-                "logText":"wip"
+                "logText":"[Wildlife Doctor] Anklebiter attacked"
             },
             {
                 "progress":900,
@@ -687,7 +719,7 @@
                 "logText":"[Berry collector] I have finished collecting"
             },
             {
-                "progress":901,
+                "progress":902,
                 "logText":"[Berry collector] wip"
             }
         ]
