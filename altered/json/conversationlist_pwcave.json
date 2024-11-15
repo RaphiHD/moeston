@@ -2,5 +2,15 @@
     {
         "id":"sign_waterway1",
         "message":"South: Loneford\nEast: Brimhaven\nWest: Moeston (currently closed)\n[You also see something written on an arrow pointing to the west, but you cannot understand the words]"
+    },
+    {
+        "id":"gauward_4",
+        "message":"Ack, if it wasn't for those things out there, I am sure a lot of people would come by here more often. Apart from a few Remgard traders lately, I haven't seen anyone in weeks.",
+        "replies":[
+            {
+                "text":"Would you like me to kill the creatures for you?",
+                "nextPhraseID":"gauward_5"
+            }
+        ]
     }
 ]

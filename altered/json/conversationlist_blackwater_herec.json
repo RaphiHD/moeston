@@ -1,0 +1,12 @@
+[
+    {
+        "id":"herec_6",
+        "message":"An old friend was helping me, but since he moved on towards somewhere in the lands of Guynmart, I haven't seen him again. So that's where you come in.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"herec_7"
+            }
+        ]
+    }
+]
