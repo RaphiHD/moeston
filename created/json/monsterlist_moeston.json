@@ -476,5 +476,91 @@
         "id":"wildlife_doctor_injured_anklebiter",
         "name":"Injured Anklebiter",
         "iconID":"monsters_newb_1:244"
+    },
+    {
+        "id":"ronald_boss",
+        "name":"Queen Grimblight",
+        "iconID":"monsters_newb_2:4"
+    },
+    {
+        "id":"grimblight",
+        "name":"Grimblight",
+        "iconID":"monsters_newb_1:532"
+    },
+    {
+        "id":"grimblight_fierce",
+        "name":"Fierce Grimblight",
+        "iconID":"monsters_newb_1:533"
+    },
+    {
+        "id":"grimblight_venomous",
+        "name":"Venomous Grimblight",
+        "iconID":"monsters_newb_1:534"
+    },
+    {
+        "id":"grimblight_creeping",
+        "name":"Creeping Grimblight",
+        "iconID":"monsters_newb_1:535"
+    },
+    {
+        "id":"grimblight_ferocious",
+        "name":"Ferocious Grimblight",
+        "iconID":"monsters_newb_1:536"
+    },
+    {
+        "id":"grimblight_plated",
+        "name":"Plated Grimblight",
+        "iconID":"monsters_newb_1:526"
+    },
+    {
+        "id":"grimblight_plated_fierce",
+        "name":"Fierce Plated Grimblight",
+        "iconID":"monsters_newb_1:527"
+    },
+    {
+        "id":"grimblight_plated_venomous",
+        "name":"Venomous Plated Grimblight",
+        "iconID":"monsters_newb_1:528"
+    },
+    {
+        "id":"grimblight_plated_creeping",
+        "name":"Creeping Plated Grimblight",
+        "iconID":"monsters_newb_1:529"
+    },
+    {
+        "id":"grimblight_plated_ferocious",
+        "name":"Ferocious Plated Grimblight",
+        "iconID":"monsters_newb_1:530"
+    },
+    {
+        "id":"grimblight_plated_ruthless",
+        "name":"Ruthless Plated Grimblight",
+        "iconID":"monsters_newb_1:531",
+        "unique":1
+    },
+    {
+        "id":"depth_crawler_snake",
+        "name":"Depth Crawler Snake",
+        "iconID":"monsters_ld2:18"
+    },
+    {
+        "id":"depth_crawler_snake_agressive",
+        "name":"Agressive Depth Crawler Snake",
+        "iconID":"monsters_ld2:19"
+    },
+    {
+        "id":"black_reaper_scorpion",
+        "name":"Black Reaper Scorpion",
+        "iconID":"monsters_rltiles4:37"
+    },
+    {
+        "id":"swarm_of_flies",
+        "name":"Swarm of Flies",
+        "iconID":"monsters_ld2:82"
+    },
+    {
+        "id":"infected_cave_rat",
+        "name":"Infected Cave Rat",
+        "iconID":"monsters_rltiles2:146"
     }
 ]
