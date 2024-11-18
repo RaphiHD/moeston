@@ -711,6 +711,14 @@
                 "logText":"[Wildlife Doctor] Anklebiter attacked"
             },
             {
+                "progress":300,
+                "logText":"[Sneaky Sam] I know the Thieve's Guild slogan and told Sam that he could trust me."
+            },
+            {
+                "progress":301,
+                "logText":"[Sneaky Sam] Sam has left his hiding spot and is now in Moeston."
+            },
+            {
                 "progress":900,
                 "logText":"[Berry collector] I have started collecting"
             },
@@ -721,6 +729,14 @@
             {
                 "progress":902,
                 "logText":"[Berry collector] wip"
+            },
+            {
+                "progress":903,
+                "logText":"[Berry collector] I have declined to give him some of my strawberries."
+            },
+            {
+                "progress":910,
+                "logText":"[Berry collector] I have given the tradesman 50 Strawberries."
             }
         ]
     }

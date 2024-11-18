@@ -224,7 +224,7 @@
     },
     {
         "id":"moeston_woodcutter",
-        "name":"Woodcutter",
+        "name":"Jagor",
         "iconID":"monsters_ld1:28"
     },
     {
@@ -274,7 +274,7 @@
     },
     {
         "id":"moeston_priest",
-        "name":"Priest",
+        "name":"Teranir",
         "iconID":"monsters_ld1:2"
     },
     {
@@ -284,17 +284,17 @@
     },
     {
         "id":"moeston_tailor",
-        "name":"Tailor",
+        "name":"Lynn",
         "iconID":"monsters_rltiles3:15"
     },
     {
         "id":"moeston_tailor_kid",
-        "name":"Tailor's kid",
+        "name":"Lina",
         "iconID":"monsters_ld1:169"
     },
     {
         "id":"moeston_waiter",
-        "name":"Waitress",
+        "name":"Betty",
         "iconID":"monsters_ld1:183"
     },
     {
@@ -324,12 +324,12 @@
     },
     {
         "id":"moeston_smith",
-        "name":"Smith",
+        "name":"Fancor",
         "iconID":"monsters_tometik2:40"
     },
     {
         "id":"moeston_smith_wife",
-        "name":"Smith's Wife",
+        "name":"Enila",
         "iconID":"monsters_men:1"
     },
     {
@@ -562,5 +562,15 @@
         "id":"infected_cave_rat",
         "name":"Infected Cave Rat",
         "iconID":"monsters_rltiles2:146"
+    },
+    {
+        "id":"moeston_soldier_drunk1",
+        "name":"Drunk Feygard Soldier",
+        "iconID":"monsters_ld1:94"
+    },
+    {
+        "id":"olec_stooge",
+        "name":"Olec's Stooge",
+        "iconID":"monsters_ld1:74"
     }
 ]

@@ -1,0 +1,89 @@
+[
+    {
+        "id":"wild_strawberry",
+        "iconID":"items_consumables:8",
+        "name":"Wild strawberry"
+    },
+    {
+        "id":"cherries",
+        "iconID":"items_japozero:490",
+        "name":"Cherries"
+    },
+    {
+        "id":"cherries_sweet",
+        "iconID":"items_japozero:491",
+        "name":"Especially sweet cherries"
+    },
+    {
+        "id":"wild_strawberry_sweet",
+        "iconID":"items_consumables:8",
+        "name":"Especially sweet wild strawberry"
+    },
+    {
+        "id":"cherry_cake_piece",
+        "iconID":"items_newb:851",
+        "name":"Piece of cherry cake",
+        "displaytype":"quest"
+    },
+    {
+        "id":"corn",
+        "iconID":"items_newb:818",
+        "name":"Corn"
+    },
+    {
+        "id":"betula_leaves",
+        "iconID":"items_japozero:559",
+        "name":"Betula leaves"
+    },
+    {
+        "id":"pile_of_pine_needles",
+        "iconID":"items_japozero:590",
+        "name":"Pile of pine needles"
+    },
+    {
+        "id":"nature_hat",
+        "iconID":"items_japozero:90",
+        "name":"Hat of Treetops"
+    },
+    {
+        "id":"nature_shirt",
+        "iconID":"items_japozero:142",
+        "name":"Shirt of the Collector"
+    },
+    {
+        "id":"nature_boots",
+        "iconID":"items_japozero:216",
+        "name":"Boots of Wet Moss"
+    },
+    {
+        "id":"nature_shield",
+        "iconID":"items_japozero:581",
+        "name":"Shield of Leaves"
+    },
+    {
+        "id":"nature_staff",
+        "iconID":"items_misc_6:6",
+        "name":"Staff of Growth"
+    },
+    {
+        "id":"nature_gloves",
+        "iconID":"items_newb:7",
+        "name":"PLACEHOLDER NAME"
+    },
+    {
+        "id":"nature_ring",
+        "iconID":"items_japozero:253",
+        "name":"Ring of Sunlight"
+    },
+    {
+        "id":"nature_necklace",
+        "iconID":"items_newb:134",
+        "name":"Necklace of the Wild"
+    },
+    {
+        "id":"tunlon_letter",
+        "iconID":"items_japozero:425",
+        "name":"Letter",
+        "description":"Adressed to: Ronald, Moeston"
+    }
+]
