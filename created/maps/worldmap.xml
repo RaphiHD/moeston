@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="moescave" x="18" y="-78">
+    <map id="moescave_01" x="99" y="0"/>
+    <map id="moescave_02" x="77" y="-31"/>
+    <map id="moescave_03" x="108" y="-31"/>
+    <map id="moescave_03a" x="129" y="-38"/>
+    <map id="moescave_03b" x="108" y="-57"/>
+    <map id="moescave_04" x="77" y="-62"/>
+    <map id="moescave_05" x="56" y="-57"/>
+    <map id="moescave_06" x="46" y="-78"/>
+    <map id="moescave_07" x="29" y="-57"/>
+    <map id="moescave_07a" x="18" y="-57"/>
+    <map id="moescave_08" x="35" y="-41"/>
+    <map id="moescave_08a" x="18" y="-41"/>
+    <map id="moescave_09" x="56" y="-26"/>
+  </segment>
+</worldmap>
