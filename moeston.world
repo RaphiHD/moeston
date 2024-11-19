@@ -277,36 +277,8 @@
             "fileName": "created/maps/moesforest_town_smallhouse.tmx",
             "height": 256,
             "width": 256,
-            "x": 2592,
-            "y": 5184
-        },
-        {
-            "fileName": "created/maps/moesforest_town_smallhouse_basement.tmx",
-            "height": 256,
-            "width": 384,
             "x": 2304,
-            "y": 5472
-        },
-        {
-            "fileName": "created/maps/moesforest_town_smallhouse_tunnle1.tmx",
-            "height": 960,
-            "width": 640,
-            "x": 1920,
             "y": 4480
-        },
-        {
-            "fileName": "created/maps/moesforest_town_smallhouse_tunnle2.tmx",
-            "height": 960,
-            "width": 640,
-            "x": 1248,
-            "y": 4480
-        },
-        {
-            "fileName": "created/maps/moesforest_town_smallhouse_tunnle3.tmx",
-            "height": 640,
-            "width": 704,
-            "x": 512,
-            "y": 4800
         },
         {
             "fileName": "created/maps/moesforest_town_smith.tmx",
@@ -412,6 +384,83 @@
             "width": 640,
             "x": -3104,
             "y": 3136
+        },
+        {
+            "fileName": "created/maps/moesforest_town_smallhouse_basement.tmx",
+            "height": 256,
+            "width": 384,
+            "x": 2176,
+            "y": 4768
+        },
+        {
+            "fileName": "created/maps/moesforest_hunters_cab.tmx",
+            "height": 384,
+            "width": 640,
+            "x": 5472,
+            "y": 2464
+        },
+        {
+            "fileName": "created/maps/moesforest_00_hidingspot1.tmx",
+            "height": 480,
+            "width": 736,
+            "x": -1024,
+            "y": -384
+        },
+        {
+            "fileName": "created/maps/moesforest_00_cave.tmx",
+            "height": 640,
+            "width": 960,
+            "x": -1920,
+            "y": -224
+        },
+        {
+            "fileName": "created/maps/moesforest_00_cave1.tmx",
+            "height": 640,
+            "width": 480,
+            "x": -2432,
+            "y": -224
+        },
+        {
+            "fileName": "created/maps/moesforest_00_cave2.tmx",
+            "height": 320,
+            "width": 320,
+            "x": -1920,
+            "y": -576
+        },
+        {
+            "fileName": "created/maps/moesforest_12_cave.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 2176,
+            "y": -1888
+        },
+        {
+            "fileName": "created/maps/moesforest_17_cave.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 4512,
+            "y": -1952
+        },
+        {
+            "fileName": "created/maps/moesforest_17_cave1.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 3680,
+            "y": -2240
+        },
+        {
+            "fileName": "created/maps/moesforest_17_cave2.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 4512,
+            "y": -2944
+        },
+        {
+            "fileName": "created/maps/moesforest_17_cave3.tmx",
+            "height": 576,
+            "width": 480,
+            "x": 4000,
+            "y": -2848
         }
     ],
     "onlyShowAdjacentMaps": false,
