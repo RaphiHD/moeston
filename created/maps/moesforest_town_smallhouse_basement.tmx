@@ -185,14 +185,9 @@
    eJwT4mJgECIR75AiDsPUn5AiDsPU/+QkDpOjHuQuYtXvgLqLWPUgtQ85ScMAT8VJ6Q==
   </data>
  </layer>
- <layer id="2" name="Objects" width="12" height="8" visible="0">
+ <layer id="2" name="Objects" width="12" height="8">
   <data encoding="base64" compression="zlib">
    eJxjYCAfsDMxMCgJMzBwiDEwTOSHiEkyQWg1YYS6z6wMDF+A+DMfA8MBIC0hBhHnYcJuLjMbAwMLEDMDzbzAihAPFGBgCALiO0IMDGeEsOt9AFTfLABhZwHpJCBuAeJHSOrNgGrMWbHrh4EdfBBaHOhGN6BadyBehKTnhiCC/Qeo9gQQJ+LwDwhw4pADABGuEoQ=
-  </data>
- </layer>
- <layer id="10" name="Objects_1" width="12" height="8">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAfsDNBaA4xBoaJ/BC2JFRMTRihToqdgUEaiD/zMTAcYGVgkBCDiPMw4TefGWjmBVYEP1CAgSEIiJuB+IwQdj0PWFH5SUC1LUCcJYAQMwOqMUdThw528EFocaAb3YBq3YF4EZKeG4Ko6k8A1Sfi8Q8nDjkAZD8Nog==
   </data>
  </layer>
  <layer id="3" name="Above" width="12" height="8">
