@@ -397,7 +397,7 @@
             "height": 384,
             "width": 640,
             "x": 5472,
-            "y": 2464
+            "y": 3008
         },
         {
             "fileName": "created/maps/moesforest_00_hidingspot1.tmx",
@@ -468,6 +468,27 @@
             "width": 960,
             "x": 1056,
             "y": 2624
+        },
+        {
+            "fileName": "altered/maps/waterway0.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 5248,
+            "y": 1664
+        },
+        {
+            "fileName": "altered/maps/fields11.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 3936,
+            "y": 2496
+        },
+        {
+            "fileName": "altered/maps/fields12.tmx",
+            "height": 608,
+            "width": 608,
+            "x": 4608,
+            "y": 2368
         }
     ],
     "onlyShowAdjacentMaps": false,

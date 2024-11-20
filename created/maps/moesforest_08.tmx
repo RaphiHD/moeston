@@ -191,27 +191,32 @@
  </layer>
  <layer name="Objects" width="27" height="9">
   <data encoding="base64" compression="zlib">
-   eJytkU0SgjAMhXOFbqC9AnL/IyjjARBduMSfUdeiGyZD3zQNQV34Zjq0Sd7XpBAlrR3RLRDdw/R9hCmOGOuo8jhvnZ2Hn/fXkLNYnfChfi/6OCtu6+Y9NS7lu+jlWRqjVs6HGHrXtWCzeoP1KoneZao9CY7UbiGu30DqEt+LvXxP7Ykqn9e0ytcYnE30r3zqVf5n5LDqeMehmLPg6V2aXXPgr3zO1eynWEORs1iyL8wuz5qxtAZjDt3bN57F+FX/5n3SCN/1e3E=
+   eJytkUsOwjAMRH2FbNrkCqX3PwJEHKAUFizLR8Caz6aympEdkwILRoqa2J4XOyUSLR3RJRBdw/S9hSmOGGtv8jivXTkPP+/PIWexeuVD/Vb1cTTczr33FJ3k++TlWWKhVs+HGHq3tWCzhgLrWRO9aqk9KI7WZiZu30DrlN6LvXxP64kan9d0xhcLnFXyL7z0qv8zclhtumNX5e/CgmdwMrvlwN/4nGvZd7UeVc5i6b4wuz5bxtxitpXt7RuvxPhV/+Z90ghRknxM
   </data>
  </layer>
  <layer name="Above" width="27" height="9">
   <data encoding="base64" compression="zlib">
-   eJy7JcnAcAeI7wIxNoAsfgeHGnzyuMxFthNZHzb15NhLC3ATaM8tGtqFLx5I0UOWOYLUcxMhIC/EwKAghCp2Cof9o4B4AABkIRgx
+   eJy7JcnAcAeI7wIxNoAsfgeHGnzyuMxFthNZHzb15NhLC3ATaM8tGtqFLx5I0UOWOYLUcxMhIC/EwKAgRF0zyQHGwgPtAuoCAIfEF5w=
   </data>
  </layer>
  <layer name="Walkable" width="27" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJGGGARwiSMDfPqR5Ynho5uPzy3o6nG5j1h5agFa24Mt/NDliXETOe4kJs1QwxxSzadlPqAHBgCp0Gdk
+   eJxjYEAFG8VQMTYxUjAu/egAl3ps8oT46Objcwu6elzuI1aeWoDW9mALP0L2EytGrN340gw1zCE2fVLTvIHEAM1eZdY=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="west2" type="mapchange" x="0" y="64" width="32" height="128">
+  <object name="west2" type="mapchange" x="0" y="64" width="32" height="96">
    <properties>
     <property name="map" value="moesforest_05"/>
     <property name="place" value="east4"/>
    </properties>
   </object>
-  <object name="east" type="mapchange" x="832" y="64" width="32" height="96"/>
+  <object name="east" type="mapchange" x="832" y="64" width="32" height="64">
+   <properties>
+    <property name="map" value="fields11"/>
+    <property name="place" value="west1"/>
+   </properties>
+  </object>
   <object name="north1" type="mapchange" x="96" y="0" width="32" height="32">
    <properties>
     <property name="map" value="moesforest_09"/>

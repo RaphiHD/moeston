@@ -191,7 +191,7 @@
  </layer>
  <layer name="Objects" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJyVVk1LHEEQHSYEySXQirNuLrmr+EtCfkHIXRL0HIT8J4+y7MmwHxpEcoi7I5iDGJ1dDbmabEK6dqqc12971k1BM9PVNa+qXlV3z9Alyfpakmzo+N1IkrHXDfwQ+alPkwHNTb7Pscv9+7HOD7LSn/hB+eRKvywraTiXeEZg9w7WjyLfX9fEK/KH1k5rbPe8jys/Rs0y/q9qV8cFx8vC311RjjEeYpixeDlfxJY6FD6HIovHUadjeUrx7iuu8GMyyio/l2k5UEYL+DFhfsxX7vHvs8VxltMQz3CaOj/TmJ6Av57id3WN83hNmCY55Mc1Mb83qsccbE38PEtLrt8CttRH+rxTw18+h1dc4/061aWzOke67YjN0Mf7LaL/n9hQPihWpk/B/uI5GkN/Yb+dU+/FbEwES+KVb8Y1T/4GcWx/mM76+Iy4NZxiAXyWm0d4wvh305AD8xeTXarRjs5XSS8cFRQv4nZcOBf7X43qDpEh8tzrP0awe646e7lGzLXMDXNzrbKz3liHewu/PYIzCffK3zncLj3Sw3xP3lLNY/0m0ndlziar2s9m/9mPRsQ3+tugO3NQ4+/Wz++a1fsPfRf/Lf9+Qvav0mo9lqOdXdi/XRfyaz6xtw9B/yad7THMEWvH/Wvxdihfw2770W9Waxeqlzv0JficNEqMHPKJcSYitRTMC/Ipe91sLS5cn0B9MI8DON9jZ2DfhXHkbjYfm+O/03vdpyiFC3lj/1M/ruy5LuRz7EIeJlATsbM+xZzbquM+5DOyRd/1dc79/RAf8IDzFvQU7qdrskNfItZ7sr8R6xBiHwKecWf/k8hfD/iV+NqR/b71oqr/lIvlsI7Y33yP472M/6cW54ly8A+QIjvL
+   eJyVVk1v00AQtVwhxKXSBsVpuHBvEL8E8Qsq7gjUnlEl/lOPVZRTUT5aVKEeSGKkcKhK66RFXAsBsRPP4OeXdRJGWtk7O34z82Z212MXRbs7UdTS8asRRTOvG/kh8kOfJiOam3xbYZf69zOdHye5P/GD8sHlflkex+W5xDMFuzewfhr4/roiXpHftPapwvbQ+7jyY9rM4/+sdlVccLws/N0V5RjiIYQZipfzRWypQ+ZzyJJwHFU6lgcU75HiCj8m06TwcxnnA2W6gR8T5sd8pR7/PtkcpxaX8QynqfOhxrQF/vqK39M1zuMlYZqkkB/XxPzeqB5zsDXx8yjOuX4F2FIf6fNuBX/pCl5xjffrQhcv6xzpXgdsxj7erwH9/8SG8k6xEn0K9oXnaAb9hf32hXovZGMiWBKvfDOrePI3iGP7w3TWx0Pi1nCyDfBZbtbwhPEfxGUOzF9IDqhG+zqvk144yihexO268lzsfzaKO0SGyLbXvw9g911x9nKNmGuZG+azncLOemMX7i389hTOJNwrf1Zw+3BND/M9eUs1D/WbyMDlOZvUtZ/N/qMfjYBv9NeiO3NU4e/Wz++axft3fRf/bf9+TvYv4mI9lKOdXdi/PVfm13xib5+Afi9e7jHMEWvH/Wvxdilfw+74MWgWaxPVyx36FHzOGzlGCvmM3TJnIlJLwZyQT9nrZmtx4foc6oN5HMP5HjoDBxRH6pbzsTn+O73VfYr/PZkr88b+F35c3nM9yOfMlXmYQ03EzvoUc+6ojvuQz8g2fTfQOff3v/iAB5y3oadwP10H6ogxWe/J/kasE4h9DHjGnfGK/PWBX4mvE9jvz58U9V9wUSvXEfub73G8l/H/1OI8Vw7+ArvQPZA=
   </data>
  </layer>
  <layer name="Above" width="25" height="30">
@@ -201,7 +201,7 @@
  </layer>
  <layer name="Walkable" width="25" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1U0EOwCAI8xX+/wv+0MtMFoKlYCExWdS1tNQ1x1jfsrWmdnXjH44OXKuh2xslh8VUc/xxunR4eC88Uc+3ys4QYZzvLD7Lle0N3atmmK1sDpg53v5R5A3tZfPHeKh4Q8p3yPhV8TbKOouF7lT9jUo9wwqfar6odwUPm6dbNl51ocxF/VRyzRSjD+lg9u15xcdMb5mZeT54WEjzSz49b9T+VXLh8WwZanFN
+   eJy1U0EOwCAI8xX+/wv8cJd5MVAKliYmm9EWSrW9lv3rhm3NOlxT/LeGktfTmdDwMMHt/au8n+zD43vRyWqOUJ0h4jjfVX5Wq1obOtfNMItqDpg5RncUeUN71fwxHirekPIdMn51vM2yznKhM11/M6hn2NFTzRfVrtBh8xRl47Uvjwv5yPibzSYD0x+6c+9nWlk/kX61NlYL9cTk9DWfnjdq/zq58HQ+boxxTQ==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -235,13 +235,13 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="east1" type="mapchange" x="768" y="160" width="32" height="32">
+  <object name="east1" type="mapchange" x="768" y="96" width="32" height="32">
    <properties>
     <property name="map" value="moesforest_17"/>
     <property name="place" value="west1"/>
    </properties>
   </object>
-  <object name="east2" type="mapchange" x="768" y="544" width="32" height="96">
+  <object name="east2" type="mapchange" x="768" y="160" width="32" height="32">
    <properties>
     <property name="map" value="moesforest_17"/>
     <property name="place" value="west2"/>
@@ -251,6 +251,18 @@
    <properties>
     <property name="map" value="moesforest_12"/>
     <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="east3" type="mapchange" x="768" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_17"/>
+    <property name="place" value="west3"/>
+   </properties>
+  </object>
+  <object name="east4" type="mapchange" x="768" y="544" width="32" height="96">
+   <properties>
+    <property name="map" value="moesforest_17"/>
+    <property name="place" value="west4"/>
    </properties>
   </object>
  </objectgroup>
