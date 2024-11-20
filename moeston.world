@@ -193,15 +193,15 @@
             "fileName": "created/maps/moesforest_castle_st1.tmx",
             "height": 256,
             "width": 192,
-            "x": 1376,
-            "y": 3552
+            "x": 2208,
+            "y": 4000
         },
         {
             "fileName": "created/maps/moesforest_castle_st2.tmx",
             "height": 256,
             "width": 192,
-            "x": 1376,
-            "y": 3264
+            "x": 2208,
+            "y": 3712
         },
         {
             "fileName": "created/maps/moesforest_town_church.tmx",
@@ -461,6 +461,13 @@
             "width": 480,
             "x": 4000,
             "y": -2848
+        },
+        {
+            "fileName": "altered/maps/fields5.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1056,
+            "y": 2624
         }
     ],
     "onlyShowAdjacentMaps": false,

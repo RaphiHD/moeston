@@ -188,7 +188,7 @@
  </layer>
  <layer name="Objects" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJylVcFOAjEQnWy6QWLisiYuEL2iVznhlXjQgzdi9IAaPSsfoB/gD+gHEL/ATxC9mXhEBZWbF9RvcJq2YbZ02y685GVoZtt5M+0MAACvMeTC5nK+7988z09KAGVkNQColPLF4PDNoxBMfo8igC/kJ3KI/JDrgMSvRvm1vGhaijLmItoRchwJ/hD7h/zlWtDfCdL7fWtowlUIsFMGOPTgLvKACQ3zYB69rthZZ+v3fx1mn9GzvK+CZ+49g44tJmyDiRgNlvZ32fSeOMjOueqhRY9Bteg+272YNJQt8c9Ccf5RAnBMeJK4Na8YekrXNozTmnR/X64bpOa2/M7Rf4HsZNRLB4/dCsyxs5B1FxSuOXUfm+9iz/EW1J4nw/mtOfq5LffymbQm51dtAWAduSFpg5pl29KOHDXl/jram1DYOyZsl/Rz3RKP73+fYf48LAE00dYiYTmaxN8O02saj2NAYvLcni0a6Bs4JXnxfqezKbHcW98jR9u7fcQ+vQyna6lqb9I6qw4K9d+oarmPsW6ZubYcagauVvzON+lx5WB7ixyqt8bxZCYWHT31jd/+A2kwWYE=
+   eJylVTtOA0EMtVazCgiJzSKRj6ANtKQKbUQBBV2EoAggqCEHgANwAThAxAk4AoEOiTJ8AqSjCXAGbM2O4p3MzM4mT7KckXfsZ4/tAAC8xJALG0v5vn/19F8qApRRqgFApZgvBsE3j0Iw/j2MAL5QPlEGKB/JOWDxq1F+Ls8al/kk5gLqIcookvLD9B/KL3FBeydI3/etoQmXIcB2GeDAQ3ZQ9oXkMAtm4ZsV2+Zbf/+r0O6j5+ivgmfuPQOPTSF1Q8gYDZG2d8XknTiw51z14KLH4Fx0G9XuoWT+3sSh7Ih/Gkr/h+jviMmxxT/HsmGm9HcdxGlOur2fnBus5rbeoJzP0H6O0rHUSwfFbgXm2DbY3oIja0/dxea32M3oBXXn0eC/NcM8t5O7tJNWk/1VmwNYQ1lPxAW1y7YSPcyoKdnrqK9DqW+F1F02z3VHPLr/NsX+uV8EaKKuRVITmszeDtNnHo/wzmJSbk8ODrwHTlheNO98N5Uc79b3yNHVtzQTF+FkLVXtTVyn5cGh/htVLfcw1o0w15agduBKxc+/iU9WDq5eJKjZGsXjnTifMVPf+O0/y8BbMw==
   </data>
  </layer>
  <layer name="Above" width="30" height="20">
@@ -196,7 +196,7 @@
    eJxjYBgc4LDY4LFXkJ/29l4aIP8ONrBJYODsmMrEwDCdifb24wKXBygNUMPP5JpBbT8T6w50dVOx6CPXT61UCE9C4YKrfATpE+NgYBCHYlL14yt3QWZjky9iIlx+wfThMh9dP3J8gPQQUz6ixyGyewnpxxb/6G4ltmwi5F5sduGzlxj9oLQK0kfIbHyA3PROjboal934/DNQbQRK6moA1SUnzA==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="20">
+ <layer name="Walkable" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJztUskJACAMcwr3X8ENxYcfaWubBF8GilCN6ZHRWxs/nsXCPk+81vOg0kWh0o3qiDiqfq28xVH2m72/zaTqL0bXA+u16qwYLyjmyPau9C26d1W/O2ed2TojoByPW31/22O2VmYHqAfUutl/VbpInSh3AiGiVt8=
   </data>
@@ -209,7 +209,12 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="hole" type="mapchange" x="64" y="96" width="32" height="32"/>
+  <object name="hole" type="mapchange" x="64" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_00_cave2"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
