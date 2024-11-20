@@ -703,6 +703,10 @@
         "name":"moeston_nondisplay",
         "stages":[
             {
+                "progress":10,
+                "logText":"[REPLACE] moesforest_02: Bridge active"
+            },
+            {
                 "progress":100,
                 "logText":"[Rescue of a Researcher] Ronald told me his name. Needed for Quest Stage 30/31"
             },
