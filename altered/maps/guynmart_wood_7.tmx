@@ -241,12 +241,18 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object name="guynmart_rob6" type="spawn" x="416" y="128" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="guynmart_rob6"/>
+   </properties>
+  </object>
+  <object name="forestant_1" type="spawn" x="544" y="64" width="128" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestant"/>
    </properties>
   </object>
  </objectgroup>

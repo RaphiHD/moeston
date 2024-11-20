@@ -703,6 +703,10 @@
         "name":"moeston_nondisplay",
         "stages":[
             {
+                "progress":1,
+                "logText":"[FALSE] This is never true."
+            },
+            {
                 "progress":10,
                 "logText":"[REPLACE] moesforest_02: Bridge active"
             },

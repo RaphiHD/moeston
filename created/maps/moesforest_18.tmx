@@ -229,8 +229,18 @@
     <property name="place" value="west1"/>
    </properties>
   </object>
-  <object name="house1" type="mapchange" x="352" y="128" width="32" height="32"/>
-  <object name="house2" type="mapchange" x="416" y="192" width="32" height="32"/>
+  <object name="house1" type="mapchange" x="352" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_hunters_cab"/>
+    <property name="place" value="exit1"/>
+   </properties>
+  </object>
+  <object name="house2" type="mapchange" x="416" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_hunters_cab"/>
+    <property name="place" value="exit2"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

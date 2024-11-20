@@ -85,5 +85,10 @@
         "iconID":"items_japozero:425",
         "name":"Letter",
         "description":"Adressed to: Ronald, Moeston"
+    },
+    {
+        "id":"fishing_rod_niel",
+        "iconID":"items_misc_2:181",
+        "name":"Niel's Fishing Rod"
     }
 ]

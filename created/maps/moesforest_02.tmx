@@ -209,7 +209,7 @@
    eJy9VsFKA0EMnQriXrsHy/yIJ89CZW8epP0Nv0w99SwoeqwgVbpCjxX9AU9u2IbNxiTNTEsflC3TSd68l0y2IdhYxhDq2F8bF933yyK4IeVKiasIV5XAi6gz+SeEa5rBS/nfhv/XL0btc2zkfji196TUgcPyEnm1Pdq6p9YY+9pwXA3SeX8FLy0shq1/WEPkoJhn6F06eorGAe/NsbxvovBKffe98fix0XU2snnBY653dSLHXJNaSB69b/Ra9a2Ix3OWY+DoVYj7YPlnsdX84+Tl0PQizos27ovlf45dPz8pPafVDaDpPSq6M2s+b9Nbh36NPaB3S+JdO2ek5bXFC15J86osfXPD8loC7T/tXm/zGZDjNWKX90YIee87iPkU1j3zCpHqNWCq9BVg4ZzZ4PUL+/CzAA/9HbTyWQN3iM+RVPCzcE9B66rsr61jms8ecE8trfd75OY8HHxe5P7PywFy7dvrXMwOcA7kuG2edwfgo/X8AxT4cX0=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="26">
+ <layer name="Walkable" width="30" height="26" visible="0">
   <data encoding="base64" compression="zlib">
    eJzNk1EOwCAIQz3F7n8Fb7hfYygtCFGTfcxBX2nY/MaYxrMe632vtTSQHqtfvyMfnifEQt49npJNZk5rLiW/05wR18sM1ez6yn1mXsZF+bAea+c6uIit1rF/RNU74VXu3YvcqCclZ7Qf3dxb81ZzFU1Uw3ycctHcaq+ipeSXYTH/mcwquDfZ3dwutqpRyY72s5Ppr+CuOupRuRHNCmZ0jiz3B7Ttdr4=
   </data>
@@ -257,13 +257,17 @@
   <object name="tower_big_door" type="mapchange" x="576" y="448" width="64" height="32"/>
   <object name="tower_big_upper" type="mapchange" x="704" y="320" width="32" height="32"/>
   <object name="tower_big_ladder" type="mapchange" x="640" y="160" width="32" height="32"/>
-  <object name="easter_egg" type="mapchange" x="384" y="512" width="32" height="32">
+  <object name="easter_eggsit" type="mapchange" x="416" y="480" width="32" height="32"/>
+  <object name="moeston_castle_bridge_activate" type="script" x="704" y="352" width="32" height="32">
    <properties>
-    <property name="map" value="moesforest_castle_easteregg"/>
-    <property name="place" value="entrance"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="easter_eggsit" type="mapchange" x="416" y="480" width="32" height="32"/>
+  <object name="moeston_castle_bridge_deactivate" type="script" x="704" y="416" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="officer_olec_dog" type="spawn" x="384" y="288" width="96" height="128">
@@ -339,6 +343,14 @@
     <property name="requireId" value="moeston_nondisplay"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="EasterEgg">
+  <object name="easter_egg" type="mapchange" x="384" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_castle_easteregg"/>
+    <property name="place" value="entrance"/>
    </properties>
   </object>
  </objectgroup>

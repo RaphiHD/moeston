@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="13" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="13" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -197,10 +197,23 @@
  </layer>
  <layer id="4" name="Walkable" width="13" height="8" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEQYxDAxken0dUgy6MDdP3kAHS9xNhNjv8BF9M1pA==
+   eJzbKMbAsHEQYxDAxken0dUgy6MDdH2kAmz6CNlNrv8BE3w3+Q==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="exit" type="mapchange" x="0" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_09"/>
+    <property name="place" value="fisherhut1"/>
+   </properties>
+  </object>
+  <object id="2" name="jetty" type="mapchange" x="352" y="160" width="32" height="64">
+   <properties>
+    <property name="map" value="moesforest_09"/>
+    <property name="place" value="fisherhut2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>

@@ -201,7 +201,7 @@
  </layer>
  <layer name="Walkable" width="30" height="27" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9VFsOgCAM8xTe/wrc0C8TQ9YXA5fwZW270THu6xqfc6q+3OMnTeSj8lJ9mzHovBhHN+nZ0XU5klK6Dp+LZ7lQ96J0kc5qMR9JFnZWotXZN7Q3J3PIeJIcOjxOTlf8J++J8tn109FF7x3jczBIt+qR8e2aM5sBm4vSrPDoX9dXt1/GxWbg9qp0Vam+UTaRz9Szm4nZq+JP9xb1UHl0d1rdU6Uzc1R4l2/lO8Ls4nR2O9F1iuVxJTMsn53jVlcHaT+l6vA0
+   eJy9VEEOwCAM8hX7/xf84U5LjCkUbB2J2WEd0I46nzHmcm5h5Z4/aSIfkZfo3V6Dzlej6Do9K7oqh4NMV+FT61kusv+S6SKdUzAfThY64WhV9g3tzc0cMh4nhwqPktMT/859kvms+qnoovuO8Sk1SDfqkfF1zZnNgM0l04zq0beqr0q/GRebgdor4lufmTfmFWUT+XQ9q5nYvWb87t6iHiKP6k672VBm3ZU1l6OLU9ltR1cBy+NJZlg+K0dFVQdpvwED720=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -241,8 +241,24 @@
     <property name="place" value="south2"/>
    </properties>
   </object>
-  <object name="tailor" type="mapchange" x="576" y="160" width="32" height="32"/>
-  <object name="inn" type="mapchange" x="768" y="416" width="32" height="32"/>
+  <object name="tailor" type="mapchange" x="576" y="160" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_town_tailor"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object name="inn" type="mapchange" x="768" y="416" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_town_inn"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_01"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

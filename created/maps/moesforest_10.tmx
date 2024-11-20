@@ -229,9 +229,24 @@
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object name="smith" type="mapchange" x="64" y="256" width="32" height="32"/>
-  <object name="house" type="mapchange" x="320" y="384" width="32" height="32"/>
-  <object name="townhall" type="mapchange" x="64" y="544" width="32" height="32"/>
+  <object name="smith" type="mapchange" x="64" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_town_smith"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object name="house" type="mapchange" x="320" y="384" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_town_house"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
+  <object name="townhall" type="mapchange" x="64" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_town_hall"/>
+    <property name="place" value="exit"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
