@@ -225,7 +225,63 @@
   </object>
   <object name="cave" type="mapchange" x="128" y="224" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="platonic_snake_b_1" type="spawn" x="64" y="64" width="352" height="128">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="platonic_snake_b"/>
+   </properties>
+  </object>
+  <object name="moeston_guard_roadblock" type="spawn" x="480" y="32" width="128" height="64">
+   <properties>
+    <property name="spawngroup" value="moeston_guard_roadblock"/>
+   </properties>
+  </object>
+  <object name="platonic_snake_b_2" type="spawn" x="224" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="platonic_snake_b"/>
+   </properties>
+  </object>
+  <object name="platonic_snake_c_1" type="spawn" x="576" y="128" width="128" height="64">
+   <properties>
+    <property name="spawngroup" value="platonic_snake_c"/>
+   </properties>
+  </object>
+  <object name="platonic_snake_a_1" type="spawn" x="96" y="288" width="192" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="platonic_snake_a"/>
+   </properties>
+  </object>
+  <object name="platonic_snake_a_2" type="spawn" x="352" y="224" width="224" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="platonic_snake_a"/>
+   </properties>
+  </object>
+  <object name="moeston_lizard_1" type="spawn" x="256" y="352" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="moeston_lizard"/>
+   </properties>
+  </object>
+  <object name="platonic_snake_a_3" type="spawn" x="384" y="352" width="128" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="platonic_snake_a"/>
+   </properties>
+  </object>
+  <object name="forestwolf2_1" type="spawn" x="512" y="352" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="forestwolf2"/>
+   </properties>
+  </object>
+  <object name="moeston_wasp_1" type="spawn" x="320" y="224" width="352" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="moeston_wasp"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

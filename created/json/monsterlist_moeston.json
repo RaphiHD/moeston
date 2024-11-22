@@ -79,63 +79,72 @@
         "name":"Platonic Snake",
         "iconID":"monsters_newb_1:400",
         "monsterClass":"reptile",
-        "movementAggressionType":"none"
+        "movementAggressionType":"none",
+        "spawnGroup":"platonic_snake_a"
     },
     {
         "id":"platonic_snake_2",
         "name":"Platonic Snake",
         "iconID":"monsters_newb_1:400",
         "monsterClass":"reptile",
-        "movementAggressionType":"helpOthers"
+        "movementAggressionType":"helpOthers",
+        "spawnGroup":"platonic_snake_a"
     },
     {
         "id":"platonic_snake_3",
         "name":"Strong Platonic Snake",
         "iconID":"monsters_newb_1:400",
         "monsterClass":"reptile",
-        "movementAggressionType":"none"
+        "movementAggressionType":"none",
+        "spawnGroup":"platonic_snake_b"
     },
     {
         "id":"platonic_snake_4",
         "name":"Agile Platonic Snake",
         "iconID":"monsters_newb_1:400",
         "monsterClass":"reptile",
-        "movementAggressionType":"protectSpawn"
+        "movementAggressionType":"protectSpawn",
+        "spawnGroup":"platonic_snake_b"
     },
     {
         "id":"platonic_snake_5",
         "name":"Twisty Platonic Snake",
         "iconID":"monsters_newb_1:401",
         "monsterClass":"reptile",
-        "movementAggressionType":"protectSpawn"
+        "movementAggressionType":"protectSpawn",
+        "spawnGroup":"platonic_snake_c"
     },
     {
         "id":"platonic_snake_6",
         "name":"Poisonous Platonic Snake",
         "iconID":"monsters_newb_1:401",
         "monsterClass":"reptile",
-        "movementAggressionType":"none"
+        "movementAggressionType":"none",
+        "spawnGroup":"platonic_snake_c"
     },
     {
         "id":"platonic_snake_7",
         "name":"Quick Platonic Snake",
         "iconID":"monsters_newb_1:401",
         "monsterClass":"reptile",
-        "movementAggressionType":"protectSpawn"
+        "movementAggressionType":"protectSpawn",
+        "spawnGroup":"platonic_snake_d"
     },
     {
         "id":"platonic_snake_8",
         "name":"Shimmering Platonic Snake",
         "iconID":"monsters_newb_1:402",
         "monsterClass":"reptile",
-        "movementAggressionType":"helpOthers"
+        "movementAggressionType":"helpOthers",
+        "spawnGroup":"platonic_snake_d"
     },
     {
         "id":"platonic_snake_9",
         "name":"Furious Platonic Snake",
         "iconID":"monsters_newb_1:402",
         "monsterClass":"reptile",
-        "movementAggressionType":"protectSpawn"
+        "movementAggressionType":"protectSpawn",
+        "spawnGroup":"platonic_snake_e"
     },
     {
         "id":"moeston_lizard_1",
@@ -577,5 +586,34 @@
         "id":"olec_stooge",
         "name":"Olec's Stooge",
         "iconID":"monsters_ld1:74"
+    },
+    {
+        "id":"yellow_forest_buzzer",
+        "name":"Yellow Forest Buzzer",
+        "iconID":"monsters_ld2:222",
+        "spawnGroup":"yellow_forest_buzzer_a"
+    },
+    {
+        "id":"yellow_forest_buzzer2",
+        "name":"Yellow Forest Buzzer",
+        "iconID":"monsters_ld2:222",
+        "spawnGroup":"yellow_forest_buzzer_a"
+    },
+    {
+        "id":"yellow_forest_buzzer3",
+        "name":"Agressive Yellow Forest Buzzer",
+        "iconID":"monsters_ld2:223",
+        "spawnGroup":"yellow_forest_buzzer_b"
+    },
+    {
+        "id":"yellow_forest_buzzer4",
+        "name":"Stinging Yellow Forest Buzzer",
+        "iconID":"monsters_ld2:223",
+        "spawnGroup":"yellow_forest_buzzer_b"
+    },
+    {
+        "id":"moeston_soldier_quest",
+        "name":"Feygard Soldier",
+        "iconID":"monsters_ld1:67"
     }
 ]

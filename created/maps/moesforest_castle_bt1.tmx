@@ -221,7 +221,29 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="olec" type="spawn" x="192" y="128" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="officer_olec"/>
+   </properties>
+  </object>
+  <object name="olec_stooge" type="spawn" x="128" y="96" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="olec_stooge"/>
+   </properties>
+  </object>
+  <object name="moeston_soldier_drunk_1" type="spawn" x="32" y="256" width="128" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="moeston_soldier_drunk"/>
+   </properties>
+  </object>
+  <object name="moeston_soldier_1" type="spawn" x="352" y="128" width="128" height="64">
+   <properties>
+    <property name="spawngroup" value="moeston_soldier"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

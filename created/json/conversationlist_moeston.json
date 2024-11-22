@@ -73,5 +73,11 @@
     {
         "id":"moeston_fish_block_2",
         "message":"This seems like a neat spot to catch some fish."
+    },
+    {
+        "id":"moeston_town_hall_roomblock"
+    },
+    {
+        "id":"moeston_inn_roomblock"
     }
 ]

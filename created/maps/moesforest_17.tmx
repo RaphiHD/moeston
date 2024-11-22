@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="34">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -252,10 +252,129 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn"/>
+ <objectgroup id="8" name="Spawn">
+  <object id="8" name="yellow_forest_buzzer_a_1" type="spawn" x="64" y="384" width="160" height="416">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="yellow_forest_buzzer_a"/>
+   </properties>
+  </object>
+  <object id="9" name="yellow_forest_buzzer_a_2" type="spawn" x="128" y="768" width="288" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="yellow_forest_buzzer_a"/>
+   </properties>
+  </object>
+  <object id="10" name="yellow_forest_buzzer_b_1" type="spawn" x="416" y="896" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="yellow_forest_buzzer_b"/>
+   </properties>
+  </object>
+  <object id="11" name="yellow_forest_buzzer_b_2" type="spawn" x="128" y="576" width="160" height="256">
+   <properties>
+    <property name="spawngroup" value="yellow_forest_buzzer_b"/>
+   </properties>
+  </object>
+  <object id="12" name="moeston_wasp_1" type="spawn" x="64" y="0" width="160" height="192">
+   <properties>
+    <property name="spawngroup" value="moeston_wasp"/>
+   </properties>
+  </object>
+  <object id="13" name="mwolf_3_1" type="spawn" x="352" y="64" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="mwolf_3"/>
+   </properties>
+  </object>
+  <object id="14" name="mwolf_2_1" type="spawn" x="192" y="64" width="160" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="mwolf_2"/>
+   </properties>
+  </object>
+  <object id="15" name="mwolf_7_1" type="spawn" x="608" y="64" width="32" height="160">
+   <properties>
+    <property name="spawngroup" value="mwolf_7"/>
+   </properties>
+  </object>
+  <object id="16" name="mwolf_3_2" type="spawn" x="416" y="32" width="192" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="mwolf_3"/>
+   </properties>
+  </object>
+  <object id="17" name="platonic_snake_b_1" type="spawn" x="864" y="192" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="platonic_snake_b"/>
+   </properties>
+  </object>
+  <object id="18" name="platonic_snake_a_1" type="spawn" x="736" y="288" width="128" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="platonic_snake_a"/>
+   </properties>
+  </object>
+  <object id="19" name="mwolf_5_1" type="spawn" x="672" y="160" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="mwolf_5"/>
+   </properties>
+  </object>
+  <object id="20" name="mwolf_4_1" type="spawn" x="672" y="224" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="mwolf_4"/>
+   </properties>
+  </object>
+  <object id="21" name="mwolf_6_1" type="spawn" x="608" y="320" width="128" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="mwolf_6"/>
+   </properties>
+  </object>
+  <object id="22" name="stukka" type="spawn" x="480" y="736" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="stukka"/>
+   </properties>
+  </object>
+  <object id="23" name="casual_cave_cross_spider_1" type="spawn" x="320" y="544" width="160" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object id="24" name="casual_cave_cross_spider_2" type="spawn" x="352" y="672" width="96" height="128">
+   <properties>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object id="25" name="casual_cave_cross_spider_3" type="spawn" x="640" y="640" width="160" height="160">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object id="26" name="mwolf_4_2" type="spawn" x="576" y="864" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="mwolf_4"/>
+   </properties>
+  </object>
+  <object id="27" name="moeston_wasp_2" type="spawn" x="832" y="512" width="96" height="256">
+   <properties>
+    <property name="spawngroup" value="moeston_wasp"/>
+   </properties>
+  </object>
+  <object id="28" name="mwolf_3_3" type="spawn" x="320" y="352" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="mwolf_3"/>
+   </properties>
+  </object>
+  <object id="29" name="casual_cave_cross_spider_4" type="spawn" x="352" y="192" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="9" name="Keys"/>
  <objectgroup id="10" name="Replace">
-  <object id="8" name="down1" type="replace" x="320" y="256" width="32" height="32">
+  <object id="30" name="down1" type="replace" x="320" y="256" width="32" height="32">
    <properties>
     <property name="Walkable" value="Walkable1"/>
     <property name="requireId" value="moeston_nondisplay"/>
@@ -264,7 +383,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="9" name="down2" type="replace" x="448" y="352" width="32" height="32">
+  <object id="31" name="down2" type="replace" x="448" y="352" width="32" height="32">
    <properties>
     <property name="Walkable" value="Walkable1"/>
     <property name="requireId" value="moeston_nondisplay"/>
@@ -273,7 +392,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="10" name="up1" type="replace" x="480" y="128" width="32" height="32">
+  <object id="32" name="up1" type="replace" x="480" y="128" width="32" height="32">
    <properties>
     <property name="Walkable" value="Walkable0"/>
     <property name="requireId" value="moeston_nondisplay"/>
@@ -282,7 +401,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="11" name="up2" type="replace" x="576" y="224" width="32" height="32">
+  <object id="33" name="up2" type="replace" x="576" y="224" width="32" height="32">
    <properties>
     <property name="Walkable" value="Walkable0"/>
     <property name="requireId" value="moeston_nondisplay"/>

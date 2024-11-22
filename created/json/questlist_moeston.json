@@ -704,11 +704,19 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"[FALSE] This is never true."
+                "logText":"[FALSE] This stage may never be set to true."
             },
             {
                 "progress":10,
                 "logText":"[REPLACE] moesforest_02: Bridge active"
+            },
+            {
+                "progress":50,
+                "logText":"[KEY] I can now enter room2 in the moeston inn."
+            },
+            {
+                "progress":51,
+                "logText":"[KEY] I can now enter room3 in the moeston inn."
             },
             {
                 "progress":100,

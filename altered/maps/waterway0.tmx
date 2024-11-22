@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="9">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="10">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -247,6 +247,12 @@
   <object id="8" name="izthiel_1_3" type="spawn" x="736" y="160" width="160" height="224">
    <properties>
     <property name="spawngroup" value="izthiel_1"/>
+   </properties>
+  </object>
+  <object id="9" name="frog_2_1" type="spawn" x="64" y="64" width="448" height="256">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="frog_2"/>
    </properties>
   </object>
  </objectgroup>

@@ -209,7 +209,18 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="moeston_soldier_1" type="spawn" x="64" y="192" width="320" height="224">
+   <properties>
+    <property name="spawngroup" value="moeston_soldier"/>
+   </properties>
+  </object>
+  <object name="moeston_soldier_tired" type="spawn" x="288" y="128" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="moeston_soldier_tired"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>
