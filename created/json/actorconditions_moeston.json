@@ -1,0 +1,28 @@
+[
+    {
+        "id":"nature_awareness",
+        "iconID":"actorconditions_japozero:13",
+        "name":"Nature Awareness",
+        "category":"mental",
+        "isPositive":1,
+        "isStacking":1,
+        "roundEffect":{
+            "visualEffectID":"greenSplash",
+            "increaseCurrentHP":{
+                "min":0,
+                "max":0
+            }
+        },
+        "fullRoundEffect":{
+            "visualEffectID":"blueSwirl",
+            "increaseCurrentHP":{
+                "min":0,
+                "max":1
+            }
+        },
+        "abilityEffect":{
+            "increaseBlockChance":5,
+            "increaseDamageResistance":1
+        }
+    }
+]

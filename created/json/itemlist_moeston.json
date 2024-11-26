@@ -2,22 +2,92 @@
     {
         "id":"wild_strawberry",
         "iconID":"items_consumables:8",
-        "name":"Wild strawberry"
+        "name":"Wild strawberry",
+        "displaytype":"ordinary",
+        "category":"food",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":0
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":8,
+                    "chance":"100"
+                }
+            ]
+        }
     },
     {
         "id":"cherries",
         "iconID":"items_japozero:490",
-        "name":"Cherries"
+        "name":"Cherries",
+        "displaytype":"ordinary",
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"100"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":6,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"cherries_sweet",
         "iconID":"items_japozero:491",
-        "name":"Especially sweet cherries"
+        "name":"Especially sweet cherries",
+        "displaytype":"ordinary",
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":5,
+                    "duration":6,
+                    "chance":"100"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":5,
+                    "duration":8,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"wild_strawberry_sweet",
         "iconID":"items_consumables:8",
-        "name":"Especially sweet wild strawberry"
+        "name":"Especially sweet wild strawberry",
+        "displaytype":"ordinary",
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":8,
+                    "chance":"100"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":5,
+                    "duration":8,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"cherry_cake_piece",
@@ -28,67 +98,308 @@
     {
         "id":"corn",
         "iconID":"items_newb:818",
-        "name":"Corn"
+        "name":"Corn",
+        "displaytype":"ordinary",
+        "category":"food",
+        "description":"Better take the leaves of before eating.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":3,
+                "max":4
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"100"
+                }
+            ]
+        }
     },
     {
         "id":"betula_leaves",
         "iconID":"items_japozero:559",
-        "name":"Betula leaves"
+        "name":"Betula leaves",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":5,
+        "category":"other",
+        "description":"These leaves are held together by the small but strong twigs they are attached to."
     },
     {
         "id":"pile_of_pine_needles",
         "iconID":"items_japozero:590",
-        "name":"Pile of pine needles"
+        "name":"Pile of pine needles",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "category":"other",
+        "description":"Be careful not to be poked by those long, thin needles."
     },
     {
         "id":"nature_hat",
         "iconID":"items_japozero:90",
-        "name":"Hat of Treetops"
+        "name":"Hat of Treetops",
+        "displaytype":"rare",
+        "baseMarketCost":0,
+        "category":"hd_cloth",
+        "description":"",
+        "equipEffect":{
+            "increaseMoveCost":-1,
+            "increaseBlockChance":5
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"nature_shirt",
         "iconID":"items_japozero:142",
-        "name":"Shirt of the Collector"
+        "name":"Shirt of the Collector",
+        "displaytype":"rare",
+        "category":"bdy_clth",
+        "equipEffect":{
+            "increaseMaxHP":4,
+            "increaseUseItemCost":-1,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":17,
+            "increaseBlockChance":12
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"15"
+                }
+            ]
+        }
     },
     {
         "id":"nature_boots",
         "iconID":"items_japozero:216",
-        "name":"Boots of Wet Moss"
+        "name":"Boots of Wet Moss",
+        "displaytype":"rare",
+        "category":"feet_clth",
+        "equipEffect":{
+            "increaseMaxHP":3,
+            "increaseAttackChance":-1,
+            "increaseBlockChance":9,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"nature_shield",
         "iconID":"items_japozero:581",
-        "name":"Shield of Leaves"
+        "name":"Shield of Leaves",
+        "displaytype":"rare",
+        "category":"shld_wd_li",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-1,
+                "max":-1
+            },
+            "increaseMoveCost":-2,
+            "increaseBlockChance":21,
+            "increaseDamageResistance":0
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"5"
+                }
+            ]
+        }
     },
     {
         "id":"nature_staff",
         "iconID":"items_misc_6:6",
-        "name":"Staff of Growth"
+        "name":"Staff of Growth",
+        "displaytype":"rare",
+        "category":"scepter",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":11,
+                "max":17
+            },
+            "increaseAttackChance":20,
+            "increaseBlockChance":9,
+            "setCriticalMultiplier":1.1
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"5"
+                }
+            ]
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":4,
+                    "duration":2,
+                    "chance":"5"
+                }
+            ]
+        }
     },
     {
         "id":"nature_gloves",
         "iconID":"items_newb:7",
-        "name":"PLACEHOLDER NAME"
+        "name":"Gloves of Thorns and Roses",
+        "displaytype":"rare",
+        "category":"hnd_cloth",
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":2,
+                    "duration":1,
+                    "chance":"10"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":3,
+                    "duration":2,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"nature_ring",
         "iconID":"items_japozero:253",
-        "name":"Ring of Sunlight"
+        "name":"Ring of Sunlight",
+        "displaytype":"rare",
+        "category":"ring",
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":1
+            }
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"20"
+                }
+            ]
+        }
     },
     {
         "id":"nature_necklace",
         "iconID":"items_newb:134",
-        "name":"Necklace of the Wild"
+        "name":"Necklace of the Wild",
+        "displaytype":"rare",
+        "category":"neck",
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":4,
+                    "duration":1,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"tunlon_letter",
         "iconID":"items_japozero:425",
         "name":"Letter",
+        "displaytype":"quest",
+        "category":"other",
         "description":"Adressed to: Ronald, Moeston"
     },
     {
         "id":"fishing_rod_niel",
         "iconID":"items_misc_2:181",
-        "name":"Niel's Fishing Rod"
+        "name":"Niel's Fishing Rod",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"other",
+        "description":"This rod looks old but good enough to catch some fish."
+    },
+    {
+        "id":"wild_rose",
+        "iconID":"items_japozero:549",
+        "name":"Wild Rose",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":52,
+        "category":"other",
+        "description":"A beautifully smelling rose."
+    },
+    {
+        "id":"bag_niel",
+        "iconID":"items_japozero:440",
+        "name":"Niel's Bag",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"bag_niel_full",
+        "iconID":"items_japozero:440",
+        "name":"Niel's Bag with Bait",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"popped_corn",
+        "iconID":"items_misc_3:82",
+        "name":"Popped corn",
+        "displaytype":"ordinary",
+        "category":"food",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":3,
+                "max":5
+            },
+            "conditionsSource":[
+                {
+                    "condition":"thirst",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"5"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"75"
+                }
+            ]
+        }
     }
 ]
