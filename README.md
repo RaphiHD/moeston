@@ -6,7 +6,7 @@ If you do not want to get spoiled, you should propably not be here.
 
 ---
 
-This project includes ?? maps alongside ?? quests.\
+This project includes 68 maps alongside 6 quests.\
 Main part is the new town called "Moeston" located in the middle of the Moeston Forest. The people living in this area are very deconnected from the rest of Dhayavar but have a strong connection to nature.\
 There is a small castle near the town, which has been used by knights in the past but is now a place for Feygard to control river traffic and trade.\
 A small dug out cave can be found where some people planned to raid the castle of Guynmart. However, they never returned.\
