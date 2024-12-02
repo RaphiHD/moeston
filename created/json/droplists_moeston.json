@@ -330,7 +330,25 @@
         ]
     },
     {
-        "id":"yellow_forest_buzzer_drop_b"
+        "id":"yellow_forest_buzzer_drop_b",
+        "items":[
+            {
+                "itemID":"insectwing",
+                "chance":"15",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"insect_stinger",
+                "chance":"25",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     },
     {
         "id":"swarm_of_flies",
@@ -357,7 +375,7 @@
                 }
             },
             {
-                "itemID":"corn",
+                "itemID":"scorpion_sting",
                 "chance":"43",
                 "quantity":{
                     "min":1,
