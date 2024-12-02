@@ -348,7 +348,7 @@
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":0,
-        "category":"other",
+        "category":"fishing_rod",
         "description":"This rod looks old but good enough to catch some fish."
     },
     {
@@ -400,6 +400,46 @@
                     "chance":"75"
                 }
             ]
+        }
+    },
+    {
+        "id":"platonic_snake_skin",
+        "iconID":"items_misc_3:114",
+        "name":"Platonic snake skin",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":4,
+        "category":"animal"
+    },
+    {
+        "id":"moeston_ronald_book",
+        "iconID":"items_books:5",
+        "name":"Researcher's Realizations",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"This book seems to contain many of Ronald's research insights. You don't understand what any of these mean."
+    },
+    {
+        "id":"scorpion_shell",
+        "iconID":"items_misc_2:222",
+        "name":"Scorpion Shell",
+        "displaytype":"rare",
+        "category":"animal",
+        "description":"A hard shell of a black reaper"
+    },
+    {
+        "id":"scorpion_shell_armour",
+        "iconID":"items_tometik2:80",
+        "name":"Scorpion's hauberk",
+        "displaytype":"rare",
+        "category":"bdy_hide",
+        "equipEffect":{
+            "increaseMaxHP":20,
+            "increaseReequipCost":1,
+            "increaseAttackChance":-5,
+            "increaseCriticalSkill":-8,
+            "increaseBlockChance":19,
+            "increaseDamageResistance":2
         }
     }
 ]

@@ -24,5 +24,27 @@
             "increaseBlockChance":5,
             "increaseDamageResistance":1
         }
+    },
+    {
+        "id":"cobwebbed",
+        "iconID":"actorconditions_japozero:33",
+        "name":"Cobwebbed",
+        "category":"physical",
+        "roundEffect":{
+            "visualEffectID":"blueSwirl",
+            "increaseCurrentAP":{
+                "min":-2,
+                "max":0
+            }
+        },
+        "abilityEffect":{
+            "increaseAttackChance":-15,
+            "increaseMaxAP":-1,
+            "increaseMoveCost":3,
+            "increaseUseItemCost":2,
+            "increaseReequipCost":3,
+            "increaseAttackCost":1,
+            "increaseDamageResistance":1
+        }
     }
 ]

@@ -78,108 +78,357 @@
         "id":"platonic_snake_1",
         "name":"Platonic Snake",
         "iconID":"monsters_newb_1:400",
+        "maxHP":71,
         "monsterClass":"reptile",
         "movementAggressionType":"none",
-        "spawnGroup":"platonic_snake_a"
+        "attackDamage":{
+            "min":3,
+            "max":8
+        },
+        "spawnGroup":"platonic_snake_a",
+        "droplistID":"platonic_snake_drop_a",
+        "attackCost":5,
+        "attackChance":97,
+        "blockChance":82
     },
     {
         "id":"platonic_snake_2",
         "name":"Platonic Snake",
         "iconID":"monsters_newb_1:400",
+        "maxHP":71,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
-        "spawnGroup":"platonic_snake_a"
+        "attackDamage":{
+            "min":3,
+            "max":8
+        },
+        "spawnGroup":"platonic_snake_a",
+        "droplistID":"platonic_snake_drop_a",
+        "attackCost":5,
+        "attackChance":97,
+        "blockChance":82
     },
     {
         "id":"platonic_snake_3",
         "name":"Strong Platonic Snake",
         "iconID":"monsters_newb_1:400",
+        "maxHP":89,
         "monsterClass":"reptile",
         "movementAggressionType":"none",
-        "spawnGroup":"platonic_snake_b"
+        "attackDamage":{
+            "min":5,
+            "max":11
+        },
+        "spawnGroup":"platonic_snake_b",
+        "droplistID":"platonic_snake_drop_a",
+        "attackCost":6,
+        "attackChance":101,
+        "criticalSkill":20,
+        "criticalMultiplier":1.3,
+        "blockChance":77
     },
     {
         "id":"platonic_snake_4",
         "name":"Agile Platonic Snake",
         "iconID":"monsters_newb_1:400",
+        "maxHP":62,
+        "moveCost":4,
         "monsterClass":"reptile",
         "movementAggressionType":"protectSpawn",
-        "spawnGroup":"platonic_snake_b"
+        "attackDamage":{
+            "min":4,
+            "max":6
+        },
+        "spawnGroup":"platonic_snake_b",
+        "droplistID":"platonic_snake_drop_b",
+        "attackCost":3,
+        "attackChance":114,
+        "blockChance":78
     },
     {
         "id":"platonic_snake_5",
         "name":"Twisty Platonic Snake",
         "iconID":"monsters_newb_1:401",
+        "maxHP":86,
+        "moveCost":5,
         "monsterClass":"reptile",
         "movementAggressionType":"protectSpawn",
-        "spawnGroup":"platonic_snake_c"
+        "attackDamage":{
+            "min":9,
+            "max":14
+        },
+        "spawnGroup":"platonic_snake_c",
+        "droplistID":"platonic_snake_drop_b",
+        "attackCost":5,
+        "attackChance":119,
+        "criticalSkill":25,
+        "criticalMultiplier":1.6,
+        "blockChance":104,
+        "damageResistance":1
     },
     {
         "id":"platonic_snake_6",
         "name":"Poisonous Platonic Snake",
         "iconID":"monsters_newb_1:401",
+        "maxHP":127,
+        "moveCost":7,
         "monsterClass":"reptile",
         "movementAggressionType":"none",
-        "spawnGroup":"platonic_snake_c"
+        "attackDamage":{
+            "min":10,
+            "max":19
+        },
+        "spawnGroup":"platonic_snake_c",
+        "droplistID":"platonic_snake_drop_poisonous",
+        "attackCost":5,
+        "attackChance":125,
+        "criticalSkill":37,
+        "criticalMultiplier":1.5,
+        "blockChance":113,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_blood",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"35"
+                }
+            ]
+        }
     },
     {
         "id":"platonic_snake_7",
         "name":"Quick Platonic Snake",
         "iconID":"monsters_newb_1:401",
+        "maxHP":141,
+        "maxAP":12,
+        "moveCost":4,
         "monsterClass":"reptile",
         "movementAggressionType":"protectSpawn",
-        "spawnGroup":"platonic_snake_d"
+        "attackDamage":{
+            "min":14,
+            "max":21
+        },
+        "spawnGroup":"platonic_snake_d",
+        "droplistID":"platonic_snake_drop_c",
+        "attackCost":3,
+        "attackChance":139,
+        "blockChance":106,
+        "damageResistance":2
     },
     {
         "id":"platonic_snake_8",
         "name":"Shimmering Platonic Snake",
         "iconID":"monsters_newb_1:402",
+        "maxHP":178,
+        "moveCost":5,
         "monsterClass":"reptile",
         "movementAggressionType":"helpOthers",
-        "spawnGroup":"platonic_snake_d"
+        "attackDamage":{
+            "min":16,
+            "max":22
+        },
+        "spawnGroup":"platonic_snake_d",
+        "droplistID":"platonic_snake_drop_c",
+        "attackCost":4,
+        "attackChance":149,
+        "criticalSkill":42,
+        "criticalMultiplier":1.7,
+        "blockChance":124,
+        "damageResistance":3,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":1
+            }
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"focus_ac",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"platonic_snake_9",
         "name":"Furious Platonic Snake",
         "iconID":"monsters_newb_1:402",
+        "maxHP":193,
+        "moveCost":4,
         "monsterClass":"reptile",
         "movementAggressionType":"protectSpawn",
-        "spawnGroup":"platonic_snake_e"
+        "attackDamage":{
+            "min":17,
+            "max":25
+        },
+        "spawnGroup":"platonic_snake_e",
+        "droplistID":"platonic_snake_drop_c",
+        "attackCost":4,
+        "attackChance":158,
+        "criticalSkill":51,
+        "criticalMultiplier":1.8,
+        "blockChance":132,
+        "damageResistance":5,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":2
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"confusion",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "increaseCurrentAP":{
+                "min":0,
+                "max":2
+            },
+            "increaseAttackerCurrentAP":{
+                "min":0,
+                "max":0
+            },
+            "conditionsSource":[
+                {
+                    "condition":"focus_ac",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"50"
+                }
+            ]
+        },
+        "deathEffect":{
+            "increaseCurrentHP":{
+                "min":3,
+                "max":5
+            }
+        }
     },
     {
         "id":"moeston_lizard_1",
         "name":"Moeston Lizard",
         "iconID":"monsters_tometik2:16",
+        "maxHP":48,
+        "moveCost":5,
         "monsterClass":"reptile",
-        "spawnGroup":"moeston_lizard"
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":9,
+            "max":13
+        },
+        "spawnGroup":"moeston_lizard",
+        "droplistID":"moeston_lizard",
+        "attackCost":6,
+        "attackChance":135,
+        "blockChance":62,
+        "damageResistance":3
     },
     {
         "id":"moeston_lizard_2",
         "name":"Moeston Lizard",
         "iconID":"monsters_tometik2:16",
+        "maxHP":48,
+        "moveCost":5,
         "monsterClass":"reptile",
-        "spawnGroup":"moeston_lizard"
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":9,
+            "max":13
+        },
+        "spawnGroup":"moeston_lizard",
+        "droplistID":"moeston_lizard",
+        "attackCost":6,
+        "attackChance":135,
+        "blockChance":62,
+        "damageResistance":3
     },
     {
         "id":"moeston_wasp_1",
         "name":"Mammoth Wasp",
         "iconID":"monsters_rltiles2:113",
+        "maxHP":37,
         "monsterClass":"insect",
-        "spawnGroup":"moeston_wasp"
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":6,
+            "max":9
+        },
+        "spawnGroup":"moeston_wasp",
+        "droplistID":"moeston_wasp_drop_a",
+        "attackCost":3,
+        "attackChance":78,
+        "blockChance":45,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"sting_minor",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
     },
     {
         "id":"moeston_wasp_2",
         "name":"Stinging Mammoth Wasp",
         "iconID":"monsters_rltiles2:113",
+        "maxHP":41,
         "monsterClass":"insect",
-        "spawnGroup":"moeston_wasp"
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":7,
+            "max":10
+        },
+        "spawnGroup":"moeston_wasp",
+        "droplistID":"moeston_wasp_drop_a",
+        "attackCost":3,
+        "attackChance":84,
+        "blockChance":51,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"sting_minor",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"35"
+                }
+            ]
+        }
     },
     {
         "id":"moeston_wasp_3",
         "name":"Rowdy Mammoth Wasp",
         "iconID":"monsters_rltiles2:113",
+        "maxHP":58,
         "monsterClass":"insect",
-        "spawnGroup":"moeston_wasp"
+        "attackDamage":{
+            "min":9,
+            "max":13
+        },
+        "spawnGroup":"moeston_wasp",
+        "droplistID":"moeston_wasp_drop_b",
+        "attackCost":3,
+        "attackChance":87,
+        "blockChance":60,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"sting_minor",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"30"
+                }
+            ]
+        }
     },
     {
         "id":"moeston_soldier_surprised",
@@ -394,12 +643,87 @@
     {
         "id":"casual_cave_cross_spider",
         "name":"Cave Cross Spider",
-        "iconID":"monsters_tometik1:27"
+        "iconID":"monsters_tometik1:27",
+        "maxHP":84,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":12,
+            "max":15
+        },
+        "droplistID":"spider",
+        "attackCost":3,
+        "attackChance":109,
+        "blockChance":72,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"cobwebbed",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"cobwebbed",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"35"
+                },
+                {
+                    "condition":"cobwebbed",
+                    "magnitude":2,
+                    "duration":1,
+                    "chance":"5"
+                }
+            ]
+        }
     },
     {
         "id":"swarming_cave_cross_spider",
         "name":"Cave Cross Spider",
-        "iconID":"monsters_tometik1:27"
+        "iconID":"monsters_tometik1:27",
+        "maxHP":87,
+        "moveCost":3,
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":13,
+            "max":16
+        },
+        "droplistID":"spider_2",
+        "attackCost":3,
+        "attackChance":109,
+        "blockChance":72,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"cobwebbed",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"7"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"cobwebbed",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                },
+                {
+                    "magnitude":2,
+                    "duration":1,
+                    "chance":"3"
+                }
+            ]
+        }
     },
     {
         "id":"moeston_chicken",
@@ -489,7 +813,20 @@
     {
         "id":"wildlife_doctor_injured_anklebiter",
         "name":"Injured Anklebiter",
-        "iconID":"monsters_newb_1:244"
+        "iconID":"monsters_newb_1:244",
+        "maxHP":182,
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":12,
+            "max":17
+        },
+        "droplistID":"wildlife_doctor_anklebiter",
+        "attackCost":9,
+        "attackChance":131,
+        "blockChance":81,
+        "damageResistance":3
     },
     {
         "id":"ronald_boss",
@@ -555,27 +892,120 @@
     {
         "id":"depth_crawler_snake",
         "name":"Depth Crawler Snake",
-        "iconID":"monsters_ld2:18"
+        "iconID":"monsters_ld2:18",
+        "maxHP":79,
+        "moveCost":5,
+        "monsterClass":"reptile",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":11,
+            "max":17
+        },
+        "droplistID":"forest_snake_dl",
+        "attackCost":4,
+        "attackChance":138,
+        "blockChance":121,
+        "damageResistance":2
     },
     {
         "id":"depth_crawler_snake_agressive",
         "name":"Agressive Depth Crawler Snake",
-        "iconID":"monsters_ld2:19"
+        "iconID":"monsters_ld2:19",
+        "maxHP":87,
+        "moveCost":4,
+        "monsterClass":"reptile",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":13,
+            "max":18
+        },
+        "droplistID":"forest_snake_dl",
+        "attackCost":5,
+        "attackChance":143,
+        "blockChance":125,
+        "damageResistance":3
     },
     {
         "id":"black_reaper_scorpion",
         "name":"Black Reaper Scorpion",
-        "iconID":"monsters_rltiles4:37"
+        "iconID":"monsters_rltiles4:37",
+        "maxHP":189,
+        "monsterClass":"reptile",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":19,
+            "max":31
+        },
+        "droplistID":"black_reaper_scorpion",
+        "attackCost":8,
+        "attackChance":157,
+        "blockChance":189,
+        "damageResistance":11,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":2
+            }
+        }
     },
     {
         "id":"swarm_of_flies",
         "name":"Swarm of Flies",
-        "iconID":"monsters_ld2:82"
+        "iconID":"monsters_ld2:82",
+        "maxHP":27,
+        "maxAP":12,
+        "moveCost":3,
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":1,
+            "max":3
+        },
+        "droplistID":"swarm_of_flies",
+        "attackCost":2,
+        "attackChance":53,
+        "blockChance":210
     },
     {
         "id":"infected_cave_rat",
         "name":"Infected Cave Rat",
-        "iconID":"monsters_rltiles2:146"
+        "iconID":"monsters_rltiles2:146",
+        "maxHP":9,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":2,
+            "max":3
+        },
+        "droplistID":"rat",
+        "attackCost":2,
+        "attackChance":99,
+        "blockChance":73,
+        "hitReceivedEffect":{
+            "increaseCurrentHP":{
+                "min":-2,
+                "max":0
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"15"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nausea",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"85"
+                }
+            ]
+        }
     },
     {
         "id":"moeston_soldier_drunk1",
@@ -591,25 +1021,123 @@
         "id":"yellow_forest_buzzer",
         "name":"Yellow Forest Buzzer",
         "iconID":"monsters_ld2:222",
-        "spawnGroup":"yellow_forest_buzzer_a"
+        "maxHP":75,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"yellow_forest_buzzer_a",
+        "droplistID":"yellow_forest_buzzer_drop_a",
+        "attackCost":3,
+        "attackChance":84,
+        "blockChance":162,
+        "damageResistance":7,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"yellow_forest_buzzer2",
         "name":"Yellow Forest Buzzer",
         "iconID":"monsters_ld2:222",
-        "spawnGroup":"yellow_forest_buzzer_a"
+        "maxHP":82,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":4,
+            "max":7
+        },
+        "spawnGroup":"yellow_forest_buzzer_a",
+        "droplistID":"yellow_forest_buzzer_drop_a",
+        "attackCost":3,
+        "attackChance":87,
+        "blockChance":169,
+        "damageResistance":7,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"20"
+                }
+            ]
+        }
     },
     {
         "id":"yellow_forest_buzzer3",
         "name":"Agressive Yellow Forest Buzzer",
         "iconID":"monsters_ld2:223",
-        "spawnGroup":"yellow_forest_buzzer_b"
+        "maxHP":85,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":5,
+            "max":7
+        },
+        "spawnGroup":"yellow_forest_buzzer_b",
+        "droplistID":"yellow_forest_buzzer_drop_a",
+        "attackCost":3,
+        "attackChance":98,
+        "blockChance":164,
+        "damageResistance":8,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"33"
+                }
+            ]
+        }
     },
     {
         "id":"yellow_forest_buzzer4",
         "name":"Stinging Yellow Forest Buzzer",
         "iconID":"monsters_ld2:223",
-        "spawnGroup":"yellow_forest_buzzer_b"
+        "maxHP":93,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":4,
+            "max":7
+        },
+        "spawnGroup":"yellow_forest_buzzer_b",
+        "droplistID":"yellow_forest_buzzer_drop_b",
+        "attackCost":3,
+        "attackChance":105,
+        "blockChance":174,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"35"
+                },
+                {
+                    "condition":"contagion",
+                    "magnitude":3,
+                    "duration":1,
+                    "chance":"5"
+                }
+            ]
+        }
     },
     {
         "id":"moeston_soldier_quest",

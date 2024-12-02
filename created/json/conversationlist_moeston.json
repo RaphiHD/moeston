@@ -31,7 +31,7 @@
     },
     {
         "id":"moeston_fish_block_0",
-        "message":"",
+        "message":"This seems to be a neat spot for fishing.",
         "replies":[
             {
                 "text":"N",
@@ -72,12 +72,20 @@
     },
     {
         "id":"moeston_fish_block_2",
-        "message":"This seems like a neat spot to catch some fish."
+        "message":"Unfortunately, you don't have a fishing rod."
     },
     {
         "id":"moeston_town_hall_roomblock"
     },
     {
         "id":"moeston_inn_roomblock"
+    },
+    {
+        "id":"moeston_moesforest_03_sign",
+        "message":"North: Guynmart\nEast: Moeston\nSouth: Feygard river control station"
+    },
+    {
+        "id":"moeston_cave_hole_block",
+        "message":"The way through seems to be too tough."
     }
 ]
