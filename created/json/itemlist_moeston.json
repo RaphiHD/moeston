@@ -441,5 +441,21 @@
             "increaseBlockChance":19,
             "increaseDamageResistance":2
         }
+    },
+    {
+        "id":"cobwebbed_anti",
+        "iconID":"items_newb:667",
+        "name":"Web feather",
+        "displaytype":"ordinary",
+        "category":"animal_usable",
+        "description":"Cobweb sticks easily to this type of feather.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"cobwebbed",
+                    "chance":"85"
+                }
+            ]
+        }
     }
 ]
