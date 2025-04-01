@@ -87,5 +87,269 @@
     {
         "id":"moeston_cave_hole_block",
         "message":"The way through seems to be too tough."
+    },
+    {
+        "id":"moeston_soldier_start",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_soldier_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_soldier_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_soldier_1",
+        "message":"Are you sure you are supposed to be here?"
+    },
+    {
+        "id":"moeston_soldier_2",
+        "message":"We have an eye on you."
+    },
+    {
+        "id":"moeston_soldier_tired_start",
+        "message":"Chrrrr..."
+    },
+    {
+        "id":"moeston_soldier_scared_start",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_soldier_scared_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33/100"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_soldier_scared_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_soldier_scared_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_soldier_scared_1",
+        "message":"I hate that dog... his barks scare me."
+    },
+    {
+        "id":"moeston_soldier_scared_2",
+        "message":"I hope Olec will station me somewhere else..."
+    },
+    {
+        "id":"moeston_soldier_scared_3",
+        "message":"Can't I just leave my position and... never come back?"
+    },
+    {
+        "id":"officer_olec_dog_start",
+        "message":"Grrr...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"officer_olec_dog_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"10/100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"officer_olec_dog_1",
+        "message":"[Barks loudly]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"officer_olec_dog_2"
+            }
+        ]
+    },
+    {
+        "id":"officer_olec_dog_2",
+        "message":"Ahh! Go away!",
+        "switchToNPC":"moeston_soldier_scared"
+    },
+    {
+        "id":"moeston_soldier_drunk1_start",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_soldier_drunk1_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_soldier_drunk1_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"75/100"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_soldier_drunk1_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_soldier_drunk1_1",
+        "message":"What a funny daaay!"
+    },
+    {
+        "id":"moeston_soldier_drunk1_2",
+        "message":"Oh what a vieeew from up hereee..."
+    },
+    {
+        "id":"moeston_soldier_drunk1_3",
+        "message":"Oh, Officer! Yes, I am doing my work. No worries.",
+        "replies":[
+            {
+                "text":"Am I not a bit too small to be the Officer?",
+                "nextPhraseID":"moeston_soldier_drunk1_4"
+            }
+        ]
+    },
+    {
+        "id":"moeston_soldier_drunk1_4",
+        "message":"Haha! You are right. You are very small Officer!"
+    },
+    {
+        "id":"olec_stooge_start",
+        "message":"Speak to the Officer!"
+    },
+    {
+        "id":"sneaky_sam_start",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sneaky_sam_moeston_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":300
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sneaky_sam_castle_1"
+            }
+        ]
+    },
+    {
+        "id":"sneaky_sam_castle_1",
+        "message":"Ah! Don't you scare me like that!",
+        "replies":[
+            {
+                "text":"Sorry, I just...",
+                "nextPhraseID":"sneaky_sam_castle_2"
+            }
+        ]
+    },
+    {
+        "id":"sneaky_sam_castle_2",
+        "message":"Shh! Don't reveal my hiding spot.",
+        "replies":[
+            {
+                "text":"What are you hiding from?",
+                "nextPhraseID":"sneaky_sam_castle_3"
+            }
+        ]
+    },
+    {
+        "id":"sneaky_sam_castle_3",
+        "message":"Uh, nothing. No. I'm nobody at all.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sneaky_sam_castle_4"
+            }
+        ]
+    },
+    {
+        "id":"sneaky_sam_castle_4",
+        "message":"And you don't know me nor have you seen me.",
+        "replies":[
+            {
+                "text":"Ah, I see. You can trust me.",
+                "nextPhraseID":"sneaky_sam_castle_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":60
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sneaky_sam_castle_5",
+        "message":"Yes, I've heard about you. Anyways, do you want to trade?",
+        "replies":[
+            {
+                "text":"Sure!",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Thanks, I'm good.",
+                "nextPhraseID":"sneaky_sam_castle_6"
+            }
+        ]
+    },
+    {
+        "id":"sneaky_sam_castle_6",
+        "message":"Right. If I get the chance, I'll be out of here soon. Be careful when you leave.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":300
+            }
+        ]
+    },
+    {
+        "id":"sneaky_sam_moeston_1",
+        "message":"Hey, you, do you want to trade?",
+        "replies":[
+            {
+                "text":"Sure!",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Thanks, I'm good.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

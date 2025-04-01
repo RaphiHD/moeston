@@ -33,22 +33,27 @@
     {
         "id":"moeston_soldier",
         "name":"Feygard Soldier",
-        "iconID":"monsters_ld1:40"
+        "iconID":"monsters_ld1:40",
+        "spawnGroup":"moeston_soldier",
+        "phraseID":"moeston_soldier_start"
     },
     {
         "id":"moeston_soldier_drunk",
         "name":"Drunk Feygard Soldier",
-        "iconID":"monsters_ld1:1"
+        "iconID":"monsters_ld1:1",
+        "phraseID":"drunk1"
     },
     {
         "id":"sneaky_sam",
         "name":"Sneaky Sam",
-        "iconID":"monsters_rogue1:0"
+        "iconID":"monsters_rogue1:0",
+        "phraseID":"sneaky_sam_start"
     },
     {
         "id":"officer_olec_dog",
         "name":"Watchdog",
-        "iconID":"monsters_rltiles2:109"
+        "iconID":"monsters_rltiles2:109",
+        "phraseID":"officer_olec_dog_start"
     },
     {
         "id":"group_of_fish_1",
@@ -431,14 +436,17 @@
         }
     },
     {
-        "id":"moeston_soldier_surprised",
-        "name":"Surprised Feygard Soldier",
-        "iconID":"monsters_ld1:1"
+        "id":"moeston_soldier_scared",
+        "name":"Scared Feygard Soldier",
+        "iconID":"monsters_ld1:1",
+        "phraseID":"moeston_soldier_scared_start"
     },
     {
         "id":"moeston_soldier_tired",
         "name":"Tired Feygard Soldier",
-        "iconID":"monsters_karvis2:4"
+        "iconID":"monsters_karvis2:4",
+        "spawnGroup":"moeston_soldier_tired",
+        "phraseID":"moeston_soldier_tired_start"
     },
     {
         "id":"fisherman_niel",
@@ -1010,12 +1018,15 @@
     {
         "id":"moeston_soldier_drunk1",
         "name":"Drunk Feygard Soldier",
-        "iconID":"monsters_ld1:94"
+        "iconID":"monsters_ld1:94",
+        "phraseID":"moeston_soldier_drunk1_start"
     },
     {
         "id":"olec_stooge",
         "name":"Olec's Stooge",
-        "iconID":"monsters_ld1:74"
+        "iconID":"monsters_ld1:74",
+        "spawnGroup":"olec_stooge",
+        "phraseID":"olec_stooge_start"
     },
     {
         "id":"yellow_forest_buzzer",
