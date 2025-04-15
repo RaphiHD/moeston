@@ -219,6 +219,11 @@
     <property name="place" value="down"/>
    </properties>
   </object>
+  <object name="moeston_castle_book_start" type="script" x="128" y="192" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <properties>

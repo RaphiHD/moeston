@@ -351,5 +351,240 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"moeston_castle_book_start",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"boring_paperwork",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_1",
+        "message":"[You notice an interesting looking piece of paper]",
+        "replies":[
+            {
+                "text":"Better leave it be.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Let's take a closer look.",
+                "nextPhraseID":"moeston_castle_book_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_2",
+        "message":"[The report is still there]",
+        "replies":[
+            {
+                "text":"Better leave it be.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Let's take another look.",
+                "nextPhraseID":"moeston_castle_book_4"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_3",
+        "message":"[You quickly look around to make sure nobody is watching]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_4"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_4",
+        "message":"To: General Ettenhal, Feygard\nFrom: Officer Olec, River Control Guynmart",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"boring_paperwork",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"boring_paperwork",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_5"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_5",
+        "message":"[This seems to be none of your business]",
+        "replies":[
+            {
+                "text":"Let's not read any further.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"No, I'm curious now.",
+                "nextPhraseID":"moeston_castle_book_6"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_6",
+        "message":"I am reporting an encounter with the urgent need of further investigation.\nDuring a regular boat control, a young man had carried a substantial amount of banned potions. We could confiscate his belongings, but the suspect quickly fled the vicinity.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_7"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_7",
+        "message":"The following list displays a summary of important items the suspect had carried:",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_8"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_8",
+        "message":"- Bonemeal Potions, 25 bottles",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_9"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_9",
+        "message":"- Bonemeal, 20 bags",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_10"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_10",
+        "message":"- A piece of paper with the following text:\n\n\"We await your arrival with pleasure. 25 and 20. Watch out for guards.\"\n\nAdressed to: Andor",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"boring_paperwork",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_11",
+        "message":"[A slight shiver goes down your spine. Andor was here?]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_castle_book_12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"boring_paperwork",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_12",
+        "message":"Hey! What are you doing?",
+        "switchToNPC":"moeston_soldier_quest",
+        "replies":[
+            {
+                "text":"Uhm, nothing... I... lost my teddy bear somewhere.",
+                "nextPhraseID":"moeston_castle_book_13"
+            },
+            {
+                "text":"I... I have wondered if you... could use some help, yes.",
+                "nextPhraseID":"moeston_castle_book_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"boring_paperwork",
+                        "value":35,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_13",
+        "message":"You better leave this place and go back to mummy!"
+    },
+    {
+        "id":"moeston_castle_book_14",
+        "message":"Help? Haha, look, kid. We are Soldiers from Feygard. You're just a kid. How do you imagine helping us?",
+        "replies":[
+            {
+                "text":"Hey, I just solved a conflict at the other castle over there. So why should this one be a problem?",
+                "nextPhraseID":"moeston_castle_book_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"guynmart",
+                        "value":200
+                    }
+                ]
+            },
+            {
+                "text":"I could try and...",
+                "nextPhraseID":"moeston_castle_book_16"
+            }
+        ]
+    },
+    {
+        "id":"moeston_castle_book_15",
+        "message":"Oh, you have. Hmpf, speak to the Officer then. He is over there. (Points towards the other tower)"
+    },
+    {
+        "id":"moeston_castle_book_16",
+        "message":"No, no. Better leave this case to us soldiers."
     }
 ]

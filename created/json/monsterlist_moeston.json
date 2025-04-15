@@ -1153,6 +1153,7 @@
     {
         "id":"moeston_soldier_quest",
         "name":"Feygard Soldier",
-        "iconID":"monsters_ld1:67"
+        "iconID":"monsters_ld1:67",
+        "phraseID":"moeston_castle_book_12"
     }
 ]
