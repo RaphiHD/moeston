@@ -28,7 +28,8 @@
     {
         "id":"officer_olec",
         "name":"Olec",
-        "iconID":"monsters_phoenix01:12"
+        "iconID":"monsters_phoenix01:12",
+        "phraseID":"olec_start"
     },
     {
         "id":"moeston_soldier",

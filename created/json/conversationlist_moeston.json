@@ -939,5 +939,44 @@
                 "nextPhraseID":"niel_13"
             }
         ]
+    },
+    {
+        "id":"olec_start",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"olec_1"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"olec_2"
+            }
+        ]
+    },
+    {
+        "id":"olec_1",
+        "message":"This is no place for you kid. You better stay out of here."
+    },
+    {
+        "id":"olec_2",
+        "message":"Yes, this boy fled towards east. Somebody should check that.",
+        "replies":[
+            {
+                "text":"What boy?",
+                "nextPhraseID":"olec_3"
+            }
+        ]
+    },
+    {
+        "id":"olec_3",
+        "message":"Wha... oh, definetely not you. It's none of your business little kid.",
+        "replies":[
+            {
+                "text":"I am searching for a boy already. Maybe I could help you find your boy too."
+            },
+            {
+                "text":"Are you talking about Andor?"
+            }
+        ]
     }
 ]
