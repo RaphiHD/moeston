@@ -451,7 +451,8 @@
     {
         "id":"fisherman_niel",
         "name":"Niel",
-        "iconID":"monsters_newb_1:43"
+        "iconID":"monsters_newb_1:43",
+        "phraseID":"niel_start"
     },
     {
         "id":"moeston_farmer",
@@ -646,7 +647,48 @@
     {
         "id":"moe_ghost",
         "name":"Moe's Ghost",
-        "iconID":"monsters_rltiles2:142"
+        "iconID":"monsters_rltiles2:142",
+        "maxHP":180,
+        "maxAP":9,
+        "moveCost":6,
+        "unique":1,
+        "monsterClass":"undead",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":7,
+            "max":21
+        },
+        "phraseID":"moe_ghost",
+        "attackCost":5,
+        "attackChance":159,
+        "blockChance":121,
+        "damageResistance":4,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":1
+            }
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"speed_minor",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"40"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"95"
+                }
+            ]
+        }
     },
     {
         "id":"casual_cave_cross_spider",

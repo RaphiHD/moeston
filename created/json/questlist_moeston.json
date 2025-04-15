@@ -190,7 +190,7 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"Somewhere behind Guynmart, a fisherman called ??? was complaining about not having enough bait."
+                "logText":"Somewhere behind Guynmart, a fisherman called Niel was complaining about not having enough bait."
             },
             {
                 "progress":10,
@@ -198,15 +198,15 @@
             },
             {
                 "progress":15,
-                "logText":"??? told me that another adventurer had given him his previous stach of bait, and he went east afterwards, I should look for him there."
+                "logText":"Niel told me that another adventurer had given him his previous stach of bait, and he went east afterwards, I should look for him there."
             },
             {
                 "progress":20,
-                "logText":"I offered my help, since spiders is nothing I fear about. ??? Gave me a bag where I shoud put them."
+                "logText":"I offered my help, since spiders is nothing I fear about. He Gave me a bag where I shoud put them."
             },
             {
                 "progress":25,
-                "logText":"I found ???, the said adventurer. He told me to stop going any further. It seems like he just came out of a spider-filled cave, exactly what I need.",
+                "logText":"I found Stukka, the said adventurer. He told me to stop going any further. It seems like he just came out of a spider-filled cave, exactly what I need.",
                 "rewardExperience":1000
             },
             {
@@ -223,7 +223,7 @@
             },
             {
                 "progress":45,
-                "logText":"??? once heard about a special spider potion that could really be of much use here. He however forgot the name of the alchemist who could make it. He just said, that he was very popular for his potions."
+                "logText":"Stukka once heard about a special spider potion that could really be of much use here. He however forgot the name of the alchemist who could make it. He just said, that he was very popular for his potions."
             },
             {
                 "progress":50,
@@ -245,7 +245,7 @@
             },
             {
                 "progress":70,
-                "logText":"I fought my way in and found a nest with a bunch of spider eggs and many small spiders. I took the bundle ??? gave me and scooped up a bunch.",
+                "logText":"I fought my way in and found a nest with a bunch of spider eggs and many small spiders. I took the bundle Niel gave me and scooped up a bunch.",
                 "rewardExperience":500
             },
             {
@@ -262,11 +262,11 @@
             },
             {
                 "progress":90,
-                "logText":"After a while, I woke up next to ???. My head was hurting and I could barely speak. He gave me a potion I shoud drink."
+                "logText":"After a while, I woke up next to Stukka. My head was hurting and I could barely speak. He gave me a potion I shoud drink."
             },
             {
                 "progress":95,
-                "logText":"Quick death was definetely the wrong potion. But I still woke up next to the adventurer and reported that I was still alive and feeling better now. I should now deliver the bait.",
+                "logText":"Quick death was definetely the wrong potion. Regardless I woke up next to the adventurer and reported that I was still alive and feeling better now. I should now deliver the bait.",
                 "rewardExperience":2500
             },
             {
@@ -276,21 +276,21 @@
             },
             {
                 "progress":100,
-                "logText":"I came back to ??? to deliver the spiders. He thanked me a lot, but something seems odd about it."
+                "logText":"I came back to Niel to deliver the spiders. He thanked me a lot, but something seems odd about it."
             },
             {
                 "progress":105,
-                "logText":"??? told me that he was getting boring of fishing with a fishing rod. He decided to travel towards Remgard and fish on the lake by boat and net. So my effort was all for nothing!"
+                "logText":"Niel told me that he was getting boring of fishing with a fishing rod. He decided to travel towards Remgard and fish on the lake by boat and net. So my effort was all for nothing!"
             },
             {
                 "progress":110,
-                "logText":"However, ??? gave me his rod as a reward and the bait that I gave him before. He told me I could fish here if I wanted.",
+                "logText":"However, he gave me his rod as a reward and the bait that I gave him before. He told me I could fish here if I wanted.",
                 "rewardExperience":5000,
                 "finishesQuest":1
             },
             {
                 "progress":115,
-                "logText":"After ??? left, I went and tried fishing the first time."
+                "logText":"After Niel left, I went and tried fishing for my first time."
             },
             {
                 "progress":120,
@@ -729,6 +729,14 @@
             {
                 "progress":301,
                 "logText":"[Sneaky Sam] Sam has left his hiding spot and is now in Moeston."
+            },
+            {
+                "progress":400,
+                "logText":"[Caught in the net] I have entered Moeston"
+            },
+            {
+                "progress":401,
+                "logText":"[Caught in the net] I have found the bait"
             },
             {
                 "progress":900,

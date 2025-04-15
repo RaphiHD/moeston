@@ -586,5 +586,358 @@
     {
         "id":"moeston_castle_book_16",
         "message":"No, no. Better leave this case to us soldiers."
+    },
+    {
+        "id":"moe_ghost",
+        "message":"Whom has torned mine such beautiful land apart that myself has owneth? Ye shall suffer in paiiin!",
+        "replies":[
+            {
+                "text":"Certainly not me!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"niel_start",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"niel_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"niel_1"
+            }
+        ]
+    },
+    {
+        "id":"niel_1",
+        "message":"*whistles a melody*",
+        "replies":[
+            {
+                "text":"Have you seen my brother, Andor?",
+                "nextPhraseID":"niel_2"
+            },
+            {
+                "text":"How is your fishing going?",
+                "nextPhraseID":"niel_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":400
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"How is your fishing going?",
+                "nextPhraseID":"niel_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"niel_2",
+        "message":"There was a boy here not long ago, but I don't know if he is the one you are searching."
+    },
+    {
+        "id":"niel_3",
+        "message":"Oh it is wonderful! I just found the perfect spot to catch rasbora, a rare type only living here in this river.",
+        "replies":[
+            {
+                "text":"That sounds nice! Do you mind selling me one of them?",
+                "nextPhraseID":"niel_4"
+            }
+        ]
+    },
+    {
+        "id":"niel_4",
+        "message":"I am sorry, I have brought all I had to the market. I could try and catch one for you, but I am all out of bait.",
+        "replies":[
+            {
+                "text":"Too bad. Maybe I'll visit the market later.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Maybe I can get you more bait.",
+                "nextPhraseID":"niel_5"
+            }
+        ]
+    },
+    {
+        "id":"niel_5",
+        "message":"Oh you would? Sure, but I do not know where to get it.",
+        "replies":[
+            {
+                "text":"Huh, why that? You are a fisherman after all.",
+                "nextPhraseID":"niel_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"niel_6",
+        "message":"Look, those rasbora require a special bait. They don't bite with regular ones.",
+        "replies":[
+            {
+                "text":"So what is that bait?",
+                "nextPhraseID":"niel_7"
+            }
+        ]
+    },
+    {
+        "id":"niel_7",
+        "message":"It is small spider larvae. An adventurer once sold me a bag full.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"niel_8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"niel_8",
+        "message":"I don't know if you can find him, but he came from and went back to the east.",
+        "replies":[
+            {
+                "text":"No, this sounds too complicated. I have better things to do right now.",
+                "nextPhraseID":"niel_8a"
+            },
+            {
+                "text":"I am not sure, but I am willing to search for him.",
+                "nextPhraseID":"niel_9"
+            },
+            {
+                "text":"No problem for me. I'll do it!",
+                "nextPhraseID":"niel_9"
+            }
+        ]
+    },
+    {
+        "id":"niel_8a",
+        "message":"Well, no bait, no fish. But come back if you ever find some!"
+    },
+    {
+        "id":"niel_9",
+        "message":"Great! Please head to the east. I remember the adventurer talking about a cave ore something. Maybe look out for that.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"niel_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"niel_10",
+        "message":"Also take the empty bag. Carrying dead spiders is easier with this.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"niel_11",
+        "message":"Well, I am all out of bait.",
+        "replies":[
+            {
+                "text":"I am still searching for it.",
+                "nextPhraseID":"niel_11a"
+            },
+            {
+                "text":"I've got a bag full of bait for you.",
+                "nextPhraseID":"niel_12",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bag_niel_full",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"niel_11a",
+        "message":"Good. Please come back if you found it."
+    },
+    {
+        "id":"niel_12",
+        "message":"Oh, wonderful! Yes... very nice...\n",
+        "replies":[
+            {
+                "text":"Is everything alright with you?",
+                "nextPhraseID":"niel_13"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"niel_13",
+        "message":"I... look, I am tired of fishing with this rod. It has always been a dream of mine to get a boat and fish with one of those giant nets.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"niel_14"
+            }
+        ]
+    },
+    {
+        "id":"niel_14",
+        "message":"I sold all the fish on the market and am now hoping to be able to buy a boat and a net.",
+        "replies":[
+            {
+                "text":"So... you are giving up your neat little spot here?",
+                "nextPhraseID":"niel_15"
+            },
+            {
+                "text":"No, wait! You wanted to catch me a rasbora!",
+                "nextPhraseID":"niel_15"
+            }
+        ]
+    },
+    {
+        "id":"niel_15",
+        "message":"Yes. I know, it's not an easy decision for me either. But I am leaving very soon towards Remgard.",
+        "replies":[
+            {
+                "text":"Remgard? Where's that?",
+                "nextPhraseID":"niel_15a"
+            },
+            {
+                "text":"Oh no, but what about your stuff?",
+                "nextPhraseID":"niel_16"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":105
+            }
+        ]
+    },
+    {
+        "id":"niel_15a",
+        "message":"Just follow the river east. It's an island located in the big Lake Laeroth.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"niel_16"
+            }
+        ]
+    },
+    {
+        "id":"niel_16",
+        "message":"Here, take this. I don't need it anymore. If you want, you can try and catch your own fish now.",
+        "replies":[
+            {
+                "text":"But I don't know how.",
+                "nextPhraseID":"niel_17"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":110
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"niel_fishing_rod"
+            }
+        ]
+    },
+    {
+        "id":"niel_17",
+        "message":"It is very easy. Just stand right here next to the water and cast the rod. Fish will come right up to you. If you pull out the rod in the right moment, you will catch them.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"niel_18"
+            }
+        ]
+    },
+    {
+        "id":"niel_18",
+        "message":"I know it takes some practise and it won't work right away, but you'll figure it out.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"niel_19"
+            }
+        ]
+    },
+    {
+        "id":"niel_19",
+        "message":"I have to go now. But if you ever visit Remgard, we will meet each other again. Farewell my friend!",
+        "replies":[
+            {
+                "text":"Farewell!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Oh boy...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"niel_20",
+        "message":"[Niel stares at the bag of bait you gave him]",
+        "replies":[
+            {
+                "text":"Is everything alright with you?",
+                "nextPhraseID":"niel_13"
+            }
+        ]
     }
 ]

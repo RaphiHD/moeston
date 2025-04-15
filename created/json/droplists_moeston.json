@@ -391,5 +391,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"niel_fishing_rod",
+        "items":[
+            {
+                "itemID":"fishing_rod_niel",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
