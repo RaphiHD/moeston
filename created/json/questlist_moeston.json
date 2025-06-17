@@ -739,6 +739,10 @@
                 "logText":"[Caught in the net] I have found the bait"
             },
             {
+                "progress":402,
+                "logText":"[Caught in the net] Niel has left his spot"
+            },
+            {
                 "progress":900,
                 "logText":"[Berry collector] I have started collecting"
             },

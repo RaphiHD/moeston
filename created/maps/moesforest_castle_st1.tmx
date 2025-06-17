@@ -231,6 +231,7 @@
   </properties>
   <object name="moeston_soldier_quest" type="spawn" x="32" y="96" width="96" height="96">
    <properties>
+    <property name="active" value="false"/>
     <property name="spawngroup" value="moeston_soldier_quest"/>
    </properties>
   </object>

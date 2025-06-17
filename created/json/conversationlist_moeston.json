@@ -602,7 +602,6 @@
         "message":"",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"niel_20",
                 "requires":[
                     {
@@ -613,7 +612,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"niel_1"
             }
         ]
@@ -922,11 +920,18 @@
         "replies":[
             {
                 "text":"Farewell!",
-                "nextPhraseID":"X"
+                "nextPhraseID":"R"
             },
             {
                 "text":"Oh boy...",
-                "nextPhraseID":"X"
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":402
             }
         ]
     },
