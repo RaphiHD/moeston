@@ -949,12 +949,47 @@
         "id":"olec_start",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"olec_1"
+                "nextPhraseID":"olec_start_b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20/100"
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"guynmart",
+                        "value":210
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"boring_paperwork",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             },
             {
-                "text":"N",
-                "nextPhraseID":"olec_2"
+                "nextPhraseID":"olec_start_b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20/100"
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"guynmart",
+                        "value":211
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"boring_paperwork",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"olec_1"
             }
         ]
     },
@@ -977,10 +1012,1172 @@
         "message":"Wha... oh, definetely not you. It's none of your business little kid.",
         "replies":[
             {
-                "text":"I am searching for a boy already. Maybe I could help you find your boy too."
+                "text":"I am searching for a boy already. Maybe I could help you find your boy too.",
+                "nextPhraseID":"olec_4"
+            }
+        ]
+    },
+    {
+        "id":"olec_4",
+        "message":"None of your business! Now get out."
+    },
+    {
+        "id":"olec_start_b",
+        "replies":[
+            {
+                "nextPhraseID":"olec_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20/100"
+                    }
+                ]
             },
             {
-                "text":"Are you talking about Andor?"
+                "nextPhraseID":"olec_5",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"olec_7",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33/100"
+                    }
+                ]
+            },
+            {
+                "text":"",
+                "nextPhraseID":"olec_9",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"olec_10"
+            }
+        ]
+    },
+    {
+        "id":"olec_5",
+        "message":"Is the letter to Feygard ready?",
+        "replies":[
+            {
+                "text":"What letter?",
+                "nextPhraseID":"olec_6"
+            }
+        ]
+    },
+    {
+        "id":"olec_6",
+        "message":"Wha... oh, I wasn't speaking to you, kid. Forget what I said."
+    },
+    {
+        "id":"olec_7",
+        "message":"Where is this guy? I'll rebuke him.",
+        "replies":[
+            {
+                "text":"Me?",
+                "nextPhraseID":"olec_8"
+            }
+        ]
+    },
+    {
+        "id":"olec_8",
+        "message":"Wha... oh, not you little kid. I am talking about one of my soldiers."
+    },
+    {
+        "id":"olec_9",
+        "message":"Only an hour till shift is over..."
+    },
+    {
+        "id":"olec_10",
+        "message":"*yawn* Oh, kid! This is no place to be. We are very busy right now."
+    },
+    {
+        "id":"moeston_farmer_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_farmer_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_farmer_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_farmer_1",
+        "message":"Working with those old mattocks is tiring..."
+    },
+    {
+        "id":"moeston_farmer_2",
+        "message":"Look how beautiful the salads are growing!"
+    },
+    {
+        "id":"moeston_farmer1_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_farmer1_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_farmer1_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"30/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_farmer1_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_farmer1_1",
+        "message":"May this old man not work in peace, without getting disturbed all the time?",
+        "replies":[
+            {
+                "text":"Sure, I'll go...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moeston_farmer1_2",
+        "message":"Oh how I long for some rasbora... what a tasty fish that was..."
+    },
+    {
+        "id":"moeston_farmer1_3",
+        "message":"Please let me work in peace."
+    },
+    {
+        "id":"moeston_busy_woman_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_busy_woman_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_busy_woman_1",
+        "message":"The sun is shining beautifully today. I hope the clothes are drying fast before it rains again."
+    },
+    {
+        "id":"moeston_tattletale_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_tattletale_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_1",
+        "message":"And guess what he did!",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_2",
+        "message":"What? Tell me!",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_3"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_3",
+        "message":"Quietly and secretly, he simply cut down her favourite tree.",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_4"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_4",
+        "message":"No way! Lynn must have been so angry.",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_5"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_5",
+        "message":"Oh she was! But she didn't stand long for that. Jagor must have commisioned some new robes already.",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_6"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_6",
+        "message":"What did she do to it?",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_7"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_7",
+        "message":"I heard she has sewn them slightly too tight for him.",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_8"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_8",
+        "message":"That's too funny! Oh but did you hear about her daughter?",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_9"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_9",
+        "message":"Lina? No.",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_10"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_10",
+        "message":"Yes, yes, she told me that she played a trick on Teranir!",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_11"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_11",
+        "message":"Oh poor Teranir, haha. What did she do?",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_12"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_12",
+        "message":"She said that when Teranir was in the basement, she went to the altar and poured some mead into the holy water!",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_13"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_13",
+        "message":"Haha, yes! Did she get caught?",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_14"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_14",
+        "message":"No, that's the best part. Okay, get ready for it.",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_15"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_15",
+        "message":"I am!",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_16"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_16",
+        "message":"Teranir suspects Betty for it!",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_17"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_17",
+        "message":"Oh no, poor Betty! Wait, does that have something to do with the inn the last days?",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_18"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_18",
+        "message":"Why, what happened?",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_19"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_19",
+        "message":"I heard some guests have slept poorly the past few nights.",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_20"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_20",
+        "message":"Oh you think Teranir has...",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_21"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_21",
+        "message":"Yes, a curse! He put a curse over the inn!",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_22"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_22",
+        "message":"How could he do that! That is horrible!",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_23"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_23",
+        "message":"You've said it! And I have also been listening to the merchants over there. They are furious because there are less travellers and they don't want to buy anything.",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_24"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_24",
+        "message":"Sure! If I get bad sleep, I'm not in a mood for shopping.",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_25"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_25",
+        "message":"Correct! Teranir is ruining our town!",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_26"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_26",
+        "message":"But don't you also think those merchants are up to something?",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_27"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_27",
+        "message":"Oh I'm glad you said it. I have a queasy feeling as well.",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_28"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_28",
+        "message":"Yes, they never leave their spot, always keeping an eye on the square...",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_29"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_29",
+        "message":"What if they are planning something bad... like... kidnapping...",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_30"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_30",
+        "message":"[Gasp] Oh! They are kidnapping our beautiful children! We cannot let that happen!",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_31"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_31",
+        "message":"No! Let's tell the prison guard to put them under arrest before anything bad happens!",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_32"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_32",
+        "message":"Wait... have you seen him lately?",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_33"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_33",
+        "message":"Oh right, I haven't! What's going on?",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_34"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_34",
+        "message":"Didn't we have a prisoner? But I haven't seen him yesterday when I went for a walk down there.",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_35"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_35",
+        "message":"We are in danger! This guy is on the loose! How could he escape?",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_36"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_36",
+        "message":"Wait, don't you think Fanamor has a hand in it? He was a friend of this prisoner if I am not mistaken.",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_37"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_37",
+        "message":"Yes, you are right! Fanamor also built the jail bars, he knows for sure how to break them open.",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_38"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_38",
+        "message":"How dare Fanamor! Now our town is even more in danger!",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_39"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_39",
+        "message":"Oh but speaking of Fanamor, how is his wife doing? Haven't seen her lately.",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_40"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_40",
+        "message":"Enila, yes, oh there is a story...",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_41"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_41",
+        "message":"Tell me!",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_42"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_42",
+        "message":"Yes, she had a dispute with Lynn the other day.",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_43"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_43",
+        "message":"Oh Enila and Lynn, they are always at loggerheads.",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_44"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_44",
+        "message":"Yes, yes, and Fanamor was very unhappy about Enila.",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_45"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_45",
+        "message":"I can imagine!",
+        "switchToNPC":"moeston_tattletale",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_46"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_46",
+        "message":"And guess what he did!",
+        "switchToNPC":"moeston_tattletale1",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_47"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_47",
+        "message":"What? Tell me!",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_48"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_48",
+        "message":"Quietly and secretly, he simply cut down her favourite tree.",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_49"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_49",
+        "message":"No way! Lynn must have been so angry.",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_50"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_50",
+        "message":"Oh she was! But she didn't stand long for that. Jagor must have commisioned some new robes already.",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_51"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_51",
+        "message":"What did she do to it?",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_52"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_52",
+        "message":"I heard she has sewn them slightly too tight for him.",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_53"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_53",
+        "message":"That's too funny! Oh but did you hear about her daughter?",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_54"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_54",
+        "message":"Lina? No.",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_55"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_55",
+        "message":"Yes, yes, she told me that she played a trick on Teranir!",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_56"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_56",
+        "message":"Oh poor Teranir, haha. What did she do?",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_57"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_57",
+        "message":"She said that when Teranir was in the basement, she went to the altar and poured some mead into the holy water!",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_58"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_58",
+        "message":"Haha, yes! Did she get caught?",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_59"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_59",
+        "message":"No, that's the best part. Okay, get ready for it.",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_60"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_60",
+        "message":"I am!",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_61"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_61",
+        "message":"Teranir suspects Betty for it!",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_62"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_62",
+        "message":"Oh no, poor Betty! Wait, does that have something to do with the inn the last days?",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_63"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_63",
+        "message":"Why, what happened?",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_64"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_64",
+        "message":"I heard some guests have slept poorly the past few nights.",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_65"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_65",
+        "message":"Oh you think Teranir has...",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_66"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_66",
+        "message":"Yes, a curse! He put a curse over the inn!",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_67"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_67",
+        "message":"How could he do that! That is horrible!",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_68"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_68",
+        "message":"You've said it! And I have also been listening to the merchants over there. They are furious because there are less travellers and they don't want to buy anything.",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_69"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_69",
+        "message":"Sure! If I get bad sleep, I'm not in a mood for shopping.",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_70"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_70",
+        "message":"Correct! Teranir is ruining our town!",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_71"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_71",
+        "message":"But don't you also think those merchants are up to something?",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_72"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_72",
+        "message":"Oh I'm glad you said it. I have a queasy feeling as well.",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_73"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_73",
+        "message":"Yes, they never leave their spot, always keeping an eye on the square...",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_74"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_74",
+        "message":"What if they are planning something bad... like... kidnapping...",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_75"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_75",
+        "message":"[Gasp] Oh! They are kidnapping our beautiful children! We cannot let that happen!",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_76"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_76",
+        "message":"No! Let's tell the prison guard to put them under arrest before anything bad happens!",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_77"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_77",
+        "message":"Wait... have you seen him lately?",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_78"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_78",
+        "message":"Oh right, I haven't! What's going on?",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_79"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_79",
+        "message":"Didn't we have a prisoner? But I haven't seen him yesterday when I went for a walk down there.",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_80"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_80",
+        "message":"We are in danger! This guy is on the loose! How could he escape?",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_81"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_81",
+        "message":"Wait, don't you think Fanamor has a hand in it? He was a friend of this prisoner if I am not mistaken.",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_82"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_82",
+        "message":"Yes, you are right! Fanamor also built the jail bars, he knows for sure how to break them open.",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_83"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_83",
+        "message":"How dare Fanamor! Now our town is even more in danger!",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_84"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_84",
+        "message":"Oh but speaking of Fanamor, how is his wife doing? Haven't seen her lately.",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_85"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_85",
+        "message":"Enila, yes, oh there is a story...",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_86"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_86",
+        "message":"Tell me!",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_87"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_87",
+        "message":"Yes, she had a dispute with Lynn the other day.",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_88"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_88",
+        "message":"Oh Enila and Lynn, they are always at loggerheads.",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_89"
+            }
+        ]
+    },
+    {
+        "id":"moeston_tattletale_89",
+        "message":"Yes, yes, and Fanamor was very unhappy about Enila.",
+        "switchToNPC":"moeston_tattletale",
+		"replies":[
+			{
+				"text":"N",
+				"nextPhraseID":"moeston_tattletale_90"
+			}
+		]
+    },
+    {
+        "id":"moeston_tattletale_90",
+        "message":"I can imagine!",
+        "switchToNPC":"moeston_tattletale1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tattletale_1"
             }
         ]
     }

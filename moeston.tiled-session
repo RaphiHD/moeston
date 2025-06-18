@@ -1,15 +1,15 @@
 {
-    "activeFile": "created/maps/moesforest_02.tmx",
+    "activeFile": "created/maps/moesforest_06.tmx",
     "expandedProjectPaths": [
-        "created",
-        "created/maps",
-        "tmp/res",
+        "altered",
         "tmp",
-        "altered/maps",
         ".",
-        "tmp/res/xml",
+        "altered/maps",
         "tmp/res/values",
-        "altered"
+        "tmp/res",
+        "created/maps",
+        "tmp/res/xml",
+        "created"
     ],
     "fileStates": {
         "E:/ATCS/workspace/moeston/created/bluewatersmaps/blue_waters_city_east_east_isles_center.tmx": {
@@ -13837,11 +13837,11 @@
             "scaleInDock": 1
         },
         "created/maps/moesforest_02.tmx": {
-            "scale": 0.125,
+            "scale": 0.75,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 1728,
-                "y": -576
+                "x": 479.99999999999994,
+                "y": 416
             }
         },
         "created/maps/moesforest_02.tmx#map_bed_1": {
@@ -14596,10 +14596,10 @@
         },
         "created/maps/moesforest_06.tmx": {
             "scale": 1,
-            "selectedLayer": 3,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 444.5,
-                "y": 800
+                "x": 480,
+                "y": 288
             }
         },
         "created/maps/moesforest_06.tmx#map_bed_1": {
@@ -14627,6 +14627,9 @@
             "scaleInDock": 1
         },
         "created/maps/moesforest_06.tmx#map_cavewall_4": {
+            "scaleInDock": 1
+        },
+        "created/maps/moesforest_06.tmx#map_cavewall_5": {
             "scaleInDock": 1
         },
         "created/maps/moesforest_06.tmx#map_chair_table_1": {
@@ -14702,6 +14705,9 @@
             "scaleInDock": 1
         },
         "created/maps/moesforest_06.tmx#map_outdoor_1": {
+            "scaleInDock": 1
+        },
+        "created/maps/moesforest_06.tmx#map_outdoor_2": {
             "scaleInDock": 1
         },
         "created/maps/moesforest_06.tmx#map_pillar_1": {
@@ -15351,14 +15357,14 @@
         },
         "created/maps/moesforest_10.tmx": {
             "scale": 0.75,
-            "selectedLayer": 3,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 448,
-                "y": 539.9999999999999
+                "x": 479.99999999999994,
+                "y": 320
             }
         },
         "created/maps/moesforest_10.tmx#map_bed_1": {
-            "scaleInDock": 1
+            "scaleInDock": 0.75
         },
         "created/maps/moesforest_10.tmx#map_border_1": {
             "scaleInDock": 1
@@ -15382,6 +15388,9 @@
             "scaleInDock": 1
         },
         "created/maps/moesforest_10.tmx#map_cavewall_4": {
+            "scaleInDock": 1
+        },
+        "created/maps/moesforest_10.tmx#map_cavewall_5": {
             "scaleInDock": 1
         },
         "created/maps/moesforest_10.tmx#map_chair_table_1": {
@@ -23064,11 +23073,15 @@
         "E:/ATCS/workspace/moeston/created/bluewatersmaps/blue_waters.world"
     ],
     "openFiles": [
-        "created/maps/moesforest_02.tmx"
+        "created/maps/moesforest_02.tmx",
+        "created/maps/moesforest_06.tmx",
+        "created/maps/moesforest_10.tmx"
     ],
     "project": "moeston.tiled-project",
     "recentFiles": [
         "created/maps/moesforest_02.tmx",
+        "created/maps/moesforest_10.tmx",
+        "created/maps/moesforest_06.tmx",
         "created/maps/moesforest_03.tmx",
         "created/maps/moesforest_17.tmx",
         "altered/maps/waterway0.tmx",
@@ -23077,8 +23090,6 @@
         "altered/maps/fields11.tmx",
         "created/maps/moesforest_town_hall_basement.tmx",
         "created/maps/moesforest_town_church.tmx",
-        "created/maps/moesforest_town_smallhouse_basement.tmx",
-        "created/maps/moesforest_00_cave1.tmx",
-        "created/maps/moesforest_town_hall.tmx"
+        "created/maps/moesforest_town_smallhouse_basement.tmx"
     ]
 }

@@ -458,17 +458,20 @@
     {
         "id":"moeston_farmer",
         "name":"Farmer",
-        "iconID":"monsters_karvis2:1"
+        "iconID":"monsters_karvis2:1",
+        "phraseID":"moeston_farmer_start"
     },
     {
         "id":"moeston_farmer1",
         "name":"Farmer",
-        "iconID":"monsters_karvis2:1"
+        "iconID":"monsters_karvis2:1",
+        "phraseID":"moeston_farmer1_start"
     },
     {
         "id":"moeston_busy_woman",
         "name":"Busy Woman",
-        "iconID":"monsters_ld1:167"
+        "iconID":"monsters_ld1:167",
+        "phraseID":"moeston_busy_woman_start"
     },
     {
         "id":"moeston_citizen",
@@ -503,12 +506,14 @@
     {
         "id":"moeston_tattletale",
         "name":"Tattletale",
-        "iconID":"monsters_ld1:165"
+        "iconID":"monsters_ld1:165",
+        "phraseID":"moeston_tattletale_start"
     },
     {
         "id":"moeston_tattletale1",
         "name":"Tattletale",
-        "iconID":"monsters_ld1:179"
+        "iconID":"monsters_ld1:179",
+        "phraseID":"moeston_tattletale_start"
     },
     {
         "id":"moeston_trader",
