@@ -2243,5 +2243,126 @@
                 "nextPhraseID":"moeston_tattletale_1"
             }
         ]
+    },
+    {
+        "id":"moeston_citizen_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_citizen_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"40/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen_3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"75/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen_4",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"80/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen_5"
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen_1",
+        "message":"Have you ever seen the town at night? It feels... magical."
+    },
+    {
+        "id":"moeston_citizen_2",
+        "message":"Rumour says there are treasures hidden in the platonic mountains. But I think it's just more rocks."
+    },
+    {
+        "id":"moeston_citizen_3",
+        "message":"If you think a town this small wouldn't need many rules... you'd be wrong. Although it could be a lot worse here."
+    },
+    {
+        "id":"moeston_citizen_4",
+        "message":"Oh no, I forgot my keys at home..."
+    },
+    {
+        "id":"moeston_citizen_5",
+        "message":"[whistling a melody]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_citizen_6"
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen_6",
+        "message":"My granny taught me this melody. It's an old song from Nor City."
+    },
+    {
+        "id":"moeston_citizen1_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_citizen1_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"40/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen1_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen1_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen1_1",
+        "message":"Back in my days, we used to climb that old pine tree. Now it's full of bees. Better not try it."
+    },
+    {
+        "id":"moeston_citizen1_2",
+        "message":"Birds don\u2019t care what day it is. They just show up and eat. Smart little things."
+    },
+    {
+        "id":"moeston_citizen1_3",
+        "message":"You learn two things getting old: what matters, and what never did."
+    },
+    {
+        "id":"moeston_citizen2_start",
+        "message":"What a great day to go on a walk through the forests.",
+        "replies":[
+            {
+                
+            }
+        ]
     }
 ]

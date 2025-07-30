@@ -318,7 +318,7 @@
             },
             {
                 "progress":40,
-                "logText":"Ronald, the researcher, gifted me his trousers as a reward for rescuing him. They still look quite good, but isn't that an odd gift for saving someones life?"
+                "logText":"Ronald, the researcher, gifted me his old gloves as a reward for rescuing him. They still look quite good, but isn't that an odd gift for saving someones life?"
             },
             {
                 "progress":50,
@@ -342,14 +342,18 @@
             },
             {
                 "progress":71,
-                "logText":"I brought him the ring he asked for. This doesn't look that special, why would he want that?"
+                "logText":"After killing a bunch of animals, I still couldn't find a ring or necklace.\nRonald then told me a secret about where the animals carry them."
             },
             {
                 "progress":72,
-                "logText":"I brought him the necklace he asked for. Seems not very interesting to me, why is this considered so special?"
+                "logText":"I brought him the ring he asked for. This doesn't look that special, why would he want that?"
             },
             {
                 "progress":73,
+                "logText":"I brought him the necklace he asked for. Seems not very interesting to me, why is this considered so special?"
+            },
+            {
+                "progress":74,
                 "logText":"I brought him both the ring and the necklace. Why would he want this, it doesn't look that interesting?"
             },
             {
@@ -512,7 +516,7 @@
             },
             {
                 "progress":100,
-                "logText":"Ronald was very grateful that I found the book and rewarded me with an odd gift - his trousers. Well, maybe the people here are still a little strange after all.",
+                "logText":"Ronald was very grateful that I found the book and rewarded me with an odd gift - his old gloves. Well, maybe the people here are still a little strange after all.",
                 "finishesQuest":1
             }
         ]

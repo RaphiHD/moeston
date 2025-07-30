@@ -294,9 +294,17 @@
             ]
         },
         "hitReceivedEffect":{
+            "increaseCurrentHP":{
+                "min":10,
+                "max":20
+            },
             "increaseCurrentAP":{
                 "min":0,
                 "max":2
+            },
+            "increaseAttackerCurrentHP":{
+                "min":30,
+                "max":40
             },
             "increaseAttackerCurrentAP":{
                 "min":0,
@@ -476,17 +484,20 @@
     {
         "id":"moeston_citizen",
         "name":"Moeston Citizen",
-        "iconID":"monsters_ld1:140"
+        "iconID":"monsters_ld1:140",
+        "phraseID":"moeston_citizen_start"
     },
     {
         "id":"moeston_citizen1",
         "name":"Moeston Citizen",
-        "iconID":"monsters_karvis2:5"
+        "iconID":"monsters_karvis2:5",
+        "phraseID":"moeston_citizen1_start"
     },
     {
         "id":"moeston_citizen2",
         "name":"Moeston Citizen",
-        "iconID":"monsters_ld1:134"
+        "iconID":"monsters_ld1:134",
+        "phraseID":"moeston_citizen2_start"
     },
     {
         "id":"moeston_citizen3",
@@ -784,17 +795,20 @@
     {
         "id":"moeston_chicken",
         "name":"Group of Chicken",
-        "iconID":"monsters_newb_1:1321"
+        "iconID":"monsters_newb_1:1321",
+        "spawnGroup":"moeston_chicken"
     },
     {
         "id":"moeston_chicken1",
         "name":"Chicken",
-        "iconID":"monsters_newb_1:1328"
+        "iconID":"monsters_newb_1:1328",
+        "spawnGroup":"moeston_chicken1"
     },
     {
         "id":"moeston_chicken2",
         "name":"Chicken",
-        "iconID":"monsters_newb_1:1329"
+        "iconID":"monsters_newb_1:1329",
+        "spawnGroup":"missing_chicken"
     },
     {
         "id":"wildlife_doctor_deer_injured",
