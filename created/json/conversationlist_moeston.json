@@ -2358,11 +2358,589 @@
     },
     {
         "id":"moeston_citizen2_start",
-        "message":"What a great day to go on a walk through the forests.",
+        "message":"",
         "replies":[
             {
-                
+                "nextPhraseID":"moeston_citizen2_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"30/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen2_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen2_3"
             }
         ]
+    },
+    {
+        "id":"moeston_citizen2_1",
+        "message":"Ugh... work never ends."
+    },
+    {
+        "id":"moeston_citizen2_2",
+        "message":"If you want, you may check out the new hut we finished building in the mountains up there. Or you don't, I'm just glad I don't have to climb this steep hilll ever again."
+    },
+    {
+        "id":"moeston_citizen2_3",
+        "message":"What a great day to go on a walk through the forests."
+    },
+    {
+        "id":"moeston_citizen3_start",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_citizen3_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"30/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen3_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"30/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen3_3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen3_6",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gem6",
+                        "value":1
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"70/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen3_4",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"80/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen3_5"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen3_1",
+        "message":"You are not from here, are you? If you see a missing chicken, it's probably mine again."
+    },
+    {
+        "id":"moeston_citizen3_2",
+        "message":"Careful, child. The bushes listen. Especially the pink ones."
+    },
+    {
+        "id":"moeston_citizen3_3",
+        "message":"If you name your flowers, they behave better. This one here is Gerald."
+    },
+    {
+        "id":"moeston_citizen3_4",
+        "message":"Oops, I dropped one of my invisible cookies. Well, let it be a snack for the ghost cat.",
+        "replies":[
+            {
+                "text":"There are ghosts here?",
+                "nextPhraseID":"moeston_citizen3_4a"
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen3_4a",
+        "message":"No, no, not ghosts. Just a ghost cat. His name is... Gar... Garfold or something?"
+    },
+    {
+        "id":"moeston_citizen3_5",
+        "message":"Yesterday I found a perfectly folded sock on the ground. That means something. I just don't know what yet."
+    },
+    {
+        "id":"moeston_citizen4_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_citizen4_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":110
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"20/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen4_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"75/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_citizen4_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen4_1",
+        "message":"Oh, don't mind NAME over there. She is just a little weird sometimes.",
+        "replies":[
+            {
+                "text":"Oh, I figured.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen4_2",
+        "message":"What a lovely day it is."
+    },
+    {
+        "id":"moeston_citizen4_3",
+        "message":"Mmh, those parsnips from Remgard are delicious. You can buy them over there.",
+        "replies":[
+            {
+                "text":"Oh they definetely look delicious!",
+                "nextPhraseID":"moeston_citizen4_3a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":112,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Ugh, I don't like parsnip...",
+                "nextPhraseID":"moeston_citizen4_3b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":111,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen4_3a",
+        "message":"Yes, I like them especially when roasted with some carrots. But my husband doesn't...",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":111
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen4_3b",
+        "message":"Well, it's not to everybody's taste.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":112
+            }
+        ]
+    },
+    {
+        "id":"moeston_woodcutter_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_woodcutter_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"70/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_woodcutter_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"80/100"
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"moeston_woodcutter_axe_sharpened",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_woodcutter_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_woodcutter_1",
+        "message":"[chopping wood]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_woodcutter_1a",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"10/100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_woodcutter_1a",
+        "message":"[stops chopping wood]\n\nThis will be some nice planks. I think I want to build a cabinet out of it."
+    },
+    {
+        "id":"moeston_woodcutter_2",
+        "message":"[sharpening his axe]\n\nI've had this axe for decades now. But in the past weeks it keeps getting dull again and again.",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"moeston_woodcutter_axe_sharpened"
+            }
+        ]
+    },
+    {
+        "id":"moeston_woodcutter_3",
+        "message":"If my wife asks where I am, tell her that I have to cut down two more trees today."
+    },
+    {
+        "id":"moeston_trader_start",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_trader_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_trader_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":111
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_trader_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader_1",
+        "message":"Lettuce from Remgard! Fresh lettuce and carrots!",
+        "replies":[
+            {
+                "text":"Do you have anything else?",
+                "nextPhraseID":"moeston_trader_1a"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader_2",
+        "message":"Do you want some parsnips? They have been harvested just a week ago.",
+        "replies":[
+            {
+                "text":"Sure, I'll take a look.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader_3",
+        "message":"You look like someone who appreciates a good root vegetable. Do you want to have a look?",
+        "replies":[
+            {
+                "text":"Of course!",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader_1a",
+        "message":"Of course. I have a variety of vegetables all growing in and around Remgard. The lake and the sunny mountain side provide many nutrients to the plants.",
+        "replies":[
+            {
+                "text":"I'll have a look.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen3_6",
+        "message":"Oh I see you have an azure gem! May I have it? Pleaseee?",
+        "replies":[
+            {
+                "text":"Uhm... sure, I don't need it anyways.",
+                "nextPhraseID":"moeston_citizen3_6a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gem6",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Here, I've got five of them. But take care, they are quite rare.",
+                "nextPhraseID":"moeston_citizen3_6b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gem6",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Oh sorry, I want to keep it myself",
+                "nextPhraseID":"moeston_citizen3_6c"
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen3_6a",
+        "message":"Thank you so much! I've always wanted one. It reminds me of my father's eyes.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":113
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen3_6b",
+        "message":"Whoa... so many! This is... amazing! I... I feel... oh... [stares at the gems]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":113
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen3_6c",
+        "message":"Ah! You refuse? I your gem doesn't like that."
+    },
+    {
+        "id":"moeston_trader1_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_trader1_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_trader1_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_trader1_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader1_1",
+        "message":"This sword has slain dozens of monsters since it was crafted. I sharpened it last week and it is better than new.",
+        "replies":[
+            {
+                "text":"Let me take a look.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader1_2",
+        "message":"You look like you are in need of a weapon upgrade. Do you want to take a look at my offers?",
+        "replies":[
+            {
+                "text":"Sure, show me what you have.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader1_3",
+        "message":"[Polishing a knife]",
+        "replies":[
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"moeston_trader1_3a"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader1_3a",
+        "message":"[Puts the knife away]\n\nSure. Take a look.",
+        "replies":[
+            {
+                "text":"Sure!",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader2_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_trader2_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_trader2_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_trader2_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader2_1",
+        "message":"Hi there! Fancy some fish?",
+        "replies":[
+            {
+                "text":"Sure!",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Do you have rasbora?",
+                "nextPhraseID":"moeston_trader2_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader2_2",
+        "message":"This fish has been caught yesterday. You should get some before it turns stinky.",
+        "replies":[
+            {
+                "text":"Please show me your supply.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader2_1a",
+        "message":"I heard that you can catch them around here. But I get my fish from Laeroth. You know, the lake up where Remgard is.",
+        "replies":[
+            {
+                "text":"Please show me what you have to offer.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader2_3",
+        "message":"Fish from Remgard is just the best. Wanna try some?",
+        "replies":[
+            {
+                "text":"Sure!",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"moeston_guard_roadblock_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_guard_roadblock_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_guard_roadblock_1",
+        "message":"Sorry, this path is closed due to some heavy rockfalls.",
+        "switchToNPC":"moeston_guard_roadblock"
+    },
+    {
+        "id":"strawberry_collector_start",
+        "message":"[Reserved for future update]"
     }
 ]

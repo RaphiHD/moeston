@@ -720,19 +720,35 @@
             },
             {
                 "progress":100,
-                "logText":"[Rescue of a Researcher] Ronald told me his name. Needed for Quest Stage 30/31"
-            },
-            {
-                "progress":200,
-                "logText":"[Wildlife Doctor] Anklebiter attacked"
-            },
-            {
-                "progress":300,
                 "logText":"[Sneaky Sam] Sam has told me he'd be out of his spot soon."
             },
             {
-                "progress":301,
+                "progress":101,
                 "logText":"[Sneaky Sam] Sam has left his hiding spot and is now in Moeston."
+            },
+            {
+                "progress":110,
+                "logText":"[Citizen 3] I have met this weird woman in Moeston."
+            },
+            {
+                "progress":111,
+                "logText":"[Citizen 4] I told this woman that I like parsnip."
+            },
+            {
+                "progress":112,
+                "logText":"[Citizen 4] I told this woman that I don't like parsnip."
+            },
+            {
+                "progress":113,
+                "logText":"[Citizen 3] I gave this weird woman an azure gem."
+            },
+            {
+                "progress":200,
+                "logText":"[Rescue of a Researcher] Ronald told me his name. Needed for Quest Stage 30/31"
+            },
+            {
+                "progress":300,
+                "logText":"[Wildlife Doctor] Anklebiter attacked"
             },
             {
                 "progress":400,

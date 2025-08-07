@@ -502,17 +502,20 @@
     {
         "id":"moeston_citizen3",
         "name":"Moeston Citizen",
-        "iconID":"monsters_ld1:225"
+        "iconID":"monsters_ld1:225",
+        "phraseID":"moeston_citizen3_start"
     },
     {
         "id":"moeston_citizen4",
         "name":"Moeston Citizen",
-        "iconID":"monsters_ld1:228"
+        "iconID":"monsters_ld1:228",
+        "phraseID":"moeston_citizen4_start"
     },
     {
         "id":"moeston_woodcutter",
         "name":"Jagor",
-        "iconID":"monsters_ld1:28"
+        "iconID":"monsters_ld1:28",
+        "phraseID":"moeston_woodcutter_start"
     },
     {
         "id":"moeston_tattletale",
@@ -529,27 +532,32 @@
     {
         "id":"moeston_trader",
         "name":"Vegetable Trader",
-        "iconID":"monsters_tometik7:18"
+        "iconID":"monsters_tometik7:18",
+        "phraseID":"moeston_trader_start"
     },
     {
         "id":"moeston_trader1",
         "name":"Tool Trader",
-        "iconID":"monsters_tometik7:21"
+        "iconID":"monsters_tometik7:21",
+        "phraseID":"moeston_trader1_start"
     },
     {
         "id":"moeston_trader2",
         "name":"Fish Trader",
-        "iconID":"monsters_omi2:11"
+        "iconID":"monsters_omi2:11",
+        "phraseID":"moeston_trader2_start"
     },
     {
         "id":"moeston_guard_roadblock",
         "name":"Road Guard",
-        "iconID":"monsters_rltiles1:86"
+        "iconID":"monsters_rltiles1:86",
+        "phraseID":"moeston_guard_roadblock_start"
     },
     {
         "id":"strawberry_collector",
         "name":"Strawberry Collector",
-        "iconID":"monsters_ld1:37"
+        "iconID":"monsters_ld1:37",
+        "phraseID":"strawberry_collector_start"
     },
     {
         "id":"moeston_adventurer",
