@@ -2942,5 +2942,262 @@
     {
         "id":"strawberry_collector_start",
         "message":"[Reserved for future update]"
+    },
+    {
+        "id":"stukka_start",
+        "replies":[
+            {
+                "nextPhraseID":"stukka_12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":85
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stukka_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "text":"",
+                "nextPhraseID":"stukka_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stukka_1"
+            }
+        ]
+    },
+    {
+        "id":"stukka_1",
+        "message":"Heyo young buddy. Ready for an adventure, huh?",
+        "replies":[
+            {
+                "text":"Yeah! And that cave there will be my next one.",
+                "nextPhraseID":"stukka_1a"
+            },
+            {
+                "text":"Absolutely. But right, now I just need to get some dead spiders.",
+                "nextPhraseID":"stukka_1b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stukka_1a",
+        "message":"I would advise you to consider this twice. That cave behind me is full of danger. It's up to you, but I've warned you."
+    },
+    {
+        "id":"stukka_2",
+        "message":"Well, I told you. Do whatever you want. I'm not your dad after all.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"stukka_1b",
+        "message":"Oh you know, there are spiders to be found here indeed. But they are still living. So the cave might be a little... dense.",
+        "replies":[
+            {
+                "text":"Dense? Well, nothing a good sword can handle.",
+                "nextPhraseID":"stukka_2"
+            },
+            {
+                "text":"Oh, nonsense. I've handled much larger caves, this one is a piece of cake to me.",
+                "nextPhraseID":"stukka_2"
+            }
+        ]
+    },
+    {
+        "id":"stukka_3",
+        "message":"You've come back fast. Not much luck, huh?",
+        "replies":[
+            {
+                "text":"What is going on in there, this can't be normal spiders?",
+                "nextPhraseID":"stukka_3a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"stukka_3a",
+        "message":"A bit bigger they are, but commonly found here and there. I think it is simply the huge amount of them and they've had much time as well covering this cave.",
+        "replies":[
+            {
+                "text":"A bit bigger than what? I think I'll bail...",
+                "nextPhraseID":"stukka_3b"
+            },
+            {
+                "text":"I think I can handle them, but how can I even get in there?",
+                "nextPhraseID":"stukka_4"
+            }
+        ]
+    },
+    {
+        "id":"stukka_3b",
+        "message":"I see. You are a wise adventurer. Knowing your limits."
+    },
+    {
+        "id":"stukka_4",
+        "message":"Oh, you still wanna try? Well, I'm afraid I can't help you there. I've had my fun with this cave, but I am done here. Just strenghtening up a little and I'll be gone for more adventure.",
+        "replies":[
+            {
+                "text":"Wait, you have been in this cave? How did you do it?",
+                "nextPhraseID":"stukka_5"
+            }
+        ]
+    },
+    {
+        "id":"stukka_5",
+        "message":"Oh yes, but the spiders have been fast closing it up again. I must admit, I had a little help here and there, but it is of no use anymore.",
+        "replies":[
+            {
+                "text":"What are you talking about?",
+                "nextPhraseID":"stukka_6"
+            }
+        ]
+    },
+    {
+        "id":"stukka_6",
+        "message":"Okay, see this?",
+        "replies":[
+            {
+                "text":"That's just a feather! I can get one. I'll be right back...",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"How would a feather be any help?",
+                "nextPhraseID":"stukka_7"
+            }
+        ]
+    },
+    {
+        "id":"stukka_7",
+        "message":"This is, in fact, a duck's feather. It has been soaked in some mixture that is very corrosive to cobweb.",
+        "replies":[
+            {
+                "text":"Great! Just what I need.",
+                "nextPhraseID":"stukka_8"
+            }
+        ]
+    },
+    {
+        "id":"stukka_8",
+        "message":"Yeah, but as I said, it is of no use anymore. The mixture is worn off. I could barely get out of this cave, so it won't be of much use to you anymore.",
+        "replies":[
+            {
+                "text":"Where can I get another one?",
+                "nextPhraseID":"stukka_9"
+            }
+        ]
+    },
+    {
+        "id":"stukka_9",
+        "message":"That is... I actually don't know. I have bought this on a street market a long time ago. But I remember the seller saying that a very popular alchemist made it. His name was L... Lon... Lob... I forgot...",
+        "replies":[
+            {
+                "text":"I'm not sure who you are talking about, but I will search for him.",
+                "nextPhraseID":"stukka_10"
+            },
+            {
+                "text":"Lodar! I know this guy. I'll be right back...",
+                "nextPhraseID":"stukka_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lodar",
+                        "value":110
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":45
+            }
+        ]
+    },
+    {
+        "id":"stukka_10",
+        "message":"Great! Good luck finding him."
+    },
+    {
+        "id":"stukka_11",
+        "message":"How are you doing, still searching for the feather?",
+        "replies":[
+            {
+                "text":"Here, I got it.",
+                "nextPhraseID":"stukka_11a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":60
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"cobwebbed_anti",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I'll be right back.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stukka_11a",
+        "message":"Yeah, well done. Try it now."
+    },
+    {
+        "id":"stukka_12",
+        "message":"Good that you are awake. Stay for a second. That was a close one.",
+        "replies":[
+            {
+                "text":"I feel... dizzy...",
+                "nextPhraseID":"stukka_13"
+            },
+            {
+                "text":"What happened?",
+                "nextPhraseID":"stukka_13"
+            }
+        ]
+    },
+    {
+        "id":"stukka_13"
     }
 ]

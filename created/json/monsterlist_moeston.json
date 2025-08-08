@@ -567,7 +567,8 @@
     {
         "id":"stukka",
         "name":"Stukka",
-        "iconID":"monsters_tometik2:71"
+        "iconID":"monsters_tometik2:71",
+        "phraseID":"stukka_start"
     },
     {
         "id":"moeston_priest",

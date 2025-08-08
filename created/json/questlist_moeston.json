@@ -206,12 +206,12 @@
             },
             {
                 "progress":25,
-                "logText":"I found Stukka, the said adventurer. He told me to stop going any further. It seems like he just came out of a spider-filled cave, exactly what I need.",
+                "logText":"I found Stukka, the said adventurer. It seems like there is a spider-filled cave, exactly what I need.",
                 "rewardExperience":1000
             },
             {
                 "progress":30,
-                "logText":"I didn't care about him and decided to go in anyways."
+                "logText":"I didn't care about what Stukka said and decided to go in anyways."
             },
             {
                 "progress":35,
@@ -219,15 +219,15 @@
             },
             {
                 "progress":40,
-                "logText":"With no other option left, I went back outside to the adventurer. I admitted, that there is no way further."
+                "logText":"With no other option left, I went back outside to the adventurer. I admitted that there is no way further."
             },
             {
                 "progress":45,
-                "logText":"Stukka once heard about a special spider potion that could really be of much use here. He however forgot the name of the alchemist who could make it. He just said, that he was very popular for his potions."
+                "logText":"Stukka once got a feather soaked in potions that could really be of much use here. He however forgot the name of the alchemist who could make it. He said that he was very popular for his potions."
             },
             {
                 "progress":50,
-                "logText":"I decided to visit Lodar, since he is a popular alchemist.",
+                "logText":"I decided to visit Lodar, to ask about the feather.",
                 "rewardExperience":2500
             },
             {
