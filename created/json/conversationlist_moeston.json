@@ -2760,6 +2760,18 @@
     {
         "id":"moeston_citizen3_6a",
         "message":"Thank you so much! I've always wanted one. It reminds me of my father's eyes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_citizen3_6d",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"60/100"
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2781,7 +2793,7 @@
     },
     {
         "id":"moeston_citizen3_6c",
-        "message":"Ah! You refuse? I your gem doesn't like that."
+        "message":"Ah! You refuse? I think your gem doesn't like that."
     },
     {
         "id":"moeston_trader1_start",
@@ -3199,5 +3211,21 @@
     },
     {
         "id":"stukka_13"
+    },
+    {
+        "id":"moeston_citizen3_6d",
+        "message":"Here, I want to give you those flowers in return. They have a similar value. At least emotional, but I have plenty.",
+        "replies":[
+            {
+                "text":"Oh, thanks.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"moeston_citizen3_flowers"
+            }
+        ]
     }
 ]

@@ -457,5 +457,14 @@
                 }
             ]
         }
+    },
+    {
+        "id":"yellow_coneflower",
+        "iconID":"items_japozero:550",
+        "name":"Yellow Coneflower",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":67,
+        "category":"other"
     }
 ]
