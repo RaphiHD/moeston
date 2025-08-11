@@ -568,22 +568,26 @@
         "id":"stukka",
         "name":"Stukka",
         "iconID":"monsters_tometik2:71",
-        "phraseID":"stukka_start"
+        "phraseID":"stukka_start",
+        "droplistID":"stukka_shop"
     },
     {
         "id":"moeston_priest",
         "name":"Teranir",
-        "iconID":"monsters_ld1:2"
+        "iconID":"monsters_ld1:2",
+        "phraseID":"moeston_priest_start"
     },
     {
         "id":"moeston_mourning",
         "name":"Mourning Citizen",
-        "iconID":"monsters_men:6"
+        "iconID":"monsters_men:6",
+        "phraseID":"moeston_mourning_start"
     },
     {
         "id":"moeston_tailor",
         "name":"Lynn",
-        "iconID":"monsters_rltiles3:15"
+        "iconID":"monsters_rltiles3:15",
+        "phraseID":"moeston_tailor_start"
     },
     {
         "id":"moeston_tailor_kid",
@@ -1226,5 +1230,23 @@
         "name":"Feygard Soldier",
         "iconID":"monsters_ld1:67",
         "phraseID":"moeston_castle_book_12"
+    },
+    {
+        "id":"moeston_tailor_hats",
+        "name":"Lynn",
+        "iconID":"monsters_rltiles3:15",
+        "droplistID":"moeston_tailor_hats"
+    },
+    {
+        "id":"moeston_tailor_shirts",
+        "name":"Lynn",
+        "iconID":"monsters_rltiles3:15",
+        "droplistID":"moeston_tailor_shirts"
+    },
+    {
+        "id":"moeston_tailor_dresses",
+        "name":"Lynn",
+        "iconID":"monsters_rltiles3:15",
+        "droplistID":"moeston_tailor_dresses"
     }
 ]

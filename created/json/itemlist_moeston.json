@@ -466,5 +466,27 @@
         "hasManualPrice":1,
         "baseMarketCost":67,
         "category":"other"
+    },
+    {
+        "id":"stukka_healing_potion",
+        "iconID":"items_consumables:36",
+        "name":"Stukka's healing potion",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"pot",
+        "description":"The color seems slightly brighter than regular healing potions. It has a faint smell of ",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":5,
+                "max":12
+            },
+            "conditionsSource":[
+                {
+                    "condition":"cobwebbed",
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]

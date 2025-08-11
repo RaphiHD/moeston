@@ -265,11 +265,6 @@
                 "logText":"After a while, I woke up next to Stukka. My head was hurting and I could barely speak. He gave me a potion I shoud drink."
             },
             {
-                "progress":95,
-                "logText":"Quick death was definetely the wrong potion. Regardless I woke up next to the adventurer and reported that I was still alive and feeling better now. I should now deliver the bait.",
-                "rewardExperience":2500
-            },
-            {
                 "progress":96,
                 "logText":"I drank the potion and my headache started to fade. After a while, I felt ready to go back to deliver the bait.",
                 "rewardExperience":2000
@@ -741,6 +736,86 @@
             {
                 "progress":113,
                 "logText":"[Citizen 3] I gave this weird woman an azure gem."
+            },
+            {
+                "progress":150,
+                "logText":"[Lynn] has started to style me."
+            },
+            {
+                "progress":151,
+                "logText":"[Lynn] I have chosen a full set of clothes."
+            },
+            {
+                "progress":152,
+                "logText":"[Lynn] I have chosen top clothes."
+            },
+            {
+                "progress":153,
+                "logText":"[Lynn] I have chosen accessories."
+            },
+            {
+                "progress":154,
+                "logText":"[Lynn] I have chosen a hat."
+            },
+            {
+                "progress":155,
+                "logText":"[Lynn] I have chosen the color red."
+            },
+            {
+                "progress":156,
+                "logText":"[Lynn] I have chosen the color green."
+            },
+            {
+                "progress":157,
+                "logText":"[Lynn] I have chosen the color yellow."
+            },
+            {
+                "progress":158,
+                "logText":"[Lynn] I have chosen the color blue."
+            },
+            {
+                "progress":159,
+                "logText":"[Lynn] I have chosen the color black."
+            },
+            {
+                "progress":160,
+                "logText":"[Lynn] I have chosen the perk attack."
+            },
+            {
+                "progress":161,
+                "logText":"[Lynn] I have chosen the perk defend."
+            },
+            {
+                "progress":162,
+                "logText":"[Lynn] I have chosen the perk health."
+            },
+            {
+                "progress":163,
+                "logText":"[Lynn] I have chosen not to add any perk."
+            },
+            {
+                "progress":164,
+                "logText":"[Lynn] I have accepted the price."
+            },
+            {
+                "progress":165,
+                "logText":"[Lynn] I have payed the price."
+            },
+            {
+                "progress":166,
+                "logText":"[Lynn] has used one third of the treatment."
+            },
+            {
+                "progress":167,
+                "logText":"[Lynn] has used two thirds of the treatment."
+            },
+            {
+                "progress":168,
+                "logText":"[Lynn] has used all of the treatment."
+            },
+            {
+                "progress":170,
+                "logText":"[Lynn] has forgotten something. If this quest stage was activated, there is an issue in the dialog. Please report this to the dev team."
             },
             {
                 "progress":200,
