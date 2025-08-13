@@ -3865,7 +3865,54 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_7"
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":166,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":167,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_7c"
             }
         ],
         "rewards":[
@@ -3882,7 +3929,54 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_7"
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":166,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":167,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_7c"
             }
         ],
         "rewards":[
@@ -3899,7 +3993,54 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_7"
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":166,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":167,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_7c"
             }
         ],
         "rewards":[
@@ -3916,7 +4057,54 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_7"
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":166,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":167,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_7c"
             }
         ],
         "rewards":[
@@ -3933,7 +4121,54 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_7"
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":166,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":167,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_7c"
             }
         ],
         "rewards":[
@@ -4330,6 +4565,87 @@
                         "requireType":"questProgress",
                         "requireID":"moeston_nondisplay",
                         "value":162
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":166
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":167
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168
                     }
                 ]
             },
@@ -4790,7 +5106,90 @@
     },
     {
         "id":"moeston_tailor_15",
-        "message":"Great! I will quickly put together your configuration. Please wait a moment.",
+        "message":"Great! I will quickly put together your configuration.",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_tailor_15b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_15c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":167
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_15d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":166
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_15e",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_15f"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4800,6 +5199,11 @@
             {
                 "rewardType":"createTimer",
                 "rewardID":"moeston_tailor"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":165
             }
         ]
     },
@@ -5332,7 +5736,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_green",
                 "requires":[
                     {
@@ -5342,7 +5746,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_yellow",
                 "requires":[
                     {
@@ -5352,7 +5756,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_blue",
                 "requires":[
                     {
@@ -5362,7 +5766,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_black",
                 "requires":[
                     {
@@ -5387,7 +5791,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_green",
                 "requires":[
                     {
@@ -5397,7 +5801,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_yellow",
                 "requires":[
                     {
@@ -5407,7 +5811,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_blue",
                 "requires":[
                     {
@@ -5417,7 +5821,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_black",
                 "requires":[
                     {
@@ -5442,7 +5846,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_green",
                 "requires":[
                     {
@@ -5452,7 +5856,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_yellow",
                 "requires":[
                     {
@@ -5462,7 +5866,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_blue",
                 "requires":[
                     {
@@ -5472,7 +5876,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_black",
                 "requires":[
                     {
@@ -5481,6 +5885,13 @@
                         "value":159
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":165
             }
         ]
     },
@@ -5497,7 +5908,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_green",
                 "requires":[
                     {
@@ -5507,7 +5918,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_yellow",
                 "requires":[
                     {
@@ -5517,7 +5928,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_blue",
                 "requires":[
                     {
@@ -5527,7 +5938,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_black",
                 "requires":[
                     {
@@ -5552,7 +5963,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_red_defend",
                 "requires":[
                     {
@@ -5562,7 +5973,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_red_health",
                 "requires":[
                     {
@@ -5572,7 +5983,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_red_none",
                 "requires":[
                     {
@@ -5597,7 +6008,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_green_defend",
                 "requires":[
                     {
@@ -5607,7 +6018,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_green_health",
                 "requires":[
                     {
@@ -5617,7 +6028,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_green_none",
                 "requires":[
                     {
@@ -5642,7 +6053,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_yellow_defend",
                 "requires":[
                     {
@@ -5652,7 +6063,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_yellow_health",
                 "requires":[
                     {
@@ -5662,7 +6073,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_yellow_none",
                 "requires":[
                     {
@@ -5687,7 +6098,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_blue_defend",
                 "requires":[
                     {
@@ -5697,7 +6108,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_blue_health",
                 "requires":[
                     {
@@ -5707,7 +6118,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_blue_none",
                 "requires":[
                     {
@@ -5732,7 +6143,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_black_defend",
                 "requires":[
                     {
@@ -5742,7 +6153,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_black_health",
                 "requires":[
                     {
@@ -5752,7 +6163,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_full_black_none",
                 "requires":[
                     {
@@ -5777,7 +6188,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_red_defend",
                 "requires":[
                     {
@@ -5787,7 +6198,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_red_health",
                 "requires":[
                     {
@@ -5797,7 +6208,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_red_none",
                 "requires":[
                     {
@@ -5822,7 +6233,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_green_defend",
                 "requires":[
                     {
@@ -5832,7 +6243,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_green_health",
                 "requires":[
                     {
@@ -5842,7 +6253,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_green_none",
                 "requires":[
                     {
@@ -5867,7 +6278,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_yellow_defend",
                 "requires":[
                     {
@@ -5877,7 +6288,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_yellow_health",
                 "requires":[
                     {
@@ -5887,7 +6298,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_yellow_none",
                 "requires":[
                     {
@@ -5912,7 +6323,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_blue_defend",
                 "requires":[
                     {
@@ -5922,7 +6333,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_blue_health",
                 "requires":[
                     {
@@ -5932,7 +6343,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_blue_none",
                 "requires":[
                     {
@@ -5957,7 +6368,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_black_defend",
                 "requires":[
                     {
@@ -5967,7 +6378,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_black_health",
                 "requires":[
                     {
@@ -5977,7 +6388,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_top_black_none",
                 "requires":[
                     {
@@ -6002,7 +6413,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_red_defend",
                 "requires":[
                     {
@@ -6012,7 +6423,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_red_health",
                 "requires":[
                     {
@@ -6022,7 +6433,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_red_none",
                 "requires":[
                     {
@@ -6047,7 +6458,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_green_defend",
                 "requires":[
                     {
@@ -6057,7 +6468,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_green_health",
                 "requires":[
                     {
@@ -6067,7 +6478,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_green_none",
                 "requires":[
                     {
@@ -6092,7 +6503,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_yellow_defend",
                 "requires":[
                     {
@@ -6102,7 +6513,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_yellow_health",
                 "requires":[
                     {
@@ -6112,7 +6523,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_yellow_none",
                 "requires":[
                     {
@@ -6137,7 +6548,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_blue_defend",
                 "requires":[
                     {
@@ -6147,7 +6558,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_blue_health",
                 "requires":[
                     {
@@ -6157,7 +6568,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_blue_none",
                 "requires":[
                     {
@@ -6182,7 +6593,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_black_defend",
                 "requires":[
                     {
@@ -6192,7 +6603,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_black_health",
                 "requires":[
                     {
@@ -6202,7 +6613,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_accessories_black_none",
                 "requires":[
                     {
@@ -6227,7 +6638,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_red_defend",
                 "requires":[
                     {
@@ -6237,7 +6648,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_red_health",
                 "requires":[
                     {
@@ -6247,7 +6658,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_red_none",
                 "requires":[
                     {
@@ -6272,7 +6683,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_green_defend",
                 "requires":[
                     {
@@ -6282,7 +6693,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_green_health",
                 "requires":[
                     {
@@ -6292,7 +6703,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_green_none",
                 "requires":[
                     {
@@ -6317,7 +6728,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_yellow_defend",
                 "requires":[
                     {
@@ -6327,7 +6738,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_yellow_health",
                 "requires":[
                     {
@@ -6337,7 +6748,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_yellow_none",
                 "requires":[
                     {
@@ -6362,7 +6773,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_blue_defend",
                 "requires":[
                     {
@@ -6372,7 +6783,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_blue_health",
                 "requires":[
                     {
@@ -6382,7 +6793,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_blue_none",
                 "requires":[
                     {
@@ -6407,7 +6818,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_black_defend",
                 "requires":[
                     {
@@ -6417,7 +6828,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_black_health",
                 "requires":[
                     {
@@ -6427,7 +6838,7 @@
                     }
                 ]
             },
-			{
+            {
                 "nextPhraseID":"moeston_tailor_build_hat_black_none",
                 "requires":[
                     {
@@ -7638,5 +8049,104 @@
                 "rewardID":"moeston_tailor_hat_black_none"
             }
         ]
+    },
+    {
+        "id":"moeston_tailor_7c",
+        "message":"Are you satisfied with your choice?",
+        "replies":[
+            {
+                "text":"I am satisfied. Please go on.",
+                "nextPhraseID":"moeston_tailor_10"
+            },
+            {
+                "text":"I changed my mind, can I choose another color?",
+                "nextPhraseID":"moeston_tailor_7b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":163
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_15b",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_15f"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":166
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":167
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":168
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_15c",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_15f"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":168
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_15d",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_15f"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":167
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_15e",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_15f"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":166
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_15f",
+        "message":"Please wait a moment."
     }
 ]
