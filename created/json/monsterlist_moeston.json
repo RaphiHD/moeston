@@ -598,7 +598,8 @@
     {
         "id":"moeston_waiter",
         "name":"Betty",
-        "iconID":"monsters_ld1:183"
+        "iconID":"monsters_ld1:183",
+        "phraseID":"moeston_waiter_start"
     },
     {
         "id":"moeston_guest1",

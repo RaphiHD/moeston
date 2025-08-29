@@ -8559,5 +8559,77 @@
     {
         "id":"moeston_tailor_kid_11",
         "message":"Too bad. Then I will ask my friend Connie."
+    },
+    {
+        "id":"moeston_waiter_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_1",
+        "message":"Hi, I'm Betty. How may I help you?",
+        "replies":[
+            {
+                "text":"I am searching for a place to rest.",
+                "nextPhraseID":"moeston_waiter_2"
+            },
+            {
+                "text":"I'm in need of something to eat.",
+                "nextPhraseID":"moeston_waiter_4"
+            },
+            {
+                "text":"This is the first town I encountered with no patrols from Feygard. How come?",
+                "nextPhraseID":"moeston_waiter_5"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_2",
+        "message":"I would like to offer you a room, but we are all rented out right now.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_waiter_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_3",
+        "message":"You could try and ask somewhere else, but I cannot guarantee that you can find a place.",
+        "replies":[
+            {
+                "text":"Too bad. Can I ask something else?",
+                "nextPhraseID":"moeston_waiter_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_4",
+        "message":"Sure. Take a seat on this free table and I will come to you."
+    },
+    {
+        "id":"moeston_waiter_food",
+        "message":"What can I get for you?",
+        "replies":[
+            {
+                "text":"I would like something to drink, please."
+            },
+            {
+                "text":"I would like some vegetables, please."
+            },
+            {
+                "text":"I would like some meat, please."
+            },
+            {
+                "text":"Thank you, I'm good."
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_5",
+        "message":"You "
     }
 ]

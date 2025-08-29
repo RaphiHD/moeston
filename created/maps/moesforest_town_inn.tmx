@@ -208,6 +208,16 @@
     <property name="place" value="inn"/>
    </properties>
   </object>
+  <object name="moeston_waiter_food" type="script" x="192" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="moeston_waiter_food" type="script" x="192" y="192" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="cook" type="spawn" x="32" y="96" width="128" height="64">
