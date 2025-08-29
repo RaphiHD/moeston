@@ -44,29 +44,6 @@
         }
     },
     {
-        "id":"cherries_sweet",
-        "iconID":"items_japozero:491",
-        "name":"Especially sweet cherries",
-        "displaytype":"ordinary",
-        "category":"food",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":5,
-                    "duration":6,
-                    "chance":"100"
-                },
-                {
-                    "condition":"food",
-                    "magnitude":5,
-                    "duration":8,
-                    "chance":"50"
-                }
-            ]
-        }
-    },
-    {
         "id":"wild_strawberry_sweet",
         "iconID":"items_consumables:8",
         "name":"Especially sweet wild strawberry",
@@ -94,28 +71,6 @@
         "iconID":"items_newb:851",
         "name":"Piece of cherry cake",
         "displaytype":"quest"
-    },
-    {
-        "id":"corn",
-        "iconID":"items_newb:818",
-        "name":"Corn",
-        "displaytype":"ordinary",
-        "category":"food",
-        "description":"Better take the leaves of before eating.",
-        "useEffect":{
-            "increaseCurrentHP":{
-                "min":3,
-                "max":4
-            },
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"100"
-                }
-            ]
-        }
     },
     {
         "id":"betula_leaves",
@@ -475,7 +430,7 @@
         "hasManualPrice":1,
         "baseMarketCost":0,
         "category":"pot",
-        "description":"The color seems slightly brighter than regular healing potions. It has a faint smell of ",
+        "description":"The color seems slightly brighter than regular healing potions. It has a faint smell of strawberries.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":5,
@@ -1079,16 +1034,6 @@
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"30"
-                }
-            ]
         }
     },
     {
@@ -1181,16 +1126,6 @@
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"30"
-                }
-            ]
         }
     },
     {
@@ -1283,16 +1218,6 @@
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"30"
-                }
-            ]
         }
     },
     {
@@ -1385,16 +1310,6 @@
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"30"
-                }
-            ]
         }
     },
     {
@@ -1487,16 +1402,6 @@
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"30"
-                }
-            ]
         }
     },
     {
@@ -2464,5 +2369,82 @@
         "baseMarketCost":450,
         "category":"neck",
         "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"water_bottle",
+        "iconID":"items_omi2:13",
+        "name":"Bottle of water",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":8,
+        "category":"drink",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":3
+            },
+            "conditionsSource":[
+                {
+                    "condition":"sated",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"4"
+                }
+            ]
+        }
+    },
+    {
+        "id":"strawberry_lemonade",
+        "iconID":"items_consumables:50",
+        "name":"Strawberry lemonade",
+        "displaytype":"ordinary",
+        "category":"drink",
+        "description":"A sparkling drink made from forest strawberries. Upon opening, you smell the sweetness of the drink.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":4,
+                "max":9
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":8,
+                    "chance":"100"
+                },
+                {
+                    "condition":"sense_1",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"45"
+                }
+            ]
+        }
+    },
+    {
+        "id":"parsnip",
+        "iconID":"items_japozero:496",
+        "name":"Parsnip",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":47,
+        "category":"food",
+        "description":"CHANGE SPRITE",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"90"
+                },
+                {
+                    "condition":"barkskin",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]

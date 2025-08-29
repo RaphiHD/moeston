@@ -592,7 +592,8 @@
     {
         "id":"moeston_tailor_kid",
         "name":"Lina",
-        "iconID":"monsters_ld1:169"
+        "iconID":"monsters_ld1:169",
+        "phraseID":"moeston_tailor_kid_start"
     },
     {
         "id":"moeston_waiter",
