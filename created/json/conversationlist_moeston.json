@@ -599,7 +599,6 @@
     },
     {
         "id":"niel_start",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"niel_20",
@@ -2396,7 +2395,6 @@
     },
     {
         "id":"moeston_citizen3_start",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"moeston_citizen3_1",
@@ -2654,7 +2652,6 @@
     },
     {
         "id":"moeston_trader_start",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"moeston_trader_1",
@@ -8745,7 +8742,6 @@
     },
     {
         "id":"moeston_waiter_f_drink_apple",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"moeston_waiter_f_confirm"
@@ -8886,7 +8882,6 @@
     },
     {
         "id":"moeston_waiter_f_meat_chicken",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"moeston_waiter_f_confirm"
@@ -9027,7 +9022,6 @@
     },
     {
         "id":"moeston_waiter_f_pastry_bread",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"moeston_waiter_f_confirm"
