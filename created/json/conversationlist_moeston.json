@@ -2358,7 +2358,6 @@
     },
     {
         "id":"moeston_citizen2_start",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"moeston_citizen2_1",
