@@ -815,15 +815,51 @@
             },
             {
                 "progress":170,
-                "logText":"[Lynn] has forgotten something. If this quest stage was activated, there is an issue in the dialog. Please report this to the dev team."
+                "logText":"[Lynn] has forgotten something. If this quest stage was activated, there is an issue in the dialog. Please report this to the dev team or Raphi (quest creator)."
             },
             {
                 "progress":200,
-                "logText":"[Rescue of a Researcher] Ronald told me his name. Needed for Quest Stage 30/31"
+                "logText":"[Betty] I have ordered a drink."
+            },
+            {
+                "progress":201,
+                "logText":"[Betty] I have ordered meat."
+            },
+            {
+                "progress":202,
+                "logText":"[Betty] I have ordered pastry."
+            },
+            {
+                "progress":205,
+                "logText":"[Betty] I have ordered option 1."
+            },
+            {
+                "progress":206,
+                "logText":"[Betty] I have ordered option 2."
+            },
+            {
+                "progress":207,
+                "logText":"[Betty] I have ordered option 3."
+            },
+            {
+                "progress":208,
+                "logText":"[Betty] I have ordered option 4."
+            },
+            {
+                "progress":209,
+                "logText":"[Betty] I have ordered option 5."
+            },
+            {
+                "progress":210,
+                "logText":"[Betty] I have received my order."
+            },
+            {
+                "progress":220,
+                "logText":"[Betty] has forgotten something. If this quest stage was activated, there is an issue in the dialog. Please report this to the dev team or Raphi (quest creator)."
             },
             {
                 "progress":300,
-                "logText":"[Wildlife Doctor] Anklebiter attacked"
+                "logText":"[Rescue of a Researcher] Ronald told me his name. Needed for Quest Stage 30/31"
             },
             {
                 "progress":400,
@@ -836,6 +872,10 @@
             {
                 "progress":402,
                 "logText":"[Caught in the net] Niel has left his spot"
+            },
+            {
+                "progress":500,
+                "logText":"[Wildlife Doctor] Anklebiter attacked"
             },
             {
                 "progress":900,

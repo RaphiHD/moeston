@@ -8170,6 +8170,11 @@
                 "nextPhraseID":"moeston_tailor_kid_4",
                 "requires":[
                     {
+                        "requireType":"timerElapsed",
+                        "requireID":"moeston_tailor_kid_drink",
+                        "value":20
+                    },
+                    {
                         "requireType":"random",
                         "requireID":"50"
                     }
@@ -8465,7 +8470,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"5"
+                        "requireID":"10"
                     }
                 ]
             },
@@ -8482,7 +8487,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"10"
+                        "requireID":"15"
                     }
                 ]
             },
@@ -8499,7 +8504,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"10"
+                        "requireID":"15"
                     }
                 ]
             },
@@ -8516,7 +8521,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"10"
+                        "requireID":"15"
                     }
                 ]
             },
@@ -8533,7 +8538,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"15"
+                        "requireID":"20"
                     }
                 ]
             },
@@ -8564,13 +8569,13 @@
         "id":"moeston_waiter_start",
         "replies":[
             {
-                "nextPhraseID":"moeston_waiter_1"
+                "nextPhraseID":"moeston_waiter_1a"
             }
         ]
     },
     {
         "id":"moeston_waiter_1",
-        "message":"Hi, I'm Betty. How may I help you?",
+        "message":"How may I help you?",
         "replies":[
             {
                 "text":"I am searching for a place to rest.",
@@ -8611,25 +8616,1056 @@
         "message":"Sure. Take a seat on this free table and I will come to you."
     },
     {
-        "id":"moeston_waiter_food",
+        "id":"moeston_waiter_f",
         "message":"What can I get for you?",
         "replies":[
             {
-                "text":"I would like something to drink, please."
+                "text":"I would like something to drink, please.",
+                "nextPhraseID":"moeston_waiter_f_drink_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":210,
+                        "negate":true
+                    }
+                ]
             },
             {
-                "text":"I would like some vegetables, please."
+                "text":"I would like some meat, please.",
+                "nextPhraseID":"moeston_waiter_f_meat_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":210,
+                        "negate":true
+                    }
+                ]
             },
             {
-                "text":"I would like some meat, please."
+                "text":"I would like some pastry, please.",
+                "nextPhraseID":"moeston_waiter_f_pastry_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":210,
+                        "negate":true
+                    }
+                ]
             },
             {
-                "text":"Thank you, I'm good."
+                "text":"I would like to pay now.",
+                "nextPhraseID":"moeston_waiter_pay",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":210
+                    }
+                ]
+            },
+            {
+                "text":"Thank you, I'm good.",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"moeston_waiter_5",
-        "message":"You "
+        "message":"You see, this town is far away from any larger road. Feygard also has this big outpost right next to our village, so I guess they just feel comfortable enough.",
+        "replies":[
+            {
+                "text":"This makes sense. Can I ask you something else?",
+                "nextPhraseID":"moeston_waiter_1"
+            },
+            {
+                "text":"I am glad that it's so quiet in here. Can I ask you something else?",
+                "nextPhraseID":"moeston_waiter_1"
+            },
+            {
+                "text":"I think the soldiers should be here too. Can I ask you something else?",
+                "nextPhraseID":"moeston_waiter_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_1a",
+        "message":"Hi, I'm Betty.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_waiter_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_confirm",
+        "message":"Sure. Wait here, I'll get it for you."
+    },
+    {
+        "id":"moeston_waiter_f_drink_1",
+        "message":"Sure. Take a look at this menu.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_waiter_f_drink_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_drink_2",
+        "message":"[Betty hands you a menu]\n\n30g - Apple juice\n100g - Prune juice\n10g - Goat milk\n20g - Wine\n50g - Moeston's Mead",
+        "replies":[
+            {
+                "text":"I'll take the apple juice.",
+                "nextPhraseID":"moeston_waiter_f_drink_apple"
+            },
+            {
+                "text":"I'll take the prune juice.",
+                "nextPhraseID":"moeston_waiter_f_drink_prune"
+            },
+            {
+                "text":"I'll take the goat milk.",
+                "nextPhraseID":"moeston_waiter_f_drink_goat"
+            },
+            {
+                "text":"I'll take the wine.",
+                "nextPhraseID":"moeston_waiter_f_drink_wine"
+            },
+            {
+                "text":"I'll take the mead.",
+                "nextPhraseID":"moeston_waiter_f_drink_mead"
+            },
+            {
+                "text":"Nothing for me. Can I ask you something else?",
+                "nextPhraseID":"moeston_waiter_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_drink_apple",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":200
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":205
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_drink_prune",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":200
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":206
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_drink_goat",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":200
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":207
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_drink_wine",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":200
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":208
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_drink_mead",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":200
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":209
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_meat_1",
+        "message":"Sure. Take a look at this menu.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_waiter_f_meat_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_meat_2",
+        "message":"[Betty hands you a menu]\n\n110g - Cooked chicken leg\n80g - Cooked meat\n90g - Cooked snake meat\n70g - Dried goat meat\n80g - Cooked inkyfish",
+        "replies":[
+            {
+                "text":"I'll take the cooked chicken.",
+                "nextPhraseID":"moeston_waiter_f_meat_chicken"
+            },
+            {
+                "text":"I'll take the cooked meat.",
+                "nextPhraseID":"moeston_waiter_f_meat_meat"
+            },
+            {
+                "text":"I'll take the cooked snake meat.",
+                "nextPhraseID":"moeston_waiter_f_meat_snake"
+            },
+            {
+                "text":"I'll take the dried goat meat.",
+                "nextPhraseID":"moeston_waiter_f_meat_goat"
+            },
+            {
+                "text":"I'll take the cooked inkyfish.",
+                "nextPhraseID":"moeston_waiter_f_meat_inky"
+            },
+            {
+                "text":"Nothing for me. Can I ask you something else?",
+                "nextPhraseID":"moeston_waiter_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_meat_chicken",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":201
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":205
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_meat_meat",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":201
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":206
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_meat_snake",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":201
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":207
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_meat_goat",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":201
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":208
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_meat_inky",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":201
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":209
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_pastry_1",
+        "message":"Sure. Take a look at this menu.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_waiter_f_pastry_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_pastry_2",
+        "message":"[Betty hands you a menu]\n\n110g - Bread\n80g - Piece of Cake\n90g - Hard biscuits\n70g - Strawberry pastry\n80g - Watermelon slice",
+        "replies":[
+            {
+                "text":"I'll take the bread.",
+                "nextPhraseID":"moeston_waiter_f_pastry_bread"
+            },
+            {
+                "text":"I'll take the piece of cake.",
+                "nextPhraseID":"moeston_waiter_f_pastry_cake"
+            },
+            {
+                "text":"I'll take the hard biscuits.",
+                "nextPhraseID":"moeston_waiter_f_pastry_biscuits"
+            },
+            {
+                "text":"I'll take the strawberry pastry.",
+                "nextPhraseID":"moeston_waiter_f_pastry_strawberry"
+            },
+            {
+                "text":"I'll take the watermelon slice.",
+                "nextPhraseID":"moeston_waiter_f_pastry_watermelon"
+            },
+            {
+                "text":"Nothing for me. Can I ask you something else?",
+                "nextPhraseID":"moeston_waiter_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_pastry_bread",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":202
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":205
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_pastry_cake",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":202
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":206
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_pastry_biscuits",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":202
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":207
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_pastry_strawberry",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":202
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":208
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_f_pastry_watermelon",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f_confirm"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":202
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":209
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g",
+        "message":"Your order is ready.",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_g_drink",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":200
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_meat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":201
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_pastry",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":202
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_error"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_drink",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_g_drink_apple"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_drink_prune"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_drink_goat"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_drink_wine"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_drink_mead"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_meat",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_g_meat_chicken"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_pastry",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_g_pastry_biscuits"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_error",
+        "message":"I seem to have forgotten something. This should not have happened.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_waiter_f"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":220
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_drink_apple",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"drink_applej",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_drink_prune",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"drink_prunej",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_drink_goat",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"milk_goat",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_drink_wine",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"guynmart_wine",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_drink_mead",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"moeston_mead",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_meat_chicken",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"chkn_leg",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_meat_meat",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"meat_cooked",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_meat_snake",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"snake_meat_cooked",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_meat_goat",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"goat_meat_dried",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_meat_inky",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bwm_fish2",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_pastry_bread",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bread",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_pastry_cake",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"cake_piece",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_pastry_biscuits",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"biscuit_hard",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_pastry_strawberry",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"strawberry_pastry",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_g_pastry_watermelon",
+        "message":"Here you go. Enjoy!",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"watermelon_slice",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_door_notpayed",
+        "message":"Wait, you haven't payed yet!",
+        "replies":[
+            {
+                "text":"Oh, sorry. I can pay now.",
+                "nextPhraseID":"moeston_waiter_pay"
+            },
+            {
+                "text":"Now what?",
+                "nextPhraseID":"moeston_waiter_pay_refuse"
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay",
+        "message":"Sure! Let me see what you got..."
+    },
+    {
+        "id":"moeston_waiter_pay_refuse",
+        "message":"You have to pay for your food, kid. That's how restaurants work."
+    },
+    {
+        "id":"moeston_waiter_pay_broke",
+        "message":"Oh kid, you cannot just order food when you don't have money. Let me see what we can do about it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_waiter_pay_broke_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_broke_2",
+        "message":"The floor could get some cleaning again. I will let you go if you help us out.",
+        "replies":[
+            {
+                "text":"Of course. I am sorry."
+            },
+            {
+                "text":"What? Am I your janitor now?"
+            },
+            {
+                "text":"No way. I am destined for fighting, not for cleaning your floor."
+            }
+        ]
     }
 ]

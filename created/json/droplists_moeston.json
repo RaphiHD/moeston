@@ -618,5 +618,32 @@
                 }
             }
         ]
+    },
+    {
+        "id":"moeston_trader_shop",
+        "items":[
+            {
+                "itemID":"parsnip",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":7
+                }
+            },
+            {
+                "itemID":"tomato",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":9
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader1_shop"
+    },
+    {
+        "id":"moeston_trader2_shop"
     }
 ]

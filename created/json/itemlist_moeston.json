@@ -2446,5 +2446,74 @@
                 }
             ]
         }
+    },
+    {
+        "id":"strawberry_pastry",
+        "iconID":"items_newb:846",
+        "name":"Strawberry pastry",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":205,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":10,
+                    "chance":"100"
+                },
+                {
+                    "condition":"sweet_tooth",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_mead",
+        "iconID":"items_consumables:51",
+        "name":"Moeston mead",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":13,
+        "category":"drink",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":3
+            }
+        }
+    },
+    {
+        "id":"tomato",
+        "iconID":"items_japozero:493",
+        "name":"Tomato",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":36,
+        "category":"food",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":2
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":9,
+                    "chance":"80"
+                },
+                {
+                    "condition":"focus_dmg",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"20"
+                }
+            ]
+        }
     }
 ]
