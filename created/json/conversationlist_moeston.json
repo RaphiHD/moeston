@@ -2589,6 +2589,16 @@
         "id":"moeston_woodcutter_start",
         "replies":[
             {
+                "nextPhraseID":"moeston_woodcutter_starttimer",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"moeston_woodcutter_axe_sharpened",
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"moeston_woodcutter_1",
                 "requires":[
                     {
@@ -8149,6 +8159,16 @@
         "id":"moeston_tailor_kid_start",
         "replies":[
             {
+                "nextPhraseID":"moeston_tailor_kid_starttimer",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"moeston_tailor_kid_drink",
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"moeston_tailor_kid_1",
                 "requires":[
                     {
@@ -9658,6 +9678,34 @@
             },
             {
                 "text":"No way. I am destined for fighting, not for cleaning your floor."
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_kid_starttimer",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_tailor_kid_start"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"moeston_tailor_kid_drink"
+            }
+        ]
+    },
+    {
+        "id":"moeston_woodcutter_starttimer",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_woodcutter_start"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"moeston_woodcutter_axe_sharpened"
             }
         ]
     }
