@@ -33,6 +33,9 @@
  <tileset firstgid="1073" name="map_cavewall_5" tilewidth="32" tileheight="32" tilecount="72" columns="12">
   <image source="../drawable/map_cavewall_5.png" width="384" height="192"/>
  </tileset>
+ <tileset firstgid="1073" name="map_cavewall_6" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../drawable/map_cavewall_6.png" width="576" height="192"/>
+ </tileset>
  <tileset firstgid="1073" name="map_chair_table_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_chair_table_1.png" width="512" height="256"/>
  </tileset>

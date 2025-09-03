@@ -854,6 +854,10 @@
                 "logText":"[Betty] I have received my order."
             },
             {
+                "progress":211,
+                "logText":"[Betty] I have received, but not yet payed my order."
+            },
+            {
                 "progress":220,
                 "logText":"[Betty] has forgotten something. If this quest stage was activated, there is an issue in the dialog. Please report this to the dev team or Raphi (quest creator)."
             },

@@ -32,7 +32,10 @@
   <image source="../drawable/map_cavewall_4.png" width="576" height="192"/>
  </tileset>
  <tileset firstgid="1073" name="map_cavewall_5" tilewidth="32" tileheight="32">
-  <image source="../../altered/spritesheets/map_cavewall_5.png" width="384" height="192"/>
+  <image source="../drawable/map_cavewall_5.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="1073" name="map_cavewall_6" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../drawable/map_cavewall_6.png" width="576" height="192"/>
  </tileset>
  <tileset firstgid="1145" name="map_chair_table_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_chair_table_1.png" width="512" height="256"/>
