@@ -2515,5 +2515,17 @@
                 }
             ]
         }
+    },
+    {
+        "id":"cage_empty",
+        "iconID":"items_japozero:430",
+        "name":"Empty cage",
+        "displaytype":"quest"
+    },
+    {
+        "id":"cage_animal",
+        "iconID":"items_japozero:430",
+        "name":"Encaged animal",
+        "displaytype":"quest"
     }
 ]

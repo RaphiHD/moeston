@@ -604,77 +604,93 @@
     {
         "id":"moeston_guest1",
         "name":"Guest",
-        "iconID":"monsters_tometik2:70"
+        "iconID":"monsters_tometik2:70",
+        "phraseID":"moeston_guest1_start"
     },
     {
         "id":"moeston_guest",
         "name":"Guest",
-        "iconID":"monsters_tometik7:45"
+        "iconID":"monsters_tometik7:45",
+        "phraseID":"moeston_guest_start"
     },
     {
         "id":"moeston_guest2",
         "name":"Drinking Guest",
-        "iconID":"monsters_ld1:135"
+        "iconID":"monsters_ld1:135",
+        "phraseID":"moeston_guest2_start"
     },
     {
         "id":"moeston_cook",
         "name":"Cook",
-        "iconID":"monsters_ld1:22"
+        "iconID":"monsters_ld1:22",
+        "phraseID":"moeston_cook_start"
     },
     {
         "id":"moeston_guest3",
         "name":"Tired Guest",
-        "iconID":"monsters_ld2:101"
+        "iconID":"monsters_ld2:101",
+        "phraseID":"moeston_guest3_start"
     },
     {
         "id":"moeston_smith",
         "name":"Fancor",
-        "iconID":"monsters_tometik2:40"
+        "iconID":"monsters_tometik2:40",
+        "phraseID":"moeston_smith_start",
+        "droplistID":"moeston_smith_shop"
     },
     {
         "id":"moeston_smith_wife",
         "name":"Enila",
-        "iconID":"monsters_men:1"
+        "iconID":"monsters_men:1",
+        "phraseID":"moeston_smith_wife_start"
     },
     {
         "id":"mayor_natula",
         "name":"Mayor Natula",
-        "iconID":"monsters_phoenix01:21"
+        "iconID":"monsters_phoenix01:21",
+        "phraseID":"mayor_natula_start"
     },
     {
         "id":"moeston_teacher",
         "name":"Teacher",
-        "iconID":"monsters_ld1:30"
+        "iconID":"monsters_ld1:30",
+        "phraseID":"moeston_teacher_start"
     },
     {
         "id":"moeston_kid",
         "name":"Kid",
-        "iconID":"monsters_ld1:157"
+        "iconID":"monsters_ld1:157",
+        "phraseID":"moeston_kid_start"
     },
     {
         "id":"moeston_kid1",
         "name":"Kid",
-        "iconID":"monsters_ld1:37"
+        "iconID":"monsters_ld1:37",
+        "phraseID":"moeston_kid1_start"
     },
     {
         "id":"moeston_fisher",
         "name":"Fisher",
-        "iconID":"monsters_phoenix01:3"
+        "iconID":"monsters_phoenix01:3",
+        "phraseID":"moeston_fisher_start"
     },
     {
         "id":"moeston_prisonguard",
         "name":"Prison Guard",
-        "iconID":"monsters_rltiles1:72"
+        "iconID":"monsters_rltiles1:72",
+        "phraseID":"moeston_prisonguard_start"
     },
     {
         "id":"mairie",
         "name":"Mairie",
-        "iconID":"monsters_ld1:146"
+        "iconID":"monsters_ld1:146",
+        "phraseID":"mairie_start"
     },
     {
         "id":"mairie_staff",
         "name":"Staff",
-        "iconID":"monsters_ld1:186"
+        "iconID":"monsters_ld1:186",
+        "phraseID":"mairie_staff_start"
     },
     {
         "id":"moe_ghost",

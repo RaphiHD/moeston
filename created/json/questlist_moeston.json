@@ -551,7 +551,7 @@
             },
             {
                 "progress":16,
-                "logText":"I told her that I like butterflys."
+                "logText":"I told her that I like butterflies."
             },
             {
                 "progress":19,
@@ -646,8 +646,12 @@
                 "logText":"The anklebiter was attacking me from behind and I had no choice but to defend myself and kill it. I hope the staff doesn't kill me too!"
             },
             {
+                "progress":74,
+                "logText":"I took the cage and should bring it back now."
+            },
+            {
                 "progress":75,
-                "logText":"I brought the cage back to the rescue station and the staff was very happy about it."
+                "logText":"I brought the cage back to the rescue station."
             },
             {
                 "progress":80,
@@ -736,6 +740,14 @@
             {
                 "progress":113,
                 "logText":"[Citizen 3] I gave this weird woman an azure gem."
+            },
+            {
+                "progress":120,
+                "logText":"[Fancor] has burned his finger."
+            },
+            {
+                "progress":125,
+                "logText":"[Teacher] is currently teaching."
             },
             {
                 "progress":150,

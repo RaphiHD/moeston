@@ -641,9 +641,42 @@
         ]
     },
     {
-        "id":"moeston_trader1_shop"
+        "id":"moeston_trader1_shop",
+        "items":[
+            {
+                "itemID":"wild_strawberry",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     },
     {
-        "id":"moeston_trader2_shop"
+        "id":"moeston_trader2_shop",
+        "items":[
+            {
+                "itemID":"wild_strawberry",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_smith_shop",
+        "items":[
+            {
+                "itemID":"axe_black2",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

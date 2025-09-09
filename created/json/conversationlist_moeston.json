@@ -9708,5 +9708,1612 @@
                 "rewardID":"moeston_woodcutter_axe_sharpened"
             }
         ]
+    },
+    {
+        "id":"moeston_guest1_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_guest1_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_guest1_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"30/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_guest1_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_guest1_1",
+        "message":"This is a beautiful place. Peaceful. Without all those patrols everywhere."
+    },
+    {
+        "id":"moeston_guest1_2",
+        "message":"The pastry here is very good, but Deebo's apple pie is just the best.",
+        "replies":[
+            {
+                "text":"Who's Deebo?",
+                "nextPhraseID":"moeston_guest1_2a"
+            }
+        ]
+    },
+    {
+        "id":"moeston_guest1_2a",
+        "message":"Deebo is an old friend of mine. He lives somewhere further down the Duleian road. Haven't seen him in a while though."
+    },
+    {
+        "id":"moeston_guest1_3",
+        "message":"I felt a bit sick this morning, but now that I've eaten something, I'm feeling better. The food here is like medicine to me."
+    },
+    {
+        "id":"moeston_guest_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_guest_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_guest_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_guest_1",
+        "message":"He he. This journey is going well. The mead is good, but next I'll visit Lowyna again. I need more of that stuff."
+    },
+    {
+        "id":"moeston_guest_2",
+        "message":"He he, kid, you look like an adventurer to me.",
+        "replies":[
+            {
+                "text":"Yes, that is what I am.",
+                "nextPhraseID":"moeston_guest_2a"
+            },
+            {
+                "text":"Uh... unlike you...",
+                "nextPhraseID":"moeston_guest_2b"
+            }
+        ]
+    },
+    {
+        "id":"moeston_guest_2a",
+        "message":"He he, then you should go and visit Feygard. This city is full of adventures."
+    },
+    {
+        "id":"moeston_guest_2b",
+        "message":"He he, I do not? I always wanted to be one. Now my adventures are... let's say, Lowyna is always an adventure, he he."
+    },
+    {
+        "id":"moeston_guest2_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_guest2_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_guest2_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_guest2_3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_guest2_4"
+            }
+        ]
+    },
+    {
+        "id":"moeston_guest2_1",
+        "message":"[Gulp] Ahh... nothing is better than a glassss of wine in the evening... or morrrning... what time is it again?"
+    },
+    {
+        "id":"moeston_guest2_2",
+        "message":"[Gulp] Yes, I lllike this one. Pleassse, can I have morrre of thisss?"
+    },
+    {
+        "id":"moeston_guest2_3",
+        "message":"[Gulp] Tomorrow I will continue my travelll towards Brightporrrt... I hope I won't fall rrright into the flowerrr pot like yesterrrday..."
+    },
+    {
+        "id":"moeston_guest2_4",
+        "message":"[Gulp] Only Sullengarrrd's Finest can top this drrrink. I think I should get sssomething to eat as well now..."
+    },
+    {
+        "id":"moeston_cook_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_cook_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_cook_1",
+        "message":"So, who might you be?",
+        "replies":[
+            {
+                "text":"I am $playername. And you?",
+                "nextPhraseID":"moeston_cook_2"
+            },
+            {
+                "text":"That is none of your business.",
+                "nextPhraseID":"moeston_cook_4"
+            }
+        ]
+    },
+    {
+        "id":"moeston_cook_2",
+        "message":"Mhm, and what is $playername doing in my kitchen?",
+        "replies":[
+            {
+                "text":"I wondered if you have something to eat.",
+                "nextPhraseID":"moeston_cook_3"
+            },
+            {
+                "text":"Sorry, I'll go.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moeston_cook_3",
+        "message":"[Putting a pan away] Kid. I am the cook. If you want something to eat, order it from Betty."
+    },
+    {
+        "id":"moeston_cook_4",
+        "message":"And so is this kitchen. Grab a table if you want something to eat."
+    },
+    {
+        "id":"moeston_guest3_start",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_guest3_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_guest3_1",
+        "message":"Chrrr..."
+    },
+    {
+        "id":"moeston_smith_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_smith_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_smith_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_smith_1",
+        "message":"Ah! Ouch! That was still hot... wait a second kid, I am busy.",
+        "replies":[
+            {
+                "text":"Do you need a potion?",
+                "nextPhraseID":"moeston_smith_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"moeston_smith_2",
+        "message":"No, no, just some water to cool my finger. I'll be right back."
+    },
+    {
+        "id":"moeston_smith_3",
+        "message":"Okay, here I am. How can I help you?",
+        "replies":[
+            {
+                "text":"I wondered if you have anything to trade.",
+                "nextPhraseID":"moeston_smith_4"
+            },
+            {
+                "text":"Have you seen my brother, Andor?",
+                "nextPhraseID":"moeston_smith_5"
+            }
+        ]
+    },
+    {
+        "id":"moeston_smith_4",
+        "message":"Ah, to trade, haha. Yes, I have, do you want to look at my offerings?",
+        "replies":[
+            {
+                "text":"Yes, please.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Maybe later.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moeston_smith_5",
+        "message":"Aha, your brother, huh? Not that I would now. The only kids I've seen lately are the one's here in town."
+    },
+    {
+        "id":"moeston_smith_wife_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_smith_wife_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_smith_wife_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_smith_wife_1",
+        "message":"Hey, if you want to talk to my husband, the smith, he is over there."
+    },
+    {
+        "id":"moeston_smith_wife_2",
+        "message":"My husband tends to be a little... clumsy. Not entirely useful when you're a smith."
+    },
+    {
+        "id":"mayor_natula_start",
+        "replies":[
+            {
+                "nextPhraseID":"mayor_natula_1"
+            }
+        ]
+    },
+    {
+        "id":"mayor_natula_1",
+        "message":"Hello! Welcome to our little town in the woods. I hope you found us well?",
+        "replies":[
+            {
+                "text":"Thank you. The way here was a little tough, but I managed.",
+                "nextPhraseID":"mayor_natula_2"
+            },
+            {
+                "text":"Sure. No problem for me of course.",
+                "nextPhraseID":"mayor_natula_2"
+            }
+        ]
+    },
+    {
+        "id":"mayor_natula_2",
+        "message":"Great to hear. How can I help you?",
+        "replies":[
+            {
+                "text":"Where can I find a place to rest?",
+                "nextPhraseID":"mayor_natula_3"
+            },
+            {
+                "text":"Are there any merchants in this town?",
+                "nextPhraseID":"mayor_natula_5"
+            },
+            {
+                "text":"Have you seen my brother, Andor?",
+                "nextPhraseID":"mayor_natula_6"
+            },
+            {
+                "text":"I don't need help right now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mayor_natula_3",
+        "message":"Over in the southwest, we have an inn with a few rooms. You can ask there. Their beds are very comfortable I heard.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mayor_natula_4"
+            }
+        ]
+    },
+    {
+        "id":"mayor_natula_4",
+        "message":"Is there anything else I can help you with?",
+        "replies":[
+            {
+                "text":"Where can I find a place to rest?",
+                "nextPhraseID":"mayor_natula_3"
+            },
+            {
+                "text":"Are there any merchants in this town?",
+                "nextPhraseID":"mayor_natula_5"
+            },
+            {
+                "text":"Have you seen my brother, Andor?",
+                "nextPhraseID":"mayor_natula_6"
+            },
+            {
+                "text":"That's all for now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mayor_natula_5",
+        "message":"Yes. We have Fancor, our town's smith, in the north. If you need clothing, you can visit Lynn to the west.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mayor_natula_5a"
+            }
+        ]
+    },
+    {
+        "id":"mayor_natula_5a",
+        "message":"In fact, she is the one who tailored this beautiful robe for me. Don't you think it suits me pretty well?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mayor_natula_5b"
+            }
+        ]
+    },
+    {
+        "id":"mayor_natula_5b",
+        "message":"Anyways, we also currently have some traders from Remgard in town. I'm not sure what they are selling, but you might want to check them out.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mayor_natula_4"
+            }
+        ]
+    },
+    {
+        "id":"mayor_natula_6",
+        "message":"Your broth... And... no. I have definetely never heard that name. Absolutely not.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mayor_natula_4"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_teacher_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":125,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_teacher_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":125,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_teacher_3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_teacher_8",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_teacher_10"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_1",
+        "message":"[Mumbling] ...and therefore not able to pass this class...",
+        "replies":[
+            {
+                "text":"Hello?",
+                "nextPhraseID":"moeston_teacher_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_2",
+        "message":"Oh, hello kid. There is no class right now. Please go outside and play with the others."
+    },
+    {
+        "id":"moeston_decide_if_school_time",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_decide_school_time",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"40/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_decide_no_school_time"
+            }
+        ]
+    },
+    {
+        "id":"moeston_decide_school_time",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":125
+            }
+        ]
+    },
+    {
+        "id":"moeston_decide_no_school_time",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":125
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_1a",
+        "message":"[Mumbling] ...have to apply stricter rules...",
+        "replies":[
+            {
+                "text":"Hello?",
+                "nextPhraseID":"moeston_teacher_2"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_3",
+        "message":"...and so the decision was made by Lord Geomyr. Let us now take a look into these scripts of Dhayavar.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_teacher_4"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_4",
+        "message":"In the year 22, during the noble wars, an attack on Feygard was performed by soldiers of Lord Emeric. The attack lasted several days, before Feygard countered with a spectacular move.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_teacher_5"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_5",
+        "message":"[While the teacher speaks, a butterfly enters through one of the open windows, catching your attention]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_teacher_6"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_6",
+        "message":"[It has beautiful colors, green and blue, and slightly shimmers in the sunlight falling through the window]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_teacher_7"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_7",
+        "message":"[This is definetely way more interesting than what the teacher is saying]"
+    },
+    {
+        "id":"moeston_teacher_8",
+        "message":"...which is written like this. [draws a weird shape on the board]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_teacher_9"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_9",
+        "message":"The important part about this word is its form when used in a progressive sentence.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_teacher_5"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_10",
+        "message":"...and is not edible. These mushrooms are most commonly found in the savannah in the southwest corner of Dhayavar.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_teacher_11"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_11",
+        "message":"They are always found in groups of three and the biggest one has a red dot on it's hat like this... [poorly draws a group of mushrooms on the board]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_teacher_5"
+            }
+        ]
+    },
+    {
+        "id":"moeston_kid_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_kid_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":125
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_kid_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_kid_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_kid_1",
+        "message":"[Listening to the teacher]",
+        "replies":[
+            {
+                "text":"Hey.",
+                "nextPhraseID":"moeston_teacher_interrupt"
+            }
+        ]
+    },
+    {
+        "id":"moeston_teacher_interrupt",
+        "message":"Shh, no talking in class.",
+        "switchToNPC":"moeston_teacher"
+    },
+    {
+        "id":"moeston_kid_2",
+        "message":"Your knight costume is really cool. I once had a pirate costume.",
+        "replies":[
+            {
+                "text":"Hey, that is not a costume!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moeston_kid_3",
+        "message":"I really like to sit here and watch the birds. Do you want to join me?",
+        "replies":[
+            {
+                "text":"No, thank you. I have more important stuff to do.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moeston_kid1_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_kid1_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_kid1_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_kid1_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_kid1_1",
+        "message":"Race you to the well! Last one there smells like cabbage!"
+    },
+    {
+        "id":"moeston_kid1_2",
+        "message":"Do you see this cloud over there? It is a dragon! Or maybe a sheep with wings."
+    },
+    {
+        "id":"moeston_kid1_3",
+        "message":"My father told me Feygard isn't real, it's just made up to scare us."
+    },
+    {
+        "id":"moeston_fisher_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_fisher_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_fisher_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"33/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_fisher_3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_fisher_4"
+            }
+        ]
+    },
+    {
+        "id":"moeston_fisher_1",
+        "message":"You see this barrel over ther? This is where I'd put my fish. If I had any."
+    },
+    {
+        "id":"moeston_fisher_2",
+        "message":"I bet these traders are scamming. Their fish looks exactly like mine, and since they are here, I have trouble catching them."
+    },
+    {
+        "id":"moeston_fisher_3",
+        "message":"Look, there was a fish. But it won't bite for some reason."
+    },
+    {
+        "id":"moeston_fisher_4",
+        "message":"I've been fishing for all day, getting sleepy now..."
+    },
+    {
+        "id":"moeston_prisonguard_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_prisonguard_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_prisonguard_1",
+        "message":"Chrrr..."
+    },
+    {
+        "id":"mairie_start",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":75,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_18",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":75
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":91,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_1"
+            }
+        ]
+    },
+    {
+        "id":"mairie_1",
+        "message":"Hey there, little one.",
+        "replies":[
+            {
+                "text":"What is this place?",
+                "nextPhraseID":"mairie_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Do you need some help?",
+                "nextPhraseID":"mairie_8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":45,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"mairie_told",
+                        "value":25,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Do you need some help?",
+                "nextPhraseID":"mairie_9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":45,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":20
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"mairie_told",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"How are you doing?",
+                "nextPhraseID":"mairie_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"How are you doing?",
+                "nextPhraseID":"mairie_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":91
+                    }
+                ]
+            },
+            {
+                "text":"Sorry, I have to go.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mairie_2",
+        "message":"Oh this Hut? It is an old hunter's cabin. Nowadays, we use it as an animal shelter.",
+        "replies":[
+            {
+                "text":"What does that mean?",
+                "nextPhraseID":"mairie_3"
+            },
+            {
+                "text":"I don't think that's very interesting.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mairie_3",
+        "message":"In the wild nature, animals often get hurt. Like when they run over a tree stump or get attacked by another animal.",
+        "replies":[
+            {
+                "text":"And you are here to help them?",
+                "nextPhraseID":"mairie_4"
+            },
+            {
+                "text":"What do you do here then?",
+                "nextPhraseID":"mairie_5"
+            },
+            {
+                "text":"Or get attacked by me...",
+                "nextPhraseID":"mairie_3a"
+            }
+        ]
+    },
+    {
+        "id":"mairie_4",
+        "message":"Yes, exactly. You're a smart kid.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_5"
+            }
+        ]
+    },
+    {
+        "id":"mairie_5",
+        "message":"When we spot an injured animal, we try to catch it and bring it here. We have medical treatment so that they can heal fast and return to nature safely.",
+        "replies":[
+            {
+                "text":"That's great. I like animals too.",
+                "nextPhraseID":"mairie_6"
+            },
+            {
+                "text":"That sounds boring.",
+                "nextPhraseID":"mairie_5a"
+            }
+        ]
+    },
+    {
+        "id":"mairie_3a",
+        "message":"What did you say?",
+        "replies":[
+            {
+                "text":"Oh nothing. Continue please.",
+                "nextPhraseID":"mairie_5"
+            },
+            {
+                "text":"I better get out of here...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mairie_6",
+        "message":"Great to hear. Do you have a favourite animal?",
+        "replies":[
+            {
+                "text":"I like squirrels.",
+                "nextPhraseID":"mairie_6a"
+            },
+            {
+                "text":"I like deer.",
+                "nextPhraseID":"mairie_6b"
+            },
+            {
+                "text":"I like bats.",
+                "nextPhraseID":"mairie_6c"
+            },
+            {
+                "text":"I like rabbits.",
+                "nextPhraseID":"mairie_6d"
+            },
+            {
+                "text":"I like frogs.",
+                "nextPhraseID":"mairie_6e"
+            },
+            {
+                "text":"I like lizards.",
+                "nextPhraseID":"mairie_6f"
+            },
+            {
+                "text":"I like butterflies.",
+                "nextPhraseID":"mairie_6g"
+            },
+            {
+                "text":"I like anklebiters.",
+                "nextPhraseID":"mairie_6h"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"mairie_5a",
+        "message":"Well, I understand it's not up to everybody's taste."
+    },
+    {
+        "id":"mairie_6a",
+        "message":"Great choice. I like them too.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":10
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"mairie_told"
+            }
+        ]
+    },
+    {
+        "id":"mairie_6b",
+        "message":"Great choice. I like them too.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":11
+            }
+        ]
+    },
+    {
+        "id":"mairie_6c",
+        "message":"Great choice. I like them too.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"mairie_6d",
+        "message":"Great choice. I like them too.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":13
+            }
+        ]
+    },
+    {
+        "id":"mairie_6e",
+        "message":"Great choice. I like them too.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":14
+            }
+        ]
+    },
+    {
+        "id":"mairie_6f",
+        "message":"Great choice. I like them too.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"mairie_6g",
+        "message":"Great choice. I like them too.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":16
+            }
+        ]
+    },
+    {
+        "id":"mairie_6h",
+        "message":"Great choice. I like them too.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":17
+            }
+        ]
+    },
+    {
+        "id":"mairie_7",
+        "message":"If you want to help us with these animals, come back at any time. We often need a helping hand."
+    },
+    {
+        "id":"mairie_8",
+        "message":"Not right now, but come back at any time. We often need a helping hand."
+    },
+    {
+        "id":"mairie_9",
+        "message":"How nice of you asking. In fact, we do.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_10"
+            }
+        ]
+    },
+    {
+        "id":"mairie_10",
+        "message":"Please go to my staff, she can give you details."
+    },
+    {
+        "id":"mairie_11",
+        "message":"Good luck catching your first animal. Oh and don't forget to open this little lever right here, okay?",
+        "replies":[
+            {
+                "text":"I got this.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I know how to do this.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mairie_12",
+        "message":"[Putting a book away] How is it going, did you catch it yet?",
+        "replies":[
+            {
+                "text":"Yes, here it is! [Show Mairie the cage]",
+                "nextPhraseID":"mairie_13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":60
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"cage_animal",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Yes, but I have to go and get it.",
+                "nextPhraseID":"mairie_13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"Well, I got attacked...",
+                "nextPhraseID":"mairie_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"mairie_14"
+            }
+        ]
+    },
+    {
+        "id":"mairie_13",
+        "message":"Great! Bring it to my staff."
+    },
+    {
+        "id":"mairie_14",
+        "message":"Good luck with it."
+    },
+    {
+        "id":"mairie_15",
+        "message":"Oh no, are you alright? Are you hurt?",
+        "replies":[
+            {
+                "text":"No, no. I am fine. But the anklebiter...",
+                "nextPhraseID":"mairie_16"
+            }
+        ]
+    },
+    {
+        "id":"mairie_16",
+        "message":"Yes, what is with it?",
+        "switchToNPC":"mairie",
+        "replies":[
+            {
+                "text":"I had no choice but to kill it. I'm sorry.",
+                "nextPhraseID":"mairie_17"
+            }
+        ]
+    },
+    {
+        "id":"mairie_17",
+        "message":"Oh, it's alright. In fact, I am glad that he doesn't roam around any longer. He was not just hurting you, but all the other animals as well.",
+        "switchToNPC":"mairie_staff",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_18"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":89
+            }
+        ]
+    },
+    {
+        "id":"mairie_18",
+        "message":"For your effort in helping us, we want to reward you with some gold.",
+        "switchToNPC":"mairie",
+        "replies":[
+            {
+                "text":"Oh great, just what I love the most.",
+                "nextPhraseID":"mairie_19"
+            },
+            {
+                "text":"Oh thank you so much. I don't deserve this.",
+                "nextPhraseID":"mairie_19"
+            },
+            {
+                "text":"Oh thank you, but I am sure you need the gold more than I do.",
+                "nextPhraseID":"mairie_20"
+            }
+        ]
+    },
+    {
+        "id":"mairie_19",
+        "message":"Thank you again. And feel free to come back whenever you'd like.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1000
+            }
+        ]
+    },
+    {
+        "id":"mairie_20",
+        "message":"Do you think? Well, indeed we need a lot to run this service.",
+        "replies":[
+            {
+                "text":"Just kidding. I want the gold.",
+                "nextPhraseID":"mairie_19"
+            },
+            {
+                "text":"I imagine. I want to donate my reward to you.",
+                "nextPhraseID":"mairie_21"
+            }
+        ]
+    },
+    {
+        "id":"mairie_21",
+        "message":"This brings tears to my eyes. Thank you so much.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_22"
+            }
+        ]
+    },
+    {
+        "id":"mairie_22",
+        "message":"I have something else that I want to give you instead. It is an old amulet I once found in the forest. Maybe you will like it. And feel free to visit your little friend whenever you like.",
+        "switchToNPC":"mairie_staff",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"mairie_23",
+        "message":"We don't have much work right now, so I can relax a bit.",
+        "replies":[
+            {
+                "text":"I am glad to hear that.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_start",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":1
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"mairie_told",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_1"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_1",
+        "message":"Hello. Please talk to Mairie if you have any questions."
+    },
+    {
+        "id":"mairie_staff_2",
+        "message":"[Reading a paper] Please don't disturb me, I have to concentrate."
+    },
+    {
+        "id":"mairie_staff_3",
+        "message":"How can I help you?",
+        "replies":[
+            {
+                "text":"Mairie told me that you could use some help.",
+                "nextPhraseID":"mairie_staff_4"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_4",
+        "message":"Oh yes, I do. We have spotted an injured animal down in the forest.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_5a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_5b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":11
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_5c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":12
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_5d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":13
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_5e",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":14
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_5f",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_5b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":16
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_5b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":19
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_5a",
+        "message":"A squirrel, to be precise.",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_5b",
+        "message":"A deer, to be precise."
+    },
+    {
+        "id":"mairie_staff_5c",
+        "message":"A bat, to be precise."
+    },
+    {
+        "id":"mairie_staff_5d",
+        "message":"A rabbit, to be precise."
+    },
+    {
+        "id":"mairie_staff_5e",
+        "message":"A frog, to be precise."
+    },
+    {
+        "id":"mairie_staff_5f",
+        "message":"A lizard, to be precise."
+    },
+    {
+        "id":"mairie_staff_5g",
+        "message":"A butterfly, to be precise."
+    },
+    {
+        "id":"mairie_staff_5h",
+        "message":"An anklebiter, to be precise."
+    },
+    {
+        "id":"mairie_staff_6",
+        "message":"If you want, you can help us catching it.",
+        "replies":[
+            {
+                "text":"Oh no, my favourite animal. I will help.",
+                "nextPhraseID":"mairie_staff_7"
+            },
+            {
+                "text":"I'll think about it...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_7",
+        "message":"Great."
     }
 ]
