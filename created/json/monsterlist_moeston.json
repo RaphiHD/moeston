@@ -534,19 +534,22 @@
         "id":"moeston_trader",
         "name":"Vegetable Trader",
         "iconID":"monsters_tometik7:18",
-        "phraseID":"moeston_trader_start"
+        "phraseID":"moeston_trader_start",
+        "droplistID":"moeston_trader_shop"
     },
     {
         "id":"moeston_trader1",
         "name":"Tool Trader",
         "iconID":"monsters_tometik7:21",
-        "phraseID":"moeston_trader1_start"
+        "phraseID":"moeston_trader1_start",
+        "droplistID":"moeston_trader1_shop"
     },
     {
         "id":"moeston_trader2",
         "name":"Fish Trader",
         "iconID":"monsters_omi2:11",
-        "phraseID":"moeston_trader2_start"
+        "phraseID":"moeston_trader2_start",
+        "droplistID":"moeston_trader2_shop"
     },
     {
         "id":"moeston_guard_roadblock",

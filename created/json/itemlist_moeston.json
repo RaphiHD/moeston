@@ -6,10 +6,6 @@
         "displaytype":"ordinary",
         "category":"food",
         "useEffect":{
-            "increaseCurrentHP":{
-                "min":0,
-                "max":0
-            },
             "conditionsSource":[
                 {
                     "condition":"food",

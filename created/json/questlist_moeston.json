@@ -704,6 +704,7 @@
     {
         "id":"moeston_nondisplay",
         "name":"moeston_nondisplay",
+        "showInLog":1,
         "stages":[
             {
                 "progress":1,
@@ -712,6 +713,10 @@
             {
                 "progress":10,
                 "logText":"[REPLACE] moesforest_02: Bridge active"
+            },
+            {
+                "progress":11,
+                "logText":"[REPLACE] moesforest_17: Lower path active"
             },
             {
                 "progress":50,

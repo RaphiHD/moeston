@@ -1051,7 +1051,6 @@
                 ]
             },
             {
-                "text":"",
                 "nextPhraseID":"olec_9",
                 "requires":[
                     {
@@ -3024,7 +3023,6 @@
                 ]
             },
             {
-                "text":"",
                 "nextPhraseID":"stukka_3",
                 "requires":[
                     {
@@ -8463,6 +8461,7 @@
         "switchToNPC":"moeston_tailor",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"moeston_tailor_lina_drink"
             }
         ]
@@ -8634,6 +8633,7 @@
     {
         "id":"moeston_waiter_f",
         "message":"What can I get for you?",
+        "switchToNPC":"moeston_waiter",
         "replies":[
             {
                 "text":"I would like something to drink, please.",
@@ -9897,7 +9897,6 @@
     },
     {
         "id":"moeston_guest3_start",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"moeston_guest3_1"
@@ -10258,7 +10257,7 @@
     },
     {
         "id":"moeston_teacher_5",
-        "message":"[While the teacher speaks, a butterfly enters through one of the open windows, catching your attention]",
+        "message":"While the teacher speaks, a butterfly enters through one of the open windows, catching your attention.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -10269,7 +10268,7 @@
     },
     {
         "id":"moeston_teacher_6",
-        "message":"[It has beautiful colors, green and blue, and slightly shimmers in the sunlight falling through the window]",
+        "message":"It has beautiful colors, green and blue, and slightly shimmers in the sunlight falling through the window.",
         "replies":[
             {
                 "text":"N",
@@ -10279,7 +10278,7 @@
     },
     {
         "id":"moeston_teacher_7",
-        "message":"[This is definetely way more interesting than what the teacher is saying]"
+        "message":"This is definetely way more interesting than what the teacher is saying."
     },
     {
         "id":"moeston_teacher_8",
@@ -10386,6 +10385,16 @@
     {
         "id":"moeston_kid1_start",
         "replies":[
+            {
+                "nextPhraseID":"moeston_kid_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":125
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"moeston_kid1_1",
                 "requires":[
