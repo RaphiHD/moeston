@@ -6,13 +6,6 @@
         "category":"mental",
         "isPositive":1,
         "isStacking":1,
-        "roundEffect":{
-            "visualEffectID":"greenSplash",
-            "increaseCurrentHP":{
-                "min":0,
-                "max":0
-            }
-        },
         "fullRoundEffect":{
             "visualEffectID":"blueSwirl",
             "increaseCurrentHP":{

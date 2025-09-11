@@ -3,12 +3,12 @@
         "id":"moeston_castle_bridge_activate",
         "rewards":[
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"deactivateMapObjectGroup",
                 "rewardID":"EasterEgg",
                 "mapName":"moesforest_02"
             },
             {
-                "rewardType":"removeQuestProgress",
+                "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":10
             }
@@ -18,12 +18,12 @@
         "id":"moeston_castle_bridge_deactivate",
         "rewards":[
             {
-                "rewardType":"deactivateMapObjectGroup",
+                "rewardType":"activateMapObjectGroup",
                 "rewardID":"EasterEgg",
                 "mapName":"moesforest_02"
             },
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":10
             }
@@ -11769,5 +11769,79 @@
                 "nextPhraseID":"mairie_18"
             }
         ]
+    },
+    {
+        "id":"moeston_adventurer_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_adventurer_1"
+            },
+            {
+                "nextPhraseID":"moeston_adventurer_2"
+            },
+            {
+                "nextPhraseID":"moeston_adventurer_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_adventurer_1",
+        "message":"Another adventurer! Great to see you, buddy.",
+        "replies":[
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"moeston_adventurer_4"
+            },
+            {
+                "text":"Have you seen my brother, Andor?",
+                "nextPhraseID":"moeston_adventurer_5"
+            }
+        ]
+    },
+    {
+        "id":"moeston_adventurer_2",
+        "message":"Do you see that hut on the mountain there? It's new. I wonder what's inside.",
+        "replies":[
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"moeston_adventurer_4"
+            },
+            {
+                "text":"Have you seen my brother, Andor?",
+                "nextPhraseID":"moeston_adventurer_5"
+            }
+        ]
+    },
+    {
+        "id":"moeston_adventurer_3",
+        "message":"Welcome to my little camp. You could stay if you want, but you would have to bring your own sleeping mat.",
+        "replies":[
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"moeston_adventurer_4"
+            },
+            {
+                "text":"Have you seen my brother, Andor?",
+                "nextPhraseID":"moeston_adventurer_5"
+            }
+        ]
+    },
+    {
+        "id":"moeston_adventurer_4",
+        "message":"My supplies are low, but I have gathered a buch of stuff on my journey. You can have a look if you want.",
+        "replies":[
+            {
+                "text":"Sure!",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"I don't need anything right now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moeston_adventurer_5",
+        "message":"I don't think so. I came down from the plateau, I haven't seen anyone in days."
     }
 ]

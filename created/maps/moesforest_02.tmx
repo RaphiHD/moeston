@@ -289,12 +289,12 @@
    </properties>
   </object>
   <object name="easter_eggsit" type="mapchange" x="416" y="480" width="32" height="32"/>
-  <object name="moeston_castle_bridge_activate" type="script" x="704" y="352" width="32" height="32">
+  <object name="moeston_castle_bridge_activate" type="script" x="704" y="416" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="moeston_castle_bridge_deactivate" type="script" x="704" y="416" width="32" height="32">
+  <object name="moeston_castle_bridge_deactivate" type="script" x="704" y="352" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -356,8 +356,8 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys" visible="0"/>
- <objectgroup name="Replace" visible="0">
-  <object name="activate_bridge" type="replace" x="704" y="352" width="32" height="32">
+ <objectgroup name="Replace">
+  <object name="activate_bridge" type="replace" x="288" y="128" width="448" height="448">
    <properties>
     <property name="Above" value="Above1"/>
     <property name="Walkable" value="Walkable1"/>
@@ -367,7 +367,7 @@
     <property name="requireValue" value="10"/>
    </properties>
   </object>
-  <object name="deactivate_bridge" type="replace" x="704" y="416" width="32" height="32">
+  <object name="deactivate_bridge" type="replace" x="288" y="128" width="448" height="448">
    <properties>
     <property name="Above" value="Above0"/>
     <property name="Walkable" value="Walkable0"/>

@@ -562,7 +562,8 @@
     {
         "id":"moeston_adventurer",
         "name":"Adventurer",
-        "iconID":"monsters_ld1:104"
+        "iconID":"monsters_ld1:104",
+        "phraseID":"moeston_adventurer_start"
     },
     {
         "id":"stukka",

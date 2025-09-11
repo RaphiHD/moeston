@@ -98,7 +98,6 @@
         "displaytype":"rare",
         "baseMarketCost":0,
         "category":"hd_cloth",
-        "description":"",
         "equipEffect":{
             "increaseMoveCost":-1,
             "increaseBlockChance":5
