@@ -10879,7 +10879,7 @@
     },
     {
         "id":"mairie_6h",
-        "message":"Great choice. I like them too.",
+        "message":"Haha really? I am not so sure about that... but if you say so.",
         "replies":[
             {
                 "text":"N",
@@ -10939,11 +10939,6 @@
                 "nextPhraseID":"mairie_13",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"wildlife_doctor",
-                        "value":60
-                    },
-                    {
                         "requireType":"inventoryKeep",
                         "requireID":"cage_animal",
                         "value":1
@@ -10955,9 +10950,15 @@
                 "nextPhraseID":"mairie_13",
                 "requires":[
                     {
+                        "requireType":"inventoryKeep",
+                        "requireID":"cage_animal",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
                         "requireType":"questProgress",
-                        "requireID":"wildlife_doctor",
-                        "value":60
+                        "requireID":"moeston_nondisplay",
+                        "value":510
                     }
                 ]
             },
@@ -11105,6 +11106,45 @@
         "id":"mairie_staff_start",
         "replies":[
             {
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":74
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":40
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"mairie_staff_2",
                 "requires":[
                     {
@@ -11225,7 +11265,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"mairie_staff_5b",
+                "nextPhraseID":"mairie_staff_5g",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -11236,7 +11276,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"mairie_staff_5b",
+                "nextPhraseID":"mairie_staff_5h",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -11272,38 +11312,122 @@
     },
     {
         "id":"mairie_staff_5b",
-        "message":"A deer, to be precise."
+        "message":"A deer, to be precise.",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":31
+            }
+        ]
     },
     {
         "id":"mairie_staff_5c",
-        "message":"A bat, to be precise."
+        "message":"A bat, to be precise.",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":32
+            }
+        ]
     },
     {
         "id":"mairie_staff_5d",
-        "message":"A rabbit, to be precise."
+        "message":"A rabbit, to be precise.",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":33
+            }
+        ]
     },
     {
         "id":"mairie_staff_5e",
-        "message":"A frog, to be precise."
+        "message":"A frog, to be precise.",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":34
+            }
+        ]
     },
     {
         "id":"mairie_staff_5f",
-        "message":"A lizard, to be precise."
+        "message":"A lizard, to be precise.",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":35
+            }
+        ]
     },
     {
         "id":"mairie_staff_5g",
-        "message":"A butterfly, to be precise."
+        "message":"A butterfly, to be precise.",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":36
+            }
+        ]
     },
     {
         "id":"mairie_staff_5h",
-        "message":"An anklebiter, to be precise."
+        "message":"An anklebiter, to be precise.",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":39
+            }
+        ]
     },
     {
         "id":"mairie_staff_6",
         "message":"If you want, you can help us catching it.",
         "replies":[
             {
-                "text":"Oh no, my favourite animal. I will help.",
+                "text":"Oh no, my favourite animal! I will help.",
                 "nextPhraseID":"mairie_staff_7"
             },
             {
@@ -11314,6 +11438,336 @@
     },
     {
         "id":"mairie_staff_7",
-        "message":"Great."
+        "message":"Great to hear.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_8",
+        "message":"In order to catch the animal, you will have to set up this cage. Don't worry, it won't hurt it.",
+        "replies":[
+            {
+                "text":"Where do I have to put it?",
+                "nextPhraseID":"mairie_staff_9"
+            },
+            {
+                "text":"What should I do with the cage?",
+                "nextPhraseID":"mairie_staff_9"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_9",
+        "message":"We have last seen the little one down there drinking at the pond, just southwest of here. So it would be best if you set up the cage just next to that little hill.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_10"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_10",
+        "message":"Here. Take this cage and go set it up. I have put some treats in already.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":45
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"cage_empty",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_11",
+        "message":"Have you found the spot?",
+        "replies":[
+            {
+                "text":"I am on my way.",
+                "nextPhraseID":"mairie_staff_12"
+            },
+            {
+                "text":"No, how do I get there?",
+                "nextPhraseID":"mairie_staff_13"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_12",
+        "message":"Good, good. Place it before sunset, that time most animals come to the pond to drink."
+    },
+    {
+        "id":"mairie_staff_13",
+        "message":"It is just southwest of here, but it might be a little tricky to reach. The woods are dense there. Maybe you have to walk around the forest."
+    },
+    {
+        "id":"mairie_staff_14",
+        "message":"[Cleaning an empty enclosure]",
+        "replies":[
+            {
+                "text":"I have set up the cage now.",
+                "nextPhraseID":"mairie_staff_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":61,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":62,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":63,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":64,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":65,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":66,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":69,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I found the squirrel in the cage!",
+                "nextPhraseID":"mairie_staff_16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"I found the deer in the cage!",
+                "nextPhraseID":"mairie_staff_16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":61
+                    }
+                ]
+            },
+            {
+                "text":"I found the bat in the cage!",
+                "nextPhraseID":"mairie_staff_16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":62
+                    }
+                ]
+            },
+            {
+                "text":"I found the rabbit in the cage!",
+                "nextPhraseID":"mairie_staff_16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":63
+                    }
+                ]
+            },
+            {
+                "text":"I found the frog in the cage!",
+                "nextPhraseID":"mairie_staff_16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":64
+                    }
+                ]
+            },
+            {
+                "text":"I found the lizard in the cage!",
+                "nextPhraseID":"mairie_staff_16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "text":"I found the butterfly in the cage!",
+                "nextPhraseID":"mairie_staff_16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":66,
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"I have found the anklebiter but...",
+                "nextPhraseID":"mairie_staff_17",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":69
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_15",
+        "message":"[Putting away a brush] Great. Now we just have to wait until the animal goes in. You should check every once in a while."
+    },
+    {
+        "id":"mairie_cage_start",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_cage_1"
+            }
+        ]
+    },
+    {
+        "id":"mairie_cage_1",
+        "message":"This must be the location where I should place the cage."
+    },
+    {
+        "id":"mairie_staff_16",
+        "message":"Great! What are you waiting for, bring it here so we can take care of it."
+    },
+    {
+        "id":"mairie_staff_17",
+        "message":"[Dropping the brush] Oh no, what happened to you! Are you alright? Mairie, come here!",
+        "replies":[
+            {
+                "text":"No, no I am good.",
+                "nextPhraseID":"mairie_staff_18",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"It's alright but... I had to kill the anklebiter. I am sorry.",
+                "nextPhraseID":"mairie_staff_21"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_18",
+        "message":"What happened, were you attacked?",
+        "replies":[
+            {
+                "text":"Yes. I fled as long as I could.",
+                "nextPhraseID":"mairie_staff_19"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_19",
+        "message":"It's alright. This animal is not easy to deal with. I guess we have no option but to leave it injured in the wild.",
+        "switchToNPC":"mairie",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_20"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_20",
+        "message":"Thank you anyway for your what you have done. I think it is best the way that it is.",
+        "switchToNPC":"mairie_staff",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_18"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_21",
+        "message":"No worries. I am glad you are okay.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_22"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_22",
+        "message":"It is probably for the better. You must know, anklebiters are not native to this forest. They are intruding this area endangering the smaller animals living here.",
+        "switchToNPC":"mairie",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"maire_staff_23"
+            }
+        ]
+    },
+    {
+        "id":"maire_staff_23",
+        "message":"Yes. I think you did a good job anyways.",
+        "switchToNPC":"mairie_staff",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_18"
+            }
+        ]
     }
 ]

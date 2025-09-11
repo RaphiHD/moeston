@@ -607,7 +607,7 @@
             },
             {
                 "progress":50,
-                "logText":"I have placed the cage on a neat spot behind some bushes and laid out treats. Hopefully the animal will go in there soon."
+                "logText":"I have placed the cage on a neat spot around some bushes. Hopefully the animal will go in there soon."
             },
             {
                 "progress":60,
@@ -680,6 +680,10 @@
             {
                 "progress":86,
                 "logText":"The butterfly can now explore his enclosure and will hopefully be well soon."
+            },
+            {
+                "progress":88,
+                "logText":"Leaving the anklebiter was for the better, the staff said. Dealing with this animal would have been very dangerous."
             },
             {
                 "progress":89,
@@ -892,6 +896,14 @@
             {
                 "progress":500,
                 "logText":"[Wildlife Doctor] Anklebiter attacked"
+            },
+            {
+                "progress":505,
+                "logText":"[Wildlife Doctor] Cage is currently placed"
+            },
+            {
+                "progress":510,
+                "logText":"[Wildlife Doctor] Animal is in the cage"
             },
             {
                 "progress":900,
