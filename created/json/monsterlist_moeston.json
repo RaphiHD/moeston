@@ -48,7 +48,8 @@
         "id":"sneaky_sam",
         "name":"Sneaky Sam",
         "iconID":"monsters_rogue1:0",
-        "phraseID":"sneaky_sam_start"
+        "phraseID":"sneaky_sam_start",
+        "droplistID":"sneaky_sam_shop"
     },
     {
         "id":"officer_olec_dog",

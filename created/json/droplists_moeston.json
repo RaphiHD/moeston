@@ -678,5 +678,17 @@
                 }
             }
         ]
+    },
+    {
+        "id":"sneaky_sam_shop",
+        "items":[
+            {
+                "itemID":"cherries",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
