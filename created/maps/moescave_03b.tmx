@@ -232,7 +232,24 @@
   </object>
   <object name="house" type="mapchange" x="160" y="256" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="grimblight1" type="spawn" x="320" y="672" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="grimblight_fierce"/>
+   </properties>
+  </object>
+  <object name="grimblight2" type="spawn" x="64" y="256" width="64" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="grimblight_venomous"/>
+   </properties>
+  </object>
+  <object name="grimblight3" type="spawn" x="128" y="320" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="grimblight_creeping"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

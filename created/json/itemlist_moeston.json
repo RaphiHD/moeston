@@ -168,8 +168,7 @@
                 "max":-1
             },
             "increaseMoveCost":-2,
-            "increaseBlockChance":21,
-            "increaseDamageResistance":0
+            "increaseBlockChance":21
         },
         "hitReceivedEffect":{
             "conditionsSource":[
@@ -454,7 +453,6 @@
                 "max":3
             },
             "increaseMaxHP":-2,
-            "increaseMaxAP":0,
             "increaseAttackChance":11,
             "increaseCriticalSkill":7,
             "increaseBlockChance":6,
@@ -512,10 +510,6 @@
         "category":"hd_cloth",
         "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -614,10 +608,6 @@
         "category":"hd_cloth",
         "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -716,10 +706,6 @@
         "category":"hd_cloth",
         "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -818,10 +804,6 @@
         "category":"hd_cloth",
         "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -920,10 +902,6 @@
         "category":"hd_cloth",
         "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1022,10 +1000,6 @@
         "category":"bdy_cloth",
         "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1114,10 +1088,6 @@
         "category":"bdy_cloth",
         "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1206,10 +1176,6 @@
         "category":"bdy_cloth",
         "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1298,10 +1264,6 @@
         "category":"bdy_cloth",
         "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1390,10 +1352,6 @@
         "category":"bdy_cloth",
         "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1450,10 +1408,6 @@
         "category":"ring",
         "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1552,10 +1506,6 @@
         "category":"ring",
         "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1654,10 +1604,6 @@
         "category":"ring",
         "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1756,10 +1702,6 @@
         "category":"ring",
         "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1858,10 +1800,6 @@
         "category":"ring",
         "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -1928,10 +1866,6 @@
         "category":"neck",
         "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -2030,10 +1964,6 @@
         "category":"neck",
         "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -2132,10 +2062,6 @@
         "category":"neck",
         "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -2234,10 +2160,6 @@
         "category":"neck",
         "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
@@ -2336,10 +2258,6 @@
         "category":"neck",
         "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":0
-            },
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6

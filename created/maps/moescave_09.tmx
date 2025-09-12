@@ -212,7 +212,7 @@
    eJxjYBgFo2AU4AKfxQbaBYTBUHAjPQAsHMgNj8di+PmkmoOu/xMZ5oH8AjMHXT+p7nsMNesTDveRAx5TGOa4zKMWAPl1JOUPABRqFhM=
   </data>
  </layer>
- <layer name="Walkable" width="20" height="25">
+ <layer name="Walkable" width="20" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJztk8sNQCEIBK3C/luio3d5B2Ng2E08GUm4mGX4CDHHiN8Vi8m+ahwj3q6htyxvxqs4u4Z0So80H7ffjkHvXX3dTCpmFk9MmgtpqG6lb2UHVFbVK5mTX+Uqf1fFOTUqt63uN+1rZyq3qtXZb2KeYJ2co3Onz+/2D11JIp4=
   </data>
@@ -231,7 +231,35 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="grimblight1" type="spawn" x="64" y="96" width="128" height="384">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="grimblight_plated_fierce"/>
+   </properties>
+  </object>
+  <object name="grimblight2" type="spawn" x="128" y="64" width="384" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="grimblight_plated_creeping"/>
+   </properties>
+  </object>
+  <object name="grimblight3" type="spawn" x="160" y="64" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="grimblight_plated_creeping"/>
+   </properties>
+  </object>
+  <object name="grimblight4" type="spawn" x="96" y="128" width="192" height="160">
+   <properties>
+    <property name="spawngroup" value="grimblight_plated_venomous"/>
+   </properties>
+  </object>
+  <object name="flies" type="spawn" x="192" y="320" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="swarm_of_flies"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

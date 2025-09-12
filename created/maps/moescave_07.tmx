@@ -244,7 +244,41 @@
   </object>
   <object name="cave" type="mapchange" x="288" y="64" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="grimblight1" type="spawn" x="320" y="64" width="384" height="192">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="grimblight_plated_fierce"/>
+   </properties>
+  </object>
+  <object name="grimblight2" type="spawn" x="96" y="128" width="384" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="grimblight_plated_venomous"/>
+   </properties>
+  </object>
+  <object name="grimblight3" type="spawn" x="32" y="320" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="grimblight_plated_creeping"/>
+   </properties>
+  </object>
+  <object name="grimblight4" type="spawn" x="288" y="288" width="320" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="grimblight_plated"/>
+   </properties>
+  </object>
+  <object name="flies" type="spawn" x="160" y="288" width="64" height="96">
+   <properties>
+    <property name="spawngroup" value="swarm_of_flies"/>
+   </properties>
+  </object>
+  <object name="grimblight5" type="spawn" x="64" y="384" width="192" height="32">
+   <properties>
+    <property name="spawngroup" value="grimblight_plated_creeping"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

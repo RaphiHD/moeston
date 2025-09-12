@@ -256,7 +256,77 @@
   </object>
   <object name="cave" type="mapchange" x="96" y="224" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="grimblight1" type="spawn" x="544" y="832" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="grimblight_creeping"/>
+   </properties>
+  </object>
+  <object name="grimblight2" type="spawn" x="128" y="320" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="grimblight_ferocious"/>
+   </properties>
+  </object>
+  <object name="grimblight3" type="spawn" x="256" y="448" width="160" height="192">
+   <properties>
+    <property name="spawngroup" value="grimblight_ferocious"/>
+   </properties>
+  </object>
+  <object name="grimblight4" type="spawn" x="64" y="448" width="128" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="grimblight_venomous"/>
+   </properties>
+  </object>
+  <object name="grimblight5" type="spawn" x="640" y="608" width="192" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="grimblight_venomous"/>
+   </properties>
+  </object>
+  <object name="grimblight6" type="spawn" x="640" y="768" width="64" height="96">
+   <properties>
+    <property name="spawngroup" value="grimblight"/>
+   </properties>
+  </object>
+  <object name="flies" type="spawn" x="512" y="672" width="64" height="128">
+   <properties>
+    <property name="spawngroup" value="swarm_of_flies"/>
+   </properties>
+  </object>
+  <object name="bat" type="spawn" x="448" y="544" width="352" height="288">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="cavebat1"/>
+   </properties>
+  </object>
+  <object name="grimblight7" type="spawn" x="352" y="864" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="grimblight_fierce"/>
+   </properties>
+  </object>
+  <object name="rat" type="spawn" x="608" y="320" width="256" height="128">
+   <properties>
+    <property name="spawngroup" value="infected_cave_rat"/>
+   </properties>
+  </object>
+  <object name="vermin" type="spawn" x="512" y="352" width="160" height="96">
+   <properties>
+    <property name="spawngroup" value="vermin"/>
+   </properties>
+  </object>
+  <object name="grimblight8" type="spawn" x="224" y="288" width="256" height="256">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="grimblight_creeping"/>
+   </properties>
+  </object>
+  <object name="grimblight9" type="spawn" x="64" y="800" width="64" height="96">
+   <properties>
+    <property name="spawngroup" value="grimblight_plated_ferocious"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

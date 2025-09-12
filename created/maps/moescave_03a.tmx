@@ -225,7 +225,23 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="bat" type="spawn" x="128" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="cavebat2"/>
+   </properties>
+  </object>
+  <object name="grimblight1" type="spawn" x="128" y="224" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="grimblight_plated"/>
+   </properties>
+  </object>
+  <object name="grimblight2" type="spawn" x="64" y="448" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="grimblight"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>
