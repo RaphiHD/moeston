@@ -2204,7 +2204,7 @@
         "name":"Strawberry lemonade",
         "displaytype":"ordinary",
         "category":"drink",
-        "description":"A sparkling drink made from forest strawberries. Upon opening, you smell the sweetness of the drink.",
+        "description":"A sparkling drink made from forest strawberries. Upon opening, the sweet smell tickles your nose.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":4,

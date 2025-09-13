@@ -197,7 +197,7 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
@@ -210,12 +210,12 @@
    eJy9ktkNxDAIRNNF6nP/Tez+RLKQZ3hgJ0iWchjmYtzXNf7nqXF/c2IpDvO74hf7iY5OuRmOn+KW4bjvyiOHnXmn/nVwnW80T7UDRC/xxe2XyqKjs9KzwiTZVPBWz8oHukcdfWp21VNyn2qKRbGrO9jFVXdW5XpnfpnObHacV53juNJ939XgMuniOq+ctgyX8Krs2xe4Tx/hQf6RPJy2WDsaZyzCWd15E1fp7eDOMzo6u16TnFxl3Fbzo9aMr8MkHDNN1HOaX5Xfju7OjlX0UA9PeESzPO3Lae/i+QEMfxSg
   </data>
  </layer>
- <layer name="Walkable0" width="30" height="30">
+ <layer name="Walkable0" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJy9ktkNxDAIRNNF6nP/Tez+RLKQZ3hgJ0iWchjmYtzXNf7nqXF/c2IpDvO74hf7iY5OuRmOn+KW4bjvyiOHnXmn/nVwnW80T7UDRC/xxe2XyqKjs9KzwiTZVPBWz8oHukcdfWp21VNyn2qKRbGrO9jFVXdW5XpnfpnObHacV53juNJ939XgMuniOq+ctgyX8Krs2xe4Tx/hQf6RPJy2WDsaZyzCWd15E1fp7eDOMzo6u16TnFxl3Fbzo9aMr8MkHDNN1HOaX5Xfju7OjlX0UA9PeESzPO3Lae/i+QEMfxSg
   </data>
  </layer>
- <layer name="Walkable1" width="30" height="30">
+ <layer name="Walkable1" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJy9kssNxCAMRNNF6qP/JnYvkZDFjJ8NiSUOuwHPd9zXNf7nmXF/c+IoDvNvxS++Jzo643Y4fopbhuP+Vx457Mw79a2D63yjeaoOEL3EF9cvlUVHZ6U3K0ySzQ7eSmu1R9QTsrvqKblPNcWh2NUOdnHVndW4tzO/TGe2O+6r7nFcad93NbhMurjOK6ctwyW8Kn37Avd5R3iQbyQPpy3OjsYZi3BWd97EVXo7uPOOjs6u1yQnNxm31f6oNePrMAnHTBP1nOZX5beju9Oxih7q4QmPaJanfTntXTw/1hAUoA==
   </data>
@@ -259,7 +259,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object name="yellow_forest_buzzer_a_1" type="spawn" x="64" y="384" width="160" height="416">
    <properties>
     <property name="quantity" value="5"/>
@@ -378,20 +378,40 @@
     <property name="spawngroup" value="casual_cave_cross_spider"/>
    </properties>
   </object>
+  <object name="moesforest_17_lower_activate" type="script" x="320" y="256" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="moesforest_17_lower_activate" type="script" x="448" y="352" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="moesforest_17_upper_activate" type="script" x="480" y="128" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="moesforest_17_upper_activate" type="script" x="576" y="224" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys" visible="0"/>
  <objectgroup name="Replace">
   <object name="lower_path_activate" type="replace" x="448" y="224" width="64" height="64">
    <properties>
-   <property name="Walkable" value="Walkable0"/>
+    <property name="Walkable" value="Walkable0"/>
     <property name="requireId" value="moeston_nondisplay"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="11"/>
    </properties>
   </object>
-  <object name="upper_path_activate" type="replace" x="0" y="0" width="32" height="32">
+  <object name="upper_path_activate" type="replace" x="448" y="224" width="64" height="64">
    <properties>
-   <property name="Walkable" value="Walkable1"/>
+    <property name="Walkable" value="Walkable1"/>
     <property name="requireId" value="moeston_nondisplay"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
