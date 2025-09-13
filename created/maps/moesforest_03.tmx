@@ -266,8 +266,13 @@
    </properties>
   </object>
   <object name="moeston_moesforest_03_sign" type="sign" x="320" y="288" width="32" height="32"/>
+  <object name="moes_cross_start" type="script" x="672" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object name="niel" type="spawn" x="64" y="736" width="96" height="128">
    <properties>
     <property name="spawngroup" value="fisherman_niel"/>
@@ -350,6 +355,12 @@
   <object name="frog_2_2" type="spawn" x="576" y="288" width="128" height="224">
    <properties>
     <property name="spawngroup" value="frog_2"/>
+   </properties>
+  </object>
+  <object name="ghost" type="spawn" x="704" y="64" width="32" height="96">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="moe_ghost"/>
    </properties>
   </object>
  </objectgroup>

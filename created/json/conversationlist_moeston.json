@@ -2197,7 +2197,7 @@
     },
     {
         "id":"moe_ghost",
-        "message":"Whom has torned mine such beautiful land apart that myself has owneth? Ye shall suffer in paiiin!",
+        "message":"Who hath torn my fair land asunder, which I didst own? Ye shall suffer in paiiin!",
         "replies":[
             {
                 "text":"Certainly not me!",
@@ -3301,6 +3301,29 @@
     {
         "id":"moeston_prisonguard_1",
         "message":"Chrrr..."
+    },
+    {
+        "id":"moes_cross_start",
+        "replies":[
+            {
+                "nextPhraseID":"moes_cross_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"5"
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":105,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moes_cross_1"
+            }
+        ]
     },
     {
         "id":"moeston_tailor_build_full_black",
@@ -9769,6 +9792,22 @@
         "message":"My husband tends to be a little... clumsy. Not entirely useful when you're a smith."
     },
     {
+        "id":"moes_cross_2",
+        "message":"As you approach the cross, you suddenly hear a rumbling underground.",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ghost",
+                "mapName":"moesforest_03"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":105
+            }
+        ]
+    },
+    {
         "id":"niel_5",
         "message":"Oh you would? Sure, but I do not know where to get it.",
         "replies":[
@@ -9784,6 +9823,10 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"moes_cross_1",
+        "message":"The lettering on the cross is partially worn off. You can barely read the words \"memorial\" and \"moe\". Whatever that means."
     },
     {
         "id":"niel_6",

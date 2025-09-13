@@ -1,201 +1,68 @@
 [
     {
-        "id":"ronald_the_researcher",
-        "name":"Ronald",
-        "iconID":"monsters_ld1:21",
-        "monsterClass":"humanoid",
-        "spawnGroup":"ronald_the_researcher"
+        "id":"moeston_fisher",
+        "name":"Fisher",
+        "iconID":"monsters_phoenix01:3",
+        "phraseID":"moeston_fisher_start"
     },
     {
-        "id":"ronald_the_researcher_following",
-        "name":"Ronald",
-        "iconID":"monsters_ld1:21",
-        "monsterClass":"humanoid",
-        "spawnGroup":"ronald_following"
+        "id":"mairie_staff",
+        "name":"Staff",
+        "iconID":"monsters_ld1:186",
+        "phraseID":"mairie_staff_start"
     },
     {
-        "id":"ronald_the_researcher_final",
-        "name":"Ronald",
-        "iconID":"monsters_ld1:20",
-        "monsterClass":"humanoid",
-        "spawnGroup":"ronald_final"
-    },
-    {
-        "id":"moeston_boy",
-        "name":"Boy",
-        "iconID":"monsters_tometik2:38"
-    },
-    {
-        "id":"officer_olec",
-        "name":"Olec",
-        "iconID":"monsters_phoenix01:12",
-        "phraseID":"olec_start"
-    },
-    {
-        "id":"moeston_soldier",
-        "name":"Feygard Soldier",
-        "iconID":"monsters_ld1:40",
-        "spawnGroup":"moeston_soldier",
-        "phraseID":"moeston_soldier_start"
-    },
-    {
-        "id":"moeston_soldier_drunk",
-        "name":"Drunk Feygard Soldier",
-        "iconID":"monsters_ld1:1",
-        "phraseID":"drunk1"
-    },
-    {
-        "id":"sneaky_sam",
-        "name":"Sneaky Sam",
-        "iconID":"monsters_rogue1:0",
-        "phraseID":"sneaky_sam_start",
-        "droplistID":"sneaky_sam_shop"
-    },
-    {
-        "id":"officer_olec_dog",
-        "name":"Watchdog",
-        "iconID":"monsters_rltiles2:109",
-        "phraseID":"officer_olec_dog_start"
-    },
-    {
-        "id":"group_of_fish_1",
-        "name":"Group of Fish",
-        "iconID":"monsters_ld2:136",
-        "spawnGroup":"group_of_fish"
-    },
-    {
-        "id":"group_of_fish_2",
-        "name":"Group of Fish",
-        "iconID":"monsters_ld2:137",
-        "spawnGroup":"group_of_fish"
-    },
-    {
-        "id":"group_of_fish_3",
-        "name":"Group of Fish",
-        "iconID":"monsters_ld2:138",
-        "spawnGroup":"group_of_fish"
-    },
-    {
-        "id":"group_of_fish_4",
-        "name":"Group of Fish",
-        "iconID":"monsters_ld2:139",
-        "spawnGroup":"group_of_fish"
-    },
-    {
-        "id":"platonic_snake_1",
-        "name":"Platonic Snake",
-        "iconID":"monsters_newb_1:400",
-        "maxHP":71,
-        "monsterClass":"reptile",
-        "movementAggressionType":"none",
-        "attackDamage":{
-            "min":3,
-            "max":8
-        },
-        "spawnGroup":"platonic_snake_a",
-        "droplistID":"platonic_snake_drop_a",
-        "attackCost":5,
-        "attackChance":97,
-        "blockChance":82
-    },
-    {
-        "id":"platonic_snake_2",
-        "name":"Platonic Snake",
-        "iconID":"monsters_newb_1:400",
-        "maxHP":71,
-        "monsterClass":"reptile",
-        "movementAggressionType":"helpOthers",
-        "attackDamage":{
-            "min":3,
-            "max":8
-        },
-        "spawnGroup":"platonic_snake_a",
-        "droplistID":"platonic_snake_drop_a",
-        "attackCost":5,
-        "attackChance":97,
-        "blockChance":82
-    },
-    {
-        "id":"platonic_snake_3",
-        "name":"Strong Platonic Snake",
-        "iconID":"monsters_newb_1:400",
-        "maxHP":89,
-        "monsterClass":"reptile",
-        "movementAggressionType":"none",
-        "attackDamage":{
-            "min":5,
-            "max":11
-        },
-        "spawnGroup":"platonic_snake_b",
-        "droplistID":"platonic_snake_drop_a",
-        "attackCost":6,
-        "attackChance":101,
-        "criticalSkill":20,
-        "criticalMultiplier":1.3,
-        "blockChance":77
-    },
-    {
-        "id":"platonic_snake_4",
-        "name":"Agile Platonic Snake",
-        "iconID":"monsters_newb_1:400",
-        "maxHP":62,
-        "moveCost":4,
-        "monsterClass":"reptile",
-        "movementAggressionType":"protectSpawn",
-        "attackDamage":{
-            "min":4,
-            "max":6
-        },
-        "spawnGroup":"platonic_snake_b",
-        "droplistID":"platonic_snake_drop_b",
-        "attackCost":3,
-        "attackChance":114,
-        "blockChance":78
-    },
-    {
-        "id":"platonic_snake_5",
-        "name":"Twisty Platonic Snake",
-        "iconID":"monsters_newb_1:401",
-        "maxHP":86,
-        "moveCost":5,
-        "monsterClass":"reptile",
-        "movementAggressionType":"protectSpawn",
+        "id":"moeston_wasp_3",
+        "name":"Rowdy Mammoth Wasp",
+        "iconID":"monsters_rltiles2:113",
+        "maxHP":58,
+        "monsterClass":"insect",
         "attackDamage":{
             "min":9,
-            "max":14
+            "max":13
         },
-        "spawnGroup":"platonic_snake_c",
-        "droplistID":"platonic_snake_drop_b",
-        "attackCost":5,
-        "attackChance":119,
-        "criticalSkill":25,
-        "criticalMultiplier":1.6,
-        "blockChance":104,
-        "damageResistance":1
-    },
-    {
-        "id":"platonic_snake_6",
-        "name":"Poisonous Platonic Snake",
-        "iconID":"monsters_newb_1:401",
-        "maxHP":127,
-        "moveCost":7,
-        "monsterClass":"reptile",
-        "movementAggressionType":"none",
-        "attackDamage":{
-            "min":10,
-            "max":19
-        },
-        "spawnGroup":"platonic_snake_c",
-        "droplistID":"platonic_snake_drop_poisonous",
-        "attackCost":5,
-        "attackChance":125,
-        "criticalSkill":37,
-        "criticalMultiplier":1.5,
-        "blockChance":113,
+        "spawnGroup":"moeston_wasp",
+        "droplistID":"moeston_wasp_drop_b",
+        "attackCost":3,
+        "attackChance":87,
+        "blockChance":60,
         "hitEffect":{
             "conditionsTarget":[
                 {
-                    "condition":"poison_blood",
+                    "condition":"sting_minor",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_chicken",
+        "name":"Group of Chicken",
+        "iconID":"monsters_newb_1:1321",
+        "spawnGroup":"moeston_chicken"
+    },
+    {
+        "id":"moeston_wasp_2",
+        "name":"Stinging Mammoth Wasp",
+        "iconID":"monsters_rltiles2:113",
+        "maxHP":41,
+        "monsterClass":"insect",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":7,
+            "max":10
+        },
+        "spawnGroup":"moeston_wasp",
+        "droplistID":"moeston_wasp_drop_a",
+        "attackCost":3,
+        "attackChance":84,
+        "blockChance":51,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"sting_minor",
                     "magnitude":2,
                     "duration":3,
                     "chance":"35"
@@ -204,24 +71,292 @@
         }
     },
     {
-        "id":"platonic_snake_7",
-        "name":"Quick Platonic Snake",
-        "iconID":"monsters_newb_1:401",
-        "maxHP":141,
-        "maxAP":12,
-        "moveCost":4,
-        "monsterClass":"reptile",
-        "movementAggressionType":"protectSpawn",
+        "id":"moeston_tailor_kid",
+        "name":"Lina",
+        "iconID":"monsters_ld1:169",
+        "phraseID":"moeston_tailor_kid_start"
+    },
+    {
+        "id":"moeston_wasp_1",
+        "name":"Mammoth Wasp",
+        "iconID":"monsters_rltiles2:113",
+        "maxHP":37,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
         "attackDamage":{
-            "min":14,
-            "max":21
+            "min":6,
+            "max":9
         },
-        "spawnGroup":"platonic_snake_d",
-        "droplistID":"platonic_snake_drop_c",
+        "spawnGroup":"moeston_wasp",
+        "droplistID":"moeston_wasp_drop_a",
         "attackCost":3,
-        "attackChance":139,
-        "blockChance":106,
-        "damageResistance":2
+        "attackChance":78,
+        "blockChance":45,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"sting_minor",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"strawberry_collector",
+        "name":"Strawberry Collector",
+        "iconID":"monsters_ld1:37",
+        "phraseID":"strawberry_collector_start"
+    },
+    {
+        "id":"yellow_forest_buzzer",
+        "name":"Yellow Forest Buzzer",
+        "iconID":"monsters_ld2:222",
+        "maxHP":75,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"yellow_forest_buzzer_a",
+        "droplistID":"yellow_forest_buzzer_drop_a",
+        "attackCost":3,
+        "attackChance":84,
+        "blockChance":162,
+        "damageResistance":7,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_guest1",
+        "name":"Guest",
+        "iconID":"monsters_tometik2:70",
+        "phraseID":"moeston_guest1_start"
+    },
+    {
+        "id":"moeston_guest3",
+        "name":"Tired Guest",
+        "iconID":"monsters_ld2:101",
+        "phraseID":"moeston_guest3_start"
+    },
+    {
+        "id":"moeston_guest2",
+        "name":"Drinking Guest",
+        "iconID":"monsters_ld1:135",
+        "phraseID":"moeston_guest2_start"
+    },
+    {
+        "id":"mairie",
+        "name":"Mairie",
+        "iconID":"monsters_ld1:146",
+        "phraseID":"mairie_start"
+    },
+    {
+        "id":"moeston_smith_wife",
+        "name":"Enila",
+        "iconID":"monsters_men:1",
+        "phraseID":"moeston_smith_wife_start"
+    },
+    {
+        "id":"casual_cave_cross_spider",
+        "name":"Cave Cross Spider",
+        "iconID":"monsters_tometik1:27",
+        "maxHP":84,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":12,
+            "max":15
+        },
+        "droplistID":"spider",
+        "attackCost":3,
+        "attackChance":109,
+        "blockChance":72,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"cobwebbed",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"cobwebbed",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"35"
+                },
+                {
+                    "condition":"cobwebbed",
+                    "magnitude":2,
+                    "duration":1,
+                    "chance":"5"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_mourning",
+        "name":"Mourning Citizen",
+        "iconID":"monsters_men:6",
+        "phraseID":"moeston_mourning_start"
+    },
+    {
+        "id":"grimblight_plated_venomous",
+        "name":"Venomous Plated Grimblight",
+        "iconID":"monsters_newb_1:528"
+    },
+    {
+        "id":"wildlife_doctor_injured_anklebiter",
+        "name":"Injured Anklebiter",
+        "iconID":"monsters_newb_1:244",
+        "maxHP":182,
+        "unique":1,
+        "monsterClass":"animal",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":12,
+            "max":17
+        },
+        "droplistID":"wildlife_doctor_anklebiter",
+        "attackCost":9,
+        "attackChance":131,
+        "blockChance":81,
+        "damageResistance":3
+    },
+    {
+        "id":"wildlife_doctor_frog",
+        "name":"Frog",
+        "iconID":"monsters_rltiles1:131"
+    },
+    {
+        "id":"moeston_farmer1",
+        "name":"Farmer",
+        "iconID":"monsters_karvis2:1",
+        "phraseID":"moeston_farmer1_start"
+    },
+    {
+        "id":"yellow_forest_buzzer2",
+        "name":"Yellow Forest Buzzer",
+        "iconID":"monsters_ld2:222",
+        "maxHP":82,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":4,
+            "max":7
+        },
+        "spawnGroup":"yellow_forest_buzzer_a",
+        "droplistID":"yellow_forest_buzzer_drop_a",
+        "attackCost":3,
+        "attackChance":87,
+        "blockChance":169,
+        "damageResistance":7,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"ronald_the_researcher",
+        "name":"Ronald",
+        "iconID":"monsters_ld1:21",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ronald_the_researcher"
+    },
+    {
+        "id":"yellow_forest_buzzer3",
+        "name":"Agressive Yellow Forest Buzzer",
+        "iconID":"monsters_ld2:223",
+        "maxHP":85,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":5,
+            "max":7
+        },
+        "spawnGroup":"yellow_forest_buzzer_b",
+        "droplistID":"yellow_forest_buzzer_drop_a",
+        "attackCost":3,
+        "attackChance":98,
+        "blockChance":164,
+        "damageResistance":8,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"33"
+                }
+            ]
+        }
+    },
+    {
+        "id":"yellow_forest_buzzer4",
+        "name":"Stinging Yellow Forest Buzzer",
+        "iconID":"monsters_ld2:223",
+        "maxHP":93,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":4,
+            "max":7
+        },
+        "spawnGroup":"yellow_forest_buzzer_b",
+        "droplistID":"yellow_forest_buzzer_drop_b",
+        "attackCost":3,
+        "attackChance":105,
+        "blockChance":174,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"35"
+                },
+                {
+                    "condition":"contagion",
+                    "magnitude":3,
+                    "duration":1,
+                    "chance":"5"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_trader1",
+        "name":"Tool Trader",
+        "iconID":"monsters_tometik7:21",
+        "phraseID":"moeston_trader1_start",
+        "droplistID":"moeston_trader1_shop"
     },
     {
         "id":"platonic_snake_8",
@@ -303,14 +438,6 @@
                 "min":0,
                 "max":2
             },
-            "increaseAttackerCurrentHP":{
-                "min":30,
-                "max":40
-            },
-            "increaseAttackerCurrentAP":{
-                "min":0,
-                "max":0
-            },
             "conditionsSource":[
                 {
                     "condition":"focus_ac",
@@ -318,7 +445,15 @@
                     "duration":3,
                     "chance":"50"
                 }
-            ]
+            ],
+            "increaseAttackerCurrentHP":{
+                "min":30,
+                "max":40
+            },
+            "increaseAttackerCurrentAP":{
+                "min":0,
+                "max":0
+            }
         },
         "deathEffect":{
             "increaseCurrentHP":{
@@ -328,23 +463,92 @@
         }
     },
     {
-        "id":"moeston_lizard_1",
-        "name":"Moeston Lizard",
-        "iconID":"monsters_tometik2:16",
-        "maxHP":48,
-        "moveCost":5,
+        "id":"moeston_boy",
+        "name":"Boy",
+        "iconID":"monsters_tometik2:38"
+    },
+    {
+        "id":"platonic_snake_6",
+        "name":"Poisonous Platonic Snake",
+        "iconID":"monsters_newb_1:401",
+        "maxHP":127,
+        "moveCost":7,
         "monsterClass":"reptile",
         "movementAggressionType":"none",
         "attackDamage":{
-            "min":9,
-            "max":13
+            "min":10,
+            "max":19
         },
-        "spawnGroup":"moeston_lizard",
-        "droplistID":"moeston_lizard",
-        "attackCost":6,
-        "attackChance":135,
-        "blockChance":62,
-        "damageResistance":3
+        "spawnGroup":"platonic_snake_c",
+        "droplistID":"platonic_snake_drop_poisonous",
+        "attackCost":5,
+        "attackChance":125,
+        "criticalSkill":37,
+        "criticalMultiplier":1.5,
+        "blockChance":113,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_blood",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"35"
+                }
+            ]
+        }
+    },
+    {
+        "id":"platonic_snake_7",
+        "name":"Quick Platonic Snake",
+        "iconID":"monsters_newb_1:401",
+        "maxHP":141,
+        "maxAP":12,
+        "moveCost":4,
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":14,
+            "max":21
+        },
+        "spawnGroup":"platonic_snake_d",
+        "droplistID":"platonic_snake_drop_c",
+        "attackCost":3,
+        "attackChance":139,
+        "blockChance":106,
+        "damageResistance":2
+    },
+    {
+        "id":"moeston_tailor_dresses",
+        "name":"Lynn",
+        "iconID":"monsters_rltiles3:15",
+        "droplistID":"moeston_tailor_dresses"
+    },
+    {
+        "id":"moeston_soldier_tired",
+        "name":"Tired Feygard Soldier",
+        "iconID":"monsters_karvis2:4",
+        "spawnGroup":"moeston_soldier_tired",
+        "phraseID":"moeston_soldier_tired_start"
+    },
+    {
+        "id":"moeston_farmer",
+        "name":"Farmer",
+        "iconID":"monsters_karvis2:1",
+        "phraseID":"moeston_farmer_start"
+    },
+    {
+        "id":"moeston_trader2",
+        "name":"Fish Trader",
+        "iconID":"monsters_omi2:11",
+        "phraseID":"moeston_trader2_start",
+        "droplistID":"moeston_trader2_shop"
+    },
+    {
+        "id":"moeston_trader",
+        "name":"Vegetable Trader",
+        "iconID":"monsters_tometik7:18",
+        "phraseID":"moeston_trader_start",
+        "droplistID":"moeston_trader_shop"
     },
     {
         "id":"moeston_lizard_2",
@@ -366,115 +570,63 @@
         "damageResistance":3
     },
     {
-        "id":"moeston_wasp_1",
-        "name":"Mammoth Wasp",
-        "iconID":"monsters_rltiles2:113",
-        "maxHP":37,
-        "monsterClass":"insect",
+        "id":"moeston_lizard_1",
+        "name":"Moeston Lizard",
+        "iconID":"monsters_tometik2:16",
+        "maxHP":48,
+        "moveCost":5,
+        "monsterClass":"reptile",
         "movementAggressionType":"none",
-        "attackDamage":{
-            "min":6,
-            "max":9
-        },
-        "spawnGroup":"moeston_wasp",
-        "droplistID":"moeston_wasp_drop_a",
-        "attackCost":3,
-        "attackChance":78,
-        "blockChance":45,
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"sting_minor",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_wasp_2",
-        "name":"Stinging Mammoth Wasp",
-        "iconID":"monsters_rltiles2:113",
-        "maxHP":41,
-        "monsterClass":"insect",
-        "movementAggressionType":"helpOthers",
-        "attackDamage":{
-            "min":7,
-            "max":10
-        },
-        "spawnGroup":"moeston_wasp",
-        "droplistID":"moeston_wasp_drop_a",
-        "attackCost":3,
-        "attackChance":84,
-        "blockChance":51,
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"sting_minor",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"35"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_wasp_3",
-        "name":"Rowdy Mammoth Wasp",
-        "iconID":"monsters_rltiles2:113",
-        "maxHP":58,
-        "monsterClass":"insect",
         "attackDamage":{
             "min":9,
             "max":13
         },
-        "spawnGroup":"moeston_wasp",
-        "droplistID":"moeston_wasp_drop_b",
-        "attackCost":3,
-        "attackChance":87,
-        "blockChance":60,
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"sting_minor",
-                    "magnitude":1,
-                    "duration":4,
-                    "chance":"30"
-                }
-            ]
-        }
+        "spawnGroup":"moeston_lizard",
+        "droplistID":"moeston_lizard",
+        "attackCost":6,
+        "attackChance":135,
+        "blockChance":62,
+        "damageResistance":3
     },
     {
-        "id":"moeston_soldier_scared",
-        "name":"Scared Feygard Soldier",
-        "iconID":"monsters_ld1:1",
-        "phraseID":"moeston_soldier_scared_start"
+        "id":"moeston_kid",
+        "name":"Kid",
+        "iconID":"monsters_ld1:157",
+        "phraseID":"moeston_kid_start"
     },
     {
-        "id":"moeston_soldier_tired",
-        "name":"Tired Feygard Soldier",
-        "iconID":"monsters_karvis2:4",
-        "spawnGroup":"moeston_soldier_tired",
-        "phraseID":"moeston_soldier_tired_start"
+        "id":"olec_stooge",
+        "name":"Olec's Stooge",
+        "iconID":"monsters_ld1:74",
+        "spawnGroup":"olec_stooge",
+        "phraseID":"olec_stooge_start"
     },
     {
-        "id":"fisherman_niel",
-        "name":"Niel",
-        "iconID":"monsters_newb_1:43",
-        "phraseID":"niel_start"
+        "id":"wildlife_doctor_rabbit_injured",
+        "name":"Injured Rabbit",
+        "iconID":"monsters_ld2:142"
     },
     {
-        "id":"moeston_farmer",
-        "name":"Farmer",
-        "iconID":"monsters_karvis2:1",
-        "phraseID":"moeston_farmer_start"
+        "id":"sneaky_sam",
+        "name":"Sneaky Sam",
+        "iconID":"monsters_rogue1:0",
+        "phraseID":"sneaky_sam_start",
+        "droplistID":"sneaky_sam_shop"
     },
     {
-        "id":"moeston_farmer1",
-        "name":"Farmer",
-        "iconID":"monsters_karvis2:1",
-        "phraseID":"moeston_farmer1_start"
+        "id":"grimblight_venomous",
+        "name":"Venomous Grimblight",
+        "iconID":"monsters_newb_1:534"
+    },
+    {
+        "id":"wildlife_doctor_squirrel",
+        "name":"Squirrel",
+        "iconID":"monsters_rltiles2:147"
+    },
+    {
+        "id":"grimblight_plated_creeping",
+        "name":"Creeping Plated Grimblight",
+        "iconID":"monsters_newb_1:529"
     },
     {
         "id":"moeston_busy_woman",
@@ -483,98 +635,37 @@
         "phraseID":"moeston_busy_woman_start"
     },
     {
-        "id":"moeston_citizen",
-        "name":"Moeston Citizen",
-        "iconID":"monsters_ld1:140",
-        "phraseID":"moeston_citizen_start"
+        "id":"grimblight_plated_fierce",
+        "name":"Fierce Plated Grimblight",
+        "iconID":"monsters_newb_1:527"
     },
     {
-        "id":"moeston_citizen1",
-        "name":"Moeston Citizen",
-        "iconID":"monsters_karvis2:5",
-        "phraseID":"moeston_citizen1_start"
+        "id":"wildlife_doctor_frog_injured",
+        "name":"Injured Frog",
+        "iconID":"monsters_rltiles1:131"
     },
     {
-        "id":"moeston_citizen2",
-        "name":"Moeston Citizen",
-        "iconID":"monsters_ld1:134",
-        "phraseID":"moeston_citizen2_start"
+        "id":"swarm_of_flies",
+        "name":"Swarm of Flies",
+        "iconID":"monsters_ld2:82",
+        "maxHP":27,
+        "maxAP":12,
+        "moveCost":3,
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":1,
+            "max":3
+        },
+        "droplistID":"swarm_of_flies",
+        "attackCost":2,
+        "attackChance":53,
+        "blockChance":210
     },
     {
-        "id":"moeston_citizen3",
-        "name":"Moeston Citizen",
-        "iconID":"monsters_ld1:225",
-        "phraseID":"moeston_citizen3_start"
-    },
-    {
-        "id":"moeston_citizen4",
-        "name":"Moeston Citizen",
-        "iconID":"monsters_ld1:228",
-        "phraseID":"moeston_citizen4_start"
-    },
-    {
-        "id":"moeston_woodcutter",
-        "name":"Jagor",
-        "iconID":"monsters_ld1:28",
-        "phraseID":"moeston_woodcutter_start"
-    },
-    {
-        "id":"moeston_tattletale",
-        "name":"Tattletale",
-        "iconID":"monsters_ld1:165",
-        "phraseID":"moeston_tattletale_start"
-    },
-    {
-        "id":"moeston_tattletale1",
-        "name":"Tattletale",
-        "iconID":"monsters_ld1:179",
-        "phraseID":"moeston_tattletale_start"
-    },
-    {
-        "id":"moeston_trader",
-        "name":"Vegetable Trader",
-        "iconID":"monsters_tometik7:18",
-        "phraseID":"moeston_trader_start",
-        "droplistID":"moeston_trader_shop"
-    },
-    {
-        "id":"moeston_trader1",
-        "name":"Tool Trader",
-        "iconID":"monsters_tometik7:21",
-        "phraseID":"moeston_trader1_start",
-        "droplistID":"moeston_trader1_shop"
-    },
-    {
-        "id":"moeston_trader2",
-        "name":"Fish Trader",
-        "iconID":"monsters_omi2:11",
-        "phraseID":"moeston_trader2_start",
-        "droplistID":"moeston_trader2_shop"
-    },
-    {
-        "id":"moeston_guard_roadblock",
-        "name":"Road Guard",
-        "iconID":"monsters_rltiles1:86",
-        "phraseID":"moeston_guard_roadblock_start"
-    },
-    {
-        "id":"strawberry_collector",
-        "name":"Strawberry Collector",
-        "iconID":"monsters_ld1:37",
-        "phraseID":"strawberry_collector_start"
-    },
-    {
-        "id":"moeston_adventurer",
-        "name":"Adventurer",
-        "iconID":"monsters_ld1:104",
-        "phraseID":"moeston_adventurer_start"
-    },
-    {
-        "id":"stukka",
-        "name":"Stukka",
-        "iconID":"monsters_tometik2:71",
-        "phraseID":"stukka_start",
-        "droplistID":"stukka_shop"
+        "id":"wildlife_doctor_lizard",
+        "name":"Lizard",
+        "iconID":"monsters_newb_1:371"
     },
     {
         "id":"moeston_priest",
@@ -583,58 +674,22 @@
         "phraseID":"moeston_priest_start"
     },
     {
-        "id":"moeston_mourning",
-        "name":"Mourning Citizen",
-        "iconID":"monsters_men:6",
-        "phraseID":"moeston_mourning_start"
-    },
-    {
-        "id":"moeston_tailor",
-        "name":"Lynn",
-        "iconID":"monsters_rltiles3:15",
-        "phraseID":"moeston_tailor_start"
-    },
-    {
-        "id":"moeston_tailor_kid",
-        "name":"Lina",
-        "iconID":"monsters_ld1:169",
-        "phraseID":"moeston_tailor_kid_start"
-    },
-    {
-        "id":"moeston_waiter",
-        "name":"Betty",
-        "iconID":"monsters_ld1:183",
-        "phraseID":"moeston_waiter_start"
-    },
-    {
-        "id":"moeston_guest1",
-        "name":"Guest",
-        "iconID":"monsters_tometik2:70",
-        "phraseID":"moeston_guest1_start"
-    },
-    {
-        "id":"moeston_guest",
-        "name":"Guest",
-        "iconID":"monsters_tometik7:45",
-        "phraseID":"moeston_guest_start"
-    },
-    {
-        "id":"moeston_guest2",
-        "name":"Drinking Guest",
-        "iconID":"monsters_ld1:135",
-        "phraseID":"moeston_guest2_start"
-    },
-    {
-        "id":"moeston_cook",
-        "name":"Cook",
-        "iconID":"monsters_ld1:22",
-        "phraseID":"moeston_cook_start"
-    },
-    {
-        "id":"moeston_guest3",
-        "name":"Tired Guest",
-        "iconID":"monsters_ld2:101",
-        "phraseID":"moeston_guest3_start"
+        "id":"platonic_snake_4",
+        "name":"Agile Platonic Snake",
+        "iconID":"monsters_newb_1:400",
+        "maxHP":62,
+        "moveCost":4,
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":4,
+            "max":6
+        },
+        "spawnGroup":"platonic_snake_b",
+        "droplistID":"platonic_snake_drop_b",
+        "attackCost":3,
+        "attackChance":114,
+        "blockChance":78
     },
     {
         "id":"moeston_smith",
@@ -644,147 +699,182 @@
         "droplistID":"moeston_smith_shop"
     },
     {
-        "id":"moeston_smith_wife",
-        "name":"Enila",
-        "iconID":"monsters_men:1",
-        "phraseID":"moeston_smith_wife_start"
+        "id":"grimblight_plated",
+        "name":"Plated Grimblight",
+        "iconID":"monsters_newb_1:526"
     },
     {
-        "id":"mayor_natula",
-        "name":"Mayor Natula",
-        "iconID":"monsters_phoenix01:21",
-        "phraseID":"mayor_natula_start"
+        "id":"platonic_snake_5",
+        "name":"Twisty Platonic Snake",
+        "iconID":"monsters_newb_1:401",
+        "maxHP":86,
+        "moveCost":5,
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":9,
+            "max":14
+        },
+        "spawnGroup":"platonic_snake_c",
+        "droplistID":"platonic_snake_drop_b",
+        "attackCost":5,
+        "attackChance":119,
+        "criticalSkill":25,
+        "criticalMultiplier":1.6,
+        "blockChance":104,
+        "damageResistance":1
+    },
+    {
+        "id":"platonic_snake_2",
+        "name":"Platonic Snake",
+        "iconID":"monsters_newb_1:400",
+        "maxHP":71,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":3,
+            "max":8
+        },
+        "spawnGroup":"platonic_snake_a",
+        "droplistID":"platonic_snake_drop_a",
+        "attackCost":5,
+        "attackChance":97,
+        "blockChance":82
+    },
+    {
+        "id":"platonic_snake_3",
+        "name":"Strong Platonic Snake",
+        "iconID":"monsters_newb_1:400",
+        "maxHP":89,
+        "monsterClass":"reptile",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":5,
+            "max":11
+        },
+        "spawnGroup":"platonic_snake_b",
+        "droplistID":"platonic_snake_drop_a",
+        "attackCost":6,
+        "attackChance":101,
+        "criticalSkill":20,
+        "criticalMultiplier":1.3,
+        "blockChance":77
+    },
+    {
+        "id":"depth_crawler_snake_agressive",
+        "name":"Agressive Depth Crawler Snake",
+        "iconID":"monsters_ld2:19",
+        "maxHP":87,
+        "moveCost":4,
+        "monsterClass":"reptile",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":13,
+            "max":18
+        },
+        "droplistID":"forest_snake_dl",
+        "attackCost":5,
+        "attackChance":143,
+        "blockChance":125,
+        "damageResistance":3
+    },
+    {
+        "id":"moeston_adventurer",
+        "name":"Adventurer",
+        "iconID":"monsters_ld1:104",
+        "phraseID":"moeston_adventurer_start"
+    },
+    {
+        "id":"moeston_tailor_hats",
+        "name":"Lynn",
+        "iconID":"monsters_rltiles3:15",
+        "droplistID":"moeston_tailor_hats"
+    },
+    {
+        "id":"platonic_snake_1",
+        "name":"Platonic Snake",
+        "iconID":"monsters_newb_1:400",
+        "maxHP":71,
+        "monsterClass":"reptile",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":3,
+            "max":8
+        },
+        "spawnGroup":"platonic_snake_a",
+        "droplistID":"platonic_snake_drop_a",
+        "attackCost":5,
+        "attackChance":97,
+        "blockChance":82
+    },
+    {
+        "id":"wildlife_doctor_squirrel_injured",
+        "name":"Injured Squirrel",
+        "iconID":"monsters_rltiles2:147"
+    },
+    {
+        "id":"moeston_guest",
+        "name":"Guest",
+        "iconID":"monsters_tometik7:45",
+        "phraseID":"moeston_guest_start"
+    },
+    {
+        "id":"wildlife_doctor_butterfly",
+        "name":"Butterfly",
+        "iconID":"monsters_rltiles2:66"
+    },
+    {
+        "id":"group_of_fish_1",
+        "name":"Group of Fish",
+        "iconID":"monsters_ld2:136",
+        "spawnGroup":"group_of_fish"
+    },
+    {
+        "id":"group_of_fish_2",
+        "name":"Group of Fish",
+        "iconID":"monsters_ld2:137",
+        "spawnGroup":"group_of_fish"
+    },
+    {
+        "id":"group_of_fish_3",
+        "name":"Group of Fish",
+        "iconID":"monsters_ld2:138",
+        "spawnGroup":"group_of_fish"
+    },
+    {
+        "id":"group_of_fish_4",
+        "name":"Group of Fish",
+        "iconID":"monsters_ld2:139",
+        "spawnGroup":"group_of_fish"
+    },
+    {
+        "id":"black_reaper_scorpion",
+        "name":"Black Reaper Scorpion",
+        "iconID":"monsters_rltiles4:37",
+        "maxHP":189,
+        "monsterClass":"reptile",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":19,
+            "max":31
+        },
+        "droplistID":"black_reaper_scorpion",
+        "attackCost":8,
+        "attackChance":157,
+        "blockChance":189,
+        "damageResistance":11,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":2
+            }
+        }
     },
     {
         "id":"moeston_teacher",
         "name":"Teacher",
         "iconID":"monsters_ld1:30",
         "phraseID":"moeston_teacher_start"
-    },
-    {
-        "id":"moeston_kid",
-        "name":"Kid",
-        "iconID":"monsters_ld1:157",
-        "phraseID":"moeston_kid_start"
-    },
-    {
-        "id":"moeston_kid1",
-        "name":"Kid",
-        "iconID":"monsters_ld1:37",
-        "phraseID":"moeston_kid1_start"
-    },
-    {
-        "id":"moeston_fisher",
-        "name":"Fisher",
-        "iconID":"monsters_phoenix01:3",
-        "phraseID":"moeston_fisher_start"
-    },
-    {
-        "id":"moeston_prisonguard",
-        "name":"Prison Guard",
-        "iconID":"monsters_rltiles1:72",
-        "phraseID":"moeston_prisonguard_start"
-    },
-    {
-        "id":"mairie",
-        "name":"Mairie",
-        "iconID":"monsters_ld1:146",
-        "phraseID":"mairie_start"
-    },
-    {
-        "id":"mairie_staff",
-        "name":"Staff",
-        "iconID":"monsters_ld1:186",
-        "phraseID":"mairie_staff_start"
-    },
-    {
-        "id":"moe_ghost",
-        "name":"Moe's Ghost",
-        "iconID":"monsters_rltiles2:142",
-        "maxHP":180,
-        "maxAP":9,
-        "moveCost":6,
-        "unique":1,
-        "monsterClass":"undead",
-        "movementAggressionType":"protectSpawn",
-        "attackDamage":{
-            "min":7,
-            "max":21
-        },
-        "phraseID":"moe_ghost",
-        "attackCost":5,
-        "attackChance":159,
-        "blockChance":121,
-        "damageResistance":4,
-        "hitEffect":{
-            "increaseCurrentHP":{
-                "min":0,
-                "max":1
-            }
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"speed_minor",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"40"
-                }
-            ]
-        },
-        "deathEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"stunned",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"95"
-                }
-            ]
-        }
-    },
-    {
-        "id":"casual_cave_cross_spider",
-        "name":"Cave Cross Spider",
-        "iconID":"monsters_tometik1:27",
-        "maxHP":84,
-        "moveCost":4,
-        "monsterClass":"insect",
-        "movementAggressionType":"none",
-        "attackDamage":{
-            "min":12,
-            "max":15
-        },
-        "droplistID":"spider",
-        "attackCost":3,
-        "attackChance":109,
-        "blockChance":72,
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"cobwebbed",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"10"
-                }
-            ]
-        },
-        "deathEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"cobwebbed",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"35"
-                },
-                {
-                    "condition":"cobwebbed",
-                    "magnitude":2,
-                    "duration":1,
-                    "chance":"5"
-                }
-            ]
-        }
     },
     {
         "id":"swarming_cave_cross_spider",
@@ -829,32 +919,10 @@
         }
     },
     {
-        "id":"moeston_chicken",
-        "name":"Group of Chicken",
-        "iconID":"monsters_newb_1:1321",
-        "spawnGroup":"moeston_chicken"
-    },
-    {
-        "id":"moeston_chicken1",
-        "name":"Chicken",
-        "iconID":"monsters_newb_1:1328",
-        "spawnGroup":"moeston_chicken1"
-    },
-    {
-        "id":"moeston_chicken2",
-        "name":"Chicken",
-        "iconID":"monsters_newb_1:1329",
-        "spawnGroup":"missing_chicken"
-    },
-    {
-        "id":"wildlife_doctor_deer_injured",
-        "name":"Injured Deer",
-        "iconID":"monsters_newb_1:262"
-    },
-    {
-        "id":"wildlife_doctor_deer",
-        "name":"Deer",
-        "iconID":"monsters_newb_1:262"
+        "id":"moeston_woodcutter",
+        "name":"Jagor",
+        "iconID":"monsters_ld1:28",
+        "phraseID":"moeston_woodcutter_start"
     },
     {
         "id":"wildlife_doctor_bat_injured",
@@ -862,97 +930,28 @@
         "iconID":"monsters_ld2:226"
     },
     {
-        "id":"wildlife_doctor_bat",
-        "name":"Bat",
-        "iconID":"monsters_ld2:227"
+        "id":"grimblight_plated_ferocious",
+        "name":"Ferocious Plated Grimblight",
+        "iconID":"monsters_newb_1:530"
     },
     {
-        "id":"wildlife_doctor_rabbit_injured",
-        "name":"Injured Rabbit",
-        "iconID":"monsters_ld2:142"
+        "id":"moeston_soldier_scared",
+        "name":"Scared Feygard Soldier",
+        "iconID":"monsters_ld1:1",
+        "phraseID":"moeston_soldier_scared_start"
     },
     {
-        "id":"wildlife_doctor_rabbit",
-        "name":"Rabbit",
-        "iconID":"monsters_ld2:143"
+        "id":"moeston_soldier_drunk1",
+        "name":"Drunk Feygard Soldier",
+        "iconID":"monsters_ld1:94",
+        "phraseID":"moeston_soldier_drunk1_start"
     },
     {
-        "id":"wildlife_doctor_squirrel_injured",
-        "name":"Injured Squirrel",
-        "iconID":"monsters_rltiles2:147"
-    },
-    {
-        "id":"wildlife_doctor_squirrel",
-        "name":"Squirrel",
-        "iconID":"monsters_rltiles2:147"
-    },
-    {
-        "id":"wildlife_doctor_frog_injured",
-        "name":"Injured Frog",
-        "iconID":"monsters_rltiles1:131"
-    },
-    {
-        "id":"wildlife_doctor_frog",
-        "name":"Frog",
-        "iconID":"monsters_rltiles1:131"
-    },
-    {
-        "id":"wildlife_doctor_lizard_injured",
-        "name":"Injured Lizard",
-        "iconID":"monsters_newb_1:372"
-    },
-    {
-        "id":"wildlife_doctor_lizard",
-        "name":"Lizard",
-        "iconID":"monsters_newb_1:371"
-    },
-    {
-        "id":"wildlife_doctor_butterfly_injured",
-        "name":"Injured Butterfly",
-        "iconID":"monsters_rltiles2:70"
-    },
-    {
-        "id":"wildlife_doctor_butterfly",
-        "name":"Butterfly",
-        "iconID":"monsters_rltiles2:66"
-    },
-    {
-        "id":"wildlife_doctor_injured_anklebiter",
-        "name":"Injured Anklebiter",
-        "iconID":"monsters_newb_1:244",
-        "maxHP":182,
-        "unique":1,
-        "monsterClass":"animal",
-        "movementAggressionType":"none",
-        "attackDamage":{
-            "min":12,
-            "max":17
-        },
-        "droplistID":"wildlife_doctor_anklebiter",
-        "attackCost":9,
-        "attackChance":131,
-        "blockChance":81,
-        "damageResistance":3
-    },
-    {
-        "id":"ronald_boss",
-        "name":"Queen Grimblight",
-        "iconID":"monsters_newb_2:4"
-    },
-    {
-        "id":"grimblight",
-        "name":"Grimblight",
-        "iconID":"monsters_newb_1:532"
-    },
-    {
-        "id":"grimblight_fierce",
-        "name":"Fierce Grimblight",
-        "iconID":"monsters_newb_1:533"
-    },
-    {
-        "id":"grimblight_venomous",
-        "name":"Venomous Grimblight",
-        "iconID":"monsters_newb_1:534"
+        "id":"stukka",
+        "name":"Stukka",
+        "iconID":"monsters_tometik2:71",
+        "phraseID":"stukka_start",
+        "droplistID":"stukka_shop"
     },
     {
         "id":"grimblight_creeping",
@@ -960,40 +959,45 @@
         "iconID":"monsters_newb_1:535"
     },
     {
-        "id":"grimblight_ferocious",
-        "name":"Ferocious Grimblight",
-        "iconID":"monsters_newb_1:536"
+        "id":"moeston_citizen4",
+        "name":"Moeston Citizen",
+        "iconID":"monsters_ld1:228",
+        "phraseID":"moeston_citizen4_start"
     },
     {
-        "id":"grimblight_plated",
-        "name":"Plated Grimblight",
-        "iconID":"monsters_newb_1:526"
+        "id":"mayor_natula",
+        "name":"Mayor Natula",
+        "iconID":"monsters_phoenix01:21",
+        "phraseID":"mayor_natula_start"
     },
     {
-        "id":"grimblight_plated_fierce",
-        "name":"Fierce Plated Grimblight",
-        "iconID":"monsters_newb_1:527"
+        "id":"moeston_citizen1",
+        "name":"Moeston Citizen",
+        "iconID":"monsters_karvis2:5",
+        "phraseID":"moeston_citizen1_start"
     },
     {
-        "id":"grimblight_plated_venomous",
-        "name":"Venomous Plated Grimblight",
-        "iconID":"monsters_newb_1:528"
+        "id":"officer_olec_dog",
+        "name":"Watchdog",
+        "iconID":"monsters_rltiles2:109",
+        "phraseID":"officer_olec_dog_start"
     },
     {
-        "id":"grimblight_plated_creeping",
-        "name":"Creeping Plated Grimblight",
-        "iconID":"monsters_newb_1:529"
+        "id":"moeston_citizen2",
+        "name":"Moeston Citizen",
+        "iconID":"monsters_ld1:134",
+        "phraseID":"moeston_citizen2_start"
     },
     {
-        "id":"grimblight_plated_ferocious",
-        "name":"Ferocious Plated Grimblight",
-        "iconID":"monsters_newb_1:530"
+        "id":"moeston_citizen3",
+        "name":"Moeston Citizen",
+        "iconID":"monsters_ld1:225",
+        "phraseID":"moeston_citizen3_start"
     },
     {
-        "id":"grimblight_plated_ruthless",
-        "name":"Ruthless Plated Grimblight",
-        "iconID":"monsters_newb_1:531",
-        "unique":1
+        "id":"wildlife_doctor_deer_injured",
+        "name":"Injured Deer",
+        "iconID":"monsters_newb_1:262"
     },
     {
         "id":"depth_crawler_snake",
@@ -1014,63 +1018,184 @@
         "damageResistance":2
     },
     {
-        "id":"depth_crawler_snake_agressive",
-        "name":"Agressive Depth Crawler Snake",
-        "iconID":"monsters_ld2:19",
-        "maxHP":87,
-        "moveCost":4,
-        "monsterClass":"reptile",
-        "movementAggressionType":"none",
-        "attackDamage":{
-            "min":13,
-            "max":18
-        },
-        "droplistID":"forest_snake_dl",
-        "attackCost":5,
-        "attackChance":143,
-        "blockChance":125,
-        "damageResistance":3
+        "id":"moeston_prisonguard",
+        "name":"Prison Guard",
+        "iconID":"monsters_rltiles1:72",
+        "phraseID":"moeston_prisonguard_start"
     },
     {
-        "id":"black_reaper_scorpion",
-        "name":"Black Reaper Scorpion",
-        "iconID":"monsters_rltiles4:37",
-        "maxHP":189,
-        "monsterClass":"reptile",
+        "id":"ronald_boss",
+        "name":"Queen Grimblight",
+        "iconID":"monsters_newb_2:4"
+    },
+    {
+        "id":"grimblight_fierce",
+        "name":"Fierce Grimblight",
+        "iconID":"monsters_newb_1:533"
+    },
+    {
+        "id":"moeston_soldier",
+        "name":"Feygard Soldier",
+        "iconID":"monsters_ld1:40",
+        "spawnGroup":"moeston_soldier",
+        "phraseID":"moeston_soldier_start"
+    },
+    {
+        "id":"moe_ghost",
+        "name":"Moe's Ghost",
+        "iconID":"monsters_rltiles2:142",
+        "maxHP":551,
+        "maxAP":9,
+        "moveCost":3,
+        "unique":1,
+        "monsterClass":"undead",
         "movementAggressionType":"wholeMap",
         "attackDamage":{
-            "min":19,
-            "max":31
+            "min":7,
+            "max":21
         },
-        "droplistID":"black_reaper_scorpion",
-        "attackCost":8,
-        "attackChance":157,
-        "blockChance":189,
-        "damageResistance":11,
+        "phraseID":"moe_ghost",
+        "droplistID":"moe_ghost",
+        "attackCost":5,
+        "attackChance":159,
+        "criticalSkill":45,
+        "criticalMultiplier":1.7,
+        "blockChance":121,
+        "damageResistance":4,
         "hitEffect":{
             "increaseCurrentHP":{
-                "min":1,
-                "max":2
+                "min":0,
+                "max":1
             }
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"speed_minor",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"40"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"95"
+                }
+            ]
         }
     },
     {
-        "id":"swarm_of_flies",
-        "name":"Swarm of Flies",
-        "iconID":"monsters_ld2:82",
-        "maxHP":27,
-        "maxAP":12,
-        "moveCost":3,
-        "monsterClass":"insect",
-        "movementAggressionType":"protectSpawn",
-        "attackDamage":{
-            "min":1,
-            "max":3
-        },
-        "droplistID":"swarm_of_flies",
-        "attackCost":2,
-        "attackChance":53,
-        "blockChance":210
+        "id":"moeston_soldier_drunk",
+        "name":"Drunk Feygard Soldier",
+        "iconID":"monsters_ld1:1",
+        "phraseID":"drunk1"
+    },
+    {
+        "id":"ronald_the_researcher_following",
+        "name":"Ronald",
+        "iconID":"monsters_ld1:21",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ronald_following"
+    },
+    {
+        "id":"grimblight",
+        "name":"Grimblight",
+        "iconID":"monsters_newb_1:532"
+    },
+    {
+        "id":"moeston_soldier_quest",
+        "name":"Feygard Soldier",
+        "iconID":"monsters_ld1:67",
+        "phraseID":"moeston_castle_book_12"
+    },
+    {
+        "id":"moeston_tattletale",
+        "name":"Tattletale",
+        "iconID":"monsters_ld1:165",
+        "phraseID":"moeston_tattletale_start"
+    },
+    {
+        "id":"wildlife_doctor_rabbit",
+        "name":"Rabbit",
+        "iconID":"monsters_ld2:143"
+    },
+    {
+        "id":"moeston_waiter",
+        "name":"Betty",
+        "iconID":"monsters_ld1:183",
+        "phraseID":"moeston_waiter_start"
+    },
+    {
+        "id":"moeston_tailor_shirts",
+        "name":"Lynn",
+        "iconID":"monsters_rltiles3:15",
+        "droplistID":"moeston_tailor_shirts"
+    },
+    {
+        "id":"grimblight_ferocious",
+        "name":"Ferocious Grimblight",
+        "iconID":"monsters_newb_1:536"
+    },
+    {
+        "id":"moeston_tattletale1",
+        "name":"Tattletale",
+        "iconID":"monsters_ld1:179",
+        "phraseID":"moeston_tattletale_start"
+    },
+    {
+        "id":"moeston_guard_roadblock",
+        "name":"Road Guard",
+        "iconID":"monsters_rltiles1:86",
+        "phraseID":"moeston_guard_roadblock_start"
+    },
+    {
+        "id":"wildlife_doctor_butterfly_injured",
+        "name":"Injured Butterfly",
+        "iconID":"monsters_rltiles2:70"
+    },
+    {
+        "id":"moeston_tailor",
+        "name":"Lynn",
+        "iconID":"monsters_rltiles3:15",
+        "phraseID":"moeston_tailor_start"
+    },
+    {
+        "id":"moeston_citizen",
+        "name":"Moeston Citizen",
+        "iconID":"monsters_ld1:140",
+        "phraseID":"moeston_citizen_start"
+    },
+    {
+        "id":"moeston_kid1",
+        "name":"Kid",
+        "iconID":"monsters_ld1:37",
+        "phraseID":"moeston_kid1_start"
+    },
+    {
+        "id":"fisherman_niel",
+        "name":"Niel",
+        "iconID":"monsters_newb_1:43",
+        "phraseID":"niel_start"
+    },
+    {
+        "id":"wildlife_doctor_lizard_injured",
+        "name":"Injured Lizard",
+        "iconID":"monsters_newb_1:372"
+    },
+    {
+        "id":"wildlife_doctor_deer",
+        "name":"Deer",
+        "iconID":"monsters_newb_1:262"
+    },
+    {
+        "id":"wildlife_doctor_bat",
+        "name":"Bat",
+        "iconID":"monsters_ld2:227"
     },
     {
         "id":"infected_cave_rat",
@@ -1114,162 +1239,40 @@
         }
     },
     {
-        "id":"moeston_soldier_drunk1",
-        "name":"Drunk Feygard Soldier",
-        "iconID":"monsters_ld1:94",
-        "phraseID":"moeston_soldier_drunk1_start"
+        "id":"moeston_cook",
+        "name":"Cook",
+        "iconID":"monsters_ld1:22",
+        "phraseID":"moeston_cook_start"
     },
     {
-        "id":"olec_stooge",
-        "name":"Olec's Stooge",
-        "iconID":"monsters_ld1:74",
-        "spawnGroup":"olec_stooge",
-        "phraseID":"olec_stooge_start"
+        "id":"moeston_chicken2",
+        "name":"Chicken",
+        "iconID":"monsters_newb_1:1329",
+        "spawnGroup":"missing_chicken"
     },
     {
-        "id":"yellow_forest_buzzer",
-        "name":"Yellow Forest Buzzer",
-        "iconID":"monsters_ld2:222",
-        "maxHP":75,
-        "moveCost":4,
-        "monsterClass":"insect",
-        "movementAggressionType":"none",
-        "attackDamage":{
-            "min":3,
-            "max":6
-        },
-        "spawnGroup":"yellow_forest_buzzer_a",
-        "droplistID":"yellow_forest_buzzer_drop_a",
-        "attackCost":3,
-        "attackChance":84,
-        "blockChance":162,
-        "damageResistance":7,
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"contagion",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"25"
-                }
-            ]
-        }
+        "id":"moeston_chicken1",
+        "name":"Chicken",
+        "iconID":"monsters_newb_1:1328",
+        "spawnGroup":"moeston_chicken1"
     },
     {
-        "id":"yellow_forest_buzzer2",
-        "name":"Yellow Forest Buzzer",
-        "iconID":"monsters_ld2:222",
-        "maxHP":82,
-        "moveCost":4,
-        "monsterClass":"insect",
-        "movementAggressionType":"none",
-        "attackDamage":{
-            "min":4,
-            "max":7
-        },
-        "spawnGroup":"yellow_forest_buzzer_a",
-        "droplistID":"yellow_forest_buzzer_drop_a",
-        "attackCost":3,
-        "attackChance":87,
-        "blockChance":169,
-        "damageResistance":7,
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"contagion",
-                    "magnitude":1,
-                    "duration":5,
-                    "chance":"20"
-                }
-            ]
-        }
+        "id":"ronald_the_researcher_final",
+        "name":"Ronald",
+        "iconID":"monsters_ld1:20",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ronald_final"
     },
     {
-        "id":"yellow_forest_buzzer3",
-        "name":"Agressive Yellow Forest Buzzer",
-        "iconID":"monsters_ld2:223",
-        "maxHP":85,
-        "moveCost":4,
-        "monsterClass":"insect",
-        "movementAggressionType":"none",
-        "attackDamage":{
-            "min":5,
-            "max":7
-        },
-        "spawnGroup":"yellow_forest_buzzer_b",
-        "droplistID":"yellow_forest_buzzer_drop_a",
-        "attackCost":3,
-        "attackChance":98,
-        "blockChance":164,
-        "damageResistance":8,
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"contagion",
-                    "magnitude":1,
-                    "duration":4,
-                    "chance":"33"
-                }
-            ]
-        }
+        "id":"officer_olec",
+        "name":"Olec",
+        "iconID":"monsters_phoenix01:12",
+        "phraseID":"olec_start"
     },
     {
-        "id":"yellow_forest_buzzer4",
-        "name":"Stinging Yellow Forest Buzzer",
-        "iconID":"monsters_ld2:223",
-        "maxHP":93,
-        "moveCost":4,
-        "monsterClass":"insect",
-        "movementAggressionType":"none",
-        "attackDamage":{
-            "min":4,
-            "max":7
-        },
-        "spawnGroup":"yellow_forest_buzzer_b",
-        "droplistID":"yellow_forest_buzzer_drop_b",
-        "attackCost":3,
-        "attackChance":105,
-        "blockChance":174,
-        "damageResistance":9,
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"contagion",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"35"
-                },
-                {
-                    "condition":"contagion",
-                    "magnitude":3,
-                    "duration":1,
-                    "chance":"5"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_soldier_quest",
-        "name":"Feygard Soldier",
-        "iconID":"monsters_ld1:67",
-        "phraseID":"moeston_castle_book_12"
-    },
-    {
-        "id":"moeston_tailor_hats",
-        "name":"Lynn",
-        "iconID":"monsters_rltiles3:15",
-        "droplistID":"moeston_tailor_hats"
-    },
-    {
-        "id":"moeston_tailor_shirts",
-        "name":"Lynn",
-        "iconID":"monsters_rltiles3:15",
-        "droplistID":"moeston_tailor_shirts"
-    },
-    {
-        "id":"moeston_tailor_dresses",
-        "name":"Lynn",
-        "iconID":"monsters_rltiles3:15",
-        "droplistID":"moeston_tailor_dresses"
+        "id":"grimblight_plated_ruthless",
+        "name":"Ruthless Plated Grimblight",
+        "iconID":"monsters_newb_1:531",
+        "unique":1
     }
 ]
