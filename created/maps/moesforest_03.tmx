@@ -205,7 +205,7 @@
    eJztlktOAzEMhp1RLwCboB4DOAFwAaAcgMemUlUJygnaVREIqbuuumDPrisuh0cdK8Y4E6edAAs+yZqXx3+cxEkAAs99gBe0UR+SkM8cr0/N/cwDTPwmhgXuR3Gu0W4i/1P7xuJ7rTn1Nk1NW8bn8PyImQ+61lw1tNg1Q/aOtOZV0JO5au3+qNI+UoM/k9ayCnqpXDXNNib++7NVi1gzzff9r5oUQ+Zu6T+rZu9A90nlnvouee11E8cC9UdM04Ks0VzWlf4+d6ys1Lm+RTR/k2GBXCWy/kswbuYTHz9Z/+RXGqp/vv5uM69uFX8eM3fsHh3AvQvXB7d5n9Mnu9Rs15Sq1bYzwj825Ny1nPk0aG7+xBqioa0hWl12yao5Ey328v7jdWxtY24Nldgv7v7gvrjLGB/iunqEduziPm39zmtFO8OPInvKCeqdop0J3W3XSctYn6PWBdol2gDtygVNjU/Nn1Ik
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJzNlMENhTAMQ7sF87H/ElyrKHbsNCAq/cOnsZ9TUu5rrRv80Nr3VE3Uu8zIPtG7/Kp2ghs93PoOL+vD4bl6h4sYTp+opsrPWGqfTnZl/ZnprpOZV9+R0kuHrWhQns6dmzij7ExO72eH29E751Cd+VuzzPrt5Kgyqbru3O56xo7PWA1jIx+kiXuVL/NWubFuYoZULtt3+Y4v88j80NxlNdHLfX/KnKvLvYdZX9n/WD/BZhzGQFmqbwfLixhqJmd22Qx9wZ1gd/NlWdkdUb5TyPMB5LjYkQ==
   </data>
@@ -364,11 +364,21 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0">
+ <objectgroup name="Keys">
   <object name="fish_block" type="key" x="128" y="704" width="32" height="32">
    <properties>
     <property name="phrase" value="moeston_fish_block_0"/>
+    <property name="requireId" value="fishing_rod_niel"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="wear"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object name="fish_catch" type="key" x="96" y="672" width="96" height="32">
+   <properties>
+    <property name="phrase" value="moeston_fish_catch_0"/>
     <property name="requireId" value="moeston_nondisplay"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
    </properties>

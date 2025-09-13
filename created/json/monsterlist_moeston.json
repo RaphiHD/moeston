@@ -827,25 +827,29 @@
         "id":"group_of_fish_1",
         "name":"Group of Fish",
         "iconID":"monsters_ld2:136",
-        "spawnGroup":"group_of_fish"
+        "spawnGroup":"group_of_fish",
+        "phraseID":"fish_catch_start"
     },
     {
         "id":"group_of_fish_2",
         "name":"Group of Fish",
         "iconID":"monsters_ld2:137",
-        "spawnGroup":"group_of_fish"
+        "spawnGroup":"group_of_fish",
+        "phraseID":"fish_catch_start"
     },
     {
         "id":"group_of_fish_3",
         "name":"Group of Fish",
         "iconID":"monsters_ld2:138",
-        "spawnGroup":"group_of_fish"
+        "spawnGroup":"group_of_fish",
+        "phraseID":"fish_catch_start"
     },
     {
         "id":"group_of_fish_4",
         "name":"Group of Fish",
         "iconID":"monsters_ld2:139",
-        "spawnGroup":"group_of_fish"
+        "spawnGroup":"group_of_fish",
+        "phraseID":"fish_catch_start"
     },
     {
         "id":"black_reaper_scorpion",

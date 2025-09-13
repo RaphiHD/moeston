@@ -791,19 +791,11 @@
     },
     {
         "id":"cobwebbed_anti",
-        "iconID":"items_newb:667",
-        "name":"Web feather",
-        "displaytype":"ordinary",
-        "category":"animal_usable",
-        "description":"Cobweb sticks easily to this type of feather.",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"cobwebbed",
-                    "chance":"85"
-                }
-            ]
-        }
+        "iconID":"items_consumables:64",
+        "name":"Anti cobweb potion",
+        "displaytype":"quest",
+        "category":"flask",
+        "description":"The label reads: \"Special mixture to remove cobweb. Don't breath in fumes. Toxic.\""
     },
     {
         "id":"moeston_tailor_ring_blue_none",
@@ -1127,6 +1119,13 @@
         "description":"Be careful not to be poked by those long, thin needles."
     },
     {
+        "id":"bloodfin_chub",
+        "iconID":"items_consumables:24",
+        "name":"Bloodfin chub",
+        "displaytype":"ordinary",
+        "category":"food"
+    },
+    {
         "id":"moeston_tailor_hat_red_attack",
         "iconID":"items_japozero:86",
         "name":"Red Hat of Attack",
@@ -1191,8 +1190,8 @@
         "description":"The color seems slightly brighter than regular healing potions. It has a faint smell of strawberries.",
         "useEffect":{
             "increaseCurrentHP":{
-                "min":5,
-                "max":12
+                "min":10,
+                "max":15
             },
             "conditionsSource":[
                 {
@@ -1236,6 +1235,13 @@
         "baseMarketCost":450,
         "category":"neck",
         "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"trout",
+        "iconID":"items_consumables:24",
+        "name":"Trout",
+        "displaytype":"ordinary",
+        "category":"food"
     },
     {
         "id":"moeston_tailor_necklace_red_health",
@@ -2034,6 +2040,13 @@
         }
     },
     {
+        "id":"giraffe_bass",
+        "iconID":"items_consumables:24",
+        "name":"Giraffe Bass",
+        "displaytype":"ordinary",
+        "category":"food"
+    },
+    {
         "id":"platonic_snake_skin",
         "iconID":"items_misc_3:114",
         "name":"Platonic snake skin",
@@ -2302,6 +2315,13 @@
                 }
             ]
         }
+    },
+    {
+        "id":"rasbora",
+        "iconID":"items_consumables:24",
+        "name":"Rasbora carp",
+        "displaytype":"ordinary",
+        "category":"food"
     },
     {
         "id":"yellow_coneflower",

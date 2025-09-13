@@ -385,6 +385,14 @@
                 "logText":"[Caught in the net] Niel has left his spot"
             },
             {
+                "progress":403,
+                "logText":"[Caught in the net] The fumes appeared for the first time."
+            },
+            {
+                "progress":404,
+                "logText":"[Caught in the net] I died somewhere in the process and need to get back to Stukka."
+            },
+            {
                 "progress":500,
                 "logText":"[Wildlife Doctor] Anklebiter attacked"
             },
@@ -458,7 +466,7 @@
             },
             {
                 "progress":45,
-                "logText":"Stukka once got a feather soaked in potions that could really be of much use here. He however forgot the name of the alchemist who could make it. He said that he was very popular for his potions."
+                "logText":"Stukka once got a feather soaked in potion that could really be of much use here. He however forgot the name of the alchemist who could make it. He said that he was very popular for his potions."
             },
             {
                 "progress":50,
@@ -467,7 +475,7 @@
             },
             {
                 "progress":55,
-                "logText":"He told me he would need a big empty bottle, two dead spiders, five vials of poison and an irdegh poison gland."
+                "logText":"He told me he could brew a potion for me. He would need a big empty bottle, two dead spiders, five vials of poison and an irdegh poison gland."
             },
             {
                 "progress":60,
@@ -497,7 +505,7 @@
             },
             {
                 "progress":90,
-                "logText":"After a while, I woke up next to Stukka. My head was hurting and I could barely speak. He gave me a potion I shoud drink."
+                "logText":"Next thing I remember, I woke up next to Stukka. My head was hurting and I could barely speak. He gave me a potion I shoud drink."
             },
             {
                 "progress":96,
@@ -510,7 +518,7 @@
             },
             {
                 "progress":105,
-                "logText":"Niel told me that he was getting boring of fishing with a fishing rod. He decided to travel towards Remgard and fish on the lake by boat and net. So my effort was all for nothing!"
+                "logText":"Niel told me that he was getting bored of fishing with a fishing rod. He decided to travel towards Remgard and fish on the lake by boat and net. So my effort was all for nothing!"
             },
             {
                 "progress":110,

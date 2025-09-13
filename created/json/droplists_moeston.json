@@ -627,6 +627,35 @@
         ]
     },
     {
+        "id":"fish_loot_gold",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":20
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"20",
+                "quantity":{
+                    "min":20,
+                    "max":500
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"2",
+                "quantity":{
+                    "min":500,
+                    "max":5000
+                }
+            }
+        ]
+    },
+    {
         "id":"moeston_wasp_drop_a",
         "items":[
             {

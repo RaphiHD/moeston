@@ -1,8 +1,13 @@
 [
     {
         "id":"niel_10",
-        "message":"Also take the empty bag. Carrying dead spiders is easier with this.",
+        "message":"Also take this empty bag. Carrying little dead spiders is easier with it.",
         "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bag_niel",
+                "value":1
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"caught_in_the_net",
@@ -265,6 +270,22 @@
         ]
     },
     {
+        "id":"niel_21",
+        "message":"Hey, didn't you forget something? Here, take this empty bag. Carrying little dead spiders is easier with it.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bag_niel",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":20
+            }
+        ]
+    },
+    {
         "id":"moeston_mourning_start",
         "replies":[
             {
@@ -287,6 +308,16 @@
             },
             {
                 "nextPhraseID":"moeston_mourning_3"
+            }
+        ]
+    },
+    {
+        "id":"niel_22",
+        "message":"Do you like the rod I gave you? You can try it out right now.",
+        "replies":[
+            {
+                "text":"But I don't know how.",
+                "nextPhraseID":"niel_17"
             }
         ]
     },
@@ -560,7 +591,7 @@
     },
     {
         "id":"niel_14",
-        "message":"I sold all the fish on the market and am now hoping to be able to buy a boat and a net.",
+        "message":"I sold all my fish on the market, now I hope to be able to buy a boat and a net.",
         "replies":[
             {
                 "text":"So... you are giving up your neat little spot here?",
@@ -689,6 +720,17 @@
         ]
     },
     {
+        "id":"moesforest_17_cave_1a",
+        "message":"As you hit the cobwebs, they suddenly stick to your hand, barely letting you go.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":35
+            }
+        ]
+    },
+    {
         "id":"moeston_priest_start",
         "replies":[
             {
@@ -728,6 +770,10 @@
                 "rewardID":"moeston_tailor_top_blue_none"
             }
         ]
+    },
+    {
+        "id":"lodar_cob_5a",
+        "message":"Oh you have? Sure. Let me prepare quickly."
     },
     {
         "id":"moeston_tailor_build_top_yellow_none",
@@ -1149,9 +1195,9 @@
                         "value":90
                     },
                     {
-                        "requireType":"hasActorCondition",
-                        "requireID":"cobwebbed",
-                        "negate":true
+                        "requireType":"usedItem",
+                        "requireID":"stukka_healing_potion",
+                        "value":1
                     }
                 ]
             },
@@ -1281,6 +1327,46 @@
         ]
     },
     {
+        "id":"moesforest_17_cave_cobwebs",
+        "message":"The sticky cobwebs are forming a wall, keeping out any intruder like you.",
+        "replies":[
+            {
+                "text":"Hit the cobwebs.",
+                "nextPhraseID":"moesforest_17_cave_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Hit the cobwebs.",
+                "nextPhraseID":"moesforest_17_cave_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"Throw down Lodar's potion.",
+                "nextPhraseID":"moesforest_17_cave_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cobwebbed_anti",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_full_green_none",
         "message":"Here you go. Enjoy your new outfit!",
         "rewards":[
@@ -1362,6 +1448,16 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_top_green_attack"
+            }
+        ]
+    },
+    {
+        "id":"fish_loot_20",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"fish_loot_gold"
             }
         ]
     },
@@ -2131,12 +2227,48 @@
         "id":"niel_start",
         "replies":[
             {
+                "nextPhraseID":"niel_19",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":402
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"niel_22",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":110
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"niel_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"caught_in_the_net",
                         "value":100
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"niel_21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":15
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":20,
+                        "negate":true
                     }
                 ]
             },
@@ -2486,6 +2618,22 @@
         ]
     },
     {
+        "id":"stukka_fumes",
+        "message":"Hey, stay here! You can barely walk.",
+        "switchToNPC":"stukka"
+    },
+    {
+        "id":"fish_loot_10",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"boots_crude_leather",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"maire_staff_23",
         "message":"Yes. I think you did a good job anyways.",
         "switchToNPC":"mairie_staff",
@@ -2576,6 +2724,16 @@
     {
         "id":"mairie_10",
         "message":"Please go to my staff, she can give you details."
+    },
+    {
+        "id":"moesforest_17_cave_leave_1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":75
+            }
+        ]
     },
     {
         "id":"mairie_16",
@@ -2931,6 +3089,17 @@
         ]
     },
     {
+        "id":"fish_loot_19",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"armour_cvest1",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"moeston_tattletale_2",
         "message":"What? Tell me!",
         "switchToNPC":"moeston_tattletale1",
@@ -2985,7 +3154,51 @@
         ]
     },
     {
+        "id":"fish_loot_16",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ring_antipoison",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"fish_loot_15",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ring_dr2",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"moeston_inn_roomblock"
+    },
+    {
+        "id":"fish_loot_18",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gem2",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"fish_loot_17",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gem6",
+                "value":1
+            }
+        ]
     },
     {
         "id":"moeston_adventurer_start",
@@ -3002,8 +3215,52 @@
         ]
     },
     {
+        "id":"fish_loot_12",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"small_tree_branch",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"fish_loot_11",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"hair",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"moeston_soldier_tired_start",
         "message":"Chrrrr..."
+    },
+    {
+        "id":"fish_loot_14",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ring_protector",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"fish_loot_13",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"shirt_weathered",
+                "value":1
+            }
+        ]
     },
     {
         "id":"moeston_trader1_1",
@@ -3032,6 +3289,25 @@
             {
                 "text":"Sure, show me what you have.",
                 "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"fish_catch_start",
+        "replies":[
+            {
+                "nextPhraseID":"fish_catch_missingrod",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"fishing_rod_niel",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_catch_cast"
             }
         ]
     },
@@ -3134,6 +3410,28 @@
         ]
     },
     {
+        "id":"moesforest_17_cave_2",
+        "message":"As soon as the bottle hits the ground, all the tiny strings and webs crumble, leaving behind a cloud of dust.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":65
+            }
+        ]
+    },
+    {
+        "id":"moesforest_17_cave_1",
+        "message":"As you hit the cobwebs, they suddenly stick to your hand, barely letting you go.",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"cobwebbed",
+                "value":5
+            }
+        ]
+    },
+    {
         "id":"moeston_citizen4_start",
         "replies":[
             {
@@ -3191,6 +3489,16 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_top_yellow_defend"
+            }
+        ]
+    },
+    {
+        "id":"fish_catch_cast",
+        "message":"[The fish are right at your hook.]",
+        "replies":[
+            {
+                "text":"Pull the rod.",
+                "nextPhraseID":"fish_catch_pull"
             }
         ]
     },
@@ -4798,6 +5106,90 @@
         ]
     },
     {
+        "id":"lodar_cob_8",
+        "message":"Here you go. Good luck with it.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":60
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"cobwebbed_anti",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"lodar_cob_6",
+        "message":"Yes, I prepared everything. Do you have the ingredients?",
+        "replies":[
+            {
+                "text":"No, not yet. I will get them now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, here they are.",
+                "nextPhraseID":"lodar_cob_7",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"large_bottle",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"spider",
+                        "value":2
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"irdegh",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pot_poison_weak",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lodar_cob_7",
+        "message":"Okay, now listen closely. To remove the cobweb, just throw the bottle to the ground. But be careful! Don't breathe in the fumes, as they are very toxic.",
+        "replies":[
+            {
+                "text":"Got it.",
+                "nextPhraseID":"lodar_cob_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"large_bottle",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"spider",
+                        "value":2
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"irdegh",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_poison_weak",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"moeston_waiter_error",
         "message":"I seem to have forgotten something. This should not have happened.",
         "replies":[
@@ -4967,7 +5359,7 @@
     },
     {
         "id":"stukka_16b",
-        "message":"I believe you. They carry a toxine which has strong effects on your body. Better stay away from it."
+        "message":"I believe you. They carry a toxine which has strong effects on your body. Better stay away from them."
     },
     {
         "id":"moeston_tailor_build_accessories_black_health",
@@ -5064,6 +5456,10 @@
                 "nextPhraseID":"S"
             }
         ]
+    },
+    {
+        "id":"moeston_fish_catch_0",
+        "message":"You cast out your fishing rod. Now you just have to wait."
     },
     {
         "id":"moeston_tattletale_16",
@@ -5206,6 +5602,10 @@
         ]
     },
     {
+        "id":"fish_catch_missingrod",
+        "message":"Quick, cast your rod before the fish are gone again."
+    },
+    {
         "id":"moeston_tailor_build_top_black_defend",
         "message":"Here you go. Enjoy your new outfit!",
         "rewards":[
@@ -5261,12 +5661,34 @@
                 "rewardType":"giveItem",
                 "rewardID":"bag_niel_full",
                 "value":1
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":403
             }
         ]
     },
     {
         "id":"stukka_15b",
         "message":"Don't accuse me like that! You dropped it when you fainted."
+    },
+    {
+        "id":"lodar_cob_1",
+        "message":"A feather against cobwebs. So you are dealing with a little spider problem?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lodar_cob_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":50
+            }
+        ]
     },
     {
         "id":"stukka_14",
@@ -5303,11 +5725,21 @@
         ]
     },
     {
+        "id":"lodar_cob_4",
+        "message":"Well, I don't have a feather here, but the potion will work just fine. You would have to get me some ingredients though. One large empty bottle, two dead spiders and an irdegh poison gland. They carry a special toxine I need.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lodar_cob_5"
+            }
+        ]
+    },
+    {
         "id":"stukka_11",
         "message":"How are you doing, still searching for the feather?",
         "replies":[
             {
-                "text":"Here, I got it.",
+                "text":"Lodar gave me this potion instead. I should throw it down on the ground.",
                 "nextPhraseID":"stukka_11a",
                 "requires":[
                     {
@@ -5344,6 +5776,49 @@
         ]
     },
     {
+        "id":"lodar_cob_5",
+        "message":"And not to forget, five vials of weak poison. We want to kill some spiders after all, am I right?",
+        "replies":[
+            {
+                "text":"Great, I will get everything.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I have those items with me.",
+                "nextPhraseID":"lodar_cob_5a",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"large_bottle",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"spider",
+                        "value":2
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"irdegh",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pot_poison_weak",
+                        "value":5
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":55
+            }
+        ]
+    },
+    {
         "id":"stukka_10",
         "message":"Great! Good luck finding him."
     },
@@ -5354,6 +5829,205 @@
     {
         "id":"moeston_guest1_2a",
         "message":"Deebo is an old friend of mine. He lives somewhere further down the Duleian road. Haven't seen him in a while though."
+    },
+    {
+        "id":"lodar_cob_2",
+        "message":"Let me see what I can do. I think I have made this before.",
+        "replies":[
+            {
+                "nextPhraseID":"lodar_cob_3"
+            }
+        ]
+    },
+    {
+        "id":"lodar_cob_3",
+        "message":"Aha, yes. This is what I need. Hmm, I don't have them here...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lodar_cob_4"
+            }
+        ]
+    },
+    {
+        "id":"fish_catch_success",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"fish_loot_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"17"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"12"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"4"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_4",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"4"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_5",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"22"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_6",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"10"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_7",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"4"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_8",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"11"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_9",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"12"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"6"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_11",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"15"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_12",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"11"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_13",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"16"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_14",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"5"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_15",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"5"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_16",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"5"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_17",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"17"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_18",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_19",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"17"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_loot_20"
+            }
+        ]
     },
     {
         "id":"moeston_tailor_kid_9s",
@@ -5400,6 +6074,30 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_hat_black_attack"
+            }
+        ]
+    },
+    {
+        "id":"fish_catch_pull",
+        "replies":[
+            {
+                "nextPhraseID":"fish_catch_success",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fish_catch_failed"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"group_of_fish_3",
+                "mapName":"moescave_03"
             }
         ]
     },
@@ -5629,33 +6327,6 @@
         "id":"moeston_fish_block_0",
         "message":"This seems to be a neat spot for fishing.",
         "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_fish_block_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"caught_in_the_net",
-                        "value":110
-                    },
-                    {
-                        "requireType":"wear",
-                        "requireID":"fishing_rod_niel",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_fish_block_2",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"caught_in_the_net",
-                        "value":110
-                    }
-                ]
-            },
             {
                 "text":"N",
                 "nextPhraseID":"moeston_fish_block_2"
@@ -6177,6 +6848,10 @@
         ]
     },
     {
+        "id":"moesforest_17_cave_pickup_2",
+        "message":"As you are about to leave, a hoard of spiders is crawling out of the cracks in the walls. You better leave fast now."
+    },
+    {
         "id":"moeston_tattletale_56",
         "message":"Oh poor Teranir, haha. What did she do?",
         "switchToNPC":"moeston_tattletale1",
@@ -6294,6 +6969,33 @@
         ]
     },
     {
+        "id":"moesforest_17_cave_pickup_1",
+        "message":"With a careful movement, you scoop up a handful of spiderlings.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moesforest_17_cave_pickup_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bag_niel_full",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":70
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"aggressive_spiders",
+                "mapName":"moesforest_17_cave_2"
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_full_blue_none",
         "message":"Here you go. Enjoy your new outfit!",
         "rewards":[
@@ -6305,6 +7007,16 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_full_blue_none"
+            }
+        ]
+    },
+    {
+        "id":"moesforest_17_cave_fumes",
+        "message":"As you are running towards the entrance, some stinky fumes surround you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moesforest_17_cave_fumes_1"
             }
         ]
     },
@@ -6784,6 +7496,21 @@
             {
                 "text":"N",
                 "nextPhraseID":"moeston_tattletale_76"
+            }
+        ]
+    },
+    {
+        "id":"moesforest_17_cave_pickup",
+        "replies":[
+            {
+                "nextPhraseID":"moesforest_17_cave_pickup_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bag_niel",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -7929,6 +8656,21 @@
             {
                 "text":"N",
                 "nextPhraseID":"moeston_waiter_1"
+            }
+        ]
+    },
+    {
+        "id":"moesforest_17_cave_leave",
+        "replies":[
+            {
+                "nextPhraseID":"moesforest_17_cave_leave_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":70
+                    }
+                ]
             }
         ]
     },
@@ -9389,12 +10131,50 @@
         ]
     },
     {
+        "id":"moesforest_17_cave_fumes_1",
+        "message":"Your eyes barely catch a ray of sunshine as your eyes turn black.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moesforest_17_cave_fumes_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":80
+            }
+        ]
+    },
+    {
         "id":"moeston_soldier_drunk1_3",
         "message":"Oh, Officer! Yes, I am doing my work. No worries.",
         "replies":[
             {
                 "text":"Am I not a bit too small to be the Officer?",
                 "nextPhraseID":"moeston_soldier_drunk1_4"
+            }
+        ]
+    },
+    {
+        "id":"moesforest_17_cave_fumes_3",
+        "message":"You hear someone shouting, but you can't understand a word. Then you feel something pulling on your limbs...",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"fumes",
+                "mapName":"moesforest_17"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"caught_in_the_net",
+                "value":85
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"cobwebbed",
+                "value":999
             }
         ]
     },
@@ -9409,6 +10189,23 @@
             {
                 "text":"N",
                 "nextPhraseID":"moeston_waiter_pay_broke_2"
+            }
+        ]
+    },
+    {
+        "id":"moesforest_17_cave_fumes_2",
+        "message":"Your mind gets foggy. Is this the end?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moesforest_17_cave_fumes_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"mind_fog",
+                "value":15
             }
         ]
     },
@@ -9480,12 +10277,50 @@
         ]
     },
     {
+        "id":"stukka_fumes_died_4",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":403
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":404
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_13a",
         "message":"You also wanted it to be treated for optimization in attacking.",
         "replies":[
             {
                 "text":"N",
                 "nextPhraseID":"moeston_tailor_14"
+            }
+        ]
+    },
+    {
+        "id":"stukka_fumes_died_2",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":403
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":404
+            }
+        ]
+    },
+    {
+        "id":"stukka_fumes_died_3",
+        "replies":[
+            {
+                "nextPhraseID":"stukka_fumes_died_4"
             }
         ]
     },
@@ -9921,7 +10756,7 @@
     },
     {
         "id":"niel_3",
-        "message":"Oh it is wonderful! I just found the perfect spot to catch rasbora, a rare type only living here in this river.",
+        "message":"Oh it is wonderful! I just found the perfect spot to catch rasbora, a rare type of carp only living here in this river.",
         "replies":[
             {
                 "text":"That sounds nice! Do you mind selling me one of them?",
@@ -10388,12 +11223,34 @@
         "message":"He he, then you should go and visit Feygard. This city is full of adventures."
     },
     {
+        "id":"fish_loot_2",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bwm_fish",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"moesforest_17_upper_activate",
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":11
+            }
+        ]
+    },
+    {
+        "id":"fish_loot_3",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bramblefin_fish",
+                "value":1
             }
         ]
     },
@@ -10501,6 +11358,17 @@
         ]
     },
     {
+        "id":"fish_loot_1",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"rawperch",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"olec_3",
         "message":"Wha... oh, definetely not you. It's none of your business little kid.",
         "replies":[
@@ -10526,6 +11394,17 @@
         ]
     },
     {
+        "id":"fish_loot_6",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"trout",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"moeston_town_hall_roomblock"
     },
     {
@@ -10539,8 +11418,30 @@
         ]
     },
     {
+        "id":"fish_loot_7",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bloodfin_chub",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"olec_1",
         "message":"This is no place for you kid. You better stay out of here."
+    },
+    {
+        "id":"fish_loot_4",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"giraffe_bass",
+                "value":1
+            }
+        ]
     },
     {
         "id":"moeston_tailor_kid_6s",
@@ -10560,8 +11461,30 @@
         ]
     },
     {
+        "id":"fish_loot_5",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"rasbora",
+                "value":1
+            }
+        ]
+    },
+    {
         "id":"moeston_adventurer_5",
         "message":"I don't think so. I came down from the plateau, I haven't seen anyone in days."
+    },
+    {
+        "id":"fish_loot_8",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"rotten_apple",
+                "value":1
+            }
+        ]
     },
     {
         "id":"moeston_citizen3_4a",
@@ -10575,6 +11498,17 @@
             {
                 "text":"N",
                 "nextPhraseID":"mairie_18"
+            }
+        ]
+    },
+    {
+        "id":"fish_loot_9",
+        "message":"You pull the rod towards you. And look, you caught something!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"meat2",
+                "value":1
             }
         ]
     },
@@ -10686,6 +11620,10 @@
         ]
     },
     {
+        "id":"fish_catch_failed",
+        "message":"You pull the rod towards you. Unfortunately, the hook is empty."
+    },
+    {
         "id":"moeston_adventurer_3",
         "message":"Welcome to my little camp. You could stay if you want, but you would have to bring your own sleeping mat.",
         "replies":[
@@ -10726,6 +11664,25 @@
     {
         "id":"moeston_citizen3_5",
         "message":"Yesterday I found a perfectly folded sock on the ground. That means something. I just don't know what yet."
+    },
+    {
+        "id":"lodar_cob_start",
+        "replies":[
+            {
+                "nextPhraseID":"lodar_cob_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"lodar_cob_6"
+            }
+        ]
     },
     {
         "id":"olec_5",
@@ -11760,6 +12717,21 @@
         "replies":[
             {
                 "nextPhraseID":"mairie_cage_1"
+            }
+        ]
+    },
+    {
+        "id":"stukka_fumes_died",
+        "replies":[
+            {
+                "nextPhraseID":"stukka_fumes_died_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":403
+                    }
+                ]
             }
         ]
     },
