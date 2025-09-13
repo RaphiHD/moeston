@@ -2,5 +2,6 @@
 moeston.tiled-session
 moeston.tiled-project
 .project
+.project.json
 tmp/res/values/loadresources.xml
 tmp/res/xml/worldmap.xml
