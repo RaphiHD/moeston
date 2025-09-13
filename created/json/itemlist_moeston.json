@@ -1,91 +1,35 @@
 [
     {
-        "id":"wild_strawberry",
-        "iconID":"items_consumables:8",
-        "name":"Wild strawberry",
-        "displaytype":"ordinary",
-        "category":"food",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":1,
-                    "duration":8,
-                    "chance":"100"
-                }
-            ]
-        }
-    },
-    {
-        "id":"cherries",
-        "iconID":"items_japozero:490",
-        "name":"Cherries",
-        "displaytype":"ordinary",
-        "category":"food",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":2,
-                    "duration":4,
-                    "chance":"100"
-                },
-                {
-                    "condition":"food",
-                    "magnitude":2,
-                    "duration":6,
-                    "chance":"50"
-                }
-            ]
-        }
-    },
-    {
-        "id":"wild_strawberry_sweet",
-        "iconID":"items_consumables:8",
-        "name":"Especially sweet wild strawberry",
-        "displaytype":"ordinary",
-        "category":"food",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":3,
-                    "duration":8,
-                    "chance":"100"
-                },
-                {
-                    "condition":"food",
-                    "magnitude":5,
-                    "duration":8,
-                    "chance":"10"
-                }
-            ]
-        }
-    },
-    {
-        "id":"cherry_cake_piece",
-        "iconID":"items_newb:851",
-        "name":"Piece of cherry cake",
-        "displaytype":"quest"
-    },
-    {
-        "id":"betula_leaves",
-        "iconID":"items_japozero:559",
-        "name":"Betula leaves",
-        "displaytype":"ordinary",
+        "id":"moeston_tailor_shirt_black_attack",
+        "iconID":"items_japozero:144",
+        "name":"Black Shirt of Attack",
+        "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":5,
-        "category":"other",
-        "description":"These leaves are held together by the small but strong twigs they are attached to."
-    },
-    {
-        "id":"pile_of_pine_needles",
-        "iconID":"items_japozero:590",
-        "name":"Pile of pine needles",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "category":"other",
-        "description":"Be careful not to be poked by those long, thin needles."
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
     },
     {
         "id":"nature_hat",
@@ -110,73 +54,47 @@
         }
     },
     {
-        "id":"nature_shirt",
-        "iconID":"items_japozero:142",
-        "name":"Shirt of the Collector",
+        "id":"moeston_tailor_shirt_black_health",
+        "iconID":"items_japozero:144",
+        "name":"Black Shirt of Health",
         "displaytype":"rare",
-        "category":"bdy_clth",
+        "hasManualPrice":1,
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseMaxHP":4,
-            "increaseUseItemCost":-1,
+            "increaseMaxHP":15,
             "increaseAttackChance":2,
-            "increaseCriticalSkill":17,
-            "increaseBlockChance":12
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"nature_awareness",
-                    "magnitude":1,
-                    "duration":4,
-                    "chance":"15"
-                }
-            ]
+            "increaseBlockChance":6
         }
     },
     {
-        "id":"nature_boots",
-        "iconID":"items_japozero:216",
-        "name":"Boots of Wet Moss",
+        "id":"moeston_tailor_ring_red_defense",
+        "iconID":"items_rings_1:7",
+        "name":"Red Ring of Defense",
         "displaytype":"rare",
-        "category":"feet_clth",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
-            "increaseMaxHP":3,
-            "increaseAttackChance":-1,
-            "increaseBlockChance":9,
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
             "increaseDamageResistance":1
         },
         "hitReceivedEffect":{
             "conditionsSource":[
                 {
-                    "condition":"nature_awareness",
+                    "condition":"treatment_defense",
                     "magnitude":1,
-                    "duration":2,
-                    "chance":"10"
-                }
-            ]
-        }
-    },
-    {
-        "id":"nature_shield",
-        "iconID":"items_japozero:581",
-        "name":"Shield of Leaves",
-        "displaytype":"rare",
-        "category":"shld_wd_li",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-1,
-                "max":-1
-            },
-            "increaseMoveCost":-2,
-            "increaseBlockChance":21
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"nature_awareness",
-                    "magnitude":2,
-                    "duration":5,
-                    "chance":"5"
+                    "duration":3,
+                    "chance":"20"
                 }
             ]
         }
@@ -218,332 +136,21 @@
         }
     },
     {
-        "id":"nature_gloves",
-        "iconID":"items_newb:7",
-        "name":"Gloves of Thorns and Roses",
-        "displaytype":"rare",
-        "category":"hnd_cloth",
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"nature_awareness",
-                    "magnitude":2,
-                    "duration":1,
-                    "chance":"10"
-                }
-            ],
-            "conditionsTarget":[
-                {
-                    "condition":"bleeding_wound",
-                    "magnitude":3,
-                    "duration":2,
-                    "chance":"25"
-                }
-            ]
-        }
+        "id":"cage_animal",
+        "iconID":"items_japozero:430",
+        "name":"Encaged animal",
+        "displaytype":"quest",
+        "category":"other"
     },
     {
-        "id":"nature_ring",
-        "iconID":"items_japozero:253",
-        "name":"Ring of Sunlight",
+        "id":"moeston_tailor_ring_green_attack",
+        "iconID":"items_rings_1:6",
+        "name":"Green Ring of Attack",
         "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
         "category":"ring",
-        "hitEffect":{
-            "increaseCurrentHP":{
-                "min":0,
-                "max":1
-            }
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"nature_awareness",
-                    "magnitude":1,
-                    "duration":5,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"nature_necklace",
-        "iconID":"items_newb:134",
-        "name":"Necklace of the Wild",
-        "displaytype":"rare",
-        "category":"neck",
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"nature_awareness",
-                    "magnitude":4,
-                    "duration":1,
-                    "chance":"25"
-                }
-            ]
-        }
-    },
-    {
-        "id":"tunlon_letter",
-        "iconID":"items_japozero:425",
-        "name":"Letter",
-        "displaytype":"quest",
-        "category":"other",
-        "description":"Adressed to: Ronald, Moeston"
-    },
-    {
-        "id":"fishing_rod_niel",
-        "iconID":"items_misc_2:181",
-        "name":"Niel's Fishing Rod",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":0,
-        "category":"fishing_rod",
-        "description":"This rod looks old but good enough to catch some fish."
-    },
-    {
-        "id":"wild_rose",
-        "iconID":"items_japozero:549",
-        "name":"Wild Rose",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":52,
-        "category":"other",
-        "description":"A beautifully smelling rose."
-    },
-    {
-        "id":"bag_niel",
-        "iconID":"items_japozero:440",
-        "name":"Niel's Bag",
-        "displaytype":"quest",
-        "category":"other"
-    },
-    {
-        "id":"bag_niel_full",
-        "iconID":"items_japozero:440",
-        "name":"Niel's Bag with Bait",
-        "displaytype":"quest",
-        "category":"other"
-    },
-    {
-        "id":"popped_corn",
-        "iconID":"items_misc_3:82",
-        "name":"Popped corn",
-        "displaytype":"ordinary",
-        "category":"food",
-        "useEffect":{
-            "increaseCurrentHP":{
-                "min":3,
-                "max":5
-            },
-            "conditionsSource":[
-                {
-                    "condition":"thirst",
-                    "magnitude":3,
-                    "duration":4,
-                    "chance":"5"
-                },
-                {
-                    "condition":"food",
-                    "magnitude":2,
-                    "duration":4,
-                    "chance":"75"
-                }
-            ]
-        }
-    },
-    {
-        "id":"platonic_snake_skin",
-        "iconID":"items_misc_3:114",
-        "name":"Platonic snake skin",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":4,
-        "category":"animal"
-    },
-    {
-        "id":"moeston_ronald_book",
-        "iconID":"items_books:5",
-        "name":"Researcher's Realizations",
-        "displaytype":"quest",
-        "category":"other",
-        "description":"This book seems to contain many of Ronald's research insights. You don't understand what any of these mean."
-    },
-    {
-        "id":"scorpion_shell",
-        "iconID":"items_misc_2:222",
-        "name":"Scorpion Shell",
-        "displaytype":"rare",
-        "category":"animal",
-        "description":"A hard shell of a black reaper"
-    },
-    {
-        "id":"scorpion_shell_armour",
-        "iconID":"items_tometik2:80",
-        "name":"Scorpion's hauberk",
-        "displaytype":"rare",
-        "category":"bdy_hide",
-        "equipEffect":{
-            "increaseMaxHP":20,
-            "increaseReequipCost":1,
-            "increaseAttackChance":-5,
-            "increaseCriticalSkill":-8,
-            "increaseBlockChance":19,
-            "increaseDamageResistance":2
-        }
-    },
-    {
-        "id":"cobwebbed_anti",
-        "iconID":"items_newb:667",
-        "name":"Web feather",
-        "displaytype":"ordinary",
-        "category":"animal_usable",
-        "description":"Cobweb sticks easily to this type of feather.",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"cobwebbed",
-                    "chance":"85"
-                }
-            ]
-        }
-    },
-    {
-        "id":"yellow_coneflower",
-        "iconID":"items_japozero:550",
-        "name":"Yellow Coneflower",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":67,
-        "category":"other"
-    },
-    {
-        "id":"stukka_healing_potion",
-        "iconID":"items_consumables:36",
-        "name":"Stukka's healing potion",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":0,
-        "category":"pot",
-        "description":"The color seems slightly brighter than regular healing potions. It has a faint smell of strawberries.",
-        "useEffect":{
-            "increaseCurrentHP":{
-                "min":5,
-                "max":12
-            },
-            "conditionsSource":[
-                {
-                    "condition":"cobwebbed",
-                    "chance":"100"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_red_attack",
-        "iconID":"items_japozero:86",
-        "name":"Red Hat of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_red_defense",
-        "iconID":"items_japozero:86",
-        "name":"Red Hat of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_red_health",
-        "iconID":"items_japozero:86",
-        "name":"Red Hat of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_red_none",
-        "iconID":"items_japozero:86",
-        "name":"Red Hat",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_hat_green_attack",
-        "iconID":"items_japozero:85",
-        "name":"Green Hat of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":2,
@@ -561,574 +168,6 @@
                 {
                     "condition":"treatment_attack",
                     "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_green_defense",
-        "iconID":"items_japozero:85",
-        "name":"Green Hat of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_green_health",
-        "iconID":"items_japozero:85",
-        "name":"Green Hat of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_green_none",
-        "iconID":"items_japozero:85",
-        "name":"Green Hat",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_hat_yellow_attack",
-        "iconID":"items_japozero:84",
-        "name":"Yellow Hat of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_yellow_defense",
-        "iconID":"items_japozero:84",
-        "name":"Yellow Hat of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_yellow_health",
-        "iconID":"items_japozero:84",
-        "name":"Yellow Hat of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_yellow_none",
-        "iconID":"items_japozero:84",
-        "name":"Yellow Hat",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_hat_blue_attack",
-        "iconID":"items_japozero:87",
-        "name":"Blue Hat of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_blue_defense",
-        "iconID":"items_japozero:87",
-        "name":"Blue Hat of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_blue_health",
-        "iconID":"items_japozero:87",
-        "name":"Blue Hat of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_blue_none",
-        "iconID":"items_japozero:87",
-        "name":"Blue Hat",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_hat_black_attack",
-        "iconID":"items_japozero:82",
-        "name":"Black Hat of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_black_defense",
-        "iconID":"items_japozero:82",
-        "name":"Black Hat of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_black_health",
-        "iconID":"items_japozero:82",
-        "name":"Black Hat of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":800,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_hat_black_none",
-        "iconID":"items_japozero:82",
-        "name":"Black Hat",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"hd_cloth",
-        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_shirt_red_attack",
-        "iconID":"items_japozero:144",
-        "name":"Red Shirt of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_shirt_red_defense",
-        "iconID":"items_japozero:144",
-        "name":"Red Shirt of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_shirt_red_health",
-        "iconID":"items_japozero:144",
-        "name":"Red Shirt of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        }
-    },
-    {
-        "id":"moeston_tailor_shirt_red_none",
-        "iconID":"items_japozero:144",
-        "name":"Red Shirt",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":1125,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_shirt_green_attack",
-        "iconID":"items_japozero:144",
-        "name":"Green Shirt of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_shirt_green_defense",
-        "iconID":"items_japozero:144",
-        "name":"Green Shirt of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_shirt_green_health",
-        "iconID":"items_japozero:144",
-        "name":"Green Shirt of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        }
-    },
-    {
-        "id":"moeston_tailor_shirt_green_none",
-        "iconID":"items_japozero:144",
-        "name":"Green Shirt",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":1125,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_shirt_yellow_attack",
-        "iconID":"items_japozero:144",
-        "name":"Yellow Shirt of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":2,
                     "duration":3,
                     "chance":"20"
                 }
@@ -1167,21 +206,6 @@
         }
     },
     {
-        "id":"moeston_tailor_shirt_yellow_health",
-        "iconID":"items_japozero:144",
-        "name":"Yellow Shirt of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        }
-    },
-    {
         "id":"moeston_tailor_shirt_yellow_none",
         "iconID":"items_japozero:144",
         "name":"Yellow Shirt",
@@ -1192,46 +216,41 @@
         "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color."
     },
     {
-        "id":"moeston_tailor_shirt_blue_attack",
-        "iconID":"items_japozero:144",
-        "name":"Blue Shirt of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
+        "id":"popped_corn",
+        "iconID":"items_misc_3:82",
+        "name":"Popped corn",
+        "displaytype":"ordinary",
+        "category":"food",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":3,
+                "max":5
             },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
             "conditionsSource":[
                 {
-                    "condition":"treatment_attack",
+                    "condition":"thirst",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"5"
+                },
+                {
+                    "condition":"food",
                     "magnitude":2,
-                    "duration":3,
-                    "chance":"20"
+                    "duration":4,
+                    "chance":"75"
                 }
             ]
         }
     },
     {
-        "id":"moeston_tailor_shirt_blue_defense",
-        "iconID":"items_japozero:144",
-        "name":"Blue Shirt of Defense",
+        "id":"moeston_tailor_hat_red_defense",
+        "iconID":"items_japozero:86",
+        "name":"Red Hat of Defense",
         "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":-2,
@@ -1247,47 +266,66 @@
             "conditionsSource":[
                 {
                     "condition":"treatment_defense",
-                    "magnitude":2,
-                    "duration":3,
+                    "magnitude":1,
+                    "duration":2,
                     "chance":"20"
                 }
             ]
         }
     },
     {
-        "id":"moeston_tailor_shirt_blue_health",
-        "iconID":"items_japozero:144",
-        "name":"Blue Shirt of Health",
-        "displaytype":"rare",
+        "id":"fishing_rod_niel",
+        "iconID":"items_misc_2:181",
+        "name":"Niel's Fishing Rod",
+        "displaytype":"ordinary",
         "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "baseMarketCost":0,
+        "category":"fishing_rod",
+        "description":"This rod looks old but good enough to catch some fish."
+    },
+    {
+        "id":"nature_shirt",
+        "iconID":"items_japozero:142",
+        "name":"Shirt of the Collector",
+        "displaytype":"rare",
+        "category":"bdy_clth",
         "equipEffect":{
-            "increaseMaxHP":15,
+            "increaseMaxHP":4,
+            "increaseUseItemCost":-1,
             "increaseAttackChance":2,
-            "increaseBlockChance":6
+            "increaseCriticalSkill":17,
+            "increaseBlockChance":12
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"15"
+                }
+            ]
         }
     },
     {
-        "id":"moeston_tailor_shirt_blue_none",
-        "iconID":"items_japozero:144",
-        "name":"Blue Shirt",
+        "id":"moeston_tailor_ring_black_none",
+        "iconID":"items_rings_1:3",
+        "name":"Black Ring",
         "displaytype":"ordinary",
         "hasManualPrice":1,
-        "baseMarketCost":1125,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color."
+        "baseMarketCost":450,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color."
     },
     {
-        "id":"moeston_tailor_shirt_black_attack",
-        "iconID":"items_japozero:144",
-        "name":"Black Shirt of Attack",
+        "id":"moeston_tailor_necklace_green_attack",
+        "iconID":"items_japozero:269",
+        "name":"Green Necklace of Attack",
         "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":1500,
-        "category":"bdy_cloth",
-        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "baseMarketCost":600,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":2,
@@ -1304,12 +342,89 @@
             "conditionsSource":[
                 {
                     "condition":"treatment_attack",
-                    "magnitude":2,
+                    "magnitude":1,
                     "duration":3,
                     "chance":"20"
                 }
             ]
         }
+    },
+    {
+        "id":"moeston_tailor_ring_green_none",
+        "iconID":"items_rings_1:6",
+        "name":"Green Ring",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":450,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"moeston_tailor_hat_yellow_health",
+        "iconID":"items_japozero:84",
+        "name":"Yellow Hat of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_green_attack",
+        "iconID":"items_japozero:85",
+        "name":"Green Hat of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_green_none",
+        "iconID":"items_japozero:85",
+        "name":"Green Hat",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color."
     },
     {
         "id":"moeston_tailor_shirt_black_defense",
@@ -1343,18 +458,460 @@
         }
     },
     {
-        "id":"moeston_tailor_shirt_black_health",
+        "id":"moeston_tailor_shirt_red_attack",
         "iconID":"items_japozero:144",
-        "name":"Black Shirt of Health",
+        "name":"Red Shirt of Attack",
         "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":1500,
         "category":"bdy_cloth",
         "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"water_bottle",
+        "iconID":"items_omi2:13",
+        "name":"Bottle of water",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":8,
+        "category":"drink",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":3
+            },
+            "conditionsSource":[
+                {
+                    "condition":"sated",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"4"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_necklace_green_health",
+        "iconID":"items_japozero:269",
+        "name":"Green Necklace of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
             "increaseMaxHP":15,
             "increaseAttackChance":2,
             "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_ring_yellow_health",
+        "iconID":"items_rings_1:5",
+        "name":"Yellow Ring of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"betula_leaves",
+        "iconID":"items_japozero:559",
+        "name":"Betula leaves",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":5,
+        "category":"other",
+        "description":"These leaves are held together by the small but strong twigs they are attached to."
+    },
+    {
+        "id":"moeston_tailor_ring_blue_defense",
+        "iconID":"items_rings_1:4",
+        "name":"Blue Ring of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_black_none",
+        "iconID":"items_japozero:82",
+        "name":"Black Hat",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"wild_strawberry",
+        "iconID":"items_consumables:8",
+        "name":"Wild strawberry",
+        "displaytype":"ordinary",
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":8,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_shirt_green_none",
+        "iconID":"items_japozero:144",
+        "name":"Green Shirt",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":1125,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"tomato",
+        "iconID":"items_japozero:493",
+        "name":"Tomato",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":36,
+        "category":"food",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":2
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":9,
+                    "chance":"80"
+                },
+                {
+                    "condition":"focus_dmg",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_blue_health",
+        "iconID":"items_japozero:87",
+        "name":"Blue Hat of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_ring_green_defense",
+        "iconID":"items_rings_1:6",
+        "name":"Green Ring of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_blue_attack",
+        "iconID":"items_japozero:87",
+        "name":"Blue Hat of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_shirt_green_attack",
+        "iconID":"items_japozero:144",
+        "name":"Green Shirt of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"cobwebbed_anti",
+        "iconID":"items_newb:667",
+        "name":"Web feather",
+        "displaytype":"ordinary",
+        "category":"animal_usable",
+        "description":"Cobweb sticks easily to this type of feather.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"cobwebbed",
+                    "chance":"85"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_ring_blue_none",
+        "iconID":"items_rings_1:4",
+        "name":"Blue Ring",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":450,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"moeston_tailor_hat_black_health",
+        "iconID":"items_japozero:82",
+        "name":"Black Hat of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_shirt_red_none",
+        "iconID":"items_japozero:144",
+        "name":"Red Shirt",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":1125,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"moeston_ronald_book",
+        "iconID":"items_books:5",
+        "name":"Researcher's Realizations",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"This book seems to contain many of Ronald's research insights. You don't understand what any of these mean."
+    },
+    {
+        "id":"moeston_tailor_necklace_yellow_health",
+        "iconID":"items_japozero:265",
+        "name":"Yellow Necklace of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_green_defense",
+        "iconID":"items_japozero:85",
+        "name":"Green Hat of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
         }
     },
     {
@@ -1368,14 +925,82 @@
         "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color."
     },
     {
-        "id":"moeston_tailor_ring_red_defense",
-        "iconID":"items_rings_1:7",
-        "name":"Red Ring of Defense",
+        "id":"moeston_tailor_necklace_yellow_none",
+        "iconID":"items_japozero:265",
+        "name":"Yellow Necklace",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":450,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"parsnip",
+        "iconID":"items_japozero:496",
+        "name":"Parsnip",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":47,
+        "category":"food",
+        "description":"CHANGE SPRITE",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"90"
+                },
+                {
+                    "condition":"barkskin",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_shirt_yellow_attack",
+        "iconID":"items_japozero:144",
+        "name":"Yellow Shirt of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_necklace_green_defense",
+        "iconID":"items_japozero:269",
+        "name":"Green Necklace of Defense",
         "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":-2,
@@ -1424,56 +1049,14 @@
         }
     },
     {
-        "id":"moeston_tailor_ring_red_none",
-        "iconID":"items_rings_1:7",
-        "name":"Red Ring",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":450,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_ring_green_attack",
-        "iconID":"items_rings_1:6",
-        "name":"Green Ring of Attack",
+        "id":"moeston_tailor_shirt_red_defense",
+        "iconID":"items_japozero:144",
+        "name":"Red Shirt of Defense",
         "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_ring_green_defense",
-        "iconID":"items_rings_1:6",
-        "name":"Green Ring of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":-2,
@@ -1489,7 +1072,7 @@
             "conditionsSource":[
                 {
                     "condition":"treatment_defense",
-                    "magnitude":1,
+                    "magnitude":2,
                     "duration":3,
                     "chance":"20"
                 }
@@ -1497,56 +1080,67 @@
         }
     },
     {
-        "id":"moeston_tailor_ring_green_health",
-        "iconID":"items_rings_1:6",
-        "name":"Green Ring of Health",
+        "id":"nature_boots",
+        "iconID":"items_japozero:216",
+        "name":"Boots of Wet Moss",
         "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "category":"feet_clth",
         "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
+            "increaseMaxHP":3,
+            "increaseAttackChance":-1,
+            "increaseBlockChance":9,
+            "increaseDamageResistance":1
         },
-        "killEffect":{
+        "hitReceivedEffect":{
             "conditionsSource":[
                 {
-                    "condition":"treatment_health",
+                    "condition":"nature_awareness",
                     "magnitude":1,
-                    "duration":3,
-                    "chance":"30"
+                    "duration":2,
+                    "chance":"10"
                 }
             ]
         }
     },
     {
-        "id":"moeston_tailor_ring_green_none",
-        "iconID":"items_rings_1:6",
-        "name":"Green Ring",
+        "id":"moeston_mead",
+        "iconID":"items_consumables:51",
+        "name":"Moeston mead",
         "displaytype":"ordinary",
         "hasManualPrice":1,
-        "baseMarketCost":450,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color."
+        "baseMarketCost":13,
+        "category":"drink",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":2,
+                "max":3
+            }
+        }
     },
     {
-        "id":"moeston_tailor_ring_yellow_attack",
-        "iconID":"items_rings_1:5",
-        "name":"Yellow Ring of Attack",
+        "id":"pile_of_pine_needles",
+        "iconID":"items_japozero:590",
+        "name":"Pile of pine needles",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "category":"other",
+        "description":"Be careful not to be poked by those long, thin needles."
+    },
+    {
+        "id":"moeston_tailor_hat_red_attack",
+        "iconID":"items_japozero:86",
+        "name":"Red Hat of Attack",
         "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":2,
                 "max":3
             },
             "increaseMaxHP":-2,
-            "increaseMaxAP":0,
             "increaseAttackChance":11,
             "increaseCriticalSkill":7,
             "increaseBlockChance":6,
@@ -1557,64 +1151,53 @@
                 {
                     "condition":"treatment_attack",
                     "magnitude":1,
-                    "duration":3,
+                    "duration":2,
                     "chance":"20"
                 }
             ]
         }
     },
     {
-        "id":"moeston_tailor_ring_yellow_defense",
-        "iconID":"items_rings_1:5",
-        "name":"Yellow Ring of Defense",
-        "displaytype":"rare",
+        "id":"cherries",
+        "iconID":"items_japozero:490",
+        "name":"Cherries",
+        "displaytype":"ordinary",
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"100"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":6,
+                    "chance":"50"
+                }
+            ]
+        }
+    },
+    {
+        "id":"stukka_healing_potion",
+        "iconID":"items_consumables:36",
+        "name":"Stukka's healing potion",
+        "displaytype":"ordinary",
         "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
+        "baseMarketCost":0,
+        "category":"pot",
+        "description":"The color seems slightly brighter than regular healing potions. It has a faint smell of strawberries.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":5,
+                "max":12
             },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
             "conditionsSource":[
                 {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_ring_yellow_health",
-        "iconID":"items_rings_1:5",
-        "name":"Yellow Ring of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"30"
+                    "condition":"cobwebbed",
+                    "chance":"100"
                 }
             ]
         }
@@ -1630,231 +1213,29 @@
         "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color."
     },
     {
-        "id":"moeston_tailor_ring_blue_attack",
-        "iconID":"items_rings_1:4",
-        "name":"Blue Ring of Attack",
+        "id":"scorpion_shell_armour",
+        "iconID":"items_tometik2:80",
+        "name":"Scorpion's hauberk",
         "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "category":"bdy_hide",
         "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
+            "increaseMaxHP":20,
+            "increaseReequipCost":1,
+            "increaseAttackChance":-5,
+            "increaseCriticalSkill":-8,
+            "increaseBlockChance":19,
+            "increaseDamageResistance":2
         }
     },
     {
-        "id":"moeston_tailor_ring_blue_defense",
-        "iconID":"items_rings_1:4",
-        "name":"Blue Ring of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_ring_blue_health",
-        "iconID":"items_rings_1:4",
-        "name":"Blue Ring of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_ring_blue_none",
-        "iconID":"items_rings_1:4",
-        "name":"Blue Ring",
+        "id":"moeston_tailor_necklace_blue_none",
+        "iconID":"items_japozero:267",
+        "name":"Blue Necklace",
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":450,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_ring_black_attack",
-        "iconID":"items_rings_1:3",
-        "name":"Black Ring of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_ring_black_defense",
-        "iconID":"items_rings_1:3",
-        "name":"Black Ring of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_ring_black_health",
-        "iconID":"items_rings_1:3",
-        "name":"Black Ring of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_ring_black_none",
-        "iconID":"items_rings_1:3",
-        "name":"Black Ring",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":450,
-        "category":"ring",
-        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_necklace_red_defense",
-        "iconID":"items_japozero:266",
-        "name":"Red Necklace of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
         "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
     },
     {
         "id":"moeston_tailor_necklace_red_health",
@@ -1882,247 +1263,9 @@
         }
     },
     {
-        "id":"moeston_tailor_necklace_red_none",
-        "iconID":"items_japozero:266",
-        "name":"Red Necklace",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":450,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_necklace_green_attack",
-        "iconID":"items_japozero:269",
-        "name":"Green Necklace of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_necklace_green_defense",
-        "iconID":"items_japozero:269",
-        "name":"Green Necklace of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_necklace_green_health",
-        "iconID":"items_japozero:269",
-        "name":"Green Necklace of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_necklace_green_none",
-        "iconID":"items_japozero:269",
-        "name":"Green Necklace",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":450,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_necklace_yellow_attack",
-        "iconID":"items_japozero:265",
-        "name":"Yellow Necklace of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
         "id":"moeston_tailor_necklace_yellow_defense",
         "iconID":"items_japozero:265",
         "name":"Yellow Necklace of Defense",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":-2,
-                "max":-2
-            },
-            "increaseMaxHP":4,
-            "increaseAttackChance":2,
-            "increaseCriticalSkill":-5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_defense",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_necklace_yellow_health",
-        "iconID":"items_japozero:265",
-        "name":"Yellow Necklace of Health",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseMaxHP":15,
-            "increaseAttackChance":2,
-            "increaseBlockChance":6
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_health",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_necklace_yellow_none",
-        "iconID":"items_japozero:265",
-        "name":"Yellow Necklace",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":450,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"moeston_tailor_necklace_blue_attack",
-        "iconID":"items_japozero:267",
-        "name":"Blue Necklace of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_necklace_blue_defense",
-        "iconID":"items_japozero:267",
-        "name":"Blue Necklace of Defense",
         "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":600,
@@ -2176,9 +1319,71 @@
         }
     },
     {
-        "id":"moeston_tailor_necklace_blue_none",
-        "iconID":"items_japozero:267",
-        "name":"Blue Necklace",
+        "id":"moeston_tailor_ring_yellow_defense",
+        "iconID":"items_rings_1:5",
+        "name":"Yellow Ring of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_shirt_green_defense",
+        "iconID":"items_japozero:144",
+        "name":"Green Shirt of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_necklace_red_none",
+        "iconID":"items_japozero:266",
+        "name":"Red Necklace",
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":450,
@@ -2186,9 +1391,244 @@
         "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
     },
     {
-        "id":"moeston_tailor_necklace_black_attack",
-        "iconID":"items_japozero:264",
-        "name":"Black Necklace of Attack",
+        "id":"nature_ring",
+        "iconID":"items_japozero:253",
+        "name":"Ring of Sunlight",
+        "displaytype":"rare",
+        "category":"ring",
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":1
+            }
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"bag_niel_full",
+        "iconID":"items_japozero:440",
+        "name":"Niel's Bag with Bait",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"nature_gloves",
+        "iconID":"items_newb:7",
+        "name":"Gloves of Thorns and Roses",
+        "displaytype":"rare",
+        "category":"hnd_cloth",
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":2,
+                    "duration":1,
+                    "chance":"10"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":3,
+                    "duration":2,
+                    "chance":"25"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_ring_black_health",
+        "iconID":"items_rings_1:3",
+        "name":"Black Ring of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"cage_empty",
+        "iconID":"items_japozero:430",
+        "name":"Empty cage",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"moeston_tailor_hat_yellow_defense",
+        "iconID":"items_japozero:84",
+        "name":"Yellow Hat of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_ring_black_defense",
+        "iconID":"items_rings_1:3",
+        "name":"Black Ring of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"scorpion_shell",
+        "iconID":"items_misc_2:222",
+        "name":"Scorpion Shell",
+        "displaytype":"rare",
+        "category":"animal",
+        "description":"A hard shell of a black reaper"
+    },
+    {
+        "id":"moeston_tailor_hat_black_defense",
+        "iconID":"items_japozero:82",
+        "name":"Black Hat of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_shirt_green_health",
+        "iconID":"items_japozero:144",
+        "name":"Green Shirt of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        }
+    },
+    {
+        "id":"moeston_tailor_ring_black_attack",
+        "iconID":"items_rings_1:3",
+        "name":"Black Ring of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_necklace_blue_attack",
+        "iconID":"items_japozero:267",
+        "name":"Blue Necklace of Attack",
         "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":600,
@@ -2216,6 +1656,237 @@
                 }
             ]
         }
+    },
+    {
+        "id":"moeston_tailor_hat_yellow_none",
+        "iconID":"items_japozero:84",
+        "name":"Yellow Hat",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"nature_shield",
+        "iconID":"items_japozero:581",
+        "name":"Shield of Leaves",
+        "displaytype":"rare",
+        "category":"shld_wd_li",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-1,
+                "max":-1
+            },
+            "increaseMoveCost":-2,
+            "increaseBlockChance":21
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"5"
+                }
+            ]
+        }
+    },
+    {
+        "id":"cherry_cake_piece",
+        "iconID":"items_newb:851",
+        "name":"Piece of cherry cake",
+        "displaytype":"quest",
+        "category":"food",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":1
+            }
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_red_none",
+        "iconID":"items_japozero:86",
+        "name":"Red Hat",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"moeston_tailor_shirt_yellow_health",
+        "iconID":"items_japozero:144",
+        "name":"Yellow Shirt of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        }
+    },
+    {
+        "id":"nature_necklace",
+        "iconID":"items_newb:134",
+        "name":"Necklace of the Wild",
+        "displaytype":"rare",
+        "category":"neck",
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"nature_awareness",
+                    "magnitude":4,
+                    "duration":1,
+                    "chance":"25"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_blue_defense",
+        "iconID":"items_japozero:87",
+        "name":"Blue Hat of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_shirt_blue_attack",
+        "iconID":"items_japozero:144",
+        "name":"Blue Shirt of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_necklace_black_health",
+        "iconID":"items_japozero:264",
+        "name":"Black Necklace of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_blue_none",
+        "iconID":"items_japozero:87",
+        "name":"Blue Hat",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"moeston_tailor_ring_red_none",
+        "iconID":"items_rings_1:7",
+        "name":"Red Ring",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":450,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"wild_strawberry_sweet",
+        "iconID":"items_consumables:8",
+        "name":"Especially sweet wild strawberry",
+        "displaytype":"ordinary",
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":8,
+                    "chance":"100"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":5,
+                    "duration":8,
+                    "chance":"10"
+                }
+            ]
+        }
+    },
+    {
+        "id":"wild_rose",
+        "iconID":"items_japozero:549",
+        "name":"Wild Rose",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":52,
+        "category":"other",
+        "description":"A beautifully smelling rose."
     },
     {
         "id":"moeston_tailor_necklace_black_defense",
@@ -2249,14 +1920,46 @@
         }
     },
     {
-        "id":"moeston_tailor_necklace_black_health",
-        "iconID":"items_japozero:264",
-        "name":"Black Necklace of Health",
+        "id":"moeston_tailor_necklace_yellow_attack",
+        "iconID":"items_japozero:265",
+        "name":"Yellow Necklace of Attack",
         "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":600,
         "category":"neck",
         "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_ring_blue_health",
+        "iconID":"items_rings_1:4",
+        "name":"Blue Ring of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
         "equipEffect":{
             "increaseMaxHP":15,
             "increaseAttackChance":2,
@@ -2269,93 +1972,6 @@
                     "magnitude":1,
                     "duration":3,
                     "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"moeston_tailor_necklace_black_none",
-        "iconID":"items_japozero:264",
-        "name":"Black Necklace",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":450,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
-    },
-    {
-        "id":"water_bottle",
-        "iconID":"items_omi2:13",
-        "name":"Bottle of water",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":8,
-        "category":"drink",
-        "useEffect":{
-            "increaseCurrentHP":{
-                "min":1,
-                "max":3
-            },
-            "conditionsSource":[
-                {
-                    "condition":"sated",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"4"
-                }
-            ]
-        }
-    },
-    {
-        "id":"strawberry_lemonade",
-        "iconID":"items_consumables:50",
-        "name":"Strawberry lemonade",
-        "displaytype":"ordinary",
-        "category":"drink",
-        "description":"A sparkling drink made from forest strawberries. Upon opening, you smell the sweetness of the drink.",
-        "useEffect":{
-            "increaseCurrentHP":{
-                "min":4,
-                "max":9
-            },
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":1,
-                    "duration":8,
-                    "chance":"100"
-                },
-                {
-                    "condition":"sense_1",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"45"
-                }
-            ]
-        }
-    },
-    {
-        "id":"parsnip",
-        "iconID":"items_japozero:496",
-        "name":"Parsnip",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":47,
-        "category":"food",
-        "description":"CHANGE SPRITE",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":3,
-                    "duration":5,
-                    "chance":"90"
-                },
-                {
-                    "condition":"barkskin",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"15"
                 }
             ]
         }
@@ -2386,59 +2002,452 @@
         }
     },
     {
-        "id":"moeston_mead",
-        "iconID":"items_consumables:51",
-        "name":"Moeston mead",
-        "displaytype":"ordinary",
+        "id":"moeston_tailor_hat_black_attack",
+        "iconID":"items_japozero:82",
+        "name":"Black Hat of Attack",
+        "displaytype":"rare",
         "hasManualPrice":1,
-        "baseMarketCost":13,
-        "category":"drink",
-        "useEffect":{
-            "increaseCurrentHP":{
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
                 "min":2,
                 "max":3
-            }
-        }
-    },
-    {
-        "id":"tomato",
-        "iconID":"items_japozero:493",
-        "name":"Tomato",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":36,
-        "category":"food",
-        "useEffect":{
-            "increaseCurrentHP":{
-                "min":2,
-                "max":2
             },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
             "conditionsSource":[
                 {
-                    "condition":"food",
+                    "condition":"treatment_attack",
                     "magnitude":1,
-                    "duration":9,
-                    "chance":"80"
-                },
-                {
-                    "condition":"focus_dmg",
-                    "magnitude":1,
-                    "duration":5,
+                    "duration":2,
                     "chance":"20"
                 }
             ]
         }
     },
     {
-        "id":"cage_empty",
-        "iconID":"items_japozero:430",
-        "name":"Empty cage",
-        "displaytype":"quest"
+        "id":"platonic_snake_skin",
+        "iconID":"items_misc_3:114",
+        "name":"Platonic snake skin",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":4,
+        "category":"animal"
     },
     {
-        "id":"cage_animal",
-        "iconID":"items_japozero:430",
-        "name":"Encaged animal",
-        "displaytype":"quest"
+        "id":"moeston_tailor_ring_yellow_attack",
+        "iconID":"items_rings_1:5",
+        "name":"Yellow Ring of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"bag_niel",
+        "iconID":"items_japozero:440",
+        "name":"Niel's Bag",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"tunlon_letter",
+        "iconID":"items_japozero:425",
+        "name":"Letter",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Adressed to: Ronald, Moeston"
+    },
+    {
+        "id":"moeston_tailor_ring_blue_attack",
+        "iconID":"items_rings_1:4",
+        "name":"Blue Ring of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_shirt_blue_none",
+        "iconID":"items_japozero:144",
+        "name":"Blue Shirt",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":1125,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"moeston_tailor_shirt_red_health",
+        "iconID":"items_japozero:144",
+        "name":"Red Shirt of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        }
+    },
+    {
+        "id":"moeston_tailor_necklace_green_none",
+        "iconID":"items_japozero:269",
+        "name":"Green Necklace",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":450,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"moeston_tailor_hat_yellow_attack",
+        "iconID":"items_japozero:84",
+        "name":"Yellow Hat of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_necklace_black_none",
+        "iconID":"items_japozero:264",
+        "name":"Black Necklace",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":450,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
+    },
+    {
+        "id":"strawberry_lemonade",
+        "iconID":"items_consumables:50",
+        "name":"Strawberry lemonade",
+        "displaytype":"ordinary",
+        "category":"drink",
+        "description":"A sparkling drink made from forest strawberries. Upon opening, you smell the sweetness of the drink.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":4,
+                "max":9
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":8,
+                    "chance":"100"
+                },
+                {
+                    "condition":"sense_1",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"45"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_necklace_blue_defense",
+        "iconID":"items_japozero:267",
+        "name":"Blue Necklace of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_shirt_blue_health",
+        "iconID":"items_japozero:144",
+        "name":"Blue Shirt of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        }
+    },
+    {
+        "id":"moeston_tailor_shirt_blue_defense",
+        "iconID":"items_japozero:144",
+        "name":"Blue Shirt of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1500,
+        "category":"bdy_cloth",
+        "description":"This shirt is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"yellow_coneflower",
+        "iconID":"items_japozero:550",
+        "name":"Yellow Coneflower",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":67,
+        "category":"other"
+    },
+    {
+        "id":"moeston_tailor_ring_green_health",
+        "iconID":"items_rings_1:6",
+        "name":"Green Ring of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_red_health",
+        "iconID":"items_japozero:86",
+        "name":"Red Hat of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_hat_green_health",
+        "iconID":"items_japozero:85",
+        "name":"Green Hat of Health",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":800,
+        "category":"hd_cloth",
+        "description":"This hat is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseMaxHP":15,
+            "increaseAttackChance":2,
+            "increaseBlockChance":6
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_health",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_necklace_red_defense",
+        "iconID":"items_japozero:266",
+        "name":"Red Necklace of Defense",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-2
+            },
+            "increaseMaxHP":4,
+            "increaseAttackChance":2,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_defense",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_necklace_black_attack",
+        "iconID":"items_japozero:264",
+        "name":"Black Necklace of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
     }
 ]

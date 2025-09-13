@@ -684,6 +684,7 @@
         "items":[
             {
                 "itemID":"cherries",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
