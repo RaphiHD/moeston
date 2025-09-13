@@ -415,6 +415,7 @@
    <properties>
     <property name="phrase" value="stukka_fumes"/>
     <property name="requireId" value="moeston_nondisplay"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="403"/>
    </properties>
@@ -423,6 +424,7 @@
    <properties>
     <property name="phrase" value="stukka_fumes"/>
     <property name="requireId" value="moeston_nondisplay"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="403"/>
    </properties>

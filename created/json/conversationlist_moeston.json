@@ -2634,7 +2634,7 @@
         ]
     },
     {
-        "id":"maire_staff_23",
+        "id":"mairie_staff_23",
         "message":"Yes. I think you did a good job anyways.",
         "switchToNPC":"mairie_staff",
         "replies":[
@@ -9760,6 +9760,7 @@
         "id":"mairie_staff_start",
         "replies":[
             {
+                "nextPhraseID":"mairie_staff_24",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -11587,7 +11588,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"maire_staff_23"
+                "nextPhraseID":"mairie_staff_23"
             }
         ]
     },
@@ -11636,6 +11637,10 @@
                 "nextPhraseID":"moeston_adventurer_5"
             }
         ]
+    },
+    {
+        "id":"mairie_staff_24",
+        "message":"test"
     },
     {
         "id":"olec_7",
