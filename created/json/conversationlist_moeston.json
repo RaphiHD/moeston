@@ -43,6 +43,17 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"Here, I found some loose spider eggs",
+                "nextPhraseID":"niel_23",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"spider_eggs",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -320,6 +331,10 @@
                 "nextPhraseID":"niel_17"
             }
         ]
+    },
+    {
+        "id":"niel_23",
+        "message":"Let me see... no, these are not the right one. It must be from the cave cross spider, if I remember correctly."
     },
     {
         "id":"niel_20",
@@ -1895,54 +1910,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":166,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":167,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":168,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":168,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_7c"
+                "nextPhraseID":"moeston_tailor_6s"
             }
         ],
         "rewards":[
@@ -1959,54 +1927,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":166,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":167,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":168,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":168,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_7c"
+                "nextPhraseID":"moeston_tailor_6s"
             }
         ],
         "rewards":[
@@ -2023,54 +1944,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":166,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":167,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":168,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":168,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_7c"
+                "nextPhraseID":"moeston_tailor_6s"
             }
         ],
         "rewards":[
@@ -2087,54 +1961,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":166,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":167,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":168,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":168,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_7c"
+                "nextPhraseID":"moeston_tailor_6s"
             }
         ],
         "rewards":[
@@ -2151,54 +1978,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":166,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":167,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":168,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":168,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_7c"
+                "nextPhraseID":"moeston_tailor_6s"
             }
         ],
         "rewards":[
@@ -2644,6 +2424,59 @@
                         "value":163
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_6s",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":166,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":167,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":168,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_7c"
             }
         ]
     },
@@ -6697,6 +6530,26 @@
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":125
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"kid",
+                "mapName":"moesforest_09"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"kid1",
+                "mapName":"moescave_09"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kid",
+                "mapName":"moesforest_town_hall"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kid1",
+                "mapName":"moesforest_town_hall"
             }
         ]
     },
@@ -7740,6 +7593,26 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":125
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kid",
+                "mapName":"moesforest_09"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kid1",
+                "mapName":"moesforest_09"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"kid",
+                "mapName":"moesforest_town_hall"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"kid1",
+                "mapName":"moesforest_town_hall"
             }
         ]
     },
@@ -8836,6 +8709,138 @@
         ]
     },
     {
+        "id":"moeston_tailor_16s",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_tailor_17a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_17b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":152
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_17c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":153
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_17d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":154
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_17ax",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_17bx",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":152
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_17cx",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":153
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_17dx",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":154
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":163
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_error"
+            }
+        ]
+    },
+    {
         "id":"moeston_castle_book_13",
         "message":"You better leave this place and go back to mummy!"
     },
@@ -9142,139 +9147,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_17a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":163,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_17b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":152
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":163,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_17c",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":153
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":163,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_17d",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":154
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":163,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_17ax",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":163
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_17bx",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":152
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":163
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_17cx",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":153
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":163
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_17dx",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":154
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":163
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_error"
+                "nextPhraseID":"moeston_tailor_16s"
             }
         ]
     },
@@ -9389,6 +9262,15 @@
                         "value":163
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_15s",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_tailor_15f"
             }
         ]
     },
@@ -11330,6 +11212,54 @@
         ]
     },
     {
+        "id":"moeston_tailor_10a",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_tailor_11a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":151
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_11b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":152
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_11c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":153
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_11d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":154
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_tailor_error"
+            }
+        ]
+    },
+    {
         "id":"moesforest_17_upper_activate",
         "rewards":[
             {
@@ -12703,8 +12633,7 @@
                 ]
             },
             {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_15f"
+                "nextPhraseID":"moeston_tailor_15s"
             }
         ],
         "rewards":[
@@ -12951,51 +12880,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"moeston_tailor_11a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":151
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_11b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":152
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_11c",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":153
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_11d",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":154
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"moeston_tailor_error"
+                "nextPhraseID":"moeston_tailor_10a"
             }
         ]
     },

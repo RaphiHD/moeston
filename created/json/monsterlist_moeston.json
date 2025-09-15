@@ -519,7 +519,7 @@
     },
     {
         "id":"moeston_tailor_dresses",
-        "name":"Lynn",
+        "name":"LynnD",
         "iconID":"monsters_rltiles3:15",
         "droplistID":"moeston_tailor_dresses"
     },
@@ -786,7 +786,7 @@
     },
     {
         "id":"moeston_tailor_hats",
-        "name":"Lynn",
+        "name":"LynnH",
         "iconID":"monsters_rltiles3:15",
         "droplistID":"moeston_tailor_hats"
     },
@@ -1143,7 +1143,7 @@
     },
     {
         "id":"moeston_tailor_shirts",
-        "name":"Lynn",
+        "name":"LynnS",
         "iconID":"monsters_rltiles3:15",
         "droplistID":"moeston_tailor_shirts"
     },
