@@ -274,6 +274,18 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="dbg1" type="mapchange" x="160" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_17"/>
+    <property name="place" value="dbg2"/>
+   </properties>
+  </object>
+  <object name="dbg2" type="mapchange" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="moesforest_17"/>
+    <property name="place" value="dbg1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="yellow_forest_buzzer_a_1" type="spawn" x="64" y="384" width="160" height="416">

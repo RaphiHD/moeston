@@ -640,6 +640,13 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":165
+            }
         ]
     },
     {
@@ -2750,6 +2757,13 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":165
+            }
         ]
     },
     {
@@ -4155,6 +4169,13 @@
                         "value":159
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":165
             }
         ]
     },
@@ -6959,7 +6980,8 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"moeston_tailor",
-                        "value":20
+                        "value":20,
+                        "negate":true
                     }
                 ]
             },
@@ -12951,7 +12973,7 @@
         "message":"Many years ago, Feygard came along and rebuilt the castle as their outpost to have better control over trade and traffic happening on the river.",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"mayor_natula_7d"
             }
         ]
