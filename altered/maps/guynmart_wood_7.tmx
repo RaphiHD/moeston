@@ -246,17 +246,17 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object name="moeston_entry_woodcutter_start" type="script" x="32" y="448" width="896" height="32">
+  <object name="moeston_entry_area_check" type="script" x="32" y="448" width="896" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="moeston_entry_woodcutter_start" type="script" x="0" y="128" width="32" height="256">
+  <object name="moeston_entry_area_check" type="script" x="0" y="128" width="32" height="256">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="moeston_entry_woodcutter_start" type="script" x="64" y="384" width="32" height="32">
+  <object name="moeston_entry_area_check" type="script" x="64" y="384" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -278,6 +278,7 @@
   </object>
   <object name="woodcutter2" type="spawn" x="608" y="192" width="160" height="64">
    <properties>
+    <property name="active" value="false"/>
     <property name="spawngroup" value="moeston_entry_woodcutter"/>
    </properties>
   </object>

@@ -967,7 +967,8 @@
         "id":"moeston_citizen4",
         "name":"Moeston Citizen",
         "iconID":"monsters_ld1:228",
-        "phraseID":"moeston_citizen4_start"
+        "phraseID":"moeston_citizen4_start",
+        "droplistID":"moeston_parsnip_roasted"
     },
     {
         "id":"mayor_natula",

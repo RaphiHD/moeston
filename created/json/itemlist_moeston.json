@@ -937,13 +937,13 @@
     },
     {
         "id":"parsnip",
-        "iconID":"items_japozero:496",
+        "iconID":"items_misc_2:169",
         "name":"Parsnip",
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":47,
         "category":"food",
-        "description":"CHANGE SPRITE",
+        "description":"",
         "useEffect":{
             "conditionsSource":[
                 {
@@ -1489,6 +1489,31 @@
                     "magnitude":1,
                     "duration":3,
                     "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"parsnip_roasted",
+        "iconID":"items_misc_2:170",
+        "name":"Roasted parsnip",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":76,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"100"
+                },
+                {
+                    "condition":"barkskin",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"40"
                 }
             ]
         }

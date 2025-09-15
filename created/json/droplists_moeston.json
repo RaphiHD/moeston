@@ -369,6 +369,19 @@
         ]
     },
     {
+        "id":"moeston_parsnip_roasted",
+        "items":[
+            {
+                "itemID":"parsnip_roasted",
+                "chance":"100",
+                "quantity":{
+                    "min":9,
+                    "max":15
+                }
+            }
+        ]
+    },
+    {
         "id":"niel_fishing_rod",
         "items":[
             {
