@@ -193,6 +193,14 @@
                 "logText":"[FALSE] This stage may never be set to true."
             },
             {
+                "progress":5,
+                "logText":"[AREA] Woodcutters have appeared."
+            },
+            {
+                "progress":6,
+                "logText":"[AREA] Path is now opened."
+            },
+            {
                 "progress":10,
                 "logText":"[REPLACE] moesforest_02: Bridge active"
             },

@@ -913,11 +913,6 @@
                     "magnitude":1,
                     "duration":3,
                     "chance":"25"
-                },
-                {
-                    "magnitude":2,
-                    "duration":1,
-                    "chance":"3"
                 }
             ]
         }
@@ -949,6 +944,12 @@
         "name":"Drunk Feygard Soldier",
         "iconID":"monsters_ld1:94",
         "phraseID":"moeston_soldier_drunk1_start"
+    },
+    {
+        "id":"moeston_entry_woodcutter1",
+        "name":"Woodcutter",
+        "iconID":"monsters_men2:2",
+        "phraseID":"moeston_entry_woodcutter_start"
     },
     {
         "id":"stukka",
@@ -1036,6 +1037,12 @@
         "id":"grimblight_fierce",
         "name":"Fierce Grimblight",
         "iconID":"monsters_newb_1:533"
+    },
+    {
+        "id":"moeston_entry_woodcutter",
+        "name":"Woodcutter",
+        "iconID":"monsters_rltiles1:93",
+        "phraseID":"moeston_entry_woodcutter_start"
     },
     {
         "id":"moeston_soldier",

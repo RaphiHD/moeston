@@ -923,6 +923,26 @@
         ]
     },
     {
+        "id":"moeston_entry_area_allow",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":6
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"woodcutter1",
+                "mapName":"guynmart_wood_7"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"woodcutter2",
+                "mapName":"guynmart_wood_7"
+            }
+        ]
+    },
+    {
         "id":"moeston_kid1_start",
         "replies":[
             {
@@ -2573,6 +2593,16 @@
         ]
     },
     {
+        "id":"moeston_entry_woodcutter_1",
+        "message":"We have been sent to clear this path. Let's better get to work now.",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"moeston_entry_area"
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_hat_blue",
         "replies":[
             {
@@ -2630,17 +2660,6 @@
                 "rewardType":"giveItem",
                 "rewardID":"boots_crude_leather",
                 "value":1
-            }
-        ]
-    },
-    {
-        "id":"mairie_staff_23",
-        "message":"Yes. I think you did a good job anyways.",
-        "switchToNPC":"mairie_staff",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"mairie_18"
             }
         ]
     },
@@ -4966,6 +4985,26 @@
         "message":"Can't I just leave my position and... never come back?"
     },
     {
+        "id":"moeston_entry_area_check_spawn",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"woodcutter1",
+                "mapName":"guynmart_wood_7"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"woodcutter2",
+                "mapName":"guynmart_wood_7"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":5
+            }
+        ]
+    },
+    {
         "id":"moeston_citizen3_start",
         "replies":[
             {
@@ -5184,6 +5223,47 @@
                         "requireType":"inventoryRemove",
                         "requireID":"pot_poison_weak",
                         "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_entry_area_check",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_entry_area_check_spawn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"guynmart_nondisplay",
+                        "value":36
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"hadracor",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":200
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_entry_area_allow",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"moeston_entry_area",
+                        "value":20
                     }
                 ]
             }
@@ -6708,6 +6788,14 @@
             },
             {
                 "nextPhraseID":"moeston_tailor_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_entry_woodcutter_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_entry_woodcutter_1"
             }
         ]
     },
@@ -11603,6 +11691,17 @@
             {
                 "text":"Have you seen my brother, Andor?",
                 "nextPhraseID":"moeston_adventurer_5"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_23",
+        "message":"Yes. I think you did a good job anyways.",
+        "switchToNPC":"mairie_staff",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_18"
             }
         ]
     },
