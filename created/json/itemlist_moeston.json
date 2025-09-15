@@ -791,11 +791,20 @@
     },
     {
         "id":"cobwebbed_anti",
-        "iconID":"items_consumables:64",
-        "name":"Anti cobweb potion",
-        "displaytype":"quest",
-        "category":"flask",
-        "description":"The label reads: \"Special mixture to remove cobweb. Don't breath in fumes. Toxic.\""
+        "iconID":"items_japozero:306",
+        "name":"Cobweb soap",
+        "displaytype":"ordinary",
+        "category":"pot",
+        "description":"This soap easily removes cobweb or other sticky material from skin and clothing.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"cobwebbed",
+                    "magnitude":-99,
+                    "chance":"100"
+                }
+            ]
+        }
     },
     {
         "id":"moeston_tailor_ring_blue_none",
@@ -1124,6 +1133,14 @@
         "name":"Bloodfin chub",
         "displaytype":"ordinary",
         "category":"food"
+    },
+    {
+        "id":"cobweb_pot",
+        "iconID":"items_consumables:64",
+        "name":"Anti cobweb potion",
+        "displaytype":"quest",
+        "category":"flask",
+        "description":"The label reads: \"Special mixture to remove cobweb. Don't breath in fumes. Toxic.\""
     },
     {
         "id":"moeston_tailor_hat_red_attack",

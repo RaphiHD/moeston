@@ -1379,7 +1379,7 @@
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
-                        "requireID":"cobwebbed_anti",
+                        "requireID":"cobweb_pot",
                         "value":1
                     }
                 ]
@@ -5155,7 +5155,7 @@
             },
             {
                 "rewardType":"giveItem",
-                "rewardID":"cobwebbed_anti",
+                "rewardID":"cobweb_pot",
                 "value":1
             }
         ]
@@ -5829,7 +5829,7 @@
                     },
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"cobwebbed_anti",
+                        "requireID":"cobweb_pot",
                         "value":1
                     }
                 ]
