@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="30" height="15" tilewidth="32" tileheight="32">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="8" height="8" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_bed_1.png" width="512" height="320"/>
+  <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="161" name="map_border_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_border_1.png" width="512" height="256"/>
@@ -184,128 +181,52 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="30" height="15">
+ <layer name="Ground" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eJzNkj0KgDAMhUuGgve/i2eoo44dnRw8g0gpwRD6HyMO35Th63uvDoxxBdZJBw+Rkjswd77hSEDvJ0Rq3p4eUk7uvSDS6w0sGX/NGRjx4TatmVP3kYy4jeRfjeyK22h6PbT1+qaXdirttcVL82Gn0l5zXurSyMdB12Yfl0Y+Drp2q++ifOn6Azfzb30M
+   eJzby8zAsA+K9wPxZU4GhtVAeg0UnwfiC1B8EYi/A+X3IsmD1MPwdygG6VmNRR4Z4zIDhpHNgOG1UDfA1GCTRzZjDR55mBgAuc0x9g==
   </data>
  </layer>
- <layer name="Objects" width="30" height="15">
+ <layer name="Objects" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eJx9VEtKA0EQbSI6JhkRO8g4AVe6cRk/C8FjqDfQXRaCiW5cGUVXHsFbxDN4hiwFJYssjKARAlrl1GNeOhMLiu70VNerV/U6vubcR+r+rFdy7lv25bpzlXp29lzK1teVbEUsrC+/I5/tfS1bzxPnWgXeFl+1mKrPMQelHDNchxLXLWX+JB7L2VLdTZliniTT52qndN6UHFeG+WPcQkzwjKXWRauzS9hcw/EMTLXbJI9VzAPDDHu4bRjrPuit9PxFYht+GnsW7mEyGatWobzMUW3BvsU+n7Ha/HI2m3Ga57uUmI7kPwqwFfPWzhCLvFp7hfZl278ZVpVqa9o8BsGc7yTm3rBvyENM8I3BybQWUX+hP3DvmR7UoIciu5HYtviFeKtgHmpz1FfoZps4gzc0H9F5THVpT8BB9d+x/Zms134SE5p599N3tR7ofSvQ/CfNOqwZvWEDN2ArjnIDPsejp6r3fcJsUE/igntcF3MM3/zQ5/X2LDfeNHqBetFj5juivX7vp3m+rwJ8zRWRVtDLsd0L+bEBH29gQ3JtFuiEjbEfiBewiv4DlRNm4WuT31R/OxK/K75Xz/uhd5RvUa8fbW5r8sbSZFLbiOE+Ko9RoKkVqyMmjlXSZsgVc/hv9piPrqwdYGAGyhnf+Z1FdN6n/7ZfyQptSQ==
+   eJxjYMAOrJgYGDiFIOxvgghxCXFUdQ+ZGRgeQTEXUI4DSZ5JmIFhNjOCDQIgMx8yI9SAzJ7FjMCdSHLIgFsIwf4uCDGDDSpmyYSQewzVPxPJHC4kvSD7YHJKQDcBACzuD38=
   </data>
  </layer>
- <layer name="Objects_2" width="30" height="15" visible="0">
+ <layer name="Above" width="8" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYBhagEdqYOzdxgSheels/2NJCA3yNz3tVhaD0H8kEWIVQvSzl95goOx1HiB7R8EoGAUIAAApJQTy
+   eJxjYEAFj8UY8IJPeOQfM+PXSw3wGWg/szgeNxBwP7o8APsGBf0=
   </data>
  </layer>
- <layer name="Above" width="30" height="15">
+ <layer name="Walkable" width="8" height="8" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1lU0OwiAQhSceQQ0JPaa6cempPIgr1r1BWbWpibAgTl8ZOmB9SUNK4X3MDynRUt4QTZZotMtxDs/bftfhO9flmJ+/CvOR2Zs1U1Jip/ERfG+Cd+m8kTmY8r6kV9j7PKzZGuYM6wazHSMq5kjDRPavijniPnchz7HmUrxaeVaLXlmXmnpI4ixtP3B2i1LPt0rL9sCo6Xnk1MSLsWmYLuOtYbb0zakjOnflNTk2stL3mpxqeMjO9ehedxy9XOYMe7JQbuP/8i829/0AvydxPA==
-  </data>
- </layer>
- <layer name="Above_2" width="30" height="15" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBia4K8kfe27DLXvjyR97VYWo59duAC9w3oUjIJRMAroCQB4VgV9
-  </data>
- </layer>
- <layer name="Walkable" width="30" height="15" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJytk8sNwDAIQzNF9l+JjdoeIlUIY+MWKZdAeOaT2GvFfR6L7Z1j03j1TRWbDd0fH+Kxu05rzo00KX3ocqBcChP5VZvM0MnPWIqOTlfF6JiKPvRuMlNFa75nM0AcZ++QjkmfvjC7nVL/84TF+BXLqc/ds4rv1qPw1HhWB/NN+vy3vXNf/dGuKA==
-  </data>
- </layer>
- <layer name="Walkable_2" width="30" height="15" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFpICLYgNjH4imt93o9g6E/aNgFIyCUUBrAAAYWQZS
+   eJy7KMbAcBEJg8BFMdyYHHl0gE8/rdyASw4AJLYv1A==
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="south" type="mapchange" x="32" y="448" width="896" height="32">
+  <object name="exit" type="mapchange" x="128" y="224" width="32" height="32">
    <properties>
-    <property name="map" value="guynmart_wood_9"/>
-    <property name="place" value="north"/>
+    <property name="map" value="guynmart_wood_7"/>
+    <property name="place" value="cave_enter"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="128" width="32" height="256">
+  <object name="north" type="mapchange" x="128" y="0" width="32" height="32">
    <properties>
-    <property name="map" value="guynmart_wood_2"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
-  <object name="guynmart_s_rope2" type="script" x="448" y="128" width="32" height="32"/>
-  <object name="guynmart_s_rob6b" type="script" x="416" y="224" width="96" height="32"/>
-  <object name="cave_enter" type="mapchange" x="64" y="384" width="32" height="32">
-   <properties>
-    <property name="map" value="gamjee_well_exit_a"/>
-    <property name="place" value="exit"/>
-   </properties>
-  </object>
-  <object name="north" type="mapchange" x="544" y="0" width="64" height="32">
-   <properties>
-    <property name="map" value="moesforest_00"/>
+    <property name="map" value="gamjee_well_exit"/>
     <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="moeston_entry_area_check" type="script" x="128" y="224" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="guynmart_rob6" type="spawn" x="416" y="128" width="32" height="32">
+  <object name="hardershell_beetle_spawn" type="spawn" x="160" y="128" width="32" height="32">
    <properties>
-    <property name="active" value="false"/>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="guynmart_rob6"/>
-   </properties>
-  </object>
-  <object name="woodcutter1" type="spawn" x="544" y="160" width="128" height="64">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="moeston_entry_woodcutter1"/>
-   </properties>
-  </object>
-  <object name="woodcutter2" type="spawn" x="608" y="192" width="160" height="64">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="moeston_entry_woodcutter"/>
+    <property name="spawngroup" value="hardershell_beetle"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace">
-  <object name="guynmart_r_rope2" type="replace" x="448" y="96" width="32" height="160">
-   <properties>
-    <property name="Above" value="Above_2"/>
-    <property name="Objects" value="Objects_2"/>
-    <property name="Walkable" value="Walkable_2"/>
-    <property name="requireId" value="guynmart_r_rope"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="11"/>
-   </properties>
-  </object>
-  <object name="gamjee_cave_obj_grd" type="replace" x="128" y="416" width="32" height="32">
-   <properties>
-    <property name="Objects" value="Ground"/>
-    <property name="requireId" value="echoes_of_enchantment"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="10"/>
-   </properties>
-  </object>
-  <object name="moeston_enter_allowed" type="replace" x="512" y="32" width="128" height="128">
-   <properties>
-    <property name="Above" value="Above_2"/>
-    <property name="Objects" value="Objects_2"/>
-    <property name="Walkable" value="Walkable_2"/>
-    <property name="requireId" value="moeston_nondisplay"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="6"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="Keys">
-  <object name="gamjee_cave_key" type="key" x="128" y="416" width="32" height="32">
-   <properties>
-    <property name="phrase" value="gamjee_cave_key"/>
-    <property name="requireId" value="echoes_of_enchantment"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="10"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
 </map>

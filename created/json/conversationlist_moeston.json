@@ -3638,8 +3638,7 @@
         "message":"Thank you so much! I've always wanted one. It reminds me of my father's eyes.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"moeston_citizen3_6d",
+                "nextPhraseID":"moeston_citizen3_6s",
                 "requires":[
                     {
                         "requireType":"random",
@@ -3785,6 +3784,15 @@
             {
                 "text":"N",
                 "nextPhraseID":"moeston_tattletale_48"
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen3_6s",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_citizen3_6d"
             }
         ]
     },
@@ -12943,6 +12951,7 @@
         "message":"Many years ago, Feygard came along and rebuilt the castle as their outpost to have better control over trade and traffic happening on the river.",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"mayor_natula_7d"
             }
         ]
