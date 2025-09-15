@@ -10409,7 +10409,14 @@
         "id":"stukka_fumes_died_3",
         "replies":[
             {
-                "nextPhraseID":"stukka_fumes_died_4"
+                "nextPhraseID":"stukka_fumes_died_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":404
+                    }
+                ]
             }
         ]
     },
