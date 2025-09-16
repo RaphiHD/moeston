@@ -4416,6 +4416,16 @@
                 "mapName":"moescave_09"
             },
             {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"kid",
+                "mapName":"moesforest_town_hall"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"kid1",
+                "mapName":"moesforest_town_hall"
+            },
+            {
                 "rewardType":"spawnAll",
                 "rewardID":"kid",
                 "mapName":"moesforest_town_hall"
@@ -12245,12 +12255,12 @@
                 "value":125
             },
             {
-                "rewardType":"spawnAll",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"kid",
                 "mapName":"moesforest_09"
             },
             {
-                "rewardType":"spawnAll",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"kid1",
                 "mapName":"moesforest_09"
             },
@@ -12263,6 +12273,16 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"kid1",
                 "mapName":"moesforest_town_hall"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kid",
+                "mapName":"moesforest_09"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kid1",
+                "mapName":"moesforest_09"
             }
         ]
     },
