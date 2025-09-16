@@ -74,6 +74,14 @@
         ]
     },
     {
+        "id":"moeston_chicken2_start",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_chicken2_1"
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_accessories_green_attack",
         "message":"Here you go. Enjoy your new outfit!",
         "rewards":[
@@ -544,12 +552,11 @@
         "message":"[chopping wood]",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"moeston_woodcutter_1a",
+                "nextPhraseID":"moeston_woodcutter_1s",
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"10/100"
+                        "requireID":"10"
                     }
                 ]
             }
@@ -1323,6 +1330,15 @@
                 "rewardType":"questProgress",
                 "rewardID":"caught_in_the_net",
                 "value":40
+            }
+        ]
+    },
+    {
+        "id":"officer_olec_dog_1s",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"officer_olec_dog_1"
             }
         ]
     },
@@ -2386,6 +2402,16 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":154
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":164
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":165
             }
         ]
     },
@@ -3257,6 +3283,15 @@
         ]
     },
     {
+        "id":"moeston_woodcutter_1s",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_woodcutter_1a"
+            }
+        ]
+    },
+    {
         "id":"moeston_tattletale_22",
         "message":"How could he do that! That is horrible!",
         "switchToNPC":"moeston_tattletale1",
@@ -4056,6 +4091,10 @@
                 "nextPhraseID":"moeston_waiter_1"
             }
         ]
+    },
+    {
+        "id":"moeston_chicken2_1",
+        "message":"Bwaaawk!"
     },
     {
         "id":"moeston_tailor_build_hat_yellow_none",
@@ -11500,6 +11539,10 @@
         ]
     },
     {
+        "id":"moeston_chicken",
+        "message":"Cluck cluck"
+    },
+    {
         "id":"moeston_tailor_build_top_black",
         "replies":[
             {
@@ -11693,8 +11736,7 @@
         "message":"Grrr...",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"officer_olec_dog_1",
+                "nextPhraseID":"officer_olec_dog_1s",
                 "requires":[
                     {
                         "requireType":"random",

@@ -3,7 +3,7 @@
         "id":"fishing_rod",
         "name":"Fishing rod",
         "actionType":"equip",
-        "size":"none",
+        "size":"std",
         "inventorySlot":"weapon"
     }
 ]

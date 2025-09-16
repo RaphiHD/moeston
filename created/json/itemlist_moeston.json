@@ -281,7 +281,14 @@
         "hasManualPrice":1,
         "baseMarketCost":0,
         "category":"fishing_rod",
-        "description":"This rod looks old but good enough to catch some fish."
+        "description":"This rod looks old but good enough to catch some fish.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":1
+            },
+            "increaseAttackCost":4
+        }
     },
     {
         "id":"nature_shirt",
@@ -1437,6 +1444,38 @@
         }
     },
     {
+        "id":"moeston_tailor_necklace_red_attack",
+        "iconID":"items_japozero:267",
+        "name":"Red Necklace of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"neck",
+        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
         "id":"bag_niel_full",
         "iconID":"items_japozero:440",
         "name":"Niel's Bag with Bait",
@@ -1821,6 +1860,38 @@
                     "condition":"treatment_defense",
                     "magnitude":1,
                     "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"moeston_tailor_ring_red_attack",
+        "iconID":"items_rings_1:3",
+        "name":"Red Ring of Attack",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":600,
+        "category":"ring",
+        "description":"This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":3
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":11,
+            "increaseCriticalSkill":7,
+            "increaseBlockChance":6,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"treatment_attack",
+                    "magnitude":1,
+                    "duration":3,
                     "chance":"20"
                 }
             ]
@@ -2484,70 +2555,6 @@
         "id":"moeston_tailor_necklace_black_attack",
         "iconID":"items_japozero:264",
         "name":"Black Necklace of Attack",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":600,
-        "category":"neck",
-        "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color.",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":3
-            },
-            "increaseMaxHP":-2,
-            "increaseMaxAP":0,
-            "increaseAttackChance":11,
-            "increaseCriticalSkill":7,
-            "increaseBlockChance":6,
-            "setNonWeaponDamageModifier":100
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"treatment_attack",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
-                }
-            ]
-        }
-    },
-	{
-		"id": "moeston_tailor_ring_red_attack",
-		"iconID": "items_rings_1:3",
-		"name": "Red Ring of Attack",
-		"displaytype": "rare",
-		"hasManualPrice": 1,
-		"baseMarketCost": 600,
-		"category": "ring",
-		"description": "This ring is carefully crafted and fits perfectly to some other clothes of the same color.",
-		"equipEffect": {
-			"increaseAttackDamage": {
-				"min": 2,
-				"max": 3
-			},
-			"increaseMaxHP": -2,
-			"increaseMaxAP": 0,
-			"increaseAttackChance": 11,
-			"increaseCriticalSkill": 7,
-			"increaseBlockChance": 6,
-			"setNonWeaponDamageModifier": 100
-		},
-		"hitEffect": {
-			"conditionsSource": [
-				{
-					"condition": "treatment_attack",
-					"magnitude": 1,
-					"duration": 3,
-					"chance": "20"
-				}
-			]
-		}
-	},
-    {
-        "id":"moeston_tailor_necklace_red_attack",
-        "iconID":"items_japozero:267",
-        "name":"Red Necklace of Attack",
         "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":600,

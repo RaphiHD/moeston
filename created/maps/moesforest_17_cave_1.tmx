@@ -229,7 +229,7 @@
    <properties>
     <property name="phrase" value="moesforest_17_cave_cobwebs"/>
     <property name="requireId" value="caught_in_the_net"/>
-    <property name="requireNegation" value="true"/>
+    <property name="requireNegation" value="false"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="65"/>
    </properties>
@@ -238,6 +238,7 @@
    <properties>
     <property name="phrase" value="moesforest_17_cave_fumes"/>
     <property name="requireId" value="moeston_nondisplay"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="403"/>
    </properties>

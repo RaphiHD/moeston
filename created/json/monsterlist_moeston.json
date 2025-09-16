@@ -41,7 +41,8 @@
         "id":"moeston_chicken",
         "name":"Group of Chicken",
         "iconID":"monsters_newb_1:1321",
-        "spawnGroup":"moeston_chicken"
+        "spawnGroup":"moeston_chicken",
+        "phraseID":"moeston_chicken"
     },
     {
         "id":"moeston_wasp_2",
@@ -1260,13 +1261,15 @@
         "id":"moeston_chicken2",
         "name":"Chicken",
         "iconID":"monsters_newb_1:1329",
-        "spawnGroup":"missing_chicken"
+        "spawnGroup":"missing_chicken",
+        "phraseID":"moeston_chicken2_start"
     },
     {
         "id":"moeston_chicken1",
         "name":"Chicken",
         "iconID":"monsters_newb_1:1328",
-        "spawnGroup":"moeston_chicken1"
+        "spawnGroup":"moeston_chicken1",
+        "phraseID":"moeston_chicken"
     },
     {
         "id":"ronald_the_researcher_final",
