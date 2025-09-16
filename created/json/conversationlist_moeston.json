@@ -19,6 +19,11 @@
                 "value":210
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"milk_goat",
                 "value":1
@@ -132,6 +137,26 @@
         ]
     },
     {
+        "id":"moeston_inn_f8",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":238
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f9",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":239
+            }
+        ]
+    },
+    {
         "id":"moesforest_17_cave_1a",
         "message":"As you hit the cobwebs, they suddenly stick to your hand, barely letting you go.",
         "rewards":[
@@ -139,6 +164,50 @@
                 "rewardType":"questProgress",
                 "rewardID":"caught_in_the_net",
                 "value":35
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f4",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":234
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_floor_notfinished",
+        "message":"No, no. I still see dirt. You haven't wiped the entire floor yet."
+    },
+    {
+        "id":"moeston_inn_f5",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":235
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f6",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":236
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f7",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":237
             }
         ]
     },
@@ -464,6 +533,36 @@
         ]
     },
     {
+        "id":"moeston_inn_f1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":231
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":232
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f3",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":233
+            }
+        ]
+    },
+    {
         "id":"olec_10",
         "message":"*yawn* Oh, kid! This is no place to be. We are very busy right now."
     },
@@ -490,7 +589,19 @@
     },
     {
         "id":"moeston_waiter_f_confirm",
-        "message":"Sure. Wait here, I'll get it for you."
+        "message":"Sure. Wait here, I'll get it for you.",
+        "switchToNPC":"moeston_waiter",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":212
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"moeston_waiter_cooking"
+            }
+        ]
     },
     {
         "id":"moeston_waiter_g_meat_goat",
@@ -510,6 +621,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":210
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
             },
             {
                 "rewardType":"giveItem",
@@ -719,19 +835,57 @@
         "id":"moeston_waiter_g_drink",
         "replies":[
             {
-                "nextPhraseID":"moeston_waiter_g_drink_apple"
+                "nextPhraseID":"moeston_waiter_g_drink_apple",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":205
+                    }
+                ]
             },
             {
-                "nextPhraseID":"moeston_waiter_g_drink_prune"
+                "nextPhraseID":"moeston_waiter_g_drink_prune",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":206
+                    }
+                ]
             },
             {
-                "nextPhraseID":"moeston_waiter_g_drink_goat"
+                "nextPhraseID":"moeston_waiter_g_drink_goat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":207
+                    }
+                ]
             },
             {
-                "nextPhraseID":"moeston_waiter_g_drink_wine"
+                "nextPhraseID":"moeston_waiter_g_drink_wine",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":208
+                    }
+                ]
             },
             {
-                "nextPhraseID":"moeston_waiter_g_drink_mead"
+                "nextPhraseID":"moeston_waiter_g_drink_mead",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":209
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_error"
             }
         ]
     },
@@ -753,6 +907,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":210
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
             },
             {
                 "rewardType":"giveItem",
@@ -903,6 +1062,27 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_accessories_black_none"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_floor_finished",
+        "message":"Ah, that is one shiny floor. Please give me back that broom there.",
+        "replies":[
+            {
+                "text":"Here it is.",
+                "nextPhraseID":"moeston_waiter_floor_finished_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"moeston_waiter_broom",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Wait, I left it over there...",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -1079,6 +1259,16 @@
         ]
     },
     {
+        "id":"moeston_inn_f22",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":252
+            }
+        ]
+    },
+    {
         "id":"moeston_tattletale_4",
         "message":"No way! Lynn must have been so angry.",
         "switchToNPC":"moeston_tattletale1",
@@ -1106,6 +1296,16 @@
             {
                 "text":"Hey.",
                 "nextPhraseID":"moeston_teacher_interrupt"
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f23",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":253
             }
         ]
     },
@@ -1155,6 +1355,16 @@
             {
                 "text":"Hey, that is not a costume!",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f24",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":254
             }
         ]
     },
@@ -1239,6 +1449,16 @@
         ]
     },
     {
+        "id":"moeston_inn_f25",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":255
+            }
+        ]
+    },
+    {
         "id":"moeston_tattletale_5",
         "message":"Oh she was! But she didn't stand long for that. Jagor must have commisioned some new robes already.",
         "switchToNPC":"moeston_tattletale",
@@ -1280,6 +1500,16 @@
         ]
     },
     {
+        "id":"moeston_inn_f20",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":250
+            }
+        ]
+    },
+    {
         "id":"moeston_tattletale_2",
         "message":"What? Tell me!",
         "switchToNPC":"moeston_tattletale1",
@@ -1303,7 +1533,52 @@
     },
     {
         "id":"moeston_waiter_pay",
-        "message":"Sure! Let me see what you got..."
+        "message":"Sure! Let me see what you got...",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_pay_drink",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":200
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_meat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":201
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_pastry",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":202
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_error"
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f21",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":251
+            }
+        ]
     },
     {
         "id":"moeston_tattletale_1",
@@ -1330,6 +1605,26 @@
                 "rewardType":"questProgress",
                 "rewardID":"caught_in_the_net",
                 "value":40
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f26",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":256
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f27",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":257
             }
         ]
     },
@@ -1381,6 +1676,36 @@
         ]
     },
     {
+        "id":"moeston_inn_f11",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":241
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f12",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":242
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f13",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":243
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_top_black_none",
         "message":"Here you go. Enjoy your new outfit!",
         "rewards":[
@@ -1392,6 +1717,16 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_top_black_none"
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f14",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":244
             }
         ]
     },
@@ -1414,6 +1749,16 @@
                 "rewardType":"actorCondition",
                 "rewardID":"cobwebbed",
                 "value":5
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":240
             }
         ]
     },
@@ -1464,6 +1809,16 @@
         ]
     },
     {
+        "id":"moeston_inn_f19",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":249
+            }
+        ]
+    },
+    {
         "id":"fish_catch_cast",
         "message":"[The fish are right at your hook.]",
         "replies":[
@@ -1474,8 +1829,28 @@
         ]
     },
     {
+        "id":"moeston_inn_f15",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":245
+            }
+        ]
+    },
+    {
         "id":"moeston_waiter_pay_refuse",
         "message":"You have to pay for your food, kid. That's how restaurants work."
+    },
+    {
+        "id":"moeston_inn_f16",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":246
+            }
+        ]
     },
     {
         "id":"moeston_tailor_build_full_red_attack",
@@ -1489,6 +1864,26 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_full_red_attack"
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f17",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":247
+            }
+        ]
+    },
+    {
+        "id":"moeston_inn_f18",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":248
             }
         ]
     },
@@ -1558,6 +1953,32 @@
     {
         "id":"moeston_waiter_start",
         "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_floor_check",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":230
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_notready",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":212
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":210,
+                        "negate":true
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"moeston_waiter_1a"
             }
@@ -1870,6 +2291,11 @@
                 "value":210
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"watermelon_slice",
                 "value":1
@@ -2083,6 +2509,162 @@
         ]
     },
     {
+        "id":"moeston_waiter_clean_accept",
+        "message":"Alright. Here, take this. I won't let you go before you wiped the entire floor. Including the kitchen.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"moeston_waiter_broom",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":230
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Floorcleaning",
+                "mapName":"moesforest_town_inn"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":231
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":232
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":233
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":234
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":235
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":236
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":237
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":238
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":239
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":240
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":241
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":242
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":243
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":244
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":245
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":246
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":247
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":248
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":249
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":250
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":251
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":252
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":253
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":254
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":255
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":256
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":257
+            }
+        ]
+    },
+    {
         "id":"stukka_3b",
         "message":"I see. You are a wise adventurer. Knowing your limits."
     },
@@ -2118,6 +2700,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":210
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
             },
             {
                 "rewardType":"giveItem",
@@ -2170,6 +2757,7 @@
     {
         "id":"moeston_waiter_f_meat_2",
         "message":"[Betty hands you a menu]\n\n110g - Cooked chicken leg\n80g - Cooked meat\n90g - Cooked snake meat\n70g - Dried goat meat\n80g - Cooked inkyfish",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"I'll take the cooked chicken.",
@@ -2194,6 +2782,181 @@
             {
                 "text":"Nothing for me. Can I ask you something else?",
                 "nextPhraseID":"moeston_waiter_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_floor_check",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_floor_notfinished",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":231,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":232,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":233,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":234,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":235,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":236,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":237,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":238,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":239,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":240,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":241,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":242,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":243,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":244,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":245,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":246,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":247,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":248,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":249,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":250,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":251,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":252,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":253,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":254,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":255,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":256,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":257,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_floor_finished"
             }
         ]
     },
@@ -2838,6 +3601,11 @@
                 "value":210
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"biscuit_hard",
                 "value":1
@@ -2856,6 +3624,22 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_hat_green_attack"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_kickout",
+        "message":"Good bye. This door is now closed to you.",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"inn",
+                "mapName":"moesforest_05"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":225
             }
         ]
     },
@@ -4064,7 +4848,8 @@
     },
     {
         "id":"moeston_waiter_f_pastry_2",
-        "message":"[Betty hands you a menu]\n\n110g - Bread\n80g - Piece of Cake\n90g - Hard biscuits\n70g - Strawberry pastry\n80g - Watermelon slice",
+        "message":"[Betty hands you a menu]\n\n5g - Bread\n20g - Piece of Cake\n5g - Hard biscuits\n190g - Strawberry pastry\n10g - Watermelon slice",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"I'll take the bread.",
@@ -4704,6 +5489,28 @@
         ]
     },
     {
+        "id":"moeston_inn_kickedout",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_inn_kickedout_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":226,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":225
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"moeston_tattletale_81",
         "message":"Wait, don't you think Fanamor has a hand in it? He was a friend of this prisoner if I am not mistaken.",
         "switchToNPC":"moeston_tattletale",
@@ -5238,6 +6045,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":210
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
             },
             {
                 "rewardType":"giveItem",
@@ -6389,6 +7201,37 @@
         "message":"You are not from here, are you? If you see a missing chicken, it's probably mine again."
     },
     {
+        "id":"moeston_waiter_floor_finished_1",
+        "message":"Thank you. You have worked off your debt. Go now.",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":212
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":230
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Floorcleaning",
+                "mapName":"moesforest_town_inn"
+            }
+        ]
+    },
+    {
         "id":"olec_9",
         "message":"Only an hour till shift is over..."
     },
@@ -6618,7 +7461,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"gold",
-                        "value":500,
+                        "value":1500,
                         "negate":true
                     }
                 ]
@@ -7034,6 +7877,18 @@
         "replies":[
             {
                 "nextPhraseID":"moeston_waiter_g_meat_chicken"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_meat_meat"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_meat_snake"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_meat_goat"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_meat_inky"
             }
         ]
     },
@@ -7253,6 +8108,27 @@
         "replies":[
             {
                 "nextPhraseID":"moeston_busy_woman_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_success",
+        "message":"Thank you very much. Please visit us again.",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":212
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":210
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
             }
         ]
     },
@@ -7755,6 +8631,10 @@
         ]
     },
     {
+        "id":"moeston_waiter_g_notready",
+        "message":"Sorry, your food is not ready yet. Just sit down, I will come to you once it is."
+    },
+    {
         "id":"moeston_priest_start",
         "replies":[
             {
@@ -7777,6 +8657,32 @@
             },
             {
                 "nextPhraseID":"moeston_priest_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_ready_check",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_g",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":212
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":210,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"moeston_waiter_cooking",
+                        "value":3
+                    }
+                ]
             }
         ]
     },
@@ -8151,6 +9057,11 @@
                 "rewardID":"moeston_nondisplay",
                 "value":210
             },
+			{
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
+            },
             {
                 "rewardType":"giveItem",
                 "rewardID":"chkn_leg",
@@ -8308,6 +9219,64 @@
         ]
     },
     {
+        "id":"moeston_waiter_pay_drink",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_pay_drink_apple",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":205
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_drink_prune",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":206
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_drink_goat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":207
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_drink_wine",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":208
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_drink_mead",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":209
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_error"
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_4e",
         "message":"Fine, you can always come back if you need an outfit.",
         "rewards":[
@@ -8433,7 +9402,19 @@
         "id":"moeston_waiter_g_pastry",
         "replies":[
             {
+                "nextPhraseID":"moeston_waiter_g_pastry_bread"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_pastry_cake"
+            },
+            {
                 "nextPhraseID":"moeston_waiter_g_pastry_biscuits"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_pastry_strawberry"
+            },
+            {
+                "nextPhraseID":"moeston_waiter_g_pastry_watermelon"
             }
         ]
     },
@@ -8776,17 +9757,30 @@
         ]
     },
     {
-        "id":"moeston_waiter_pay_broke_2",
-        "message":"The floor could get some cleaning again. I will let you go if you help us out.",
+        "id":"moeston_waiter_pay_broke_3",
+        "message":"Well, if you want an employment we can talk later. But this is how you will earn your food, yes.",
         "replies":[
             {
-                "text":"Of course. I am sorry."
+                "text":"Fine...",
+                "nextPhraseID":"moeston_waiter_clean_accept"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_broke_2",
+        "message":"The floor is very dirty again. I will let you go if you help by cleaning it.",
+        "replies":[
+            {
+                "text":"Of course. I am sorry.",
+                "nextPhraseID":"moeston_waiter_clean_accept"
             },
             {
-                "text":"What? Am I your janitor now?"
+                "text":"What? Am I your janitor now?",
+                "nextPhraseID":"moeston_waiter_pay_broke_3"
             },
             {
-                "text":"No way. I am destined for fighting, not for cleaning your floor."
+                "text":"No way. I am destined for fighting, not for cleaning your floor.",
+                "nextPhraseID":"moeston_waiter_pay_broke_4"
             }
         ]
     },
@@ -8830,9 +9824,38 @@
                 "value":210
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"snake_meat_cooked",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_broke_5",
+        "message":"That is enough, little one. You are banned from the premises!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"moeston_waiter_kickout"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_broke_4",
+        "message":"Destined, aha. Anyways, you have to pay your dept in one way or another.",
+        "replies":[
+            {
+                "text":"Fine...",
+                "nextPhraseID":"moeston_waiter_clean_accept"
+            },
+            {
+                "text":"No, I will not do this. Let me go or I will attack you!",
+                "nextPhraseID":"moeston_waiter_pay_broke_5"
             }
         ]
     },
@@ -9219,6 +10242,11 @@
                 "value":210
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"cake_piece",
                 "value":1
@@ -9346,6 +10374,11 @@
                 "value":210
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"drink_prunej",
                 "value":1
@@ -9355,6 +10388,17 @@
     {
         "id":"stukka_11a",
         "message":"Yeah, well done. Try it now."
+    },
+    {
+        "id":"moeston_inn_kickedout_1",
+        "message":"Well, that was not one of my proudest moments...",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":226
+            }
+        ]
     },
     {
         "id":"moeston_priest_7",
@@ -9441,6 +10485,441 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_top_green_health"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_drink_apple",
+        "message":"Your apple juice is 30 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_drink_prune",
+        "message":"Your prune juice is 100 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_drink_goat",
+        "message":"Your goat milk is 10 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_drink_wine",
+        "message":"Your wine is 20 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_drink_mead",
+        "message":"Your Moeston Mead is 50 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_meat_chicken",
+        "message":"Your cooked chicken leg is 110 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_meat_meat",
+        "message":"Your cooked meat is 80 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_meat_snake",
+        "message":"Your cooked snake meat is 90 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_meat_goat",
+        "message":"Your dried goat meat is 70 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_meat_inky",
+        "message":"Your cooked inkyfish is 80 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_pastry_bread",
+        "message":"Your bread is 5 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_pastry_cake",
+        "message":"Your piece of cake is 20 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_pastry_biscuits",
+        "message":"Your hard biscuits are 5 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_pastry_strawberry",
+        "message":"Your strawberry pastry is 190 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":190
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_pastry_watermelon",
+        "message":"Your watermelon slice is 10 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -9782,6 +11261,7 @@
     {
         "id":"moeston_waiter_f_drink_2",
         "message":"[Betty hands you a menu]\n\n30g - Apple juice\n100g - Prune juice\n10g - Goat milk\n20g - Wine\n50g - Moeston's Mead",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"I'll take the apple juice.",
@@ -9848,6 +11328,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":210
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
             },
             {
                 "rewardType":"giveItem",
@@ -10438,6 +11923,22 @@
         "message":"As you are about to leave, a hoard of spiders is crawling out of the cracks in the walls. You better leave fast now."
     },
     {
+        "id":"moeston_waiter_table",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_f",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":212,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"moeston_waiter_f",
         "message":"What can I get for you?",
         "switchToNPC":"moeston_waiter",
@@ -10475,17 +11976,6 @@
                         "requireID":"moeston_nondisplay",
                         "value":210,
                         "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"I would like to pay now.",
-                "nextPhraseID":"moeston_waiter_pay",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"moeston_nondisplay",
-                        "value":210
                     }
                 ]
             },
@@ -10636,7 +12126,19 @@
     {
         "id":"moeston_waiter_1",
         "message":"How may I help you?",
+        "switchToNPC":"moeston_waiter",
         "replies":[
+            {
+                "text":"I want to pay now.",
+                "nextPhraseID":"moeston_waiter_pay",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":211
+                    }
+                ]
+            },
             {
                 "text":"I am searching for a place to rest.",
                 "nextPhraseID":"moeston_waiter_2"
@@ -10660,6 +12162,10 @@
                 "nextPhraseID":"moeston_waiter_3"
             }
         ]
+    },
+    {
+        "id":"moeston_inn_banned",
+        "message":"A sign on the door reads:\nNo entry for $playername"
     },
     {
         "id":"moesforest_17_cave_pickup",
@@ -11215,6 +12721,11 @@
                 "value":210
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"bwm_fish2",
                 "value":1
@@ -11509,6 +13020,64 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_hat_green_none"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_meat",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_pay_meat_chicken",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":205
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_meat_meat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":206
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_meat_snake",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":207
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_meat_goat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":208
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_meat_inky",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":209
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_error"
             }
         ]
     },
@@ -11874,7 +13443,7 @@
     },
     {
         "id":"moeston_waiter_pay_broke",
-        "message":"Oh kid, you cannot just order food when you don't have money. Let me see what we can do about it.",
+        "message":"[Sigh] Oh kid, you cannot just order food when you don't have money. Let me see what we can do about it.",
         "replies":[
             {
                 "text":"N",
@@ -11908,6 +13477,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":210
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
             },
             {
                 "rewardType":"giveItem",
@@ -12207,6 +13781,11 @@
                 "value":210
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":211
+            },
+            {
                 "rewardType":"giveItem",
                 "rewardID":"strawberry_pastry",
                 "value":1
@@ -12465,6 +14044,64 @@
                 "rewardType":"giveItem",
                 "rewardID":"bloodfin_chub",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_pastry",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_waiter_pay_pastry_bread",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":205
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_pastry_cake",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":206
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_pastry_biscuits",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":207
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_pastry_strawberry",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":208
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_pay_pastry_watermelon",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":209
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_error"
             }
         ]
     },

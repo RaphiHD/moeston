@@ -5,5 +5,12 @@
         "actionType":"equip",
         "size":"std",
         "inventorySlot":"weapon"
+    },
+    {
+        "id":"holdable_std",
+        "name":"Holdable",
+        "actionType":"equip",
+        "size":"std",
+        "inventorySlot":"weapon"
     }
 ]

@@ -373,8 +373,132 @@
                 "logText":"[Betty] I have received, but not yet payed my order."
             },
             {
+                "progress":212,
+                "logText":"[Betty] I have ordered something."
+            },
+            {
                 "progress":220,
                 "logText":"[Betty] has forgotten something. If this quest stage was activated, there is an issue in the dialog. Please report this to the dev team or Raphi (quest creator)."
+            },
+            {
+                "progress":225,
+                "logText":"[Betty] has kicked me out of the inn."
+            },
+            {
+                "progress":226,
+                "logText":"[Betty] I reflected on what I did."
+            },
+            {
+                "progress":230,
+                "logText":"[Betty] I have accepted to wipe the floor."
+            },
+            {
+                "progress":231,
+                "logText":"[Betty] Wiped f1"
+            },
+            {
+                "progress":232,
+                "logText":"[Betty] Wiped f2"
+            },
+            {
+                "progress":233,
+                "logText":"[Betty] Wiped f3"
+            },
+            {
+                "progress":234,
+                "logText":"[Betty] Wiped f4"
+            },
+            {
+                "progress":235,
+                "logText":"[Betty] Wiped f5"
+            },
+            {
+                "progress":236,
+                "logText":"[Betty] Wiped f6"
+            },
+            {
+                "progress":237,
+                "logText":"[Betty] Wiped f7"
+            },
+            {
+                "progress":238,
+                "logText":"[Betty] Wiped f8"
+            },
+            {
+                "progress":239,
+                "logText":"[Betty] Wiped f9"
+            },
+            {
+                "progress":240,
+                "logText":"[Betty] Wiped f10"
+            },
+            {
+                "progress":241,
+                "logText":"[Betty] Wiped f11"
+            },
+            {
+                "progress":242,
+                "logText":"[Betty] Wiped f12"
+            },
+            {
+                "progress":243,
+                "logText":"[Betty] Wiped f13"
+            },
+            {
+                "progress":244,
+                "logText":"[Betty] Wiped f14"
+            },
+            {
+                "progress":245,
+                "logText":"[Betty] Wiped f15"
+            },
+            {
+                "progress":246,
+                "logText":"[Betty] Wiped f16"
+            },
+            {
+                "progress":247,
+                "logText":"[Betty] Wiped f17"
+            },
+            {
+                "progress":248,
+                "logText":"[Betty] Wiped f18"
+            },
+            {
+                "progress":249,
+                "logText":"[Betty] Wiped f19"
+            },
+            {
+                "progress":250,
+                "logText":"[Betty] Wiped f20"
+            },
+            {
+                "progress":251,
+                "logText":"[Betty] Wiped f21"
+            },
+            {
+                "progress":252,
+                "logText":"[Betty] Wiped f22"
+            },
+            {
+                "progress":253,
+                "logText":"[Betty] Wiped f23"
+            },
+            {
+                "progress":254,
+                "logText":"[Betty] Wiped f24"
+            },
+            {
+                "progress":255,
+                "logText":"[Betty] Wiped f25"
+            },
+            {
+                "progress":256,
+                "logText":"[Betty] Wiped f26"
+            },
+            {
+                "progress":257,
+                "logText":"[Betty] Wiped f27"
             },
             {
                 "progress":300,

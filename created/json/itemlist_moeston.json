@@ -2283,6 +2283,32 @@
         "description":"This necklace is carefully crafted and fits perfectly to some other clothes of the same color."
     },
     {
+        "id":"moeston_waiter_broom",
+        "iconID":"items_japozero:285",
+        "name":"Dust wiper",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"holdable_std",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-1,
+                "max":-1
+            },
+            "increaseAttackCost":2
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"clumsiness",
+                    "magnitude":2,
+                    "duration":1,
+                    "chance":"15"
+                }
+            ]
+        }
+    },
+    {
         "id":"moeston_tailor_hat_yellow_attack",
         "iconID":"items_japozero:84",
         "name":"Yellow Hat of Attack",
