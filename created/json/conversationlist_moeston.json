@@ -532,7 +532,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"caught_in_the_net",
-                        "value":30,
+                        "value":25,
                         "negate":true
                     }
                 ]
@@ -544,7 +544,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"caught_in_the_net",
-                        "value":30
+                        "value":25
                     }
                 ]
             },
@@ -5731,7 +5731,6 @@
     },
     {
         "id":"moeston_inn_kickedout",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"moeston_inn_kickedout_1",
@@ -8982,6 +8981,17 @@
                         "value":3
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"moeston_waiter_f",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":212,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -11354,7 +11364,6 @@
     },
     {
         "id":"fish_catch_success",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"fish_loot_1",
