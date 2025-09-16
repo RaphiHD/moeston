@@ -102,6 +102,35 @@
         ]
     },
     {
+        "id":"moeston_waiter_pay_pastry_strawberry",
+        "message":"Your strawberry pastry is 190 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":190
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_hat_yellow_attack",
         "message":"Here you go. Enjoy your new outfit!",
         "rewards":[
@@ -1036,6 +1065,73 @@
         ]
     },
     {
+        "id":"mairie_27",
+        "message":"Okay, a stitch here, and bind this together... here we go. Have fun with it!",
+        "replies":[
+            {
+                "text":"Thank you!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"scorpion_shell_armour",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"mairie_26",
+        "message":"Ah, yes. I remember. I had once made a piece of armour from them. Should I try and make one for you as well?",
+        "replies":[
+            {
+                "text":"Oh yes, I want one!",
+                "nextPhraseID":"mairie_27",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"scorpion_shell",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I don't think this is worth it...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mairie_25",
+        "message":"Ah, yes. I remember. I had once made a piece of armour from them. But I need 10 shells for it.",
+        "replies":[
+            {
+                "text":"I will get more.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I don't think this is worth it...",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mairie_24",
+        "message":"Oh, scorpion shells you say? Let me see.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_24s"
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_accessories_green_defend",
         "message":"Here you go. Enjoy your new outfit!",
         "rewards":[
@@ -1642,6 +1738,35 @@
         "message":"Chrrrr..."
     },
     {
+        "id":"moeston_waiter_pay_pastry_bread",
+        "message":"Your bread is 5 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"fish_catch_start",
         "replies":[
             {
@@ -1657,6 +1782,35 @@
             },
             {
                 "nextPhraseID":"fish_catch_cast"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_drink_wine",
+        "message":"Your wine is 20 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3923,6 +4077,35 @@
         ]
     },
     {
+        "id":"moeston_waiter_pay_drink_goat",
+        "message":"Your goat milk is 10 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"moeston_tattletale_31",
         "message":"No! Let's tell the prison guard to put them under arrest before anything bad happens!",
         "switchToNPC":"moeston_tattletale",
@@ -4463,6 +4646,35 @@
         ]
     },
     {
+        "id":"moeston_waiter_pay_meat_goat",
+        "message":"Your dried goat meat is 70 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"moeston_citizen3_6c",
         "message":"Ah! You refuse? I think your gem doesn't like that."
     },
@@ -4893,6 +5105,35 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_hat_yellow_none"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_meat_snake",
+        "message":"Your cooked snake meat is 90 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -5690,6 +5931,35 @@
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":166
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_drink_prune",
+        "message":"Your prune juice is 100 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -6643,6 +6913,35 @@
                 "rewardType":"questProgress",
                 "rewardID":"caught_in_the_net",
                 "value":15
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_pastry_watermelon",
+        "message":"Your watermelon slice is 10 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -9057,7 +9356,7 @@
                 "rewardID":"moeston_nondisplay",
                 "value":210
             },
-			{
+            {
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":211
@@ -9310,6 +9609,35 @@
             },
             {
                 "nextPhraseID":"moeston_trader2_3"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_meat_chicken",
+        "message":"Your cooked chicken leg is 110 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":110
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -10518,412 +10846,6 @@
         ]
     },
     {
-        "id":"moeston_waiter_pay_drink_prune",
-        "message":"Your prune juice is 100 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":100
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_drink_goat",
-        "message":"Your goat milk is 10 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_drink_wine",
-        "message":"Your wine is 20 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":20
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_drink_mead",
-        "message":"Your Moeston Mead is 50 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":50
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_meat_chicken",
-        "message":"Your cooked chicken leg is 110 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":110
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_meat_meat",
-        "message":"Your cooked meat is 80 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":80
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_meat_snake",
-        "message":"Your cooked snake meat is 90 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":90
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_meat_goat",
-        "message":"Your dried goat meat is 70 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":70
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_meat_inky",
-        "message":"Your cooked inkyfish is 80 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":80
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_pastry_bread",
-        "message":"Your bread is 5 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":5
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_pastry_cake",
-        "message":"Your piece of cake is 20 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":20
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_pastry_biscuits",
-        "message":"Your hard biscuits are 5 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":5
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_pastry_strawberry",
-        "message":"Your strawberry pastry is 190 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":190
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"moeston_waiter_pay_pastry_watermelon",
-        "message":"Your watermelon slice is 10 gold, please.",
-        "replies":[
-            {
-                "text":"Here you go.",
-                "nextPhraseID":"moeston_waiter_pay_success",
-                "requires":[
-                    {
-                        "requireType":"inventoryRemove",
-                        "requireID":"gold",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "text":"Eh... I don't have enough money.",
-                "nextPhraseID":"moeston_waiter_pay_broke",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"gold",
-                        "value":1500,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id":"moeston_tailor_build_full_green",
         "replies":[
             {
@@ -11015,6 +10937,64 @@
         "replies":[
             {
                 "nextPhraseID":"moeston_guest3_1"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_drink_mead",
+        "message":"Your Moeston Mead is 50 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_meat_inky",
+        "message":"Your cooked inkyfish is 80 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -11676,6 +11656,35 @@
     {
         "id":"moeston_soldier_1",
         "message":"Are you sure you are supposed to be here?"
+    },
+    {
+        "id":"moeston_waiter_pay_pastry_biscuits",
+        "message":"Your hard biscuits are 5 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"moeston_tailor_build_full_red_health",
@@ -12577,6 +12586,50 @@
                 ]
             },
             {
+                "text":"I have found some scorpion shells, do you have a use for them?",
+                "nextPhraseID":"mairie_24",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"scorpion_shell",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":90
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":130,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have found some scorpion shells, do you have a use for them?",
+                "nextPhraseID":"mairie_24",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"scorpion_shell",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":91
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":130,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"Sorry, I have to go.",
                 "nextPhraseID":"X"
             }
@@ -13112,6 +13165,35 @@
         "message":"Cluck cluck"
     },
     {
+        "id":"moeston_waiter_pay_pastry_cake",
+        "message":"Your piece of cake is 20 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_top_black",
         "replies":[
             {
@@ -13183,6 +13265,25 @@
             {
                 "text":"Thanks, I'm good.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mairie_24s",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_25",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"scorpion_shell",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_26"
             }
         ]
     },
@@ -13385,6 +13486,35 @@
             {
                 "text":"That is none of your business.",
                 "nextPhraseID":"moeston_cook_4"
+            }
+        ]
+    },
+    {
+        "id":"moeston_waiter_pay_meat_meat",
+        "message":"Your cooked meat is 80 gold, please.",
+        "replies":[
+            {
+                "text":"Here you go.",
+                "nextPhraseID":"moeston_waiter_pay_success",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"Eh... I don't have enough money.",
+                "nextPhraseID":"moeston_waiter_pay_broke",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

@@ -253,6 +253,10 @@
                 "logText":"[Teacher] is currently teaching."
             },
             {
+                "progress":130,
+                "logText":"[Mairie] has given me the Scorpion's Hauberk."
+            },
+            {
                 "progress":150,
                 "logText":"[Lynn] has started to style me."
             },

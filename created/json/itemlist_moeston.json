@@ -1240,7 +1240,7 @@
         "iconID":"items_tometik2:80",
         "name":"Scorpion's hauberk",
         "displaytype":"rare",
-        "category":"bdy_hide",
+        "category":"bdy_lt",
         "equipEffect":{
             "increaseMaxHP":20,
             "increaseReequipCost":1,
