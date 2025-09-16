@@ -191,12 +191,12 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlT1Ow0AQRleWC2Q4CHfgPFYuwQk4Qw6QaukghgJT2k6a0EapchB25B3xMZn9s2iQUjzZscfzZj4rctsY0wqeKmM+HQfPY3OJddd7X/fs2ACrJg7VoG8NPs3F9FDH57lO9JKPdwy5sIZ8Fs6/Fng/Ijuyqxc+/k2+c6GTvbZKuzjPPrBjqXfV/HjXissq1+SOS91WZG0VH7vO1WVeOYS86NJ8Oe+rxL+p4lmWON4y3Uwqy5SLeHfc3xrTFXi13VIedu08e++dqtmNdbnvPLbTTrhOHnx+EnVdwq8hdzoFXBKsm4Q/lgXvF9qpFPRrWWCe+wzXQ+E8mIOcZZ/YD79fpXvTMy93xmzr+dg24Tzlt1kjlgfWkatzzhG8reLiuhv3H3kVtaXQjtRrchwTvbiOvEM9u7f175xicKa8I/XCe9yDjzgb9hn88yPMEPJjpryjvM9zhWZDjr7HAH50446aT+Y+RmYLwX7MPzU3g65cn2RYMPdSVyj/v+h15cp/4xseG/0a
+   eJztlT1Ow0AQhVcrF8hwEO7AeaxcghNwhhwg1dKFGApMaTtuoLVS5SDZlXfE02T2z6JBSvEpTjLeb96LIje1Ug3jRSv1Zfn2PNfXGPt55+deLTtgU8dxM+jbgk9yER3M0XWuE73ORxlDLpxxPgPXPyu8n5GM5OqYj94737nQSV6j0y7qswtkLPVu6l/vVnAZ4TOeca3bsK6N4CPXWV/3lUPIiy7Jl/N7lfh3Ot5lieM9002kuky5HB+Wx3ul2gKvlC3lIdfRM3nvqBc3zuX+5rFMR+Y6efD+kc21Cb8Ez3QKuDg4NzJ/rAvKF8pUCvqlLrDPKcP1VLgP9sB3mRL58PlVmpvuO1RK7R+W61Cf/NksEeuDz7bWOYC3EVzuOzd3Z/8jb1XeDiFcRnfWaJmZV9pt9N6+WtwHT6lv8GdhJnLTK+6GZ/T+/gF2iDnRN7NZ8lIOaTdk9mf04E91muohtFsI8mP/qb0JdOX6OP2Kvde6Qv3/xVk3bvw3Lpo1+i8=
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="30">
@@ -209,7 +209,7 @@
    eJzNVEEOwzAM6i/2wv3/CztV6iIwYHvSLFVV0wgMJrmu73q/+g+r+x/aO+FjnGj9uX/KeeKz702dymNWv9CK9G16nGqb6p1Uhwu9z6xs8SN8heeuKX0uFzonjNudmzp7Tp8VhtOfmofCU1o72Z7sS3pHeEnfm+c28WEjKxWX00enpn6wPd1+EN6UV3mI1pyMVvlGvSGcZIYVftV3hzPJV3In3N+K6/QVYToY7tyemJ15pJmpcpJwq1J3Ectv505h/iUZU16yfLM5JlwqF5VO5aOr0Vn/x+cDQabmFQ==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="west1" type="mapchange" x="0" y="32" width="32" height="64">
    <properties>
     <property name="map" value="moesforest_03"/>
