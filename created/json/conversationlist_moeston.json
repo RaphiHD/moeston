@@ -11596,7 +11596,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"50/100"
+                        "requireID":"75"
                     }
                 ]
             },
@@ -11605,6 +11605,11 @@
             }
         ],
         "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"group_of_fish_3",
+                "mapName":"moesforest_03"
+            },
             {
                 "rewardType":"spawnAll",
                 "rewardID":"group_of_fish_3",
