@@ -593,6 +593,7 @@
         "id":"moeston_kid",
         "name":"Kid",
         "iconID":"monsters_ld1:157",
+        "unique":1,
         "phraseID":"moeston_kid_start"
     },
     {
@@ -1187,12 +1188,14 @@
         "id":"moeston_kid1",
         "name":"Kid",
         "iconID":"monsters_ld1:37",
+        "unique":1,
         "phraseID":"moeston_kid1_start"
     },
     {
         "id":"fisherman_niel",
         "name":"Niel",
         "iconID":"monsters_newb_1:43",
+        "unique":1,
         "phraseID":"niel_start"
     },
     {

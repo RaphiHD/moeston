@@ -1270,6 +1270,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"caught_in_the_net",
                 "value":75
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":403
             }
         ]
     },
@@ -3869,7 +3874,7 @@
     },
     {
         "id":"stukka_13",
-        "message":"The spiders released some sort of toxic gas, which you breathed. Here, take a sip of this healing potion.",
+        "message":"There was some sort of toxic gas, which you breathed in. Here, take a sip of this healing potion.",
         "rewards":[
             {
                 "rewardType":"giveItem",
