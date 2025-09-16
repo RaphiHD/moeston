@@ -11590,6 +11590,7 @@
     },
     {
         "id":"fish_catch_pull",
+        "switchToNPC":"none",
         "replies":[
             {
                 "nextPhraseID":"fish_catch_success",
