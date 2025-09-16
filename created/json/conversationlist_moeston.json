@@ -3537,7 +3537,7 @@
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"large_bottle",
+                        "requireID":"vial_empty4",
                         "value":1
                     },
                     {
@@ -3950,7 +3950,7 @@
     },
     {
         "id":"lodar_cob_5",
-        "message":"And not to forget, five vials of weak poison. We want to kill some spiders after all, am I right?",
+        "message":"And not to forget, five vials of weak poison. We want to kill some spiders after all, am I right? They can naturally be found in the mountains of Blackwater, if I remember right.",
         "replies":[
             {
                 "text":"Great, I will get everything.",
@@ -3962,7 +3962,7 @@
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"large_bottle",
+                        "requireID":"vial_empty4",
                         "value":1
                     },
                     {
@@ -4000,6 +4000,7 @@
         "message":"Let me see what I can do. I think I have made this before.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"lodar_cob_3"
             }
         ]
