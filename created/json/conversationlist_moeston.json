@@ -3569,7 +3569,7 @@
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
-                        "requireID":"large_bottle",
+                        "requireID":"vial_empty4",
                         "value":1
                     },
                     {
