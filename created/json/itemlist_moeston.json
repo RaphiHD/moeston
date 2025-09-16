@@ -1136,10 +1136,32 @@
     },
     {
         "id":"bloodfin_chub",
-        "iconID":"items_consumables:24",
+        "iconID":"items_japozero:525",
         "name":"Bloodfin chub",
         "displaytype":"ordinary",
-        "category":"food"
+        "hasManualPrice":1,
+        "baseMarketCost":99,
+        "category":"food",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":8,
+                "max":12
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":8,
+                    "chance":"100"
+                },
+                {
+                    "condition":"nausea",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"cobweb_pot",
@@ -1262,10 +1284,26 @@
     },
     {
         "id":"trout",
-        "iconID":"items_consumables:24",
+        "iconID":"items_japozero:521",
         "name":"Trout",
         "displaytype":"ordinary",
-        "category":"food"
+        "hasManualPrice":1,
+        "baseMarketCost":34,
+        "category":"food",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":3,
+                "max":5
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"100"
+                }
+            ]
+        }
     },
     {
         "id":"moeston_tailor_necklace_red_health",
@@ -2154,10 +2192,33 @@
     },
     {
         "id":"giraffe_bass",
-        "iconID":"items_consumables:24",
+        "iconID":"items_japozero:522",
         "name":"Giraffe Bass",
         "displaytype":"ordinary",
-        "category":"food"
+        "hasManualPrice":1,
+        "baseMarketCost":87,
+        "category":"food",
+        "description":"CHANGE SPRITE",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":7,
+                "max":13
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":9,
+                    "chance":"100"
+                },
+                {
+                    "condition":"courage",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"34"
+                }
+            ]
+        }
     },
     {
         "id":"platonic_snake_skin",
@@ -2457,10 +2518,26 @@
     },
     {
         "id":"rasbora",
-        "iconID":"items_consumables:24",
+        "iconID":"items_japozero:526",
         "name":"Rasbora carp",
         "displaytype":"ordinary",
-        "category":"food"
+        "hasManualPrice":1,
+        "baseMarketCost":55,
+        "category":"food",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":5,
+                "max":15
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":11,
+                    "chance":"100"
+                }
+            ]
+        }
     },
     {
         "id":"yellow_coneflower",
