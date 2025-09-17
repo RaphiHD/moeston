@@ -253,7 +253,28 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys"/>
- <objectgroup name="Replace"/>
+ <objectgroup name="Replace">
+  <object name="party" type="replace" x="32" y="32" width="768" height="320">
+   <properties>
+    <property name="Above" value="Above_1"/>
+    <property name="Objects" value="Objects_1"/>
+    <property name="Walkable" value="Walkable_1"/>
+    <property name="requireId" value="rescue_of_a_researcher"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="65"/>
+   </properties>
+  </object>
+  <object name="afterparty" type="replace" x="32" y="32" width="768" height="320">
+   <properties>
+    <property name="Above" value="Above_2"/>
+    <property name="Objects" value="Objects_2"/>
+    <property name="Walkable" value="Walkable_2"/>
+    <property name="requireId" value="rescue_of_a_researcher"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="85"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Spawn_Party" visible="0">
   <properties>
    <property name="active" value="false"/>
@@ -355,7 +376,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn_Ronald">
+ <objectgroup name="Spawn_Ronald" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
@@ -383,7 +404,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn_Door">
+ <objectgroup name="Spawn_Door" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
