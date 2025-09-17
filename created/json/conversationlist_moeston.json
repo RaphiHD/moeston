@@ -2378,6 +2378,16 @@
         ]
     },
     {
+        "id":"moeston_party_sleep_1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":311
+            }
+        ]
+    },
+    {
         "id":"mairie_5a",
         "message":"Well, I understand it's not up to everybody's taste."
     },
@@ -4145,6 +4155,10 @@
         ]
     },
     {
+        "id":"moeston_party_bedtime_key",
+        "message":"CONNECT TO CIT STORY TELLING"
+    },
+    {
         "id":"moeston_tattletale_32",
         "message":"Wait... have you seen him lately?",
         "switchToNPC":"moeston_tattletale1",
@@ -5257,6 +5271,43 @@
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":165
+            }
+        ]
+    },
+    {
+        "id":"moeston_party_bed",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_party_bed_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"rescue_of_a_researcher",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":310,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_party_wakeup",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":311
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"rescue_of_a_researcher",
+                        "value":85,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -7174,6 +7225,16 @@
         "id":"moeston_guard_roadblock_1",
         "message":"Sorry, this path is closed due to some heavy rockfalls.",
         "switchToNPC":"moeston_guard_roadblock"
+    },
+    {
+        "id":"moeston_party_bed_1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":310
+            }
+        ]
     },
     {
         "id":"moeston_tailor_14dx",
@@ -10967,6 +11028,17 @@
         ]
     },
     {
+        "id":"moeston_party_wakeup",
+        "message":"It seems to be the next morning. Everything is quiet, except for a few voices from upstairs. It seems like the party is over.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"rescue_of_a_researcher",
+                "value":85
+            }
+        ]
+    },
+    {
         "id":"moeston_waiter_pay_drink_mead",
         "message":"Your Moeston Mead is 50 gold, please.",
         "replies":[
@@ -13982,6 +14054,27 @@
             {
                 "text":"It's alright but... I had to kill the anklebiter. I am sorry.",
                 "nextPhraseID":"mairie_staff_21"
+            }
+        ]
+    },
+    {
+        "id":"moeston_party_sleep",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_party_sleep_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":310
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":311,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

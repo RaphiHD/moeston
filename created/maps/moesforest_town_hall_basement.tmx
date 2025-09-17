@@ -196,7 +196,7 @@
    eJxjYKAfeCxGW3Fk+T989LGHluK0sMdJGL9dIHCKQnFk+7exYncHCASxMTD48GPKB+MQR1cPMmcK0PypWOxAtieJDbt8Mg5xdPXkxg+pgFRz7uPwN6X2gOTdgeH8GYs6bGIwcA/NPZ+wqN2MFn+41FESpgfR0g4284mRG4wAAI6RLSM=
   </data>
  </layer>
- <layer name="Walkable" width="26" height="14" visible="0">
+ <layer name="Walkable" width="26" height="14">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcHEUk4WxAXLEybUHXY4Y9cTaRw1xettDLfPQxdHDlpj4IRWgm4/Pr9j0EZuGSDGHVDvQ9WDzIzbzcIUDvrAiRp5QPFEad5SkfXIxADOn4Zc=
   </data>
@@ -208,6 +208,17 @@
     <property name="place" value="down"/>
    </properties>
   </object>
+  <object name="moeston_party_bed" type="script" x="256" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="moeston_party_sleep" type="script" x="224" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="party_bed" type="rest" x="224" y="96" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="guest1" type="spawn" x="544" y="96" width="32" height="32">
@@ -242,9 +253,27 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
+  <object name="party_bedtime" type="key" x="256" y="128" width="96" height="32">
+   <properties>
+    <property name="phrase" value="moeston_party_bedtime_key"/>
+    <property name="requireId" value="moeston_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="310"/>
+   </properties>
+  </object>
+  <object name="party_bedblocker" type="key" x="224" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="moeston_party_bedtime_key"/>
+    <property name="requireId" value="moeston_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="310"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Replace"/>
- <objectgroup name="Spawn_Party" visible="0">
+ <objectgroup name="Spawn_Party">
   <properties>
    <property name="active" value="false"/>
   </properties>

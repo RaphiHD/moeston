@@ -509,6 +509,14 @@
                 "logText":"[Rescue of a Researcher] Ronald told me his name. Needed for Quest Stage 30/31"
             },
             {
+                "progress":310,
+                "logText":"[Rescue of a Researcher] I have approached my bed."
+            },
+            {
+                "progress":311,
+                "logText":"[Rescue of a Researcher] I slept in the bed."
+            },
+            {
                 "progress":400,
                 "logText":"[Caught in the net] I have entered Moeston"
             },
