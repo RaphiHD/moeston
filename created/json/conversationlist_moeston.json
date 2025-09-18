@@ -15008,6 +15008,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":500
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Spawn_animals",
+                "mapName":"moesforest_18"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Spawn_animals",
+                "mapName":"moesforest_hunters_cab"
             }
         ]
     },
