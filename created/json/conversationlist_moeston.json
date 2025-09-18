@@ -9027,6 +9027,91 @@
         ]
     },
     {
+        "id":"mairie_staff_4s",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_5a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_5b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":11
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_5c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":12
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_5d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":13
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_5e",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":14
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_5f",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_5g",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":16
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_5h",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":19
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"moeston_farmer1_start",
         "replies":[
             {
@@ -9061,6 +9146,7 @@
         "message":"An anklebiter, to be precise.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mairie_staff_6"
             }
         ],
@@ -9161,6 +9247,7 @@
         "message":"A squirrel, to be precise.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mairie_staff_6"
             }
         ],
@@ -9177,6 +9264,7 @@
         "message":"A deer, to be precise.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mairie_staff_6"
             }
         ],
@@ -9193,6 +9281,7 @@
         "message":"A bat, to be precise.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mairie_staff_6"
             }
         ],
@@ -9223,6 +9312,7 @@
         "message":"A rabbit, to be precise.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mairie_staff_6"
             }
         ],
@@ -9260,6 +9350,7 @@
         "message":"A frog, to be precise.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mairie_staff_6"
             }
         ],
@@ -9297,6 +9388,7 @@
         "message":"A lizard, to be precise.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mairie_staff_6"
             }
         ],
@@ -9323,6 +9415,7 @@
         "message":"A butterfly, to be precise.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mairie_staff_6"
             }
         ],
@@ -12961,91 +13054,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"mairie_staff_5a",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wildlife_doctor",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"mairie_staff_5b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wildlife_doctor",
-                        "value":11
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"mairie_staff_5c",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wildlife_doctor",
-                        "value":12
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"mairie_staff_5d",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wildlife_doctor",
-                        "value":13
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"mairie_staff_5e",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wildlife_doctor",
-                        "value":14
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"mairie_staff_5f",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wildlife_doctor",
-                        "value":15
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"mairie_staff_5g",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wildlife_doctor",
-                        "value":16
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"mairie_staff_5h",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wildlife_doctor",
-                        "value":19
-                    }
-                ]
+                "nextPhraseID":"mairie_staff_4s"
             }
         ],
         "rewards":[
@@ -15585,6 +15594,12 @@
                         "requireType":"questProgress",
                         "requireID":"moeston_nondisplay",
                         "value":510
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":74,
+                        "negate":true
                     }
                 ]
             }
