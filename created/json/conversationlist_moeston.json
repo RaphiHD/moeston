@@ -14773,7 +14773,39 @@
             },
             {
                 "text":"Where is it injured?",
-                "nextPhraseID":"mairie_staff_26a"
+                "nextPhraseID":"mairie_staff_26a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":11,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":13,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":14,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
