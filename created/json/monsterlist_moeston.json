@@ -228,18 +228,27 @@
         "name":"Injured Anklebiter",
         "iconID":"monsters_newb_1:244",
         "maxHP":182,
+        "moveCost":5,
         "unique":1,
         "monsterClass":"animal",
-        "movementAggressionType":"none",
+        "movementAggressionType":"protectSpawn",
         "attackDamage":{
             "min":12,
             "max":17
         },
         "droplistID":"wildlife_doctor_anklebiter",
-        "attackCost":9,
-        "attackChance":131,
-        "blockChance":81,
-        "damageResistance":3
+        "attackCost":6,
+        "attackChance":151,
+        "criticalSkill":37,
+        "criticalMultiplier":1.5,
+        "blockChance":136,
+        "damageResistance":3,
+        "hitReceivedEffect":{
+            "increaseCurrentAP":{
+                "min":0,
+                "max":2
+            }
+        }
     },
     {
         "id":"wildlife_doctor_frog",

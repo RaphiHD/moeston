@@ -1147,6 +1147,10 @@
         ]
     },
     {
+        "id":"mairie_28",
+        "message":"Thank you for your help. Go and put the little one into its enclosure with my staff. Then I have something for you."
+    },
+    {
         "id":"moeston_tailor_build_accessories_black_none",
         "message":"Here you go. Enjoy your new outfit!",
         "rewards":[
@@ -1313,7 +1317,7 @@
     },
     {
         "id":"mairie_19",
-        "message":"Thank you again. And feel free to come back whenever you'd like.",
+        "message":"Here, and thank you again. And feel free to come back whenever you'd like.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -1741,6 +1745,36 @@
     {
         "id":"moeston_soldier_tired_start",
         "message":"Chrrrr..."
+    },
+    {
+        "id":"mairie_animal_enter",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_animal_spawn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":510,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"mairie_animal_spawn",
+                        "value":10
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"40"
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"moeston_waiter_pay_pastry_bread",
@@ -2220,6 +2254,26 @@
         ]
     },
     {
+        "id":"mairie_staff_29a",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_18"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"squirrel",
+                "mapName":"moesforest_hunters_cab"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":80
+            }
+        ]
+    },
+    {
         "id":"moeston_decide_if_school_time",
         "replies":[
             {
@@ -2279,6 +2333,26 @@
         ]
     },
     {
+        "id":"mairie_staff_29c",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_18"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":82
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"bat",
+                "mapName":"moesforest_hunters_cab"
+            }
+        ]
+    },
+    {
         "id":"moeston_fisher_2",
         "message":"I bet these traders are scamming. Their fish looks exactly like mine, and since they are here, I have trouble catching them."
     },
@@ -2296,6 +2370,86 @@
                 "rewardType":"questProgress",
                 "rewardID":"wildlife_doctor",
                 "value":13
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_29b",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_18"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":81
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"deer",
+                "mapName":"moesforest_18"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_29e",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_18"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":84
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"frog",
+                "mapName":"moesforest_hunters_cab"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_29d",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_18"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":83
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"rabbit",
+                "mapName":"moesforest_18"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_29g",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_18"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":86
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"butterfly",
+                "mapName":"moesforest_hunters_cab"
             }
         ]
     },
@@ -2333,6 +2487,26 @@
                 "rewardType":"questProgress",
                 "rewardID":"wildlife_doctor",
                 "value":17
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_29f",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_18"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":85
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lizard",
+                "mapName":"moesforest_hunters_cab"
             }
         ]
     },
@@ -2488,6 +2662,16 @@
             {
                 "text":"Please show me what you have to offer.",
                 "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_26a",
+        "message":"There, look. It has a wound on its wing.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_27"
             }
         ]
     },
@@ -2830,6 +3014,21 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":257
+            }
+        ]
+    },
+    {
+        "id":"mairie_cage_butterfly",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_cage_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":66
             }
         ]
     },
@@ -3389,6 +3588,21 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_accessories_yellow_health"
+            }
+        ]
+    },
+    {
+        "id":"mairie_cage_bat",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_cage_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":62
             }
         ]
     },
@@ -7479,6 +7693,53 @@
         "message":"You pull the rod towards you. Unfortunately, the hook is empty."
     },
     {
+        "id":"mairie_cage_7",
+        "message":"You hear a loud growling. As you turn around, the injured anklebiter is standing right in front of you.",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"injured_anklebiter",
+                "mapName":"moesforest_14"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":69
+            }
+        ]
+    },
+    {
+        "id":"mairie_cage_5",
+        "message":"Time to bring it to Mairie.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"cage_animal",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":74
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":505
+            }
+        ]
+    },
+    {
+        "id":"mairie_cage_6",
+        "message":"You look into the cage, but it is still empty. However...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_cage_7"
+            }
+        ]
+    },
+    {
         "id":"olec_7",
         "message":"Where is this guy? I'll rebuke him.",
         "replies":[
@@ -7572,6 +7833,10 @@
         "message":"None of your business! Now get out."
     },
     {
+        "id":"mairie_cage_3",
+        "message":"You look into the cage, but it is still empty."
+    },
+    {
         "id":"moeston_citizen3_1",
         "message":"You are not from here, are you? If you see a missing chicken, it's probably mine again."
     },
@@ -7607,6 +7872,16 @@
         ]
     },
     {
+        "id":"mairie_cage_4",
+        "message":"Look, there is an animal in the cage!",
+        "replies":[
+            {
+                "text":"Pick up the cage.",
+                "nextPhraseID":"mairie_cage_5"
+            }
+        ]
+    },
+    {
         "id":"olec_9",
         "message":"Only an hour till shift is over..."
     },
@@ -7616,7 +7891,20 @@
     },
     {
         "id":"mairie_cage_1",
-        "message":"This must be the location where I should place the cage."
+        "message":"This must be the location where I should place the cage.",
+        "replies":[
+            {
+                "text":"Place the cage.",
+                "nextPhraseID":"mairie_cage_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cage_empty",
+                        "value":1
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"olec_8",
@@ -7625,6 +7913,32 @@
     {
         "id":"moeston_citizen3_3",
         "message":"If you name your flowers, they behave better. This one here is Gerald."
+    },
+    {
+        "id":"mairie_cage_2",
+        "message":"[You place the cage carefully and activate the mechanism.]",
+        "replies":[
+            {
+                "text":"Great, now it's time to wait.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":50
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":505
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"mairie_animal_spawn"
+            }
+        ]
     },
     {
         "id":"moeston_tailor_error",
@@ -8653,6 +8967,21 @@
         ]
     },
     {
+        "id":"mairie_cage_lizard",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_cage_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":65
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_top_red",
         "replies":[
             {
@@ -9456,6 +9785,21 @@
         ]
     },
     {
+        "id":"mairie_cage_deer",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_cage_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":61
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_full_yellow_defend",
         "message":"Here you go. Enjoy your new outfit!",
         "rewards":[
@@ -9531,12 +9875,28 @@
                 ]
             },
             {
-                "nextPhraseID":"mairie_18",
+                "nextPhraseID":"mairie_28",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"wildlife_doctor",
                         "value":75
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":500,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_18",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":500
                     },
                     {
                         "requireType":"questProgress",
@@ -10172,6 +10532,21 @@
         ]
     },
     {
+        "id":"mairie_cage_rabbit",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_cage_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":63
+            }
+        ]
+    },
+    {
         "id":"moeston_waiter_pay_broke_3",
         "message":"Well, if you want an employment we can talk later. But this is how you will earn your food, yes.",
         "replies":[
@@ -10628,6 +11003,21 @@
         ]
     },
     {
+        "id":"mairie_cage_squirrel",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_cage_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":60
+            }
+        ]
+    },
+    {
         "id":"moeston_trader1_3a",
         "message":"[Puts the knife away]\n\nSure. Take a look.",
         "replies":[
@@ -10933,6 +11323,16 @@
         ]
     },
     {
+        "id":"mairie_anklebiter_killed",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":70
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_full_green",
         "replies":[
             {
@@ -11135,6 +11535,21 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_top_blue_defend"
+            }
+        ]
+    },
+    {
+        "id":"mairie_anklebiter_check",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_anklebiter_killed",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"wildlife_doctor_injured_anklebiter",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -12437,6 +12852,81 @@
         ]
     },
     {
+        "id":"mairie_cage_anmialcheck",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_cage_squirrel",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_cage_deer",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":11
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_cage_bat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":12
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_cage_rabbit",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":13
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_cage_frog",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":14
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_cage_lizard",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_cage_butterfly",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":16
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"mairie_staff_2",
         "message":"[Reading a paper] Please don't disturb me, I have to concentrate."
     },
@@ -13421,15 +13911,56 @@
         ]
     },
     {
+        "id":"mairie_cage_frog",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_cage_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":64
+            }
+        ]
+    },
+    {
         "id":"mairie_staff_start",
         "replies":[
             {
-                "nextPhraseID":"mairie_staff_24",
+                "nextPhraseID":"mairie_staff_29",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"wildlife_doctor",
-                        "value":74
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_29",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":91
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_25",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":75
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":500,
+                        "negate":true
                     }
                 ]
             },
@@ -14002,7 +14533,24 @@
     },
     {
         "id":"mairie_staff_16",
-        "message":"Great! What are you waiting for, bring it here so we can take care of it."
+        "message":"Great! What are you waiting for, bring it here so we can take care of it.",
+        "replies":[
+            {
+                "text":"Yes, I'll be right back.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, here it is.",
+                "nextPhraseID":"mairie_staff_25",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cage_animal",
+                        "value":1
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"moeston_waiter_g_pastry_strawberry",
@@ -14053,7 +14601,14 @@
             },
             {
                 "text":"It's alright but... I had to kill the anklebiter. I am sorry.",
-                "nextPhraseID":"mairie_staff_21"
+                "nextPhraseID":"mairie_staff_21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":70
+                    }
+                ]
             }
         ]
     },
@@ -14096,6 +14651,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"mairie_staff_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":88
             }
         ]
     },
@@ -14179,6 +14741,41 @@
         ]
     },
     {
+        "id":"mairie_staff_25",
+        "message":"Ah, poor little one. Let's take care of you, shall we?",
+        "replies":[
+            {
+                "text":"Where is it injured?",
+                "nextPhraseID":"mairie_staff_26",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":16,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Where is it injured?",
+                "nextPhraseID":"mairie_staff_26a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":75
+            }
+        ]
+    },
+    {
         "id":"fish_loot_3",
         "message":"You pull the rod towards you. And look, you caught something!",
         "rewards":[
@@ -14186,6 +14783,16 @@
                 "rewardType":"giveItem",
                 "rewardID":"bramblefin_fish",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_26",
+        "message":"There, look. It has a wound on its leg.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_27"
             }
         ]
     },
@@ -14261,6 +14868,16 @@
         ]
     },
     {
+        "id":"mairie_staff_27",
+        "message":"I am applying a healing tincture and a little bandage. Now it should get better soon. Let's put it in it's enclosure.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mairie_staff_28"
+            }
+        ]
+    },
+    {
         "id":"fish_loot_1",
         "message":"You pull the rod towards you. And look, you caught something!",
         "rewards":[
@@ -14268,6 +14885,88 @@
                 "rewardType":"giveItem",
                 "rewardID":"rawperch",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"mairie_staff_28",
+        "replies":[
+            {
+                "nextPhraseID":"mairie_staff_29a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_29b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":11
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_29c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":12
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_29d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":13
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_29e",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":14
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_29f",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_staff_29g",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":16
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":500
             }
         ]
     },
@@ -14296,6 +14995,10 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"mairie_staff_29",
+        "message":"Thank you again for your help."
     },
     {
         "id":"moeston_town_hall_roomblock"
@@ -14460,6 +15163,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"mairie_staff_23"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"wildlife_doctor",
+                "value":89
             }
         ]
     },
@@ -14785,6 +15495,16 @@
         ]
     },
     {
+        "id":"mairie_animal_spawn",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"moeston_nondisplay",
+                "value":510
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_kid_starttimer",
         "replies":[
             {
@@ -14802,7 +15522,71 @@
         "id":"mairie_cage_start",
         "replies":[
             {
-                "nextPhraseID":"mairie_cage_1"
+                "nextPhraseID":"mairie_cage_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_cage_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":510,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_cage_6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":510
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":19
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mairie_cage_anmialcheck",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wildlife_doctor",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"moeston_nondisplay",
+                        "value":510
+                    }
+                ]
             }
         ]
     },
