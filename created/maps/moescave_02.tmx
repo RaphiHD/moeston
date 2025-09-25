@@ -2,6 +2,7 @@
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
  <properties>
+  <property name="colorfilter" value="black40"/>
   <property name="outdoors" value="1"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
@@ -273,13 +274,13 @@
   </object>
   <object name="snake1" type="spawn" x="96" y="128" width="160" height="192">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="depth_crawler_snake"/>
    </properties>
   </object>
   <object name="snake2" type="spawn" x="352" y="288" width="160" height="288">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="depth_crawler_snake_agressive"/>
    </properties>
   </object>
@@ -295,11 +296,11 @@
   </object>
   <object name="flies" type="spawn" x="576" y="384" width="192" height="128">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="swarm_of_flies"/>
    </properties>
   </object>
-  <object name="ronald" type="spawn" x="672" y="512" width="96" height="64">
+  <object name="ronald" type="spawn" x="672" y="512" width="160" height="128">
    <properties>
     <property name="spawngroup" value="ronald_the_researcher"/>
    </properties>

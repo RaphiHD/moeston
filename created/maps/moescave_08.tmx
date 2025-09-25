@@ -2,6 +2,7 @@
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="20" height="30" tilewidth="32" tileheight="32">
  <properties>
+  <property name="colorfilter" value="black40"/>
   <property name="outdoors" value="1"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
@@ -258,13 +259,13 @@
  <objectgroup name="Spawn">
   <object name="grimblight1" type="spawn" x="64" y="160" width="160" height="320">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="grimblight_plated_creeping"/>
    </properties>
   </object>
   <object name="grimblight2" type="spawn" x="0" y="96" width="192" height="192">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="grimblight_plated_venomous"/>
    </properties>
   </object>
@@ -281,17 +282,19 @@
   </object>
   <object name="grimblight5" type="spawn" x="128" y="480" width="384" height="288">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="grimblight_plated_creeping"/>
    </properties>
   </object>
   <object name="grimblight6" type="spawn" x="320" y="256" width="256" height="160">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimblight_plated_venomous"/>
    </properties>
   </object>
   <object name="grimblight7" type="spawn" x="416" y="256" width="160" height="224">
    <properties>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="grimblight_plated_creeping"/>
    </properties>
   </object>
@@ -309,6 +312,7 @@
   </object>
   <object name="snake" type="spawn" x="160" y="736" width="256" height="160">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="depth_crawler_snake"/>
    </properties>
   </object>

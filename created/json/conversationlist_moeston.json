@@ -816,6 +816,16 @@
         "message":"Race you to the well! Last one there smells like cabbage!"
     },
     {
+        "id":"moesforest_17_cave_fumes_poison",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"poison_strong",
+                "value":2
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_build_top_yellow",
         "replies":[
             {
@@ -2280,6 +2290,22 @@
                 "nextPhraseID":"moeston_decide_school_time",
                 "requires":[
                     {
+                        "requireType":"questProgress",
+                        "requireID":"rescue_of_a_researcher",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"rescue_of_a_researcher",
+                        "value":85,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"moeston_decide_school_time",
+                "requires":[
+                    {
                         "requireType":"random",
                         "requireID":"40/100"
                     }
@@ -2287,6 +2313,28 @@
             },
             {
                 "nextPhraseID":"moeston_decide_no_school_time"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"kid",
+                "mapName":"moesforest_09"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"kid1",
+                "mapName":"moesforest_09"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"kid",
+                "mapName":"moesforest_town_hall"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"kid1",
+                "mapName":"moesforest_town_hall"
             }
         ]
     },
@@ -3337,6 +3385,9 @@
                 "nextPhraseID":"moeston_waiter_f_meat_2"
             }
         ]
+    },
+    {
+        "id":"moeston_church_blocker"
     },
     {
         "id":"moeston_tailor_8",
@@ -4640,26 +4691,6 @@
                 "value":125
             },
             {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"kid",
-                "mapName":"moesforest_09"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"kid1",
-                "mapName":"moescave_09"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"kid",
-                "mapName":"moesforest_town_hall"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"kid1",
-                "mapName":"moesforest_town_hall"
-            },
-            {
                 "rewardType":"spawnAll",
                 "rewardID":"kid",
                 "mapName":"moesforest_town_hall"
@@ -4959,6 +4990,30 @@
             {
                 "text":"I am no longer interested in a configuration.",
                 "nextPhraseID":"moeston_tailor_4e"
+            }
+        ]
+    },
+    {
+        "id":"fish_catch_respawn",
+        "replies":[
+            {
+                "nextPhraseID":"fish_catch_success"
+            },
+            {
+                "nextPhraseID":"fish_catch_failed",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"75"
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"group_of_fish_3",
+                "mapName":"moescave_03"
             }
         ]
     },
@@ -8067,6 +8122,7 @@
     },
     {
         "id":"moeston_guard_roadblock_start",
+        "switchToNPC":"moeston_guard_roadblock",
         "replies":[
             {
                 "nextPhraseID":"moeston_guard_roadblock_1"
@@ -11746,7 +11802,7 @@
     },
     {
         "id":"stukka_16b",
-        "message":"I believe you. They carry a toxine which has strong effects on your body. Better stay away from them."
+        "message":"I believe you. This potion you threw down has strong effects on your body. Better stay away from it."
     },
     {
         "id":"moeston_tattletale_10",
@@ -12173,16 +12229,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "nextPhraseID":"fish_catch_success",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"75"
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"fish_catch_failed"
+                "nextPhraseID":"fish_catch_respawn"
             }
         ],
         "rewards":[
@@ -12190,11 +12237,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"group_of_fish_3",
                 "mapName":"moesforest_03"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"group_of_fish_3",
-                "mapName":"moescave_03"
             }
         ]
     },
@@ -12712,6 +12754,10 @@
         "message":"What a great day to go on a walk through the forests."
     },
     {
+        "id":"moesforest_18_sign",
+        "message":"North-west: Moeston Sinkhole\nSouth-west: Lake Plano"
+    },
+    {
         "id":"moeston_waiter_5",
         "message":"You see, this town is far away from any larger road. Feygard also has this big outpost right next to our village, so I guess they just feel comfortable enough.",
         "replies":[
@@ -12824,6 +12870,10 @@
         ]
     },
     {
+        "id":"moeston_enter_sign",
+        "message":"Welcome to Moeston.\nOur humble town in Dhayavar's finest woods."
+    },
+    {
         "id":"moeston_tailor_build_accessories_blue_defend",
         "message":"Here you go. Enjoy your new outfit!",
         "rewards":[
@@ -12840,31 +12890,16 @@
     },
     {
         "id":"moeston_decide_no_school_time",
+        "replies":[
+            {
+                "nextPhraseID":"moeston_spawn_kids_outdoors"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"moeston_nondisplay",
                 "value":125
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"kid",
-                "mapName":"moesforest_09"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"kid1",
-                "mapName":"moesforest_09"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"kid",
-                "mapName":"moesforest_town_hall"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"kid1",
-                "mapName":"moesforest_town_hall"
             },
             {
                 "rewardType":"spawnAll",
@@ -13501,6 +13536,12 @@
                         "requireType":"questProgress",
                         "requireID":"caught_in_the_net",
                         "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":75,
+                        "negate":true
                     }
                 ]
             }
@@ -14735,6 +14776,21 @@
             {
                 "rewardType":"dropList",
                 "rewardID":"moeston_tailor_accessories_yellow_none"
+            }
+        ]
+    },
+    {
+        "id":"moesforest_17_cave_fumes_poison_check",
+        "replies":[
+            {
+                "nextPhraseID":"moesforest_17_cave_fumes_poison",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"caught_in_the_net",
+                        "value":75
+                    }
+                ]
             }
         ]
     },

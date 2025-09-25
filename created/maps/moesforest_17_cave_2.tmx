@@ -230,6 +230,42 @@
     <property name="spawngroup" value="swarming_cave_cross_spider"/>
    </properties>
   </object>
+  <object name="spider1" type="spawn" x="224" y="128" width="128" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object name="spider2" type="spawn" x="96" y="128" width="64" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object name="spider3" type="spawn" x="64" y="320" width="64" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object name="spider4" type="spawn" x="576" y="96" width="192" height="320">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object name="spider5" type="spawn" x="224" y="288" width="256" height="128">
+   <properties>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object name="spider6" type="spawn" x="448" y="192" width="128" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

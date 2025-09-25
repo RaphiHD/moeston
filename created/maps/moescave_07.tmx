@@ -2,6 +2,7 @@
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="26" height="15" tilewidth="32" tileheight="32">
  <properties>
+  <property name="colorfilter" value="black40"/>
   <property name="outdoors" value="1"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
@@ -253,7 +254,7 @@
   </object>
   <object name="grimblight2" type="spawn" x="96" y="128" width="384" height="192">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="grimblight_plated_venomous"/>
    </properties>
   </object>
@@ -264,7 +265,7 @@
   </object>
   <object name="grimblight4" type="spawn" x="288" y="288" width="320" height="128">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="grimblight_plated"/>
    </properties>
   </object>

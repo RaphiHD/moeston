@@ -2,6 +2,7 @@
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
  <properties>
+  <property name="colorfilter" value="black40"/>
   <property name="outdoors" value="1"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
@@ -269,6 +270,7 @@
   </object>
   <object name="grimblight3" type="spawn" x="256" y="448" width="160" height="192">
    <properties>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="grimblight_ferocious"/>
    </properties>
   </object>
@@ -286,6 +288,7 @@
   </object>
   <object name="grimblight6" type="spawn" x="640" y="768" width="64" height="96">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimblight"/>
    </properties>
   </object>
@@ -296,7 +299,7 @@
   </object>
   <object name="bat" type="spawn" x="448" y="544" width="352" height="288">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="5"/>
     <property name="spawngroup" value="cavebat1"/>
    </properties>
   </object>
@@ -312,18 +315,32 @@
   </object>
   <object name="vermin" type="spawn" x="512" y="352" width="160" height="96">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="vermin"/>
    </properties>
   </object>
   <object name="grimblight8" type="spawn" x="224" y="288" width="256" height="256">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="grimblight_creeping"/>
    </properties>
   </object>
   <object name="grimblight9" type="spawn" x="64" y="800" width="64" height="96">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimblight_plated_ferocious"/>
+   </properties>
+  </object>
+  <object name="grimblight10" type="spawn" x="96" y="352" width="256" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="grimblight_creeping"/>
+   </properties>
+  </object>
+  <object name="grimblight11" type="spawn" x="480" y="480" width="224" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="grimblight_venomous"/>
    </properties>
   </object>
  </objectgroup>

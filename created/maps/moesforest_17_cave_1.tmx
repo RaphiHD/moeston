@@ -232,8 +232,47 @@
     <property name="place" value="cave"/>
    </properties>
   </object>
+  <object name="moesforest_17_cave_fumes_poison_check" type="script" x="288" y="224" width="64" height="64">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object name="moesforest_17_cave_fumes_poison_check" type="script" x="448" y="224" width="32" height="64">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object name="moesforest_17_cave_fumes_poison_check" type="script" x="544" y="256" width="32" height="64">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="spider1" type="spawn" x="608" y="160" width="96" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object name="spider2" type="spawn" x="64" y="64" width="96" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object name="spider3" type="spawn" x="64" y="224" width="320" height="192">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+  <object name="spider4" type="spawn" x="480" y="224" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="casual_cave_cross_spider"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys">
   <object name="cobwebs" type="key" x="576" y="352" width="32" height="32">
    <properties>

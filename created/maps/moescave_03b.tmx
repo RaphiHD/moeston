@@ -2,6 +2,7 @@
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="20" height="25" tilewidth="32" tileheight="32">
  <properties>
+  <property name="colorfilter" value="black40"/>
   <property name="outdoors" value="1"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
@@ -231,10 +232,23 @@
    </properties>
   </object>
   <object name="house" type="mapchange" x="160" y="256" width="32" height="32"/>
+  <object name="down1" type="mapchange" x="192" y="384" width="32" height="32">
+   <properties>
+    <property name="map" value="moescave_03b"/>
+    <property name="place" value="down2"/>
+   </properties>
+  </object>
+  <object name="down2" type="mapchange" x="320" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="moescave_03b"/>
+    <property name="place" value="down1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="grimblight1" type="spawn" x="320" y="672" width="96" height="64">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimblight_fierce"/>
    </properties>
   </object>

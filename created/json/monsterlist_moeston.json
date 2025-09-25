@@ -3,6 +3,7 @@
         "id":"moeston_fisher",
         "name":"Fisher",
         "iconID":"monsters_phoenix01:3",
+        "unique":1,
         "phraseID":"moeston_fisher_start"
     },
     {
@@ -75,6 +76,7 @@
         "id":"moeston_tailor_kid",
         "name":"Lina",
         "iconID":"monsters_ld1:169",
+        "unique":1,
         "phraseID":"moeston_tailor_kid_start"
     },
     {
@@ -143,18 +145,21 @@
         "id":"moeston_guest1",
         "name":"Guest",
         "iconID":"monsters_tometik2:70",
+        "unique":1,
         "phraseID":"moeston_guest1_start"
     },
     {
         "id":"moeston_guest3",
         "name":"Tired Guest",
         "iconID":"monsters_ld2:101",
+        "unique":1,
         "phraseID":"moeston_guest3_start"
     },
     {
         "id":"moeston_guest2",
         "name":"Drinking Guest",
         "iconID":"monsters_ld1:135",
+        "unique":1,
         "phraseID":"moeston_guest2_start"
     },
     {
@@ -167,6 +172,7 @@
         "id":"moeston_smith_wife",
         "name":"Enila",
         "iconID":"monsters_men:1",
+        "unique":1,
         "phraseID":"moeston_smith_wife_start"
     },
     {
@@ -216,12 +222,51 @@
         "id":"moeston_mourning",
         "name":"Mourning Citizen",
         "iconID":"monsters_men:6",
+        "unique":1,
         "phraseID":"moeston_mourning_start"
     },
     {
         "id":"grimblight_plated_venomous",
         "name":"Venomous Plated Grimblight",
-        "iconID":"monsters_newb_1:528"
+        "iconID":"monsters_newb_1:528",
+        "maxHP":194,
+        "moveCost":6,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":17,
+            "max":21
+        },
+        "droplistID":"grimblight_e",
+        "attackCost":6,
+        "attackChance":168,
+        "blockChance":135,
+        "damageResistance":4,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_blood",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"30"
+                },
+                {
+                    "condition":"poison_blood",
+                    "magnitude":2,
+                    "duration":1,
+                    "chance":"5"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"poison_blood",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"55"
+                }
+            ]
+        }
     },
     {
         "id":"wildlife_doctor_injured_anklebiter",
@@ -259,6 +304,7 @@
         "id":"moeston_farmer1",
         "name":"Farmer",
         "iconID":"monsters_karvis2:1",
+        "unique":1,
         "phraseID":"moeston_farmer1_start"
     },
     {
@@ -294,6 +340,7 @@
         "id":"ronald_the_researcher",
         "name":"Ronald",
         "iconID":"monsters_ld1:21",
+        "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"ronald_the_researcher"
     },
@@ -365,6 +412,7 @@
         "id":"moeston_trader1",
         "name":"Tool Trader",
         "iconID":"monsters_tometik7:21",
+        "unique":1,
         "phraseID":"moeston_trader1_start",
         "droplistID":"moeston_trader1_shop"
     },
@@ -529,7 +577,7 @@
     },
     {
         "id":"moeston_tailor_dresses",
-        "name":"LynnD",
+        "name":"Lynn",
         "iconID":"monsters_rltiles3:15",
         "droplistID":"moeston_tailor_dresses"
     },
@@ -544,12 +592,14 @@
         "id":"moeston_farmer",
         "name":"Farmer",
         "iconID":"monsters_karvis2:1",
+        "unique":1,
         "phraseID":"moeston_farmer_start"
     },
     {
         "id":"moeston_trader2",
         "name":"Fish Trader",
         "iconID":"monsters_omi2:11",
+        "unique":1,
         "phraseID":"moeston_trader2_start",
         "droplistID":"moeston_trader2_shop"
     },
@@ -557,8 +607,27 @@
         "id":"moeston_trader",
         "name":"Vegetable Trader",
         "iconID":"monsters_tometik7:18",
+        "unique":1,
         "phraseID":"moeston_trader_start",
         "droplistID":"moeston_trader_shop"
+    },
+    {
+        "id":"moeston_lizard_3",
+        "name":"Angry Moeston Lizard",
+        "iconID":"monsters_tometik2:16",
+        "maxHP":62,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":11,
+            "max":25
+        },
+        "droplistID":"moeston_lizard_unique",
+        "attackCost":5,
+        "attackChance":161,
+        "blockChance":87,
+        "damageResistance":4
     },
     {
         "id":"moeston_lizard_2",
@@ -621,13 +690,46 @@
         "id":"sneaky_sam",
         "name":"Sneaky Sam",
         "iconID":"monsters_rogue1:0",
+        "unique":1,
         "phraseID":"sneaky_sam_start",
         "droplistID":"sneaky_sam_shop"
     },
     {
         "id":"grimblight_venomous",
         "name":"Venomous Grimblight",
-        "iconID":"monsters_newb_1:534"
+        "iconID":"monsters_newb_1:534",
+        "maxHP":139,
+        "moveCost":5,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":9,
+            "max":13
+        },
+        "droplistID":"grimblight_b",
+        "attackCost":5,
+        "attackChance":152,
+        "blockChance":81,
+        "damageResistance":1,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_blood",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"23"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"poison_blood",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"45"
+                }
+            ]
+        }
     },
     {
         "id":"wildlife_doctor_squirrel",
@@ -637,18 +739,46 @@
     {
         "id":"grimblight_plated_creeping",
         "name":"Creeping Plated Grimblight",
-        "iconID":"monsters_newb_1:529"
+        "iconID":"monsters_newb_1:529",
+        "maxHP":199,
+        "moveCost":3,
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":20,
+            "max":27
+        },
+        "droplistID":"grimblight_f",
+        "attackCost":4,
+        "attackChance":179,
+        "criticalSkill":45,
+        "criticalMultiplier":1.8,
+        "blockChance":141,
+        "damageResistance":5
     },
     {
         "id":"moeston_busy_woman",
         "name":"Busy Woman",
         "iconID":"monsters_ld1:167",
+        "unique":1,
         "phraseID":"moeston_busy_woman_start"
     },
     {
         "id":"grimblight_plated_fierce",
         "name":"Fierce Plated Grimblight",
-        "iconID":"monsters_newb_1:527"
+        "iconID":"monsters_newb_1:527",
+        "maxHP":193,
+        "moveCost":6,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":19,
+            "max":22
+        },
+        "droplistID":"grimblight_d",
+        "attackCost":6,
+        "attackChance":161,
+        "blockChance":132,
+        "damageResistance":5
     },
     {
         "id":"wildlife_doctor_frog_injured",
@@ -682,6 +812,7 @@
         "id":"moeston_priest",
         "name":"Teranir",
         "iconID":"monsters_ld1:2",
+        "unique":1,
         "phraseID":"moeston_priest_start"
     },
     {
@@ -706,13 +837,26 @@
         "id":"moeston_smith",
         "name":"Fancor",
         "iconID":"monsters_tometik2:40",
+        "unique":1,
         "phraseID":"moeston_smith_start",
         "droplistID":"moeston_smith_shop"
     },
     {
         "id":"grimblight_plated",
         "name":"Plated Grimblight",
-        "iconID":"monsters_newb_1:526"
+        "iconID":"monsters_newb_1:526",
+        "maxHP":181,
+        "moveCost":6,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":12,
+            "max":20
+        },
+        "droplistID":"grimblight_d",
+        "attackCost":6,
+        "attackChance":158,
+        "blockChance":129,
+        "damageResistance":5
     },
     {
         "id":"platonic_snake_5",
@@ -793,11 +937,12 @@
         "id":"moeston_adventurer",
         "name":"Adventurer",
         "iconID":"monsters_ld1:104",
-        "phraseID":"moeston_adventurer_start"
+        "phraseID":"moeston_adventurer_start",
+        "droplistID":"moeston_adventurer_shop"
     },
     {
         "id":"moeston_tailor_hats",
-        "name":"LynnH",
+        "name":"Lynn",
         "iconID":"monsters_rltiles3:15",
         "droplistID":"moeston_tailor_hats"
     },
@@ -827,6 +972,7 @@
         "id":"moeston_guest",
         "name":"Guest",
         "iconID":"monsters_tometik7:45",
+        "unique":1,
         "phraseID":"moeston_guest_start"
     },
     {
@@ -889,6 +1035,7 @@
         "id":"moeston_teacher",
         "name":"Teacher",
         "iconID":"monsters_ld1:30",
+        "unique":1,
         "phraseID":"moeston_teacher_start"
     },
     {
@@ -932,6 +1079,7 @@
         "id":"moeston_woodcutter",
         "name":"Jagor",
         "iconID":"monsters_ld1:28",
+        "unique":1,
         "phraseID":"moeston_woodcutter_start"
     },
     {
@@ -942,7 +1090,20 @@
     {
         "id":"grimblight_plated_ferocious",
         "name":"Ferocious Plated Grimblight",
-        "iconID":"monsters_newb_1:530"
+        "iconID":"monsters_newb_1:530",
+        "maxHP":218,
+        "maxAP":12,
+        "moveCost":6,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":21,
+            "max":30
+        },
+        "droplistID":"grimblight_f",
+        "attackCost":6,
+        "attackChance":187,
+        "blockChance":150,
+        "damageResistance":6
     },
     {
         "id":"moeston_soldier_scared",
@@ -960,24 +1121,41 @@
         "id":"moeston_entry_woodcutter1",
         "name":"Woodcutter",
         "iconID":"monsters_men2:2",
+        "unique":1,
         "phraseID":"moeston_entry_woodcutter_start"
     },
     {
         "id":"stukka",
         "name":"Stukka",
         "iconID":"monsters_tometik2:71",
+        "unique":1,
         "phraseID":"stukka_start",
         "droplistID":"stukka_shop"
     },
     {
         "id":"grimblight_creeping",
         "name":"Creeping Grimblight",
-        "iconID":"monsters_newb_1:535"
+        "iconID":"monsters_newb_1:535",
+        "maxHP":148,
+        "moveCost":3,
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":11,
+            "max":17
+        },
+        "droplistID":"grimblight_c",
+        "attackCost":4,
+        "attackChance":160,
+        "criticalSkill":25,
+        "criticalMultiplier":1.5,
+        "blockChance":101
     },
     {
         "id":"moeston_citizen4",
         "name":"Moeston Citizen",
         "iconID":"monsters_ld1:228",
+        "unique":1,
         "phraseID":"moeston_citizen4_start",
         "droplistID":"moeston_parsnip_roasted"
     },
@@ -985,12 +1163,14 @@
         "id":"mayor_natula",
         "name":"Mayor Natula",
         "iconID":"monsters_phoenix01:21",
+        "unique":1,
         "phraseID":"mayor_natula_start"
     },
     {
         "id":"moeston_citizen1",
         "name":"Moeston Citizen",
         "iconID":"monsters_karvis2:5",
+        "unique":1,
         "phraseID":"moeston_citizen1_start"
     },
     {
@@ -1003,12 +1183,14 @@
         "id":"moeston_citizen2",
         "name":"Moeston Citizen",
         "iconID":"monsters_ld1:134",
+        "unique":1,
         "phraseID":"moeston_citizen2_start"
     },
     {
         "id":"moeston_citizen3",
         "name":"Moeston Citizen",
         "iconID":"monsters_ld1:225",
+        "unique":1,
         "phraseID":"moeston_citizen3_start"
     },
     {
@@ -1048,12 +1230,25 @@
     {
         "id":"grimblight_fierce",
         "name":"Fierce Grimblight",
-        "iconID":"monsters_newb_1:533"
+        "iconID":"monsters_newb_1:533",
+        "maxHP":131,
+        "moveCost":5,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":10,
+            "max":14
+        },
+        "droplistID":"grimblight_a",
+        "attackCost":5,
+        "attackChance":148,
+        "blockChance":93,
+        "damageResistance":1
     },
     {
         "id":"moeston_entry_woodcutter",
         "name":"Woodcutter",
         "iconID":"monsters_rltiles1:93",
+        "unique":1,
         "phraseID":"moeston_entry_woodcutter_start"
     },
     {
@@ -1128,7 +1323,19 @@
     {
         "id":"grimblight",
         "name":"Grimblight",
-        "iconID":"monsters_newb_1:532"
+        "iconID":"monsters_newb_1:532",
+        "maxHP":119,
+        "moveCost":5,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":9,
+            "max":14
+        },
+        "droplistID":"grimblight_a",
+        "attackCost":5,
+        "attackChance":139,
+        "blockChance":83,
+        "damageResistance":1
     },
     {
         "id":"moeston_soldier_quest",
@@ -1140,6 +1347,7 @@
         "id":"moeston_tattletale",
         "name":"Tattletale",
         "iconID":"monsters_ld1:165",
+        "unique":1,
         "phraseID":"moeston_tattletale_start"
     },
     {
@@ -1151,29 +1359,45 @@
         "id":"moeston_waiter",
         "name":"Betty",
         "iconID":"monsters_ld1:183",
+        "unique":1,
         "phraseID":"moeston_waiter_start"
     },
     {
         "id":"moeston_tailor_shirts",
-        "name":"LynnS",
+        "name":"Lynn",
         "iconID":"monsters_rltiles3:15",
         "droplistID":"moeston_tailor_shirts"
     },
     {
         "id":"grimblight_ferocious",
         "name":"Ferocious Grimblight",
-        "iconID":"monsters_newb_1:536"
+        "iconID":"monsters_newb_1:536",
+        "maxHP":164,
+        "maxAP":12,
+        "moveCost":5,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":14,
+            "max":21
+        },
+        "droplistID":"grimblight_c",
+        "attackCost":4,
+        "attackChance":175,
+        "blockChance":120,
+        "damageResistance":2
     },
     {
         "id":"moeston_tattletale1",
         "name":"Tattletale",
         "iconID":"monsters_ld1:179",
+        "unique":1,
         "phraseID":"moeston_tattletale_start"
     },
     {
         "id":"moeston_guard_roadblock",
         "name":"Road Guard",
         "iconID":"monsters_rltiles1:86",
+        "unique":1,
         "phraseID":"moeston_guard_roadblock_start"
     },
     {
@@ -1185,12 +1409,14 @@
         "id":"moeston_tailor",
         "name":"Lynn",
         "iconID":"monsters_rltiles3:15",
+        "unique":1,
         "phraseID":"moeston_tailor_start"
     },
     {
         "id":"moeston_citizen",
         "name":"Moeston Citizen",
         "iconID":"monsters_ld1:140",
+        "unique":1,
         "phraseID":"moeston_citizen_start"
     },
     {
@@ -1267,6 +1493,7 @@
         "id":"moeston_cook",
         "name":"Cook",
         "iconID":"monsters_ld1:22",
+        "unique":1,
         "phraseID":"moeston_cook_start"
     },
     {
@@ -1287,6 +1514,7 @@
         "id":"ronald_the_researcher_final",
         "name":"Ronald",
         "iconID":"monsters_ld1:20",
+        "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"ronald_final"
     },
@@ -1300,6 +1528,31 @@
         "id":"grimblight_plated_ruthless",
         "name":"Ruthless Plated Grimblight",
         "iconID":"monsters_newb_1:531",
-        "unique":1
+        "maxHP":257,
+        "maxAP":12,
+        "moveCost":6,
+        "unique":1,
+        "monsterClass":"insect",
+        "attackDamage":{
+            "min":27,
+            "max":37
+        },
+        "droplistID":"grimblight_g",
+        "attackCost":5,
+        "attackChance":198,
+        "criticalSkill":40,
+        "criticalMultiplier":1.5,
+        "blockChance":161,
+        "damageResistance":7,
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"dazed",
+                    "magnitude":2,
+                    "duration":6,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]

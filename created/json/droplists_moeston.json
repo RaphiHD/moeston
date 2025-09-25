@@ -45,23 +45,10 @@
         ]
     },
     {
-        "id":"moe_ghost",
+        "id":"moeston_tailor_accessories_yellow_none",
         "items":[
             {
-                "itemID":"gold",
-                "chance":"100",
-                "quantity":{
-                    "min":20,
-                    "max":120
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_hat_red_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_red_attack",
+                "itemID":"moeston_tailor_ring_yellow_none",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -69,7 +56,49 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_red_attack",
+                "itemID":"moeston_tailor_necklace_yellow_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_yellow_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_yellow_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_yellow_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_black_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_black_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_black_attack",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -100,18 +129,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_hat_red_health",
+        "id":"sneaky_sam_shop",
         "items":[
             {
-                "itemID":"moeston_tailor_hat_red_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_red_health",
+                "itemID":"cherries",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -121,7 +142,60 @@
         ]
     },
     {
-        "id":"moeston_tailor_hat_red_none",
+        "id":"moeston_adventurer_shop",
+        "items":[
+            {
+                "itemID":"insectwing",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":11
+                }
+            },
+            {
+                "itemID":"gland",
+                "chance":"75",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"meat",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":9
+                }
+            },
+            {
+                "itemID":"hair",
+                "chance":"50",
+                "quantity":{
+                    "min":2,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"platonic_snake_skin",
+                "chance":"80",
+                "quantity":{
+                    "min":6,
+                    "max":11
+                }
+            },
+            {
+                "itemID":"health_minor",
+                "chance":"60",
+                "quantity":{
+                    "min":2,
+                    "max":5
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_red_none",
         "items":[
             {
                 "itemID":"moeston_tailor_hat_red_none",
@@ -132,133 +206,23 @@
                 }
             },
             {
+                "itemID":"moeston_tailor_shirt_red_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_red_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
                 "itemID":"moeston_tailor_necklace_red_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_hat_green_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_green_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_hat_green_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_green_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_hat_green_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_green_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_hat_green_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_green_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_hat_yellow_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_yellow_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_yellow_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_hat_yellow_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_yellow_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_yellow_defense",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -289,10 +253,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_hat_yellow_none",
+        "id":"moeston_tailor_full_black_health",
         "items":[
             {
-                "itemID":"moeston_tailor_hat_yellow_none",
+                "itemID":"moeston_tailor_hat_black_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -300,7 +264,23 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_yellow_none",
+                "itemID":"moeston_tailor_shirt_black_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_black_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_black_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -310,10 +290,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_hat_blue_attack",
+        "id":"moeston_tailor_hat_green_attack",
         "items":[
             {
-                "itemID":"moeston_tailor_hat_blue_attack",
+                "itemID":"moeston_tailor_hat_green_attack",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -321,7 +301,7 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_blue_attack",
+                "itemID":"moeston_tailor_necklace_green_attack",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -331,10 +311,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_hat_blue_defense",
+        "id":"moeston_tailor_hat_green_none",
         "items":[
             {
-                "itemID":"moeston_tailor_hat_blue_defense",
+                "itemID":"moeston_tailor_hat_green_none",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -342,7 +322,7 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_blue_defense",
+                "itemID":"moeston_tailor_necklace_green_none",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -352,10 +332,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_hat_blue_health",
+        "id":"moeston_tailor_full_red_health",
         "items":[
             {
-                "itemID":"moeston_tailor_hat_blue_health",
+                "itemID":"moeston_tailor_hat_red_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -363,7 +343,23 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_blue_health",
+                "itemID":"moeston_tailor_shirt_red_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_red_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_red_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -373,31 +369,39 @@
         ]
     },
     {
-        "id":"moeston_tailor_hat_blue_none",
+        "id":"moeston_parsnip_roasted",
         "items":[
             {
-                "itemID":"moeston_tailor_hat_blue_none",
+                "itemID":"parsnip_roasted",
                 "chance":"100",
                 "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_blue_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
+                    "min":9,
+                    "max":15
                 }
             }
         ]
     },
     {
-        "id":"moeston_tailor_hat_black_attack",
+        "id":"moeston_tailor_full_black_attack",
         "items":[
             {
                 "itemID":"moeston_tailor_hat_black_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_black_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_black_attack",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -415,10 +419,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_hat_black_defense",
+        "id":"moeston_tailor_accessories_black_attack",
         "items":[
             {
-                "itemID":"moeston_tailor_hat_black_defense",
+                "itemID":"moeston_tailor_ring_black_attack",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -426,7 +430,7 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_black_defense",
+                "itemID":"moeston_tailor_necklace_black_attack",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -436,10 +440,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_hat_black_health",
+        "id":"moeston_tailor_full_blue_health",
         "items":[
             {
-                "itemID":"moeston_tailor_hat_black_health",
+                "itemID":"moeston_tailor_hat_blue_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -447,7 +451,166 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_black_health",
+                "itemID":"moeston_tailor_shirt_blue_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_blue_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_blue_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"stukka_shop",
+        "items":[
+            {
+                "itemID":"scorpion_shell",
+                "chance":"20/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gloves_grip",
+                "chance":"25/100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"scptr_runed",
+                "chance":"25/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"biscuit_hard",
+                "chance":"65/100",
+                "quantity":{
+                    "min":3,
+                    "max":9
+                }
+            },
+            {
+                "itemID":"biscuit_hard",
+                "chance":"15/100",
+                "quantity":{
+                    "min":5,
+                    "max":10
+                }
+            },
+            {
+                "itemID":"pot_fear_restore",
+                "chance":"20/100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"durian",
+                "chance":"45/100",
+                "quantity":{
+                    "min":2,
+                    "max":4
+                }
+            },
+            {
+                "itemID":"pot_haste",
+                "chance":"80/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"cherries",
+                "chance":"100/100",
+                "quantity":{
+                    "min":2,
+                    "max":7
+                }
+            },
+            {
+                "itemID":"cobwebbed_anti",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_yellow_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_yellow_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_yellow_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_yellow_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_yellow_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_red_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_red_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_red_attack",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -478,6 +641,69 @@
         ]
     },
     {
+        "id":"moeston_tailor_top_black_health",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_black_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_black_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_green_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_green_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_green_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_red_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_red_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_red_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
         "id":"moeston_tailor_dresses",
         "items":[
             {
@@ -486,6 +712,748 @@
                 "quantity":{
                     "min":3,
                     "max":6
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_lizard_unique",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"75",
+                "quantity":{
+                    "min":9,
+                    "max":12
+                }
+            },
+            {
+                "itemID":"lizard_skin",
+                "chance":"45",
+                "quantity":{
+                    "min":1,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"lizard_coat",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_blue_health",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_blue_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_blue_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_blue_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_blue_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_blue_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_lizard",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"75",
+                "quantity":{
+                    "min":5,
+                    "max":12
+                }
+            },
+            {
+                "itemID":"lizard_skin",
+                "chance":"40",
+                "quantity":{
+                    "min":1,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"nature_ring",
+                "chance":"2",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_blue_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_blue_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_blue_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_green_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_green_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_green_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_black_health",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_black_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_black_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_blue_health",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_blue_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_blue_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_black_health",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_black_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_black_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_yellow_health",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_yellow_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_yellow_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_yellow_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_yellow_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_black_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_black_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_black_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_green_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_green_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_green_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_black_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_black_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_black_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_trader_shop",
+        "items":[
+            {
+                "itemID":"parsnip",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":7
+                }
+            },
+            {
+                "itemID":"tomato",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":9
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_black_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_black_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_black_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_yellow_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_yellow_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_yellow_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_yellow_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_yellow_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_black_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_black_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_black_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_yellow_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_yellow_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_yellow_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_yellow_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_yellow_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"swarm_of_flies",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"15",
+                "quantity":{
+                    "min":2,
+                    "max":8
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_citizen3_flowers",
+        "items":[
+            {
+                "itemID":"yellow_coneflower",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"yellow_coneflower",
+                "chance":"20",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_blue_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_blue_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_blue_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_green_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_green_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_green_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_green_health",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_green_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_green_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_green_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_green_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_red_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_red_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_red_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hats",
+        "items":[
+            {
+                "itemID":"hat2",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"hat4",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":4
+                }
+            },
+            {
+                "itemID":"hat_goatskin",
+                "chance":"80/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"hat_fancy_green",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"helm_redeye1",
+                "chance":"20/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_yellow_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_yellow_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_yellow_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_blue_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_blue_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_blue_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_red_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_red_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_red_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_green_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_green_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_green_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_green_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_green_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_red_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_red_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_red_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
                 }
             }
         ]
@@ -607,51 +1575,6 @@
         ]
     },
     {
-        "id":"moeston_tailor_shirts",
-        "items":[
-            {
-                "itemID":"armor2",
-                "chance":"100",
-                "quantity":{
-                    "min":2,
-                    "max":5
-                }
-            },
-            {
-                "itemID":"armour_misfortune",
-                "chance":"60/100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"shirt2",
-                "chance":"100",
-                "quantity":{
-                    "min":7,
-                    "max":12
-                }
-            },
-            {
-                "itemID":"tunic_cloth",
-                "chance":"90/100",
-                "quantity":{
-                    "min":3,
-                    "max":5
-                }
-            },
-            {
-                "itemID":"armour_cvest1",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":3
-                }
-            }
-        ]
-    },
-    {
         "id":"platonic_snake_drop_d",
         "items":[
             {
@@ -689,39 +1612,18 @@
         ]
     },
     {
-        "id":"moeston_lizard",
+        "id":"moeston_tailor_top_green_defense",
         "items":[
             {
-                "itemID":"gold",
-                "chance":"75",
-                "quantity":{
-                    "min":5,
-                    "max":12
-                }
-            },
-            {
-                "itemID":"lizard_skin",
-                "chance":"40",
-                "quantity":{
-                    "min":1,
-                    "max":3
-                }
-            },
-            {
-                "itemID":"nature_ring",
-                "chance":"2",
+                "itemID":"moeston_tailor_shirt_green_defense",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
                 }
-            }
-        ]
-    },
-    {
-        "id":"sneaky_sam_shop",
-        "items":[
+            },
             {
-                "itemID":"cherries",
+                "itemID":"moeston_tailor_ring_green_defense",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -768,50 +1670,16 @@
         ]
     },
     {
-        "id":"moeston_trader_shop",
+        "id":"moeston_tailor_full_red_defense",
         "items":[
             {
-                "itemID":"parsnip",
-                "chance":"100",
-                "quantity":{
-                    "min":3,
-                    "max":7
-                }
-            },
-            {
-                "itemID":"tomato",
-                "chance":"100",
-                "quantity":{
-                    "min":2,
-                    "max":9
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_red_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_red_attack",
+                "itemID":"moeston_tailor_hat_red_defense",
                 "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
                 }
             },
-            {
-                "itemID":"moeston_tailor_ring_red_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_red_defense",
-        "items":[
             {
                 "itemID":"moeston_tailor_shirt_red_defense",
                 "chance":"100",
@@ -827,127 +1695,9 @@
                     "min":1,
                     "max":1
                 }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_red_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_red_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
             },
             {
-                "itemID":"moeston_tailor_ring_red_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_red_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_red_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_red_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_green_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_green_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_green_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_green_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_green_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_green_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_green_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_green_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_green_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_green_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_green_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_green_none",
+                "itemID":"moeston_tailor_necklace_red_defense",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -978,111 +1728,6 @@
         ]
     },
     {
-        "id":"moeston_tailor_top_yellow_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_yellow_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_yellow_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_yellow_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_yellow_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_yellow_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_yellow_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_yellow_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_yellow_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_blue_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_blue_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_blue_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_top_blue_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_shirt_blue_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_blue_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
         "id":"moeston_tailor_top_blue_health",
         "items":[
             {
@@ -1104,18 +1749,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_top_blue_none",
+        "id":"niel_fishing_rod",
         "items":[
             {
-                "itemID":"moeston_tailor_shirt_blue_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_blue_none",
+                "itemID":"fishing_rod_niel",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -1125,10 +1762,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_top_black_attack",
+        "id":"moeston_tailor_hat_yellow_defense",
         "items":[
             {
-                "itemID":"moeston_tailor_shirt_black_attack",
+                "itemID":"moeston_tailor_hat_yellow_defense",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -1136,7 +1773,7 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_ring_black_attack",
+                "itemID":"moeston_tailor_necklace_yellow_defense",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -1146,10 +1783,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_top_black_defense",
+        "id":"moeston_tailor_hat_black_defense",
         "items":[
             {
-                "itemID":"moeston_tailor_shirt_black_defense",
+                "itemID":"moeston_tailor_hat_black_defense",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -1157,7 +1794,7 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_ring_black_defense",
+                "itemID":"moeston_tailor_necklace_black_defense",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -1167,10 +1804,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_top_black_health",
+        "id":"moeston_tailor_accessories_blue_defense",
         "items":[
             {
-                "itemID":"moeston_tailor_shirt_black_health",
+                "itemID":"moeston_tailor_ring_blue_defense",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -1178,7 +1815,7 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_ring_black_health",
+                "itemID":"moeston_tailor_necklace_blue_defense",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -1188,8 +1825,274 @@
         ]
     },
     {
-        "id":"moeston_tailor_top_black_none",
+        "id":"moeston_tailor_top_red_defense",
         "items":[
+            {
+                "itemID":"moeston_tailor_shirt_red_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_red_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_yellow_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_yellow_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_yellow_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"fish_loot_gold",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":20
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"20",
+                "quantity":{
+                    "min":20,
+                    "max":500
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"2",
+                "quantity":{
+                    "min":500,
+                    "max":5000
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_red_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_red_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_red_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_blue_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_blue_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_blue_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_green_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_green_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_green_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_green_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_green_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_blue_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_blue_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_blue_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_blue_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_blue_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moe_ghost",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":20,
+                    "max":120
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_green_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_green_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_green_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_green_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_green_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_blue_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_blue_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_blue_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_black_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_black_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
             {
                 "itemID":"moeston_tailor_shirt_black_none",
                 "chance":"100",
@@ -1205,27 +2108,602 @@
                     "min":1,
                     "max":1
                 }
-            }
-        ]
-    },
-    {
-        "id":"moeston_parsnip_roasted",
-        "items":[
+            },
             {
-                "itemID":"parsnip_roasted",
+                "itemID":"moeston_tailor_necklace_black_none",
                 "chance":"100",
                 "quantity":{
-                    "min":9,
-                    "max":15
+                    "min":1,
+                    "max":1
                 }
             }
         ]
     },
     {
-        "id":"niel_fishing_rod",
+        "id":"moeston_tailor_top_red_health",
         "items":[
             {
-                "itemID":"fishing_rod_niel",
+                "itemID":"moeston_tailor_shirt_red_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_red_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_black_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_black_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_black_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_black_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_black_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_black_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_black_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_black_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_blue_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_blue_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_blue_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_shirts",
+        "items":[
+            {
+                "itemID":"armor2",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"armour_misfortune",
+                "chance":"60/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"shirt2",
+                "chance":"100",
+                "quantity":{
+                    "min":7,
+                    "max":12
+                }
+            },
+            {
+                "itemID":"tunic_cloth",
+                "chance":"90/100",
+                "quantity":{
+                    "min":3,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"armour_cvest1",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":3
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_yellow_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_yellow_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_yellow_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_blue_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_blue_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_blue_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"grimblight_a",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"75",
+                "quantity":{
+                    "min":3,
+                    "max":11
+                }
+            },
+            {
+                "itemID":"insectwing",
+                "chance":"35",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"pile_of_pine_needles",
+                "chance":"5",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"necklace_defender_stone",
+                "chance":"2",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_red_health",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_red_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_red_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"grimblight_c",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"75",
+                "quantity":{
+                    "min":7,
+                    "max":19
+                }
+            },
+            {
+                "itemID":"insectwing",
+                "chance":"40",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"pile_of_pine_needles",
+                "chance":"10",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"necklace_defender_stone",
+                "chance":"4",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"grimblight_b",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"75",
+                "quantity":{
+                    "min":3,
+                    "max":11
+                }
+            },
+            {
+                "itemID":"insectwing",
+                "chance":"35",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gland",
+                "chance":"15",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"pile_of_pine_needles",
+                "chance":"5",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"necklace_defender_stone",
+                "chance":"3",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"grimblight_e",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"75",
+                "quantity":{
+                    "min":7,
+                    "max":19
+                }
+            },
+            {
+                "itemID":"shell",
+                "chance":"35",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gland",
+                "chance":"20",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"necklace_shield2",
+                "chance":"3",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"grimblight_d",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"75",
+                "quantity":{
+                    "min":7,
+                    "max":19
+                }
+            },
+            {
+                "itemID":"shell",
+                "chance":"35",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"necklace_shield2",
+                "chance":"2",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"grimblight_g",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":26,
+                    "max":48
+                }
+            },
+            {
+                "itemID":"shell",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"necklace_shield2",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"grimblight_f",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"75",
+                "quantity":{
+                    "min":13,
+                    "max":25
+                }
+            },
+            {
+                "itemID":"shell",
+                "chance":"40",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"necklace_shield2",
+                "chance":"4",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_green_defense",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_green_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_green_defense",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_top_green_health",
+        "items":[
+            {
+                "itemID":"moeston_tailor_shirt_green_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_green_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_green_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_green_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_green_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_hat_yellow_attack",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_yellow_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_yellow_attack",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_accessories_green_health",
+        "items":[
+            {
+                "itemID":"moeston_tailor_ring_green_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_green_health",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"moeston_tailor_full_blue_none",
+        "items":[
+            {
+                "itemID":"moeston_tailor_hat_blue_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_shirt_blue_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_blue_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_necklace_blue_none",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -1309,709 +2787,6 @@
         ]
     },
     {
-        "id":"moeston_tailor_full_red_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_red_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_red_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_red_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_red_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_red_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_red_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_red_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_red_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_red_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_red_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_red_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_red_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_red_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_red_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_green_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_green_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_green_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_green_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_green_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_green_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_green_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_green_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_green_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_green_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_green_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_green_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_green_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_green_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_green_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_green_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_yellow_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_yellow_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_yellow_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_yellow_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_yellow_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_yellow_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_yellow_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_yellow_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_yellow_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_yellow_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_yellow_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_yellow_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_yellow_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_yellow_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_yellow_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_yellow_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_yellow_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_yellow_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_yellow_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_yellow_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_blue_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_blue_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_blue_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_blue_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_blue_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_blue_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_blue_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_blue_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_blue_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_blue_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_blue_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_blue_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_blue_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_blue_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_blue_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_blue_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_blue_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_blue_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_blue_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_blue_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_black_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_black_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_black_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_black_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_black_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_black_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_black_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_black_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_black_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_black_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_black_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_black_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_black_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_black_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_black_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_full_black_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_hat_black_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_shirt_black_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_ring_black_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_black_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
         "id":"yellow_forest_buzzer_drop_a",
         "items":[
             {
@@ -2033,86 +2808,22 @@
         ]
     },
     {
-        "id":"stukka_shop",
+        "id":"moeston_tailor_top_red_none",
         "items":[
             {
-                "itemID":"scorpion_shell",
-                "chance":"20/100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"gloves_grip",
-                "chance":"25/100",
-                "quantity":{
-                    "min":1,
-                    "max":2
-                }
-            },
-            {
-                "itemID":"scptr_runed",
-                "chance":"25/100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"biscuit_hard",
-                "chance":"65/100",
-                "quantity":{
-                    "min":3,
-                    "max":9
-                }
-            },
-            {
-                "itemID":"biscuit_hard",
-                "chance":"15/100",
-                "quantity":{
-                    "min":5,
-                    "max":10
-                }
-            },
-            {
-                "itemID":"pot_fear_restore",
-                "chance":"20/100",
-                "quantity":{
-                    "min":1,
-                    "max":2
-                }
-            },
-            {
-                "itemID":"durian",
-                "chance":"45/100",
-                "quantity":{
-                    "min":2,
-                    "max":4
-                }
-            },
-            {
-                "itemID":"pot_haste",
-                "chance":"80/100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"cherries",
-                "chance":"100/100",
-                "quantity":{
-                    "min":2,
-                    "max":7
-                }
-            },
-            {
-                "itemID":"cobwebbed_anti",
+                "itemID":"moeston_tailor_shirt_red_none",
                 "chance":"100",
                 "quantity":{
                     "min":1,
-                    "max":2
+                    "max":1
+                }
+            },
+            {
+                "itemID":"moeston_tailor_ring_red_none",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
                 }
             }
         ]
@@ -2181,23 +2892,10 @@
         ]
     },
     {
-        "id":"swarm_of_flies",
+        "id":"moeston_tailor_accessories_yellow_health",
         "items":[
             {
-                "itemID":"gold",
-                "chance":"15",
-                "quantity":{
-                    "min":2,
-                    "max":8
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_citizen3_flowers",
-        "items":[
-            {
-                "itemID":"yellow_coneflower",
+                "itemID":"moeston_tailor_ring_yellow_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -2205,8 +2903,8 @@
                 }
             },
             {
-                "itemID":"yellow_coneflower",
-                "chance":"20",
+                "itemID":"moeston_tailor_necklace_yellow_health",
+                "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -2215,30 +2913,22 @@
         ]
     },
     {
-        "id":"fish_loot_gold",
+        "id":"moeston_tailor_top_yellow_defense",
         "items":[
             {
-                "itemID":"gold",
+                "itemID":"moeston_tailor_shirt_yellow_defense",
                 "chance":"100",
                 "quantity":{
-                    "min":5,
-                    "max":20
+                    "min":1,
+                    "max":1
                 }
             },
             {
-                "itemID":"gold",
-                "chance":"20",
+                "itemID":"moeston_tailor_ring_yellow_defense",
+                "chance":"100",
                 "quantity":{
-                    "min":20,
-                    "max":500
-                }
-            },
-            {
-                "itemID":"gold",
-                "chance":"2",
-                "quantity":{
-                    "min":500,
-                    "max":5000
+                    "min":1,
+                    "max":1
                 }
             }
         ]
@@ -2265,55 +2955,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_hats",
+        "id":"moeston_tailor_full_blue_attack",
         "items":[
             {
-                "itemID":"hat2",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":2
-                }
-            },
-            {
-                "itemID":"hat4",
-                "chance":"100",
-                "quantity":{
-                    "min":2,
-                    "max":4
-                }
-            },
-            {
-                "itemID":"hat_goatskin",
-                "chance":"80/100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"hat_fancy_green",
-                "chance":"100",
-                "quantity":{
-                    "min":2,
-                    "max":3
-                }
-            },
-            {
-                "itemID":"helm_redeye1",
-                "chance":"20/100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_red_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_red_attack",
+                "itemID":"moeston_tailor_hat_blue_attack",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -2321,249 +2966,13 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_red_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_red_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_red_defense",
+                "itemID":"moeston_tailor_shirt_blue_attack",
                 "chance":"100",
                 "quantity":{
                     "min":1,
                     "max":1
                 }
             },
-            {
-                "itemID":"moeston_tailor_necklace_red_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_red_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_red_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_red_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_red_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_red_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_red_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_green_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_green_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_green_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_green_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_green_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_green_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_green_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_green_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_green_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_yellow_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_yellow_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_yellow_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_yellow_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_yellow_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_yellow_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_yellow_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_yellow_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_yellow_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_yellow_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_yellow_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_yellow_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_blue_attack",
-        "items":[
             {
                 "itemID":"moeston_tailor_ring_blue_attack",
                 "chance":"100",
@@ -2583,10 +2992,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_accessories_blue_defense",
+        "id":"moeston_tailor_top_yellow_health",
         "items":[
             {
-                "itemID":"moeston_tailor_ring_blue_defense",
+                "itemID":"moeston_tailor_shirt_yellow_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -2594,7 +3003,7 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_blue_defense",
+                "itemID":"moeston_tailor_ring_yellow_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -2604,10 +3013,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_accessories_blue_health",
+        "id":"moeston_tailor_hat_red_health",
         "items":[
             {
-                "itemID":"moeston_tailor_ring_blue_health",
+                "itemID":"moeston_tailor_hat_red_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -2615,7 +3024,7 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_blue_health",
+                "itemID":"moeston_tailor_necklace_red_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -2625,10 +3034,10 @@
         ]
     },
     {
-        "id":"moeston_tailor_accessories_blue_none",
+        "id":"moeston_tailor_hat_green_health",
         "items":[
             {
-                "itemID":"moeston_tailor_ring_blue_none",
+                "itemID":"moeston_tailor_hat_green_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,
@@ -2636,91 +3045,7 @@
                 }
             },
             {
-                "itemID":"moeston_tailor_necklace_blue_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_black_attack",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_black_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_black_attack",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_black_defense",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_black_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_black_defense",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_black_health",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_black_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_black_health",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
-    },
-    {
-        "id":"moeston_tailor_accessories_black_none",
-        "items":[
-            {
-                "itemID":"moeston_tailor_ring_black_none",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            },
-            {
-                "itemID":"moeston_tailor_necklace_black_none",
+                "itemID":"moeston_tailor_necklace_green_health",
                 "chance":"100",
                 "quantity":{
                     "min":1,

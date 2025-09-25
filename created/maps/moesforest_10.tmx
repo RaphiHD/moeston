@@ -263,6 +263,7 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="moeston_enter_sign" type="sign" x="512" y="64" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <properties>

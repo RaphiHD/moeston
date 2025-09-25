@@ -2,6 +2,7 @@
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="20" height="30" tilewidth="32" tileheight="32">
  <properties>
+  <property name="colorfilter" value="black40"/>
   <property name="outdoors" value="1"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
@@ -246,7 +247,7 @@
  <objectgroup name="Spawn">
   <object name="grimblight1" type="spawn" x="128" y="672" width="192" height="224">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="grimblight"/>
    </properties>
   </object>
@@ -262,28 +263,31 @@
   </object>
   <object name="grimblight4" type="spawn" x="416" y="384" width="96" height="224">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimblight_fierce"/>
    </properties>
   </object>
   <object name="grimblight5" type="spawn" x="256" y="64" width="96" height="160">
    <properties>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="grimblight_venomous"/>
    </properties>
   </object>
   <object name="grimblight6" type="spawn" x="64" y="320" width="128" height="32">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimblight_creeping"/>
    </properties>
   </object>
   <object name="grimblight7" type="spawn" x="352" y="160" width="224" height="224">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="grimblight_fierce"/>
    </properties>
   </object>
   <object name="bat" type="spawn" x="192" y="160" width="320" height="576">
    <properties>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="6"/>
     <property name="spawngroup" value="cavebat1"/>
    </properties>
   </object>

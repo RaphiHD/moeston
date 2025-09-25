@@ -2,6 +2,7 @@
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="18" height="20" tilewidth="32" tileheight="32">
  <properties>
+  <property name="colorfilter" value="black40"/>
   <property name="outdoors" value="1"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
@@ -226,7 +227,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="bat" type="spawn" x="128" y="160" width="32" height="32">
+  <object name="bat" type="spawn" x="160" y="192" width="32" height="32">
    <properties>
     <property name="spawngroup" value="cavebat2"/>
    </properties>

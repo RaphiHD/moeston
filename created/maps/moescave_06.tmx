@@ -2,6 +2,7 @@
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
  <properties>
+  <property name="colorfilter" value="black40"/>
   <property name="outdoors" value="1"/>
  </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
@@ -236,8 +237,18 @@
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object name="down1" type="mapchange" x="224" y="448" width="32" height="32"/>
-  <object name="down2" type="mapchange" x="544" y="480" width="32" height="32"/>
+  <object name="down1" type="mapchange" x="224" y="448" width="32" height="32">
+   <properties>
+    <property name="map" value="moescave_06"/>
+    <property name="place" value="down2"/>
+   </properties>
+  </object>
+  <object name="down2" type="mapchange" x="544" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="moescave_06"/>
+    <property name="place" value="down1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="grimblight1" type="spawn" x="288" y="416" width="96" height="160">
@@ -246,7 +257,7 @@
     <property name="spawngroup" value="grimblight_ferocious"/>
    </properties>
   </object>
-  <object name="grimblight2" type="spawn" x="608" y="448" width="64" height="64">
+  <object name="grimblight2" type="spawn" x="608" y="448" width="64" height="96">
    <properties>
     <property name="spawngroup" value="grimblight_creeping"/>
    </properties>
@@ -258,23 +269,25 @@
   </object>
   <object name="grimblight4" type="spawn" x="768" y="320" width="32" height="96">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimblight_plated"/>
    </properties>
   </object>
   <object name="grimblight5" type="spawn" x="704" y="416" width="128" height="96">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimblight_ferocious"/>
    </properties>
   </object>
   <object name="grimblight6" type="spawn" x="672" y="128" width="192" height="160">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="5"/>
     <property name="spawngroup" value="grimblight_ferocious"/>
    </properties>
   </object>
   <object name="grimblight7" type="spawn" x="416" y="96" width="256" height="128">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="grimblight_plated"/>
    </properties>
   </object>
@@ -292,6 +305,7 @@
   </object>
   <object name="grimblight10" type="spawn" x="32" y="416" width="64" height="160">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="grimblight_plated_venomous"/>
    </properties>
   </object>

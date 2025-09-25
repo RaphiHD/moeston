@@ -299,6 +299,11 @@
     <property name="spawngroup" value="wildlife_doctor_injured_anklebiter"/>
    </properties>
   </object>
+  <object name="prison_guard" type="spawn" x="224" y="704" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="moeston_prisonguard"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="cage_placed" type="key" x="128" y="96" width="32" height="32">
