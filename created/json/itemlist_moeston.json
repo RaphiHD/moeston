@@ -944,7 +944,7 @@
     },
     {
         "id":"parsnip",
-        "iconID":"items_misc_2:169",
+        "iconID":"items_misc_2:113",
         "name":"Parsnip",
         "displaytype":"ordinary",
         "hasManualPrice":1,
@@ -1580,7 +1580,7 @@
     },
     {
         "id":"parsnip_roasted",
-        "iconID":"items_misc_2:170",
+        "iconID":"items_misc_2:114",
         "name":"Roasted parsnip",
         "displaytype":"ordinary",
         "hasManualPrice":1,
